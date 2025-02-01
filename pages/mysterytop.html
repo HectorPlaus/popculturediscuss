@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mystery Top</title>
+    <link rel="stylesheet" href="../css/mysterytop-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <header id="logoheader"></header>
+    <ul class="navbar">
+        <div class="menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="mode.html">Mode</a></li>
+            <li><a href="mysterytop.html" class="active">Mystery Top</a></li>
+        </div>
+        <button id="toggle-theme" aria-label="Toggle dark mode"><i class="fa-solid fa-moon"></i></button>
+            
+        </ul>
+    </nav>
+    <h1>Mystery Top</h1>
+    <div id="mysterytop-setup">
+        <label for="participants">Número de jugadores:</label>
+        <input type="number" id="participants" min="2" max="10">
+        <label for="rounds">Número de rondas:</label>
+        <input type="number" id="rounds" min="1" max="10">
+        <button id="start-game">Iniciar Modo</button>
+    </div>
+
+    <div id="mysterytop-game" style="display: none;">
+        <h2 id="selected-category"></h2>
+        <div id="current-character">
+            <img id="character-image" src="" alt="Character" style="display: none;">
+            <p id="character-name"></p>
+        </div>
+        <div id="player-turn"></div>
+        <button id="confirm-position" style="display: none;">Seleccionar</button>
+        <div id="players-tops"></div>
+        
+    </div>
+        
+    </div>
+    <script src="../js/mysterytop.js"></script>
+    <script src="../js/theme.js"></script>
+</body>
+</html>

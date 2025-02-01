@@ -1,0 +1,90 @@
+@import url('styles.css');
+/* Contenedor principal del juego */
+#fuckmarrykill-game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Contenedor de personajes */
+#characters-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap; /* Permite saltar de línea si no caben en una fila */
+    margin-top: 20px;
+}
+
+/* Tarjeta de personaje */
+.character-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 200px;
+    height: 300px;
+    max-height: 300px;
+    margin: 10px;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+/* Imagen del personaje */
+.character-card img {
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    min-height: 50%;
+
+}
+
+/* Botones de acción */
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.action-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.action-button[data-action="fuck"],.action-button[data-action="starter"] {
+    background-color: #ff6666;
+    color: white;
+}
+
+.action-button[data-action="marry"] ,.action-button[data-action="benched"]{
+    background-color: #66cc66;
+    color: white;
+}
+
+.action-button[data-action="kill"],.action-button[data-action="cut"] {
+    background-color: #6666cc;
+    color: white;
+}
+
+.action-button:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
+
+.action-selected {
+    margin: 10px;
+    font-weight: bold;
+    
+}

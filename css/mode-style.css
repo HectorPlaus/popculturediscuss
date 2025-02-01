@@ -1,0 +1,37 @@
+@import url('styles.css');
+
+
+#mode-buttons {
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#mode-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#mode-selection button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#mode-selection button:hover {
+    background-color: #45a049;
+}
+
+#category-name {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+ 
+}

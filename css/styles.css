@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+/* Estilos generales */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Liberation Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-gradient);
+    min-height: 100vh;
+   
+}
+:root {
+    --bg-color: #bbbbbb;
+    --text-color: #000000;
+    --button-bg: #f0f0f0;
+    --button-text: #000000;
+    --categories-bg: #f3f3f39a;
+    --categories-text: #000000;
+    --categories-shadow: #5a5858;
+    --nav-bg: #f0f0f0;
+    --nav-text: #000000;
+    --bg-gradient: linear-gradient(90deg, #cccccc, #c5c5c5);
+    --bg-button-hover: #f0f0f0;
+    --h-text: #000000;
+    --p-text: #000000;
+  }
+
+  /* Dark Theme styles */
+  .dark-theme {
+    --bg-color: #1d2a35 !important;
+    --text-color: #40559b;
+    --button-bg:  #1B2626 ;
+    --button-text: #6CD591;
+    --categories-bg: #1B2626;
+    --categories-text: #ffffff;
+    --categories-shadow: #000000;
+    --nav-bg: #1f2f5e;
+    --nav-text: #ffffff;
+    --bg-gradient:#293a36;
+    --bg-button-hover: #253333;
+    --h-text: #ffffff;
+    --p-text: #ffffff;
+  }
+  
+
+button {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Liberation Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+    color: var(--button-text);
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    cursor: pointer;
+    background-color: var(--button-bg);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+
+button:hover {
+    background-color: var(--bg-button-hover);
+} 
+h1 {
+    text-align: center;
+    color: var(--h-text);
+    margin-bottom: 10px;
+    margin-top: 20px;	
+}
+
+h2 {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Liberation Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+    color: var(--h-text);
+    font-size: 30px;
+    margin-top: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+img {
+    height: auto;
+    font-size: 25px;
+    line-height: normal;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 2px rgb(206, 206, 206);
+    text-overflow: ellipsis;
+}
+
+input {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Liberation Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+    color: #000000;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+label {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Liberation Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+    color: var(--h-text);;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+/* General styles for the navbar */
+.navbar {
+    display: flex; /* Flexbox para organizar los elementos */
+    align-items: center; /* Centrar verticalmente los elementos */
+    justify-content: center; /* Centra los <li> */
+    list-style: none; /* Sin puntos de lista */
+    padding: 0;
+    margin: 0;
+    background-color:#1B2626 ;
+    padding-right: 5px;
+    border: 1px solid transparent;
+    border-color: #0d1313;
+  }
+  
+  /* Estilo para el menú de <li> */
+  .menu {
+    display: flex; /* Para mantener los <li> alineados horizontalmente */
+    gap: 20px; /* Espacio entre los elementos */
+    flex-grow: 1; /* Este bloque ocupará todo el espacio disponible */
+    justify-content: center; /* Centra el grupo de <li> */
+    font-size: 20px;
+  }
+  
+  .navbar li a {
+    color: #6CD591;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar li a:hover {
+    background-color: #2d3f3f;
+  }
+  
+
+p {
+    text-align: center;
+    color: var(--p-text);
+}
+
+
+
+#toggle-theme {
+    margin-left: auto; /* Mueve el botón al final */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition:  0.3s ease;
+    color: #f0f0f0;
+    background-color: #ffffff00;
+}
+
+#toggle-theme :hover{
+    color: #000000;
+}
+

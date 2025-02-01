@@ -1,0 +1,92 @@
+@import url('styles.css');
+
+
+
+.characters-container {
+    display: flex;
+    width: auto;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    /* Ajusta el ancho al viewport */
+
+}
+.character-item {
+    max-width: 70%;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: transform 0.2s;
+    cursor: pointer;
+   
+}
+
+.character-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    transition: filter 0.3s ease; /* Transición para el difuminado */
+    
+}
+
+.character-item p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centra el texto */
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 2; /* Asegura que esté sobre la imagen */
+}
+
+.character-item:hover{
+    transform: scale(1.05);
+}
+.character-item:hover img {
+    filter: blur(5px); /* Aplica un difuminado a la imagen */
+}
+
+.character-item:hover p {
+    opacity: 1; /* Hace visible el texto */
+
+}
+.player-selections {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    width: max-content;
+    background-color: #fff;
+    
+
+}
+#results-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los resultados se distribuyan en varias filas si es necesario */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    
+
+}
+
+#results-container div {
+    flex: 1 1 25%; /* Ajusta el ancho de los elementos al viewport */
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);    
+}
+
+#results-container div img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;    
+}

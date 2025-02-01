@@ -1,0 +1,56 @@
+
+
+
+.participant-section {
+    display: block;
+    /* Cambia de inline a block */
+    text-align: center;
+    /* Centra el contenido */
+    margin-bottom: 20px;
+    border-style: none;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.participant-section img {
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.participant-section img:hover {
+    transform: scale(1.05);
+    /* Añade un pequeño efecto de zoom */
+}
+
+.player-row {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.player-row h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+
+.players-container {
+    width: fit-content;
+    display: auto;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
+}
+
+.special-img {
+    background-color: #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+
+}

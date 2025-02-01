@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Fight</title>
+    <link rel="stylesheet" href="../css/teamfight-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <header id="logoheader"></header>
+    <ul class="navbar">
+        <div class="menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="mode.html">Mode</a></li>
+            <li><a href="teamfight.html" class="active">Team Fight</a></li>
+        </div>
+        <button id="toggle-theme" aria-label="Toggle dark mode"><i class="fa-solid fa-moon"></i></button>
+        </ul>
+    </nav>
+    <h1>Team Fight</h1>
+    <div id="teamfight-setup">
+        <label for="player-count">Participantes</label>
+        <input type="number" id="player-count" min="2" max="10">
+        <button id="start-game">Iniciar Partida</button>
+    </div>
+    
+    <div id="teamfight-game" style="display: none;">
+        <h2 id="selected-category"></h2>
+        <div id="current-turn"></div><div id="generated-character"></div>
+        <button id="generate-character">Generar</button>
+        <button id="skip-character">Skip</button>
+        <div id="teamfight-teams"></div>
+        
+    </div>
+    <script src="../js/teamfight.js"></script>
+    <script src="../js/theme.js"></script>
+</body>
+</html>
