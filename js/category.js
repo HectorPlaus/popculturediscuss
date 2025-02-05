@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   const categoryList = document.getElementById('category-list');
   const categorySearch = document.getElementById('category-search');
-  const randomCategoryButton = document.getElementById('random-category'); // Botón para categoría aleatoria
+  const randomCategoryButton = document.getElementById('random-category'); 
 
   // Verifica si estamos en la página correcta antes de ejecutar lógica
   if (categoryList && categorySearch && randomCategoryButton) {
@@ -28,7 +28,43 @@ document.addEventListener('DOMContentLoaded', () => {
   function selectCategory(category) {
     // Guardar la categoría seleccionada para usarla en el modo de juego y el draft
     localStorage.setItem('selectedCategory', JSON.stringify(category));
-    
+
+    // Obtener elementos del modal
+    const modal = document.getElementById('age-warning-modal');
+    const confirmButton = document.getElementById('confirm-age');
+    const closeButton = document.getElementById('close-modal');
+
+    if (category.name === "+18") {
+        if (modal) {
+            modal.style.display = "block";
+
+            // Si el usuario acepta, cerrar el modal y continuar
+            confirmButton.onclick = function () {
+                modal.style.display = "none";
+                continueNavigation();
+            };
+
+            // Permitir cerrar el modal sin continuar
+            closeButton.onclick = function () {
+                modal.style.display = "none";
+            };
+
+            // Cerrar el modal si se hace clic fuera de él
+            window.onclick = function (event) {
+                if (event.target === modal) {
+                    modal.style.display = "none";
+                }
+            };
+
+            return; // Evita que se ejecute el resto del código antes de confirmar
+        }
+    }
+
+    // Continuar con la navegación normal si no es categoría +18
+    continueNavigation();
+}
+
+function continueNavigation() {
     // Ocultar la pantalla de categorías
     const categoryScreen = document.getElementById('category-screen');
     if (categoryScreen) {
@@ -41,9 +77,10 @@ document.addEventListener('DOMContentLoaded', () => {
         modeScreen.classList.remove('hidden');
     }
 
-    // Ahora, redirigir correctamente a la página de "Mode"
-    window.location.href = 'pages/mode.html';  // Aquí estamos asegurándonos de que se redirige correctamente
+    // Redirigir a la página de modo de juego
+    window.location.href = 'pages/mode.html';
 }
+
 
 
   function initCategoryLogic() {

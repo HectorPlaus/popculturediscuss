@@ -26,6 +26,7 @@ body {
     --bg-button-hover: #f0f0f0;
     --h-text: #000000;
     --p-text: #000000;
+    --modal-bg: #f0f0f0;
   }
 
   /* Dark Theme styles */
@@ -43,6 +44,7 @@ body {
     --bg-button-hover: #253333;
     --h-text: #ffffff;
     --p-text: #ffffff;
+    --modal-bg: #1B2626;
   }
   
 
