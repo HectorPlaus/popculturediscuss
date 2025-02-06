@@ -35,6 +35,23 @@ document.addEventListener('DOMContentLoaded', () => {
         window.location.href = 'fumaki.html';
       });
     }
+
+    //Evento para el boton de "Tierlist"
+    const tierlistButton = document.getElementById('tierlist-mode');
+    if(tierlistButton){
+      tierlistButton.addEventListener('click', () => {
+        window.location.href = 'tierlist.html';
+      });
+    }
+
+    //Evento para el boton de "Fight Tournament"
+    const fighttournamentButton = document.getElementById('fighttournament-mode');
+    if(fighttournamentButton){
+      fighttournamentButton.addEventListener('click', () => {
+        window.location.href = 'fighttournament.html';
+      });
+    }
+
   
     // Evento para el botón de "Otro modo"
     const otherModeButton = document.getElementById('other-mode');
