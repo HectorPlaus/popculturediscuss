@@ -24,7 +24,8 @@
 }
 #character-list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(15%, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    grid-template-rows: auto;
     gap: 20px;
     font-size: 20px;
     margin-left: 5%;
@@ -40,8 +41,7 @@
 
 .character-item {
     position: relative;
-    width: 200px;
-    height: 200px;
+   
     background-color: white;
     border-radius: 10px;
     text-align: center;

@@ -8,9 +8,12 @@
 
 #category-list {
     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); 
+    grid-template-rows: auto;
     gap: 15px;
     padding: 20px;
     list-style-type: none;
+    width: 100%;
 }
 
 #category-list li {
@@ -46,10 +49,7 @@
 
 #random-category {
     color: #e60707;
-    font-size: 30px;
-    margin-top: 5px;
-    padding: 10px;
-    border-radius: 10px;
+    
 }
 
 .modal {

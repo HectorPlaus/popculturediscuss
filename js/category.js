@@ -13,9 +13,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const totalCategories = categoriesToDisplay.length;
     const columns = Math.ceil(Math.sqrt(totalCategories));
-    const rows = Math.ceil(totalCategories / columns);
-    categoryList.style.gridTemplateColumns = `repeat(${columns}, 1fr)`;
-    categoryList.style.gridTemplateRows = `repeat(${rows}, auto)`;
+  
+
 
     categoriesToDisplay.forEach(category => {
       const li = document.createElement('li');
