@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const characterName = document.getElementById('character-name');
     const playerTurnDiv = document.getElementById('player-turn');
     const playersTopsContainer = document.getElementById('players-tops');
-    const confirmPositionButton = document.getElementById('confirm-position');
 
     let players = [];
     let currentPlayerIndex = 0;
@@ -19,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentCharacter = null;
 
     if (selectedCategory && selectedCategory.name && selectedCategory.characters) {
-        selectedCategoryText.textContent = `Categoría seleccionada: ${selectedCategory.name}`;
+        selectedCategoryText.textContent = selectedCategory.name;
         characters = [...selectedCategory.characters];
     } else {
         alert('No se ha seleccionado ninguna categoría.');
@@ -29,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const initializeGame = (playerCount, rounds) => {
         players = Array.from({ length: playerCount }, (_, i) => ({
             name: `Jugador ${i + 1}`,
-            top: Array(rounds).fill(null) // Cada jugador tiene su propio top vacío
+            top: Array(rounds).fill(null) 
         }));
         renderPlayersTops();
         startRound();
@@ -44,65 +43,59 @@ document.addEventListener('DOMContentLoaded', () => {
         characterImage.src = currentCharacter.img || 'placeholder.png';
         characterImage.style.display = 'block';
         characterName.textContent = currentCharacter.name;
-        currentPlayerIndex = 0;
         updatePlayerTurn();
     };
 
     const updatePlayerTurn = () => {
         playerTurnDiv.textContent = `Turno de: ${players[currentPlayerIndex].name}`;
-        confirmPositionButton.style.display = 'inline-block';
     };
 
     const renderPlayersTops = () => {
         playersTopsContainer.innerHTML = players
-            .map(
-                (player) => `
-                <div class="player-top">
+            .map((player, playerIndex) => `
+                <div class="player-top" data-player-index="${playerIndex}">
                     <h3>${player.name}</h3>
                     <ul>
                         ${player.top
-                            .map(
-                                (entry, index) => `
-                            <li>
+                            .map((entry, index) => `
+                            <li class="top-position" data-index="${index}" data-player-index="${playerIndex}">
                                 <strong>${index + 1}:</strong>
                                 ${entry 
                                     ? `<img src="${entry.img}" >`
                                     : '<span>Vacío</span>'}
                             </li>
-                        `
-                            )
+                        `)
                             .join('')}
                     </ul>
                 </div>
-            `
-            )
+            `)
             .join('');
+
+        document.querySelectorAll('.top-position').forEach((position) => {
+            position.addEventListener('click', (event) => {
+                const playerIndex = parseInt(event.currentTarget.dataset.playerIndex, 10);
+                const positionIndex = parseInt(event.currentTarget.dataset.index, 10);
+                if (playerIndex !== currentPlayerIndex) {
+                    alert("No es tu turno.");
+                    return;
+                }
+                placeCharacter(playerIndex, positionIndex);
+            });
+        });
     };
-    
 
-    const confirmPosition = () => {
-        const player = players[currentPlayerIndex];
-        const availablePositions = player.top
-            .map((entry, index) => (entry === null ? index : null))
-            .filter((index) => index !== null);
-
-        if (availablePositions.length === 0) {
-            alert("Tu top ya está completo.");
+    const placeCharacter = (playerIndex, positionIndex) => {
+        const player = players[playerIndex];
+        if (player.top[positionIndex] !== null) {
+            alert("Esta posición ya está ocupada.");
             return;
         }
-
-        const position = prompt(
-            `Personaje actual: ${currentCharacter.name}\nPosiciones disponibles: ${availablePositions
-                .map((pos) => `${pos + 1}`)
-                .join(', ')}\nElige el índice de posición (1-${player.top.length}):`
-        );
-
-        if (position !== null && availablePositions.includes(Number(position) - 1)) {
-            player.top[Number(position) - 1] = currentCharacter;
-            nextPlayer();
-        } else {
-            alert("Posición inválida.");
+        if (player.top.includes(currentCharacter)) {
+            alert("No puedes colocar el mismo personaje en más de un lugar.");
+            return;
         }
+        player.top[positionIndex] = currentCharacter;
+        nextPlayer();
     };
 
     const nextPlayer = () => {
@@ -112,6 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (currentRound >= players[0].top.length) {
                 endGame();
             } else {
+                currentPlayerIndex = 0;
                 startRound();
             }
         } else {
@@ -123,7 +117,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const endGame = () => {
         alert("¡El juego ha terminado! Aquí están los tops finales:");
         renderPlayersTops();
-        confirmPositionButton.style.display = 'none';
     };
 
     startGameButton.addEventListener('click', () => {
@@ -146,6 +139,4 @@ document.addEventListener('DOMContentLoaded', () => {
         gameSection.style.display = 'flex';
         initializeGame(playerCount, roundsCount);
     });
-
-    confirmPositionButton.addEventListener('click', confirmPosition);
 });

@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
             participantsSelections = Array.from({ length: selectedParticipants }, () => []);
 
             draftSection.classList.add('hidden');
-            draftSection.insertAdjacentElement('beforebegin', roundsInfo);
+            draftSection.insertAdjacentElement('beforeend', roundsInfo);
             displayCharacters(availableCharacters);
             updateRoundInfo();
         } else {

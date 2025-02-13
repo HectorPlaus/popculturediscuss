@@ -8,29 +8,41 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
     }
 
-    document.getElementById('selected-category').innerText = `Categoría: ${selectedCategory.name}`;
+    document.getElementById('selected-category').innerText = selectedCategory.name;
     
     let characters = [...selectedCategory.characters];
     let currentRound = [];
+    let nextRound = [];
+    let matchesPending = 0;
+
+    const shuffleArray = (array) => {
+        return array.sort(() => Math.random() - 0.5);
+    };
 
     const startTournament = () => {
+        characters = shuffleArray(characters);
         currentRound = [...characters];
         createBracket(currentRound);
     };
 
     const createBracket = (round) => {
         bracketContainer.innerHTML = '';
-
+        nextRound = [];
+        matchesPending = Math.floor(round.length / 2);
+        
         if (round.length === 1) {
             bracketContainer.innerHTML = `<h2>¡Ganador: ${round[0].name}!</h2><img src="${round[0].img}" alt="${round[0].name}">`;
             return;
         }
 
-        const nextRound = [];
+        const matches = document.createElement('div');
+        matches.classList.add('round');
+        
         for (let i = 0; i < round.length; i += 2) {
+            const matchDiv = document.createElement('div');
+            matchDiv.classList.add('match');
+        
             if (i + 1 < round.length) {
-                const matchDiv = document.createElement('div');
-                matchDiv.classList.add('match');
                 matchDiv.innerHTML = `
                     <div class="character" data-index="${i}">
                         <img src="${round[i].img}" alt="${round[i].name}">
@@ -42,21 +54,44 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p>${round[i + 1].name}</p>
                     </div>
                 `;
-
-                matchDiv.addEventListener('click', (e) => {
-                    if (e.target.closest('.character')) {
-                        const winnerIndex = parseInt(e.target.closest('.character').dataset.index, 10);
+        
+                matchDiv.querySelectorAll('.character').forEach(characterDiv => {
+                    characterDiv.addEventListener('click', (e) => {
+                        if (matchDiv.classList.contains('completed')) return;
+        
+                        matchDiv.querySelectorAll('.character').forEach(div => div.classList.remove('selected'));
+                        e.currentTarget.classList.add('selected');
+                        const winnerIndex = parseInt(e.currentTarget.dataset.index, 10);
                         nextRound.push(round[winnerIndex]);
-                        createBracket(nextRound);
-                    }
+                        matchDiv.classList.add('completed');
+        
+                        matchesPending--;
+                        if (matchesPending === 0) {
+                            setTimeout(() => createBracket(nextRound), 500);
+                        }
+                    });
                 });
-
-                bracketContainer.appendChild(matchDiv);
             } else {
+                // Si es impar, el último jugador avanza automáticamente
                 nextRound.push(round[i]);
+        
+                // Opcional: Mostrar que pasa directo a la siguiente ronda
+                matchDiv.innerHTML = `
+                    <div class="character" data-index="${i}">
+                        <img src="${round[i].img}" alt="${round[i].name}">
+                        <p>${round[i].name} avanza automáticamente</p>
+                    </div>
+                `;
             }
+        
+            matches.appendChild(matchDiv);
         }
+        
+
+        bracketContainer.appendChild(matches);
     };
 
     startButton.addEventListener('click', startTournament);
+
+
 });
