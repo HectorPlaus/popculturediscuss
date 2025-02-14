@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
         matchesPending = Math.floor(round.length / 2);
         
         if (round.length === 1) {
-            bracketContainer.innerHTML = `<h2>¡Ganador: ${round[0].name}!</h2><img src="${round[0].img}" alt="${round[0].name}">`;
+            bracketContainer.innerHTML = `<h2>¡Ganador: ${round[0].name}!</h2><img id="winner-img" src="${round[0].img}" alt="${round[0].name}">`;
             return;
         }
 
