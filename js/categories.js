@@ -599,10 +599,6 @@ const categories = [
         "img": "https://artworks.thetvdb.com/banners/v4/actor/371836/photo/633b253496d5f.jpg"
       },
       {
-        "name": "Banken Man",
-        "img": "https://artworks.thetvdb.com/banners/v4/actor/279183/photo/63402a992b31a.jpg"
-      },
-      {
         "name": "Max Lightning",
         "img": "https://artworks.thetvdb.com/banners/v4/actor/303112/photo/63402a636434e.jpg"
       }
@@ -2972,6 +2968,143 @@ const categories = [
     ]
   },
   {
+    "name": "The Simpsons - Personajes",
+    "characters": [
+      {
+        "name": "Homer J. Simpson",
+        "img": "https://artworks.thetvdb.com/banners/person/296524/62e8325b550c4.jpg"
+      },
+      {
+        "name": "Marge Simpson",
+        "img": "https://artworks.thetvdb.com/banners/person/318083/62e82661ae5c0.jpg"
+      },
+      {
+        "name": "Bart Simpson",
+        "img": "https://artworks.thetvdb.com/banners/person/258024/62e8277a89286.jpg"
+      },
+      {
+        "name": "Lisa Simpson",
+        "img": "https://artworks.thetvdb.com/banners/person/248128/62e826a451ec5.jpg"
+      },
+      {
+        "name": "Maggie Simpson",
+        "img": "https://artworks.thetvdb.com/banners/person/248128/62e826f0963b7.jpg"
+      },
+      {
+        "name": "Abraham Simpson II",
+        "img": "https://artworks.thetvdb.com/banners/person/296524/62e82757da94f.jpg"
+      },
+      {
+        "name": "Patty Bouvier",
+        "img": "https://artworks.thetvdb.com/banners/person/318083/62e82ed7e50d7.jpg"
+      },
+      {
+        "name": "Selma Bouvier",
+        "img": "https://artworks.thetvdb.com/banners/person/318083/62e82f052bcce.jpg"
+      },
+      {
+        "name": "Krusty the Clown",
+        "img": "https://artworks.thetvdb.com/banners/person/296524/62e82d7bafd85.jpg"
+      },
+      {
+        "name": "Robert Terwilliger (Sideshow Bob)",
+        "img": "https://artworks.thetvdb.com/banners/person/298933/62e82de09e3c9.jpg"
+      },
+      {
+        "name": "Charles Montgomery Burns",
+        "img": "https://artworks.thetvdb.com/banners/person/274777/62e8238b56b86.jpg"
+      },
+      {
+        "name": "Waylon Smithers, Jr.",
+        "img": "https://artworks.thetvdb.com/banners/person/274777/62e82c036ece1.jpg"
+      },
+      {
+        "name": "Ned Flanders",
+        "img": "https://artworks.thetvdb.com/banners/person/274777/62e82bad4de3a.jpg"
+      },
+      {
+        "name": "Moe Szyslak",
+        "img": "https://artworks.thetvdb.com/banners/person/282160/62e82d1521dce.jpg"
+      },
+      {
+        "name": "Milhouse Van Houten",
+        "img": "https://artworks.thetvdb.com/banners/person/321279/62e823caa3389.jpg"
+      },
+      {
+        "name": "Agnes Skinner",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/256338/photo/673c55cc20a94.jpg"
+      },
+      {
+        "name": "Helen Lovejoy",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/258022/photo/6734bd9b53bbc.jpg"
+      },
+      {
+        "name": "Martin Prince",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/296545/photo/673c56457b4a6.jpg"
+      },
+      {
+        "name": "Dr. Hibbert",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/274777/photo/673c5669b6b4d.jpg"
+      },
+      {
+        "name": "Lenny Leonard",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/274777/photo/673c567d130ab.jpg"
+      },
+      {
+        "name": "Carl Carlson",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/282160/photo/673c56cb406b1.jpg"
+      },
+      {
+        "name": "Barney Gumble",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/296524/photo/673c56300f8b9.jpg"
+      },
+      {
+        "name": "Edna Krabappel",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/256403/photo/673c569233e8c.jpg"
+      },
+      {
+        "name": "Apu Nahasapeemapetilon",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/282160/photo/673c55e459bc5.jpg"
+      },
+      {
+        "name": "Reverend Lovejoy",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/274777/photo/673c56a881590.jpg"
+      },
+      {
+        "name": "Clancy Wiggum",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/282160/photo/673c573ac87e0.jpg"
+      },
+      {
+        "name": "Nelson Muntz",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/258024/photo/673c579b6cce2.jpg"
+      },
+      {
+        "name": "Seymour Skinner",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/274777/photo/673c57e25638b.jpg"
+      },
+      {
+        "name": "Willie",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/296524/photo/673c5916cb30e.jpg"
+      },
+      {
+        "name": "Otto Mann",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/274777/photo/673c59501b5eb.jpg"
+      },
+      {
+        "name": "Comic Book Guy",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/282160/photo/673c5a2b92686.jpg"
+      },
+      {
+        "name": "Dr. Jonathan Frink, Jr.",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/257029/photo/673c5a61a07e8.jpg"
+      },
+      {
+        "name": "Joe Quimby",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/296524/photo/673c5a96cff1b.jpg"
+      }
+    ]
+  },
+  {
     "name": "Marvel Cinematic Universe",
     "characters": [
       { "name": "Iron Man", "img": "https://artworks.thetvdb.com/banners/movies/108/posters/108.jpg" },
@@ -3034,14 +3167,14 @@ const categories = [
     name: 'Marvel Cinematic Universe - Personajes',
     characters: [
       { name: 'Iron Man', img: 'https://www.superherodb.com/pictures2/portraits/10/050/12496.jpg?v=1602028800' },
-      { name: 'Capitán América', img: 'https://i.pinimg.com/originals/2b/eb/7d/2beb7d18f6e9fb3d58023079d4c678dc.jpg' },
-      { name: 'Thor', img: 'https://www.superherodb.com/pictures2/portraits/10/050/12497.jpg?v=1705595833' },
-      { name: 'Hulk', img: 'https://www.superherodb.com/pictures2/portraits/10/050/12494.jpg?v=1703808000' },
+      { name: 'Capitán América', img: 'https://artworks.thetvdb.com/banners/person/274081/5e8befc7832f5.jpg' },
+      { name: 'Thor', img: 'https://artworks.thetvdb.com/banners/person/327460/5e8bef7e8c383.jpg' },
+      { name: 'Hulk', img: 'https://artworks.thetvdb.com/banners/person/296974/5e8bf07da4c98.jpg' },
       { name: 'Black Widow (Scarlett Johansson)', img: 'https://www.superherodb.com/pictures2/portraits/10/050/12499.jpg?v=1631065715' },
-      { name: 'Black Widow (Florence Pugh)', img: 'https://www.superherodb.com/pictures2/portraits/10/050/25886.jpg?v=1629522814' },
-      { name: 'Spider-Man (Tom Holland)', img: 'https://www.superherodb.com/pictures2/portraits/10/050/12514.jpg?v=1704240000' },
-      { name: 'Doctor Strange', img: 'https://www.superherodb.com/pictures2/portraits/10/050/12588.jpg?v=1654128000' },
-      { name: 'Black Panther (Chadwick Boseman)', img: 'https://i.pinimg.com/originals/36/13/24/361324afd6f29202791424db9c524486.jpg' },
+      { name: 'Black Widow (Florence Pugh)', img: 'https://artworks.thetvdb.com/banners/person/489050/609c1b51e2a82.jpg' },
+      { name: 'Spider-Man (Tom Holland)', img: 'https://artworks.thetvdb.com/banners/v4/actor/287561/photo/619879edd69e0.jpg' },
+      { name: 'Doctor Strange', img: 'https://artworks.thetvdb.com/banners/v4/actor/292578/photo/62545ea04bb00.jpg' },
+      { name: 'Black Panther (Chadwick Boseman)', img: 'https://artworks.thetvdb.com/banners/person/311383/movie-48.jpg' },
       { name: 'Ant-Man (Paul Rudd)', img: 'https://www.superherodb.com/pictures2/portraits/10/050/12594.jpg?v=1711152000' },
       { name: 'Ant-Man (Michael Douglas)', img: 'https://www.superherodb.com/pictures2/portraits/10/050/13875.jpg?v=1675036800' },
       { name: 'Captain Marvel', img: 'https://www.superherodb.com/pictures2/portraits/10/050/12611.jpg?v=1697328000' },
@@ -3052,54 +3185,54 @@ const categories = [
       { name: 'Loki', img: 'https://www.superherodb.com/pictures2/portraits/10/050/12508.jpg?v=1718064000' },
       { name: 'Rocket Raccoon', img: 'https://www.superherodb.com/pictures2/portraits/10/050/12503.jpg?v=1709078400' },
       { name: 'Groot', img: 'https://www.superherodb.com/pictures2/portraits/10/050/12501.jpg?v=1543276800' },
-      { name: 'Star-Lord', img: 'https://www.mundodeportivo.com/alfabeta/hero/2023/07/guardians-of-the-galaxy-vol-3-star-chris-pratt-weight-loss-001.jpg?width=1200&aspect_ratio=16:9' },
-      { name: 'Drax', img: 'https://www.superherodb.com/pictures2/portraits/10/050/12591.jpg?v=1641772800' },
+      { name: 'Star-Lord', img: 'https://artworks.thetvdb.com/banners/person/312388/5eaf025befaaf.jpg' },
+      { name: 'Drax', img: 'https://artworks.thetvdb.com/banners/person/577720/5eaf023da5f4d.jpg' },
       { name: 'Gamora', img: 'https://www.superherodb.com/pictures2/portraits/10/050/12502.jpg?v=1629072000' },
       { name: 'Nick Fury', img: 'https://www.superherodb.com/pictures2/portraits/10/050/16352.jpg?v=1621123200' },
       { name: 'War Machine', img: 'https://www.superherodb.com/pictures2/portraits/10/050/12511.jpg?v=1697414400' },
-      { name: 'Wasp (Evangelin Lily)', img: 'https://www.superherodb.com/pictures2/portraits/10/050/13874.jpg?v=1683244800' },
-      { name: 'Wasp (Michelle Pfeifer)', img: 'https://www.superherodb.com/pictures2/portraits/10/050/13873.jpg?v=1571875200' },
+      { name: 'Wasp (Evangelin Lily)', img: 'https://artworks.thetvdb.com/banners/v4/actor/311000/photo/63d319f3b280c.jpg' },
+      { name: 'Wasp (Michelle Pfeifer)', img: 'https://artworks.thetvdb.com/banners/v4/actor/321109/photo/63d319973443f.jpg' },
       { name: 'Shang-Chi', img: 'https://www.superherodb.com/pictures2/portraits/10/050/23558.jpg?v=1636502400' },
-      { name: 'Bucky Barnes', img: 'https://www.superherodb.com/pictures2/portraits/10/050/12601.jpg?v=1615852800' },
+      { name: 'Bucky Barnes', img: 'https://artworks.thetvdb.com/banners/person/341591/movie-965.jpg' },
       { name: 'Jane Foster', img: 'https://www.superherodb.com/pictures2/portraits/10/050/23943.jpg?v=1662768000' },
-      { name: 'Spider-Man (Tobey Maguire)', img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuPpGex9QMRUV7Tpxxdyl5lUAEZ5q3_hB8Cw&s' },
+      { name: 'Spider-Man (Tobey Maguire)', img: 'https://artworks.thetvdb.com/banners/person/327424/5eb2df62c3d76.jpg' },
       { name: 'Mantis', img: 'https://www.superherodb.com/pictures2/portraits/10/050/12592.jpg?v=1553558400' },
       { name: 'Valkyrie', img: 'https://www.superherodb.com/pictures2/portraits/10/050/12730.jpg?v=1598486400' },
       { name: 'Korg', img: 'https://www.superherodb.com/pictures2/portraits/10/050/13764.jpg?v=1633996800' },
-      { name: 'Hela', img: 'https://www.superherodb.com/pictures2/portraits/10/050/12595.jpg?v=1705190400' },
-      { name: 'Erik Killmonger', img: 'https://www.superherodb.com/pictures2/portraits/10/050/16698.jpg?v=1709942400' },
-      { name: 'Ultron', img: 'https://www.superherodb.com/pictures2/portraits/10/050/12509.jpg?v=1665187200' },
+      { name: 'Hela', img: 'https://artworks.thetvdb.com/banners/person/255079/movie-62.jpg' },
+      { name: 'Erik Killmonger', img: 'https://artworks.thetvdb.com/banners/person/294945/movie-48.jpg' },
+      { name: 'Ultron', img: 'https://artworks.thetvdb.com/banners/person/310407/5e8bef9675307.jpg' },
       { name: 'Thanos', img: 'https://www.superherodb.com/pictures2/portraits/10/050/14396.jpg?v=1673740800' },
       { name: 'Kingpin', img: 'https://www.superherodb.com/pictures2/portraits/10/050/14266.jpg?v=1692662400' },
       { name: 'Spider-Man (Andrew Garfield)', img: 'https://img.europapress.es/fotoweb/fotonoticia_20130226162723_1200.jpg' },
       { name: 'Jessica Jones', img: 'https://www.superherodb.com/pictures2/portraits/10/050/15089.jpg?v=1612742400' },
       { name: 'Luke Cage', img: 'https://www.superherodb.com/pictures2/portraits/10/050/13904.jpg?v=1543276800' },
       { name: 'Iron Fist', img: 'https://www.superherodb.com/pictures2/portraits/10/050/15088.jpg?v=1713657600' },
-      { name: 'Okoye', img: 'https://www.superherodb.com/pictures2/portraits/10/050/16699.jpg?v=1633939698' },
+      { name: 'Okoye', img: 'https://artworks.thetvdb.com/banners/person/331141/movie-48.jpg' },
       { name: 'Mister Fantastic', img: 'https://www.superherodb.com/pictures2/portraits/10/050/24644.jpg?v=1661817600' },
       { name: 'Human Torch', img: 'https://www.superherodb.com/pictures2/portraits/10/050/14292.jpg?v=1655923854' },
       { name: 'Moon Knight', img: 'https://www.superherodb.com/pictures2/portraits/10/050/26905.jpg?v=1651622400' },
       { name: 'Ms. Marvel', img: 'https://www.superherodb.com/pictures2/portraits/10/050/26895.jpg?v=1697328000' },
       { name: 'White Vision', img: 'https://www.superherodb.com/pictures2/portraits/10/050/27390.jpg?v=1635984000' },
       { name: 'Kate Bishop', img: 'https://www.superherodb.com/pictures2/portraits/10/050/24365.jpg?v=1639526400' },
-      { name: 'Sif', img: 'https://www.superherodb.com/pictures2/portraits/10/050/13902.jpg?v=1553472000' },
-      { name: 'Warlock', img: 'https://www.superherodb.com/pictures2/portraits/10/050/30327.jpg?v=1706832000' },
+      { name: 'Lady Sif', img: 'https://artworks.thetvdb.com/banners/person/393418/62071882.jpg' },
+      { name: 'Adam Warlock', img: 'https://artworks.thetvdb.com/banners/v4/actor/472218/photo/6457e8dd43d8e.jpg' },
       { name: 'Gambito', img: 'https://sm.ign.com/ign_latam/screenshot/default/gambito-deadpool-wolverine_ds6n.jpg' },
       { name: 'Elektra', img: 'https://es.web.img3.acsta.net/medias/nmedia/18/35/44/79/18844266.jpg' },
       { name: 'X-23', img: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f452aa2c-0c64-4bbf-b065-942b8dbda8bb/dgivvdl-32869750-bcbc-4ef6-b609-afc534771c6d.jpg/v1/fill/w_1280,h_1921,q_75,strp/dafne_keen_as_x_23_in_deadpool_3_by_diamonddead_art_dgivvdl-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTkyMSIsInBhdGgiOiJcL2ZcL2Y0NTJhYTJjLTBjNjQtNGJiZi1iMDY1LTk0MmI4ZGJkYThiYlwvZGdpdnZkbC0zMjg2OTc1MC1iY2JjLTRlZjYtYjYwOS1hZmM1MzQ3NzFjNmQuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.fOt2iZf1Iwk-e9R-LzIG9_FWm71t4JafpUlvOc3C7Jo' },
-      { name: 'Ghost', img: 'https://i.redd.it/0vbu2qi4rhe51.png' },
+      { name: 'Ghost', img: 'https://artworks.thetvdb.com/banners/person/493552/5efdee17dba5a.jpg' },
       { name: 'Yondu', img: 'https://www.superherodb.com/pictures2/portraits/10/050/13901.jpg?v=1623110400' },
       { name: 'Wolverine', img: 'https://www.superherodb.com/pictures2/portraits/10/050/66814.jpg?v=1722124800' },
-      { name: 'Wong', img: 'https://www.superherodb.com/pictures2/portraits/10/050/13900.jpg?v=1637884800' },
+      { name: 'Wong', img: 'https://artworks.thetvdb.com/banners/v4/actor/273957/photo/62545edf5d362.jpg' },
       { name: 'Werewolf', img: 'https://www.superherodb.com/pictures2/portraits/10/050/51856.jpg?v=1684022400' },
       { name: 'US Agent', img: 'https://www.superherodb.com/pictures2/portraits/10/050/26868.jpg?v=1627603200' },
       { name: 'Thena', img: 'https://www.superherodb.com/pictures2/portraits/10/050/26897.jpg?v=1636416000' },
       { name: 'Punisher', img: 'https://www.superherodb.com/pictures2/portraits/10/050/12596.jpg?v=1604016000' },
-      { name: 'Taskmaster', img: 'https://www.superherodb.com/pictures2/portraits/10/050/18385.jpg?v=1625788800' },
+      { name: 'Taskmaster', img: 'https://artworks.thetvdb.com/banners/v4/actor/360725/photo/60e73a056f7f4.jpg' },
       { name: 'Sprite', img: 'https://www.superherodb.com/pictures2/portraits/10/050/28055.jpg?v=1700697600' },
       { name: 'She-Hulk', img: 'https://www.superherodb.com/pictures2/portraits/10/050/26901.jpg?v=1665792000' },
       { name: 'Sersi', img: 'https://www.superherodb.com/pictures2/portraits/10/050/26896.jpg?v=1638489600' },
-      { name: 'Red Guardian', img: 'https://www.superherodb.com/pictures2/portraits/10/050/18374.jpg?v=1625788800' },
+      { name: 'Red Guardian', img: 'https://artworks.thetvdb.com/banners/person/269701/609c1aec3d907.jpg' },
       { name: 'Quicksilver', img: 'https://www.superherodb.com/pictures2/portraits/10/050/12507.jpg?v=1609200000' },
       { name: 'Proxima Midnight', img: 'https://www.superherodb.com/pictures2/portraits/10/050/16757.jpg?v=1556755200' },
       { name: 'Professor X', img: 'https://www.superherodb.com/pictures2/portraits/10/050/48259.jpg?v=1719619200' },
@@ -3107,7 +3240,7 @@ const categories = [
       { name: 'Phastos', img: 'https://www.superherodb.com/pictures2/portraits/10/050/28125.jpg?v=1700524800' },
       { name: 'Nebula', img: 'https://www.superherodb.com/pictures2/portraits/10/050/13897.jpg?v=1553558400' },
       { name: 'Namor', img: 'https://www.superherodb.com/pictures2/portraits/10/050/50924.jpg?v=1672444800' },
-      { name: 'Ms.America', img: 'https://www.superherodb.com/pictures2/portraits/10/050/26894.jpg?v=1652227200' },
+      { name: 'America Chavez', img: 'https://www.superherodb.com/pictures2/portraits/10/050/26894.jpg?v=1652227200' },
       { name: 'Man-Thing', img: 'https://www.superherodb.com/pictures2/portraits/10/050/52038.jpg?v=1666569600' },
       { name: 'Makkari', img: 'https://www.superherodb.com/pictures2/portraits/10/050/26893.jpg?v=1636243200' },
       { name: 'Ikaris', img: 'https://www.superherodb.com/pictures2/portraits/10/050/26890.jpg?v=1717372800' },
@@ -3115,21 +3248,23 @@ const categories = [
       { name: 'Ebony Maw', img: 'https://www.superherodb.com/pictures2/portraits/10/050/13090.jpg?v=1641686400' },
       { name: 'Druig', img: 'https://www.superherodb.com/pictures2/portraits/10/050/26891.jpg?v=1705795200' },
       { name: 'Daredevil', img: 'https://www.superherodb.com/pictures2/portraits/10/050/12751.jpg?v=1722038400' },
-      { name: 'Cull Obsidian', img: 'https://www.superherodb.com/pictures2/portraits/10/050/16759.jpg?v=1615507200' },
+      { name: 'Cull Obsidian', img: 'https://artworks.thetvdb.com/banners/v4/actor/8158233/photo/606ca1e164c7c.jpg' },
       { name: 'Crossbones', img: 'https://www.superherodb.com/pictures2/portraits/10/050/13066.jpg?v=1611273600' },
-      { name: 'Cosmo', img: 'https://www.superherodb.com/pictures2/portraits/10/050/57050.jpg?v=1684454400' },
+      { name: 'Cosmo', img: 'https://artworks.thetvdb.com/banners/v4/actor/7996313/photo/643c2f4d8b3ac.jpg' },
       { name: 'Corvus Glave', img: 'https://www.superherodb.com/pictures2/portraits/10/050/16758.jpg?v=1615507200' },
       { name: 'Deadpool', img: 'https://pngimg.com/d/deadpool_PNG41.png' },
       { name: 'Blade (Wesley Snipes)', img: 'https://www.superherodb.com/pictures2/portraits/10/050/16009.jpg?v=1636204129' },
       { name: 'Blade (Mahershala Ali)', img: 'https://www.superherodb.com/pictures2/portraits/10/050/26900.jpg?v=1646265600' },
       { name: 'Black Panther (Letitia Wright)', img: 'https://www.superherodb.com/pictures2/portraits/10/050/52499.jpg?v=1673913600' },
       { name: 'Black Knight', img: 'https://www.superherodb.com/pictures2/portraits/10/050/26899.jpg?v=1641945600' },
-      { name: 'Black Bolt', img: 'https://www.superherodb.com/pictures2/portraits/10/050/48278.jpg?v=1659225600' },
-      { name: 'Beast', img: 'https://www.superherodb.com/pictures2/portraits/10/050/67681.jpg?v=1722124800' },
+      { name: 'Black Bolt', img: 'https://artworks.thetvdb.com/banners/v4/actor/314566/photo/6291ce8eb0a92.jpg' },
+      { name: 'Beast', img: 'https://artworks.thetvdb.com/banners/v4/actor/298933/photo/6578bf7c9554e.jpg' },
       { name: 'Ajak', img: 'https://www.superherodb.com/pictures2/portraits/10/050/26887.jpg?v=1638576000' },
       { name: 'Agent Coulson', img: 'https://www.superherodb.com/pictures2/portraits/10/050/13968.jpg?v=1622937600' },
       { name: 'Agatha Harkness', img: 'https://www.superherodb.com/pictures2/portraits/10/050/25794.jpg?v=1616544000' },
       { name: 'Abomination', img: 'https://www.superherodb.com/pictures2/portraits/10/050/12512.jpg?v=1663718400' },
+      { name: 'Red Skull', img: 'https://artworks.thetvdb.com/banners/person/298680/movie-180.jpg' },
+      { name: 'M.O.D.O.K.', img: 'https://artworks.thetvdb.com/banners/v4/actor/269015/photo/63f94bff04a06.jpg' },
     ]
   },
   {
@@ -3422,74 +3557,766 @@ const categories = [
     ]
   },
   {
-    name: 'Mujeres Más Atractivas',
+    name: 'Hunter X Hunter - Personajes',
     characters: [
-      { name: 'Rosie Huntington-Whiteley', img: 'https://www.famousbirthdays.com/faces/huntington-whiteley-rosie-image.jpg' },
-      { name: 'Meghan Markle', img: 'https://www.famousbirthdays.com/headshots/meghan-markle-9.jpg' },
-      { name: 'Kendall Jenner', img: 'https://www.famousbirthdays.com/faces/jenner-kendall-image.jpg' },
-      { name: 'Florence Pugh', img: 'https://www.famousbirthdays.com/faces/pugh-florence-image.jpg' },
-      { name: 'Halle Berry', img: 'https://www.famousbirthdays.com/headshots/halle-berry-7.jpg' },
-      { name: 'Kristen Stewart', img: 'https://www.famousbirthdays.com/faces/stewart-kristen-image.jpg' },
-      { name: 'Anna Kendrick', img: 'https://www.famousbirthdays.com/faces/kendrick-anna-image.jpg' },
-      { name: 'Kate Beckinsale', img: 'https://www.famousbirthdays.com/headshots/kate-beckinsale-5.jpg' },
-      { name: 'Eva Mendes', img: 'https://www.famousbirthdays.com/faces/mendes-eva-image.jpg' },
-      { name: 'Hayley Atwell', img: 'https://www.famousbirthdays.com/headshots/hayley-hayley-9.jpg' },
-      { name: 'Monica Bellucci', img: 'https://www.famousbirthdays.com/faces/bellucci-monica-image.jpg' },
-      { name: 'Sofía Vergara', img: 'https://www.famousbirthdays.com/faces/vergara-sofia-image.jpg' },
-      { name: 'Miley Cyrus', img: 'https://www.famousbirthdays.com/faces/cyrus-miley-image.jpg' },
+      {
+        "name": "Gon",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/448669/photo/64651a4a99451.jpg"
+      },
+      {
+        "name": "Killua",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/447326/photo/62ea9fad667ff.jpg"
+      },
+      {
+        "name": "Kurapika",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/292117/photo/62ea9ee0234d2.jpg"
+      },
+      {
+        "name": "Leorio",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/280705/photo/62eaa0888eff0.jpg"
+      },
+      {
+        "name": "Hisoka",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/292928/photo/62eaa1706e05f.jpg"
+      },
+      {
+        "name": "Feitan",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/277084/photo/62ea9f0d7f621.jpg"
+      },
+      {
+        "name": "Franklin",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/280709/photo/642035e9daa64.jpg"
+      },
+      {
+        "name": "Machi",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/463685/photo/6420367622da2.jpg"
+      },
+      {
+        "name": "Shalnark",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/7865150/photo/62ea9df72aa61.jpg"
+      },
+      {
+        "name": "Shizuku",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/466575/photo/638bd623340cd.jpg"
+      },
+      {
+        "name": "Pakunoda",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/7899825/photo/642036c2d6fc0.jpg"
+      },
+      {
+        "name": "Hanzo",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/277071/photo/64203732dedae.jpg"
+      },
+      {
+        "name": "Nobunaga Hazama",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/464294/photo/642038a63b696.jpg"
+      },
+      {
+        "name": "Chrollo Lucilfer",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/292480/photo/638bdd918fbf4.jpg"
+      },
+      {
+        "name": "Phinks",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/7891644/photo/642038ebbc786.jpg"
+      },
+      {
+        "name": "Illumi Zoldyck",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/289876/photo/64203d1f7570c.jpg"
+      },
+      {
+        "name": "Kalluto Zoldyck",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/293451/photo/642039ee9f6f8.jpg"
+      },
+      {
+        "name": "Zeno Zoldyck",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/7919280/photo/638bdf3edfcb6.jpg"
+      },
+      {
+        "name": "Meruem",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/7884585/photo/62eaa0367209a.jpg"
+      },
+      {
+        "name": "Komugi",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/7873538/photo/64203a66b2fdf.jpg"
+      },
+      {
+        "name": "Alluka Zoldyck",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/294195/photo/62ea9fe60644a.jpg"
+      },
+      {
+        "name": "Shaiapouf",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/7865642/photo/64203abb5b7aa.jpg"
+      },
+      {
+        "name": "Silva Zoldyck",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/7916957/photo/638bdfd29cd48.jpg"
+      },
+      {
+        "name": "Ging Freecss",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/293454/photo/62eaa38b2095b.jpg"
+      },
+      {
+        "name": "Neferpitou",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/380652/photo/62eaa249b4634.jpg"
+      },
+      {
+        "name": "Menthuthuyoupi",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/300982/photo/64203b0691093.jpg"
+      },
+      {
+        "name": "Netero",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/322763/photo/62eaa2d1ceb07.jpg"
+      },
+      {
+        "name": "Genthru",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/280713/photo/64203b56e56e3.jpg"
+      },
+      {
+        "name": "Milluki Zoldyck",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/292494/photo/64203ba571a19.jpg"
+      },
+      {
+        "name": "Knuckle",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/7884942/photo/64203d9435ba8.jpg"
+      },
+      {
+        "name": "Kite",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/342525/photo/62eaa1fa2a90f.jpg"
+      },
+      {
+        "name": "Biscuit Krueger",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/311577/photo/62eaa1b427031.jpg"
+      }
+    ]
+  },
+  {
+    name: 'Bleach - Personajes',
+    characters: [
+      {
+        "name": "Ichigo Kurosaki",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/349940/photo/670901e5bc169.jpg"
+      },
+      {
+        "name": "Rukia Kuchiki",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/311539/photo/63318749e1831.jpg"
+      },
+      {
+        "name": "Inoue Orihime",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/7872405/photo/633182bba55a7.jpg"
+      },
+      {
+        "name": "Ishida Uryuu",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/380646/photo/63317ff216691.jpg"
+      },
+      {
+        "name": "Sado Yasutora",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/301118/photo/633182ed4967c.jpg"
+      },
+      {
+        "name": "Kisuke Urahara",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/7874486/photo/6331803b5b888.jpg"
+      },
+      {
+        "name": "Yoruichi Shihouin (human form)",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/309346/photo/6506dfd9ea6bf.jpg"
+      },
+      {
+        "name": "Abarai Renji",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/7894675/photo/633189fd771c2.jpg"
+      },
+      {
+        "name": "Aizen Sousuke",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/7910290/photo/633196385ddfa.jpg"
+      },
+      {
+        "name": "Byakuya Kuchiki / Enkogawa 'Enryu' Rusaburo",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/7877658/photo/633189d6b0dd6.jpg"
+      },
+      {
+        "name": "Hitsugaya Toushiro",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/7899825/photo/63318c399b89f.jpg"
+      },
+      {
+        "name": "Kenpachi Zaraki",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/300982/photo/6374cba946dbc.jpg"
+      },
+      {
+        "name": "Mayuri Kurotsuchi",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/7965138/photo/63409b4430d24.jpg"
+      },
+      {
+        "name": "Shunsui Kyouraku",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/7913792/photo/63318a26b5af0.jpg"
+      },
+      {
+        "name": "Aikawa Love / Komamura Sajin",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/313258/photo/63318d379685f.jpg"
+      },
+      {
+        "name": "Retsu Unohana",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/271003/photo/63318d5695e7f.jpg"
+      },
+      {
+        "name": "Shigekuni Yamamoto Genryuusai",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/380663/photo/6374c602be6b2.jpg"
+      },
+      {
+        "name": "Juushirou Ukitake",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/292491/photo/63318ce9c17c8.jpg"
+      },
+      {
+        "name": "Hirako Shinji",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/271005/photo/633189af260ac.jpg"
+      },
+      {
+        "name": "Soi Fong",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/271001/photo/6331917db95e5.jpg"
+      },
+      {
+        "name": "Marechiyo Oomaeda / Otoribashi 'Rose' Roujuurou / Gegetsuburi (Zanpakuto saga)",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/380657/photo/63319d9cf372a.jpg"
+      },
+      {
+        "name": "Choujirou Sasakibe",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/313369/photo/63319d71723c2.jpg"
+      },
+      {
+        "name": "Nova / Muguruma Kensei",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/277107/photo/63319e0279f35.jpg"
+      },
+      {
+        "name": "Isshin Kurosaki",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/8463238/photo/6506e039aa9f5.jpg"
+      },
+      {
+        "name": "Rangiku Matsumoto",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/380650/photo/63318c598c5af.jpg"
+      },
+      {
+        "name": "Hinamori Momo / Apache",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/352974/photo/634eb61ed4b77.jpg"
+      },
+      {
+        "name": "Neliel 'Nel' Tu Oderschvank",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/352975/photo/634ea643a584f.jpg"
+      },
+      {
+        "name": "Nanao Ise",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/377762/photo/63319dd8ae3f3.jpg"
+      },
+      {
+        "name": "Ikkaku Madarame",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/280704/photo/670905a8b24db.jpg"
+      },
+      {
+        "name": "Ayasegawa Yumichika / Kojima Mizuiro",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/302324/photo/63318c9797134.jpg"
+      },
+      {
+        "name": "Asano Keigo / Hisagi Shuuhei",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/271010/photo/63319e2d599a8.jpg"
+      },
+      {
+        "name": "Kira Izuru",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/277100/photo/63319dbdcacd3.jpg"
+      },
+      {
+        "name": "Ichimaru Gin",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/7864374/photo/634ebb0358d21.jpg"
+      },
+      {
+        "name": "Isshin Kurosaki / Kaname Tousen",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/280728/photo/6331a1e5742cf.jpg"
+      },
+      {
+        "name": "Ulquiorra Schiffer",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/292928/photo/6331989d1f47f.jpg"
+      },
+      {
+        "name": "Grimmjow Jeagerjaques",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/309354/photo/633197de73065.jpg"
+      },
+      {
+        "name": "Szayel Aporro Grantz",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/7875254/photo/6349434834b52.jpg"
+      },
+      {
+        "name": "Stark Coyote",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/293454/photo/634e91fcecefb.jpg"
+      },
+      {
+        "name": "Yammy Rialgo",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/297197/photo/634ea998e5ac1.jpg"
+      },
+      {
+        "name": "Kon",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/277085/photo/6331e608a3a00.jpg"
+      },
+      {
+        "name": "Tenjirô Kirinji",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/353402/photo/63a8b8f965288.jpg"
+      },
+      {
+        "name": "Ôetsu Nimaiya",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/8085473/photo/63a8b91e219c5.jpg"
+      },
+      {
+        "name": "Kirio Hikifune",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/400822/photo/63a8b942db3bf.jpg"
+      },
+      {
+        "name": "Senjumaru Shutara",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/293450/photo/63a8b960d490f.jpg"
+      },
+      {
+        "name": "Ichibē Hyōsube",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/463720/photo/63a8b9825d1e2.jpg"
+      },
+      {
+        "name": "Yhwach",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/8833006/photo/6374c4bfd1c13.jpg"
+      },
+      {
+        "name": "Jugram Haschwalth",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/7878653/photo/6374c24edcf9d.jpg"
+      },
+      {
+        "name": "Askin Nakk Le Vaar",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/460867/photo/6374bd5f52402.jpg"
+      },
+      {
+        "name": "Bambietta Basterbine",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/302377/photo/6374c8cb59239.jpg"
+      },
+      {
+        "name": "Bazz-B",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/8965857/photo/6374bedb5a54c.jpg"
+      },
+      {
+        "name": "Äs Nödt",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/292644/photo/6374be53eaa07.jpg"
+      },
+      {
+        "name": "Driscoll Berci",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/7893277/photo/6374c94c98fcf.jpg"
+      },
+      {
+        "name": "Quilge Opie",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/7916957/photo/6374bf53c7a05.jpg"
+      },
+      {
+        "name": "Mask De Masculine",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/7868463/photo/6374c9c6ecd62.jpg"
+      },
+      {
+        "name": "BG9",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/271004/photo/6374bff9ef144.jpg"
+      },
+      {
+        "name": "Robert Accutrone",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/280731/photo/6374c06623aa7.jpg"
+      },
+      {
+        "name": "NaNaNa Najahkoop",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/303150/photo/6374c10408f45.jpg"
+      },
+      {
+        "name": "Berenice Gabrielli",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/7891644/photo/6374c1d73e23e.jpg"
+      },
+      {
+        "name": "Jerome Guizbatt",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/8003995/photo/6374ca4e95491.jpg"
+      },
+      {
+        "name": "Asguiaro Ebern",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/7995135/photo/6374c2e222885.jpg"
+      },
+      {
+        "name": "Luders Friegen",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/7869219/photo/6374c6b3780fd.jpg"
+      },
+      {
+        "name": "Cang Du",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/8384722/photo/63a8b8668db5e.jpg"
+      },
+      {
+        "name": "Akon",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/371874/photo/6374c727a7816.jpg"
+      },
+      {
+        "name": "Hidetomo Kajōmaru",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/7865642/photo/6374c7981c6b5.jpg"
+      },
+      {
+        "name": "Shino Madarame",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/7881476/photo/6374c7ee7e087.jpg"
+      },
+      {
+        "name": "Ryūnosuke Yuki",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/306390/photo/6374c85f3ac8a.jpg"
+      },
+      {
+        "name": "Karin Kurosaki / Nemu Kurotsuchi",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/322759/photo/633b145c0cb33.jpg"
+      },
+      {
+        "name": "Yuzu Kurosaki",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/8053407/photo/633b1564303c7.jpg"
+      },
+      {
+        "name": "Jinta Hanakari",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/380647/photo/633b1505b6de3.jpg"
+      },
+      {
+        "name": "Zangetsu",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/362923/photo/634eb7a34b87f.jpg"
+      },
+      {
+        "name": "Ganjuu Shiba",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/280739/photo/6385cd546397c.jpg"
+      },
+      {
+        "name": "Kūgo Ginjō",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/463716/photo/63a8b88ab8432.jpg"
+      },
+      {
+        "name": "Shūkurō Tsukishima",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/598779/photo/63a8b8af5ee04.jpg"
+      },
+      {
+        "name": "Giriko Kutsuzawa",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/303143/photo/63a8b8cc3cfb4.jpg"
+      },
+      {
+        "name": "Tsumugiya Ururu",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/380648/photo/638be82743442.jpg"
+      },
+      {
+        "name": "Ririn",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/280712/photo/638be85528985.jpg"
+      },
+      {
+        "name": "Cloud",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/277093/photo/638be8c9d5359.jpg"
+      },
+      {
+        "name": "Zabimaru (Male)(Zanpakuto saga)",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/361980/photo/638bfd521f714.jpg"
+      },
+      {
+        "name": "Mabashi (Bount)",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/292931/photo/638be9cf8d9a5.jpg"
+      },
+      {
+        "name": "Ugaki (Bount)",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/353908/photo/638bea167c45b.jpg"
+      },
+      {
+        "name": "Yoshi (Bount)",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/371854/photo/638bea3cd42c5.jpg"
+      },
+      {
+        "name": "Sawatari (Bount)",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/313357/photo/638bfe007d713.jpg"
+      },
+      {
+        "name": "Suzumebachi (Zanpakuto saga)",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/8053417/photo/638bfb332374a.jpg"
+      },
+      {
+        "name": "Sode no Shirayuki (Zanpakuto saga)",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/343385/photo/638bfb6dace47.jpg"
+      },
+      {
+        "name": "Katen Kyokotsu (Zanpakuto saga) / Tobiume (Zanpakuto saga)",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/380652/photo/638bfc099bba1.jpg"
+      },
+      {
+        "name": "Kazeshini (Zanpkuto Saga)",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/302328/photo/638bfc57b8813.jpg"
+      },
+      {
+        "name": "Zabimaru (Female)(Zanpakuto saga)",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/300985/photo/638bfd8bd79bd.jpg"
+      },
+      {
+        "name": "Haineko (Zanpakuto saga)",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/380653/photo/638bf8f22b122.jpg"
+      },
+      {
+        "name": "Hyourinmaru (Zanpkuto Saga)",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/280724/photo/638bf9299e3f3.jpg"
+      },
+      {
+        "name": "Hozukimaru (Zanpakuto saga)",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/380654/photo/638bf9adaea88.jpg"
+      },
+      {
+        "name": "Senbonzakura (Zanpakuto saga)",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/301120/photo/638bf9fc2af09.jpg"
+      },
+      {
+        "name": "Muramasa (Zanpakuto saga)",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/7864375/photo/638bfa4dc247a.jpg"
+      },
+      {
+        "name": "Amagai Shuusuke",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/7882280/photo/638bfaaec0c97.jpg"
+      },
+      {
+        "name": "Pesshe Gatiishe / Gonryomaru (Zanpakuto saga)",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/277098/photo/634eb312996dc.jpg"
+      },
+      {
+        "name": "Chizuru Honsho",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/378845/photo/638bf30f57061.jpg"
+      },
+      {
+        "name": "Arisawa Tatsuki",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/309348/photo/638bf353a7a41.jpg"
+      },
+      {
+        "name": "Aaroniero Arruruerie",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/282388/photo/634eb0efe8833.jpg"
+      },
+      {
+        "name": "Charolette Coolhorn",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/303226/photo/638bf3ab4451c.jpg"
+      },
+      {
+        "name": "Dondochakka Bilstin",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/318377/photo/634eb2f3070ab.jpg"
+      },
+      {
+        "name": "Lilinette Gingerback",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/7903111/photo/6350082954f6e.jpg"
+      },
+      {
+        "name": "Tia Halibel",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/271012/photo/634eaf820de33.jpg"
+      },
+      {
+        "name": "Kotetsu Isane",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/328498/photo/638bea8e1e378.jpg"
+      },
+      {
+        "name": "Tetsuzaemon Iba",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/280776/photo/638beb459ac62.jpg"
+      },
+      {
+        "name": "Ichinose Maki",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/343389/photo/638bebae2c6fd.jpg"
+      },
+      {
+        "name": "Ishida Ryuuken",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/292120/photo/637402a2230b2.jpg"
+      },
+      {
+        "name": "Nnoitra Jiruga",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/293308/photo/634eb01bbacd0.jpg"
+      },
+      {
+        "name": "Kannogi Shu",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/302327/photo/638bf675a8ddb.jpg"
+      },
+      {
+        "name": "Kariya Jin",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/7864370/photo/638bf6fa73d98.jpg"
+      },
+      {
+        "name": "Kasumiouji Rurichiyo / Hiyori Sarugaki",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/309349/photo/638bf7984cf08.jpg"
+      },
+      {
+        "name": "Kenzaki 'Kenryu' Ryuusei",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/292472/photo/638bf7dcabebb.jpg"
+      },
+      {
+        "name": "Kibune Makoto",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/303114/photo/638bf885d39c2.jpg"
+      },
+      {
+        "name": "Koga Gou",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/280740/photo/638bf41950d37.jpg"
+      },
+      {
+        "name": "Kiyone Kotetsu",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/313283/photo/638bf443cbef8.jpg"
+      },
+      {
+        "name": "Kotsubaki Sentarou",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/611881/photo/638bf4799a72a.jpg"
+      },
+      {
+        "name": "Kouga Kuchiki",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/293311/photo/638bf4e801777.jpg"
+      },
+      {
+        "name": "Ruriiro Kujaku (Zanpakuto saga)",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/303155/photo/638bf534c1572.jpg"
+      },
+      {
+        "name": "Kumoi Gyoukaku",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/7868266/photo/638bf625e6a37.jpg"
+      },
+      {
+        "name": "Kuna Mashiro",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/293453/photo/638bed558ed43.jpg"
+      },
+      {
+        "name": "Yachiru Kusajishi",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/378846/photo/6506dffd1bc15.jpg"
+      },
+      {
+        "name": "Zommari Leroux",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/303233/photo/6350055290689.jpg"
+      },
+      {
+        "name": "Barragan Luisenbarn",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/375287/photo/634eaee97ede3.jpg"
+      },
+      {
+        "name": "Gantenbainne Mosqueda",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/8053428/photo/638bedaf0a649.jpg"
+      },
+      {
+        "name": "Hanza Nukui",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/380659/photo/638bede3492d9.jpg"
+      },
+      {
+        "name": "Nirgge Parduoc",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/8053429/photo/652f04b4bb517.jpg"
+      },
+      {
+        "name": "Choe Neng Poww",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/380661/photo/638bec709637a.jpg"
+      },
+      {
+        "name": "Mila Rose",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/7899847/photo/634eb6723ea63.jpg"
+      },
+      {
+        "name": "Kuukaku Shiba",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/311540/photo/6385ce472b434.jpg"
+      },
+      {
+        "name": "Dordonii Alessandro Del Socacchio",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/277090/photo/634eb1d01c1ec.jpg"
+      },
+      {
+        "name": "Cirucci Thunderwitch / Soi Fong (ep 206-)",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/277075/photo/6350072978650.jpg"
+      },
+      {
+        "name": "Tessai Tsukabishi",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/292469/photo/634eb9535d6c2.jpg"
+      },
+      {
+        "name": "Ururu Tsumugiya",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/380648/photo/638bf0bb367e5.jpg"
+      },
+      {
+        "name": "Hachigen Ushouda",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/301119/photo/638bf116cb718.jpg"
+      },
+      {
+        "name": "Avirama Redder",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/313363/photo/638bf1997fbe7.jpg"
+      },
+      {
+        "name": "Ggio Vega",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/292924/photo/638bf2c13a0de.jpg"
+      },
+      {
+        "name": "Margera Wonderwice",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/277077/photo/6350066871318.jpg"
+      },
+      {
+        "name": "Hanatarou Yamada",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/277088/photo/638becbea10b4.jpg"
+      },
+      {
+        "name": "Lisa Yadoumaru",
+        "img": "https://artworks.thetvdb.com/banners/v4/actor/7917233/photo/638becffcbb7d.jpg"
+      }
+    ]
+  },
+  {
+    name: 'Famosas Más Atractivas',
+    characters: [
+      { name: 'Rosie Huntington-Whiteley', img: 'https://artworks.thetvdb.com/banners/v4/actor/334848/photo/6483260311147.jpg' },
+      { name: 'Meghan Markle', img: 'https://artworks.thetvdb.com/banners/person/333672/5f076f5ddc351.jpg' },
+      { name: 'Kendall Jenner', img: 'https://artworks.thetvdb.com/banners/v4/actor/471688/photo/652950fab90be.jpg' },
+      { name: 'Florence Pugh', img: 'https://artworks.thetvdb.com/banners/v4/actor/489050/photo/64f8db124dc8f.jpg' },
+      { name: 'Halle Berry', img: 'https://artworks.thetvdb.com/banners/v4/actor/254361/photo/64de78e04909f.jpg' },
+      { name: 'Kristen Stewart', img: 'https://artworks.thetvdb.com/banners/person/255126/631f835f6480e.jpg' },
+      { name: 'Anna Kendrick', img: 'https://artworks.thetvdb.com/banners/person/311083/5eca3d942565f.jpg' },
+      { name: 'Kate Beckinsale', img: 'https://artworks.thetvdb.com/banners/person/255085/primary.jpg' },
+      { name: 'Eva Mendes', img: 'https://artworks.thetvdb.com/banners/person/310411/62dda7486fa1a.jpg' },
+      { name: 'Hayley Atwell', img: 'https://artworks.thetvdb.com/banners/person/327500/5e8a1de784cef.jpg' },
+      { name: 'Monica Bellucci', img: 'https://artworks.thetvdb.com/banners/v4/actor/455029/photo/64c99a6050786.jpg' },
+      { name: 'Sofía Vergara', img: 'https://artworks.thetvdb.com/banners/person/7945678/61e90ae05fa35.jpg' },
+      { name: 'Miley Cyrus', img: 'https://artworks.thetvdb.com/banners/person/278133/605a87feef1ad.jpg' },
       { name: 'Madison Beer', img: 'https://www.famousbirthdays.com/faces/beer-madison-image.jpg' },
-      { name: 'Olivia Wilde', img: 'https://www.famousbirthdays.com/headshots/olivia-wilde-5.jpg' },
-      { name: 'Anne Hathaway', img: 'https://www.famousbirthdays.com/faces/hathaway-anne-image.jpg' },
-      { name: 'Camila Mendes', img: 'https://www.famousbirthdays.com/faces/mendes-camila-image.jpg' },
-      { name: 'Camila Cabello', img: 'https://www.famousbirthdays.com/faces/cabello-camila-image.jpg' },
-      { name: 'Kim Kardashian', img: 'https://www.famousbirthdays.com/faces/kardashian-kim-image.jpg' },
-      { name: 'Madelyn Cline', img: 'https://www.famousbirthdays.com/faces/cline-madelyn-image.jpg' },
-      { name: 'Helen Lindes', img: 'https://www.famousbirthdays.com/faces/lindes-helen-image.jpg' },
-      { name: 'Kate Upton', img: 'https://www.famousbirthdays.com/faces/upton-kate-image.jpg' },
+      { name: 'Olivia Wilde', img: 'https://artworks.thetvdb.com/banners/v4/actor/293259/photo/63ead9760a54c.jpg' },
+      { name: 'Anne Hathaway', img: 'https://artworks.thetvdb.com/banners/person/255156/primary.jpg' },
+      { name: 'Camila Mendes', img: 'https://artworks.thetvdb.com/banners/person/564958/60faf000c68f4.jpg' },
+      { name: 'Camila Cabello', img: 'https://artworks.thetvdb.com/banners/v4/actor/523251/photo/651a16ab5e1fc.jpg' },
+      { name: 'Lili Reinhart', img: 'https://artworks.thetvdb.com/banners/v4/actor/564964/photo/62db560c77974.jpg' },
+      { name: 'Kim Kardashian', img: 'https://artworks.thetvdb.com/banners/v4/actor/255170/photo/607fcf9366ad8.jpg' },
+      { name: 'Madelyn Cline', img: 'https://artworks.thetvdb.com/banners/v4/actor/7941184/photo/64ca874c4c3da.jpg' },
+      { name: 'Helen Lindes', img: 'https://artworks.thetvdb.com/banners/v4/actor/8025267/photo/628c8f482cc00.jpg' },
+      { name: 'Kate Upton', img: 'https://artworks.thetvdb.com/banners/v4/actor/327275/photo/61eb910788f5a.jpg' },
       { name: 'Ariadne Artiles', img: 'https://www.famousbirthdays.com/faces/artiles-ariadne-image.jpg' },
-      { name: 'Alexandra Daddario', img: 'https://www.famousbirthdays.com/faces/daddario-alexandra-image.jpg' },
-      { name: 'Marta Torné', img: 'https://www.famousbirthdays.com/faces/torne-marta-image.jpg' },
-      { name: 'Blanca Suárez', img: 'https://www.famousbirthdays.com/faces/suarez-blanca-image.jpg' },
-      { name: 'Clara Lago', img: 'https://www.famousbirthdays.com/faces/lago-clara-image.jpg' },
-      { name: 'Elsa Pataky', img: 'https://www.famousbirthdays.com/faces/pataky-elsa-image.jpg' },
-      { name: 'Úrsula Corberó', img: 'https://www.famousbirthdays.com/faces/corbero-ursula-image.jpg' },
-      { name: 'Ana de Armas', img: 'https://www.famousbirthdays.com/faces/armas-ana-image.jpg' },
-      { name: 'Amanda Seyfried', img: 'https://www.famousbirthdays.com/faces/seyfried-amanda-image.jpg' },
-      { name: 'Blake Lively', img: 'https://www.famousbirthdays.com/faces/lively-blake-image.jpg' },
-      { name: 'Daisy Ridley', img: 'https://www.famousbirthdays.com/faces/ridley-daisy-image.jpg' },
-      { name: 'Sydney Sweeney', img: 'https://www.famousbirthdays.com/faces/sweeney-sydney-image.jpg' },
-      { name: 'Ashley Greene', img: 'https://www.famousbirthdays.com/faces/greene-ashley-image.jpg' },
-      { name: 'Katy Perry', img: 'https://www.famousbirthdays.com/faces/perry-katy-image.jpg' },
-      { name: 'Taylor  Swift', img: 'https://www.famousbirthdays.com/faces/swift-taylor-image.jpg' },
+      { name: 'Alexandra Daddario', img: 'https://artworks.thetvdb.com/banners/v4/actor/308150/photo/6522ec8339244.jpg' },
+      { name: 'Marta Torné', img: 'https://artworks.thetvdb.com/banners/v4/actor/519884/photo/6755fb8e858ff.jpg' },
+      { name: 'Blanca Suárez', img: 'https://artworks.thetvdb.com/banners/person/306705/primary.jpg' },
+      { name: 'Demi Moore', img: 'https://artworks.thetvdb.com/banners/person/324283/6066e84a73612.jpg' },
+      { name: 'Elsa Pataky', img: 'https://artworks.thetvdb.com/banners/person/295325/primary.jpg' },
+      { name: 'Úrsula Corberó', img: 'https://artworks.thetvdb.com/banners/v4/actor/454615/photo/67302d5aee6dc.jpg' },
+      { name: 'Ana de Armas', img: 'https://artworks.thetvdb.com/banners/person/519883/6429e437be796.jpg' },
+      { name: 'Amanda Seyfried', img: 'https://artworks.thetvdb.com/banners/person/311100/primary.jpg' },
+      { name: 'Blake Lively', img: 'https://artworks.thetvdb.com/banners/person/331164/primary.jpg' },
+      { name: 'Daisy Ridley', img: 'https://artworks.thetvdb.com/banners/person/334887/640e711ea5722.jpg' },
+      { name: 'Sydney Sweeney', img: 'https://artworks.thetvdb.com/banners/person/304835/644dd7eee7d60.jpg' },
+      { name: 'Ashley Greene', img: 'https://artworks.thetvdb.com/banners/v4/actor/305626/photo/605db49caf2d9.jpg' },
+      { name: 'Katy Perry', img: 'https://artworks.thetvdb.com/banners/person/277834/640524d216afa.jpg' },
+      { name: 'Taylor  Swift', img: 'https://artworks.thetvdb.com/banners/v4/actor/255185/photo/64d2dc1dee93f.jpg' },
       { name: 'Inna', img: 'https://www.famousbirthdays.com/headshots/inna-4.jpg' },
-      { name: 'Evangeline Lilly', img: 'https://www.famousbirthdays.com/faces/lilly-evangeline-image.jpg' },
-      { name: 'Alicia Vikander', img: 'https://www.famousbirthdays.com/faces/vikander-alicia-image.jpg' },
-      { name: 'Scarlett Johansson', img: 'https://www.famousbirthdays.com/headshots/scarlett-johansson-4.jpg' },
-      { name: 'Margot Robbie', img: 'https://www.famousbirthdays.com/faces/robbie-margot-image.jpg' },
-      { name: 'Gal Gadot', img: 'https://www.famousbirthdays.com/faces/gadot-gal-image.jpg' },
-      { name: 'Natalie Portman', img: 'https://www.famousbirthdays.com/faces/portman-natalie-image.jpg' },
-      { name: 'Emma Watson', img: 'https://www.famousbirthdays.com/faces/watson-emma-image.jpg' },
-      { name: 'Beyoncé', img: 'https://www.famousbirthdays.com/headshots/beyonce-knowles-9.jpg' },
-      { name: 'Rihanna', img: 'https://www.famousbirthdays.com/faces/rihanna-image.jpg' },
-      { name: 'Jessica Alba', img: 'https://www.famousbirthdays.com/faces/alba-jessica-image.jpg' },
-      { name: 'Selena Gomez', img: 'https://www.famousbirthdays.com/faces/gomez-selena-image.jpg' },
-      { name: 'Jennifer Lawrence', img: 'https://www.famousbirthdays.com/faces/lawrence-jennifer-image.jpg' },
-      { name: 'Angelina Jolie', img: 'https://www.famousbirthdays.com/headshots/angelina-jolie-6.jpg' },
-      { name: 'Margaret Qualley', img: 'https://www.famousbirthdays.com/headshots/margaret-qualley-5.jpg' },
-      { name: 'Katherine Langford', img: 'https://www.famousbirthdays.com/faces/langford-katherine-image.jpg' },
-      { name: 'Ariana Grande', img: 'https://www.famousbirthdays.com/faces/grande-ariana-image.jpg' },
-      { name: 'Emma Stone', img: 'https://www.famousbirthdays.com/headshots/emma-stone-3.jpg' },
-      { name: 'Hailee Steinfeld', img: 'https://www.famousbirthdays.com/faces/steinfeld-hailee-image.jpg' },
-      { name: 'Zendaya', img: 'https://www.famousbirthdays.com/faces/coleman-zendaya-image.jpg' },
-      { name: 'Lucy Liu', img: 'https://www.famousbirthdays.com/headshots/lucy-liu-2.jpg' },
-      { name: 'Cara Delevingne', img: 'https://www.famousbirthdays.com/headshots/cara-delevingne-9.jpg' },
-      { name: 'Dua Lipa', img: 'https://www.famousbirthdays.com/headshots/dua-lipa-8.jpg' },
-      { name: 'Megan Fox', img: 'https://www.famousbirthdays.com/faces/fox-megan-image.jpg' },
-      { name: 'Jennifer Aniston', img: 'https://www.famousbirthdays.com/headshots/jennifer-aniston-7.jpg' },
-      { name: 'Jennifer Lopez', img: 'https://www.famousbirthdays.com/headshots/jennifer-lopez-3.jpg' },
-      { name: 'Carmen Electra', img: 'https://www.famousbirthdays.com/headshots/carmen-electra-9.jpg' },
-      { name: 'Shakira', img: 'https://www.famousbirthdays.com/faces/shakira-image.jpg' },
-      { name: 'Demi Lovato', img: 'https://www.famousbirthdays.com/faces/lovato-demi-image.jpg' },
+      { name: 'Evangeline Lilly', img: 'https://artworks.thetvdb.com/banners/v4/actor/311000/photo/65e4d6c73d69c.jpg' },
+      { name: 'Alicia Vikander', img: 'https://artworks.thetvdb.com/banners/v4/actor/331172/photo/656aed4f737f1.jpg' },
+      { name: 'Scarlett Johansson', img: 'https://artworks.thetvdb.com/banners/person/311005/primary.jpg' },
+      { name: 'Margot Robbie', img: 'https://artworks.thetvdb.com/banners/person/327479/661803736b95d.jpg' },
+      { name: 'Gal Gadot', img: 'https://artworks.thetvdb.com/banners/v4/actor/321420/photo/605645d4e0b66.jpg' },
+      { name: 'Natalie Portman', img: 'https://artworks.thetvdb.com/banners/person/310414/5ea463f0bf7f8.jpg' },
+      { name: 'Emma Watson', img: 'https://artworks.thetvdb.com/banners/person/381676/primary.jpg' },
+      { name: 'Beyoncé', img: 'https://artworks.thetvdb.com/banners/person/334747/644c55bd6b5af.jpg' },
+      { name: 'Rihanna', img: 'https://artworks.thetvdb.com/banners/person/292611/5ebf8d4f0e1f2.jpg' },
+      { name: 'Jessica Alba', img: 'https://artworks.thetvdb.com/banners/person/255047/primary.jpg' },
+      { name: 'Selena Gomez', img: 'https://artworks.thetvdb.com/banners/person/292608/642611226a86e.jpg' },
+      { name: 'Jennifer Lawrence', img: 'https://artworks.thetvdb.com/banners/person/255214/6406a21a3da60.jpg' },
+      { name: 'Angelina Jolie', img: 'https://artworks.thetvdb.com/banners/v4/actor/310256/photo/60fb10cbc1c4d.jpg' },
+      { name: 'Margaret Qualley', img: 'https://artworks.thetvdb.com/banners/v4/actor/292504/photo/64cbcb37a6019.jpg' },
+      { name: 'Katherine Langford', img: 'https://artworks.thetvdb.com/banners/person/532042/63cf580a71db6.jpg' },
+      { name: 'Ariana Grande', img: 'https://artworks.thetvdb.com/banners/v4/actor/292610/photo/64fd4b9cd6aa8.jpg' },
+      { name: 'Emma Stone', img: 'https://artworks.thetvdb.com/banners/person/311046/64337bf04bbb9.jpg' },
+      { name: 'Hailee Steinfeld', img: 'https://artworks.thetvdb.com/banners/person/327453/primary.jpg' },
+      { name: 'Zendaya', img: 'https://artworks.thetvdb.com/banners/person/327412/5f09f7069231e.jpg' },
+      { name: 'Lucy Liu', img: 'https://artworks.thetvdb.com/banners/v4/actor/274441/photo/64cd6e468d821.jpg' },
+      { name: 'Cara Delevingne', img: 'https://artworks.thetvdb.com/banners/v4/actor/465714/photo/64e2800606b7f.jpg' },
+      { name: 'Dua Lipa', img: 'https://artworks.thetvdb.com/banners/person/294075/62aea14d32641.jpg' },
+      { name: 'Megan Fox', img: 'https://artworks.thetvdb.com/banners/person/308039/605a7cb52ab82.jpg' },
+      { name: 'Jennifer Aniston', img: 'https://artworks.thetvdb.com/banners/v4/actor/304377/photo/64e182d5f2062.jpg' },
+      { name: 'Jennifer Lopez', img: 'https://artworks.thetvdb.com/banners/person/277831/primary.jpg' },
+      { name: 'Carmen Electra', img: 'https://artworks.thetvdb.com/banners/v4/actor/279385/photo/605d8f9079145.jpg' },
+      { name: 'Shakira', img: 'https://artworks.thetvdb.com/banners/v4/actor/277935/photo/60a83837786a5.jpg' },
+      { name: 'Demi Lovato', img: 'https://artworks.thetvdb.com/banners/v4/actor/327353/photo/64ed227262f43.jpg' },
+      { name: 'Andie MacDowell', img: 'https://artworks.thetvdb.com/banners/person/253909/primary.jpg' },
+      { name: 'Leighton Meester', img: 'https://artworks.thetvdb.com/banners/person/306022/primary.jpg' },
+      { name: 'Katie Cassidy', img: 'https://artworks.thetvdb.com/banners/v4/actor/308053/photo/606fe0571a5f5.jpg' },
+      { name: 'Ashley Benson', img: 'https://artworks.thetvdb.com/banners/v4/actor/256271/photo/6500f24715cfa.jpg' },
+      { name: 'Vanessa Hudgens', img: 'https://artworks.thetvdb.com/banners/v4/actor/327407/photo/6500f284a7a57.jpg' },
 
 
     ]
@@ -3841,70 +4668,121 @@ const categories = [
 
     ]
   },
-
   {
-    name: 'Hombres Más Atractivos', // hayden cristensen, tom cruise, chris pine, chris pratt, tom hiddleston, jake gylenhaalds
+    name: 'Mejores Actores de la Historia',
     characters: [
-      { name: 'Hugh Jackman', img: 'https://www.famousbirthdays.com/faces/jackman-hugh-image.jpg' },
-      { name: 'Chris Hemsworth', img: 'https://www.famousbirthdays.com/faces/hemsworth-chris-image.jpg' },
-      { name: 'Henry Cavill', img: 'https://www.famousbirthdays.com/headshots/henry-cavill-5.jpg' },
-      { name: 'Ryan Gosling', img: 'https://www.famousbirthdays.com/faces/gosling-ryan-image.jpg' },
-      { name: 'Michael B. Jordan', img: 'https://www.famousbirthdays.com/faces/jorden-michael-image.jpg' },
-      { name: 'Brad Pitt', img: 'https://www.famousbirthdays.com/faces/pitt-brad-image.jpg' },
-      { name: 'Tom Hardy', img: 'https://www.famousbirthdays.com/headshots/tom-hardy-5.jpg' },
-      { name: 'Zac Efron', img: 'https://www.famousbirthdays.com/faces/efron-zac-image.jpg' },
-      { name: 'Idris Elba', img: 'https://www.famousbirthdays.com/headshots/idris-elba-6.jpg' },
-      { name: 'Ryan Reynolds', img: 'https://www.famousbirthdays.com/faces/reynolds-ryan-image.jpg' },
-      { name: 'Jason Momoa', img: 'https://media.admagazine.com/photos/61e0a5ca06c10ae95c71b8b0/1:1/w_2000,h_2000,c_limit/Jason-Momoa.jpg' },
-      { name: 'Chris Evans', img: 'https://www.famousbirthdays.com/faces/evans-chris-image.jpg' },
-      { name: 'Leonardo DiCaprio', img: 'https://www.famousbirthdays.com/faces/dicaprio-l-image.jpg' },
-      { name: 'Shawn Mendes', img: 'https://www.famousbirthdays.com/faces/mendes-shawn-image.jpg' },
-      { name: 'Timothée Chalamet', img: 'https://www.famousbirthdays.com/faces/chalamet-timothee-image.jpg' },
-      { name: 'Jared Leto', img: 'https://www.famousbirthdays.com/faces/leto-jared-image.jpg' },
-      { name: 'Kit Harington', img: 'https://www.famousbirthdays.com/headshots/kit-harington-7.jpg' },
-      { name: 'Finn Wittrock', img: 'https://www.famousbirthdays.com/headshots/finn-wittrock-5.jpg' },
-      { name: 'Charlie Puth', img: 'https://akamai.sscdn.co/uploadfile/letras/fotos/3/b/2/7/3b27e78dc3bdf446550249c07432d925.jpg' },
-      { name: 'Charles Melton', img: 'https://www.famousbirthdays.com/faces/melton-charles-image.jpg' },
-      { name: 'Michael Fassbender', img: 'https://www.famousbirthdays.com/headshots/michael-fassbender-8.jpg' },
-      { name: 'Harry Styles', img: 'https://www.famousbirthdays.com/faces/styles-harry-image.jpg' },
-      { name: 'Tom Holland', img: 'https://www.famousbirthdays.com/faces/holland-tom-image.jpg' },
-      { name: 'Jake Gyllenhaal', img: 'https://www.famousbirthdays.com/faces/gyllenhaal-jake-image.jpg' },
-      { name: 'Chris Pine', img: 'https://www.famousbirthdays.com/faces/pine-chris-image.jpg' },
-      { name: 'Chris Pratt', img: 'https://www.famousbirthdays.com/faces/pratt-chris-image.jpg' },
-      { name: 'Tom Cruise', img: 'https://www.famousbirthdays.com/faces/cruise-t-image.jpg' },
-      { name: 'Hayden Christensen', img: 'https://www.famousbirthdays.com/faces/christensen-hayden-image.jpg' },
-      { name: 'Tom Hiddleston', img: 'https://www.famousbirthdays.com/faces/hiddleston-tom-image.jpg' },
-      { name: 'Robert Pattinson', img: 'https://www.famousbirthdays.com/faces/pattinson-robert-image.jpg' },
-      { name: 'Matthew McConaughey', img: 'https://www.famousbirthdays.com/faces/mcconaughey-matthew-image.jpg' },
-      { name: 'Matt Bomer', img: 'https://www.famousbirthdays.com/faces/bomer-matt-image.jpg' },
-      { name: 'Channing Tatum', img: 'https://www.famousbirthdays.com/faces/tatum-channing-image.jpg' },
-      { name: 'Jude Law', img: 'https://www.famousbirthdays.com/faces/law-jude-image.jpg' },
-      { name: 'Orlando Bloom', img: 'https://www.famousbirthdays.com/faces/bloom-orlando-image.jpg' },
-      { name: 'Jamie Dornan', img: 'https://www.famousbirthdays.com/faces/dornan-jamie-image.jpg' },
-      { name: 'Alexander Skarsgård', img: 'https://www.famousbirthdays.com/faces/skarsgard-alexander-image.jpg' },
-      { name: 'David Beckham', img: 'https://www.famousbirthdays.com/faces/beckham-david-image.jpg' },
-      { name: 'Justin Timberlake', img: 'https://www.famousbirthdays.com/faces/timberlake-justin-image.jpg' },
-      { name: 'Zayn Malik', img: 'https://www.famousbirthdays.com/faces/malik-zayn-image.jpg' },
-      { name: 'Jared Padalecki', img: 'https://www.famousbirthdays.com/faces/padalecki-jared-image.jpg' },
-      { name: 'Jensen Ackles', img: 'https://www.famousbirthdays.com/faces/ackles-jensen-image.jpg' },
-      { name: 'Paul Wesley', img: 'https://www.famousbirthdays.com/faces/wesley-paul-image.jpg' },
-      { name: 'Ian Somerhalder', img: 'https://www.famousbirthdays.com/faces/somerhalder-ian-image.jpg' },
-      { name: 'Joseph Morgan', img: 'https://www.famousbirthdays.com/faces/morgan-joseph-image.jpg' },
-      { name: 'Daniel Gillies', img: 'https://www.famousbirthdays.com/faces/gillies-daniel-image.jpg' },
-      { name: 'Nathaniel Buzolic', img: 'https://www.famousbirthdays.com/faces/buzolic-nathaniel-image.jpg' },
-      { name: 'Charles Michael Davis', img: 'https://www.famousbirthdays.com/faces/davis-charles-image.jpg' },
-      { name: 'Michael Trevino', img: 'https://www.famousbirthdays.com/faces/trevino-michael-image.jpg' },
-      { name: 'Zach Roerig', img: 'https://www.famousbirthdays.com/faces/roerig-zach-image.jpg' },
-      { name: 'David Alpay', img: 'https://www.famousbirthdays.com/faces/alpay-david-image.jpg' },
-      { name: 'Paul Mescal', img: 'https://www.famousbirthdays.com/faces/mescal-paul-image.jpg' },
-      { name: 'Paul Rudd', img: 'https://www.famousbirthdays.com/faces/rudd-paul-image.jpg' },
-      { name: 'George Clooney', img: 'https://www.famousbirthdays.com/faces/clooney-george-image.jpg' },
-      { name: 'Johnny Depp', img: 'https://www.famousbirthdays.com/faces/depp-johnny-image.jpg' },
-      { name: 'Keanu Reeves', img: 'https://www.famousbirthdays.com/faces/reeves-keanu-image.jpg' },
-      { name: 'Will Smith', img: 'https://www.famousbirthdays.com/faces/smith-will-image.jpg' },
-      { name: 'Dwayne Johnson', img: 'https://www.famousbirthdays.com/faces/johnson-dwayne-image.jpg' },
-      { name: 'Kevin Hart', img: 'https://www.famousbirthdays.com/faces/hart-kevin-image.jpg' },
-      { name: 'Pedro Pascal', img: 'https://www.famousbirthdays.com/faces/pascal-pedro-image.jpg' },
+      { "name": "Jack Nicholson", "img": "https://artworks.thetvdb.com/banners/person/259030/primary.jpg" },
+      { "name": "Daniel Day-Lewis", "img": "https://artworks.thetvdb.com/banners/v4/actor/384108/photo/651bf224dc482.jpg" },
+      { "name": "Walter Brennan", "img": "https://artworks.thetvdb.com/banners/v4/actor/276913/photo/6467efed94619.jpg" },
+      { "name": "Marlon Brando", "img": "https://artworks.thetvdb.com/banners/person/473393/primary.jpg" },
+      { "name": "Tom Hanks", "img": "https://artworks.thetvdb.com/banners/person/253794/60e9a48d938fd.jpg" },
+      { "name": "Anthony Hopkins", "img": "https://artworks.thetvdb.com/banners/person/254194/primary.jpg" },
+      { "name": "Denzel Washington", "img": "https://artworks.thetvdb.com/banners/v4/actor/253902/photo/64fed9f291c98.jpg" },
+      { "name": "Joaquin Phoenix", "img": "https://artworks.thetvdb.com/banners/person/290992/634a1e41107e3.jpg" },
+      { name: 'Leonardo DiCaprio', img: 'https://artworks.thetvdb.com/banners/person/282014/5eff056338cd0.jpg' },
+      { "name": "Robert De Niro", "img": "https://artworks.thetvdb.com/banners/person/311037/6366edb91e861.jpg" },
+      { "name": "Al Pacino", "img": "https://artworks.thetvdb.com/banners/person/348393/primary.jpg" },
+      { "name": "Sean Penn", "img": "https://artworks.thetvdb.com/banners/v4/actor/254322/photo/6511423c4c0a5.jpg" },
+      { "name": "Jeff Bridges", "img": "https://artworks.thetvdb.com/banners/person/306088/63091e080f548.jpg" },
+      { "name": "Philip Seymour Hoffman", "img": "https://artworks.thetvdb.com/banners/person/310416/primary.jpg" },
+      { "name": "Christian Bale", "img": "https://artworks.thetvdb.com/banners/person/599263/5ea462501c555.jpg" },
+      { "name": "Eddie Redmayne", "img": "https://artworks.thetvdb.com/banners/person/311079/635e2e7e18158.jpg" },
+      { "name": "Mahershala Ali", "img": "https://artworks.thetvdb.com/banners/person/311249/61dcb6f12b47f.jpg" },
+      { "name": "Robin Williams", "img": "https://artworks.thetvdb.com/banners/person/254156/primary.jpg" },
+      { "name": "Cillian Murphy", "img": "https://artworks.thetvdb.com/banners/person/469909/primary.jpg" },
+      { name: 'Hugh Jackman', img: 'https://artworks.thetvdb.com/banners/person/255218/5f09f9b5110ad.jpg' },
+    ]
+  },
+  {
+    name: 'Mejores Actrices de la Historia',
+    characters: [
+      { "name": "Katharine Hepburn", "img": "https://artworks.thetvdb.com/banners/person/473395/62fbc22c5c8b8.jpg" },
+      { "name": "Meryl Streep", "img": "https://artworks.thetvdb.com/banners/person/310712/60642dce4720f.jpg" },
+      { "name": "Ingrid Bergman", "img": "https://artworks.thetvdb.com/banners/v4/actor/473387/photo/60c51e837fac4.jpg" },
+      { "name": "Frances McDormand", "img": "https://artworks.thetvdb.com/banners/person/321262/primary.jpg" },
+      { "name": "Cate Blanchett", "img": "https://artworks.thetvdb.com/banners/person/255079/5efe34d81f583.jpg" },
+      { "name": "Olivia Colman", "img": "https://artworks.thetvdb.com/banners/person/300806/6385168c477a5.jpg" },
+      { "name": "Viola Davis", "img": "https://artworks.thetvdb.com/banners/person/269662/primary.jpg" },
+      { "name": "Michelle Yeoh", "img": "https://artworks.thetvdb.com/banners/v4/actor/310641/photo/64fd4df114c31.jpg" },
+      { "name": "Jessica Chastain", "img": "https://artworks.thetvdb.com/banners/person/310937/63be02cad234b.jpg" },
+      { name: 'Emma Stone', img: 'https://artworks.thetvdb.com/banners/person/311046/64337bf04bbb9.jpg' },
+      { "name": "Julianne Moore", "img": "https://artworks.thetvdb.com/banners/person/255177/62db4e4461cdc.jpg" },
+      { "name": "Nicole Kidman", "img": "https://artworks.thetvdb.com/banners/person/327381/primary.jpg" },
+      { "name": "Helen Mirren", "img": "https://artworks.thetvdb.com/banners/v4/actor/296967/photo/6528646921624.jpg" },
+      { "name": "Renée Zellweger", "img": "https://artworks.thetvdb.com/banners/v4/actor/331124/photo/64fd452fcd7f5.jpg" },
+      { name: 'Margot Robbie', img: 'https://artworks.thetvdb.com/banners/person/327479/661803736b95d.jpg' },
+      { name: 'Natalie Portman', img: 'https://artworks.thetvdb.com/banners/person/310414/5ea463f0bf7f8.jpg' },
+      { name: 'Jennifer Lawrence', img: 'https://artworks.thetvdb.com/banners/person/255214/6406a21a3da60.jpg' },
+      { "name": "Brie Larson", "img": "https://artworks.thetvdb.com/banners/v4/actor/296966/photo/64ebe3d4d9b07.jpg" },
+      { "name": "Anne Hathaway", "img": "https://artworks.thetvdb.com/banners/person/255156/primary.jpg" },
+      { name: 'Florence Pugh', img: 'https://artworks.thetvdb.com/banners/v4/actor/489050/photo/64f8db124dc8f.jpg' },
+      { name: 'Demi Moore', img: 'https://artworks.thetvdb.com/banners/person/324283/6066e84a73612.jpg' },
+    ]
+  },
+  {
+    name: 'Famosos Más Atractivos',
+    characters: [
+      { name: 'Hugh Jackman', img: 'https://artworks.thetvdb.com/banners/person/255218/5f09f9b5110ad.jpg' },
+      { name: 'Chris Hemsworth', img: 'https://artworks.thetvdb.com/banners/person/327460/5e79ed09e62f9.jpg' },
+      { name: 'Henry Cavill', img: 'https://artworks.thetvdb.com/banners/person/327579/62d86d58b9b1f.jpg' },
+      { name: 'Ryan Gosling', img: 'https://artworks.thetvdb.com/banners/person/266267/primary.jpg' },
+      { name: 'Michael B. Jordan', img: 'https://artworks.thetvdb.com/banners/person/294945/5f4bf74d4a310.jpg' },
+      { name: 'Brad Pitt', img: 'https://artworks.thetvdb.com/banners/person/282103/primary.jpg' },
+      { name: 'Tom Hardy', img: 'https://artworks.thetvdb.com/banners/person/373728/65f8b845ef6f6.jpg' },
+      { name: 'Zac Efron', img: 'https://artworks.thetvdb.com/banners/v4/actor/277952/photo/64be3b3b95cc3.jpg' },
+      { name: 'Idris Elba', img: 'https://artworks.thetvdb.com/banners/person/269501/primary.jpg' },
+      { name: 'Ryan Reynolds', img: 'https://artworks.thetvdb.com/banners/person/335905/primary.jpg' },
+      { name: 'Jason Momoa', img: 'https://artworks.thetvdb.com/banners/person/247856/6343625d24343.jpg' },
+      { name: 'Chris Evans', img: 'https://artworks.thetvdb.com/banners/person/274081/636acb37a2b03.jpg' },
+      { name: 'Leonardo DiCaprio', img: 'https://artworks.thetvdb.com/banners/person/282014/5eff056338cd0.jpg' },
+      { name: 'Shawn Mendes', img: 'https://artworks.thetvdb.com/banners/person/7922689/5fbfa199a78f9.jpg' },
+      { name: 'Timothée Chalamet', img: 'https://artworks.thetvdb.com/banners/v4/actor/521537/photo/65e4d7f15928c.jpg' },
+      { name: 'Jared Leto', img: 'https://artworks.thetvdb.com/banners/person/310997/primary.jpg' },
+      { name: 'Kit Harington', img: 'https://artworks.thetvdb.com/banners/person/247909/primary.jpg' },
+      { name: 'Finn Wittrock', img: 'https://artworks.thetvdb.com/banners/person/394892/primary.jpg' },
+      { name: 'Charlie Puth', img: 'https://artworks.thetvdb.com/banners/person/7938876/5fe8c932414ae.jpg' },
+      { name: 'Charles Melton', img: 'https://artworks.thetvdb.com/banners/person/533850/62e6da8ce2dda.jpg' },
+      { name: 'Michael Fassbender', img: 'https://artworks.thetvdb.com/banners/person/310895/primary.jpg' },
+      { name: 'Harry Styles', img: 'https://artworks.thetvdb.com/banners/v4/actor/449791/photo/60634de787afa.jpg' },
+      { name: 'Tom Holland', img: 'https://artworks.thetvdb.com/banners/person/287561/5e934e4a6a84e.jpg' },
+      { name: 'Jake Gyllenhaal', img: 'https://artworks.thetvdb.com/banners/person/273040/643c95b297e68.jpg' },
+      { name: 'Chris Pine', img: 'https://artworks.thetvdb.com/banners/person/255166/631f8c82d6992.jpg' },
+      { name: 'Chris Pratt', img: 'https://artworks.thetvdb.com/banners/person/312388/primary.jpg' },
+      { name: 'Tom Cruise', img: 'https://artworks.thetvdb.com/banners/person/254032/637b591ac656a.jpg' },
+      { name: 'Hayden Christensen', img: 'https://artworks.thetvdb.com/banners/person/351209/62934eefc6970.jpg' },
+      { name: 'Tom Hiddleston', img: 'https://artworks.thetvdb.com/banners/person/311136/primary.jpg' },
+      { name: 'Robert Pattinson', img: 'https://artworks.thetvdb.com/banners/person/310910/625cf9d7c30ec.jpg' },
+      { name: 'Matthew McConaughey', img: 'https://artworks.thetvdb.com/banners/person/310297/6401d1e051e7d.jpg' },
+      { name: 'Matt Bomer', img: 'https://artworks.thetvdb.com/banners/person/324393/629ece2b69d1f.jpg' },
+      { name: 'Channing Tatum', img: 'https://artworks.thetvdb.com/banners/v4/actor/321370/photo/6528650815156.jpg' },
+      { name: 'Jude Law', img: 'https://artworks.thetvdb.com/banners/v4/actor/255230/photo/64d333e290c7c.jpg' },
+      { name: 'Orlando Bloom', img: 'https://artworks.thetvdb.com/banners/person/327467/64446a140bc76.jpg' },
+      { name: 'Jamie Dornan', img: 'https://artworks.thetvdb.com/banners/person/331181/5f2929ebbd4ee.jpg' },
+      { name: 'Alexander Skarsgård', img: 'https://artworks.thetvdb.com/banners/person/331154/63d1d43bbb3d5.jpg' },
+      { name: 'David Beckham', img: 'https://artworks.thetvdb.com/banners/v4/actor/327509/photo/64d48f8c4a09d.jpg' },
+      { name: 'Justin Timberlake', img: 'https://artworks.thetvdb.com/banners/person/273903/5f2660e465118.jpg' },
+      { name: 'Zayn Malik', img: 'https://artworks.thetvdb.com/banners/v4/actor/449792/photo/671043da4241b.jpg' },
+      { name: 'Adam Brody', img: 'https://artworks.thetvdb.com/banners/person/255076/607610521ae73.jpg' },
+      { name: 'Jared Padalecki', img: 'https://artworks.thetvdb.com/banners/person/275475/605c4b8c8f9c9.jpg' },
+      { name: 'Jensen Ackles', img: 'https://artworks.thetvdb.com/banners/person/335538/634a18001842e.jpg' },
+      { name: 'Paul Wesley', img: 'https://artworks.thetvdb.com/banners/v4/actor/271148/photo/629ec750154ba.jpg' },
+      { name: 'Ian Somerhalder', img: 'https://artworks.thetvdb.com/banners/actors/106761.jpg' },
+      { name: 'Joseph Morgan', img: 'https://artworks.thetvdb.com/banners/person/296747/5e9618b592b09.jpg' },
+      { name: 'Daniel Gillies', img: 'https://artworks.thetvdb.com/banners/person/305052/primary.jpg' },
+      { name: 'Nathaniel Buzolic', img: 'https://artworks.thetvdb.com/banners/v4/actor/393585/photo/60e92ffed72aa.jpg' },
+      { name: 'Charles Michael Davis', img: 'https://artworks.thetvdb.com/banners/v4/actor/480476/photo/6071fd3d0a758.jpg' },
+      { name: 'Michael Trevino', img: 'https://artworks.thetvdb.com/banners/person/269120/62dd954012c75.jpg' },
+      { name: 'Zach Roerig', img: 'https://artworks.thetvdb.com/banners/person/503944/603c8eadbd5bd.jpg' },
+      { name: 'Tyler Hoechlin', img: 'https://artworks.thetvdb.com/banners/person/371047/5e875b2db48ce.jpg' },
+      { name: 'Paul Mescal', img: 'https://artworks.thetvdb.com/banners/person/8160449/primary.jpg' },
+      { name: 'Paul Rudd', img: 'https://artworks.thetvdb.com/banners/person/266506/6357001a144de.jpg' },
+      { name: 'George Clooney', img: 'https://artworks.thetvdb.com/banners/person/274178/6338b4f2b6732.jpg' },
+      { name: 'Johnny Depp', img: 'https://artworks.thetvdb.com/banners/person/259154/primary.jpg' },
+      { name: 'Keanu Reeves', img: 'https://artworks.thetvdb.com/banners/person/294100/64f31de21ef7a.jpg' },
+      { name: 'Will Smith', img: 'https://artworks.thetvdb.com/banners/person/254089/primary.jpg' },
+      { name: 'Dwayne Johnson', img: 'https://artworks.thetvdb.com/banners/person/255089/primary.jpg' },
+      { name: 'Kevin Hart', img: 'https://artworks.thetvdb.com/banners/v4/actor/311042/photo/6176ea15a94d2.jpg' },
+      { name: 'Pedro Pascal', img: 'https://artworks.thetvdb.com/banners/v4/actor/247850/photo/6515f9539766b.jpg' },
 
 
     ]
