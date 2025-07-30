@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const categoryList = document.getElementById('category-list');
   const categorySearch = document.getElementById('category-search');
   const randomCategoryButton = document.getElementById('random-category'); 
+  const rouletteModeButton = document.getElementById('roulette-mode-button');
 
   // Verifica si estamos en la página correcta antes de ejecutar lógica
   if (categoryList && categorySearch && randomCategoryButton) {
@@ -100,5 +101,9 @@ function continueNavigation() {
       const randomCategory = categories[Math.floor(Math.random() * categories.length)];
       selectCategory(randomCategory);
     });
+    rouletteModeButton.addEventListener('click', () => {
+      window.location.href = 'pages/roulette.html'; // Redirige a la página de la ruleta
+    });
+    
   }
 });

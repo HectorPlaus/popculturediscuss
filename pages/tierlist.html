@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 </head>
+
 <body>
     <header id="logoheader"></header>
     <ul class="navbar">
@@ -18,16 +20,37 @@
             <li><a href="tierlist.html" class="active">Tierlist</a></li>
         </div>
         <button id="toggle-theme" aria-label="Toggle dark mode"><i class="fa-solid fa-moon"></i></button>
-        </ul>
+    </ul>
     </nav>
     <h2 id="selected-category"></h2>
     <div id="tierlist-div">
-    <div id="tierlist-container"></div>
-    <div id="unassigned-characters"></div>
-    <button id="add-tier">Añadir Tier</button>
+        <div id="tierlist-container"></div>
+        <div id="unassigned-characters"></div>
+        <div id="settings-overlay" class="settings-overlay"></div>
+        <div id="settings-window" class="settings-window">
+            <div class="settings-content">
+                <span id="close-settings" class="close-btn">&times;</span>
+                <h2>Configuración</h2>
+                <div class="change-row-background">
+                    <label for="background-color">Color de fondo</label>
+                    <input type="color" id="background-color" name="background-color">
+                </div>
+                <div class="add-row-above">
+                    <button id="add-row-above">Añadir fila arriba</button>
+                </div>
+                <div class="add-row-below">
+                    <button id="add-row-below">Añadir fila abajo</button>
+                </div>
+                <div class="delete-row">
+                    <button id="delete-row">Eliminar fila</button>
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <script src="../js/tierlist.js"></script>
     <script src="../js/theme.js"></script>
 </body>
+
 </html>

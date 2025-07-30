@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pop Culture Discuss</title>
-    <link rel="stylesheet" href="css/category-style.css">
+    <link rel="stylesheet" href="../css/roulette-style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
@@ -15,19 +15,26 @@
     <nav>
         <ul class="navbar">
             <div class="menu">
-                <li><a href="index.html" id="home-link">Home</a></li>
+                <li><a href="../index.html" id="home-link">Home</a></li>
             </div>
             <button id="toggle-theme" aria-label="Toggle dark mode"><i class="fa-solid fa-moon"></i></button>
             
         </ul>
     </nav>
 
-    <div id="home" class="container">
-        <input type="text" id="category-search" placeholder="Buscar categorías...">
-        <button id="random-category"><i class="fa-solid fa-dice"></i></button>
-        <button id="roulette-mode-button"><i class="fa-solid fa-wand-sparkles"></i></button>
-        <ul id="category-list"></ul>
-    </div>
+    
+    <div id="roulette-wrapper">
+        <div id="roulette-container" class="roulette">
+            <div class="indicator">▼</div>
+          <ul id="roulette-list"></ul>
+        </div>
+      
+        <div class="roulette-controls">
+          <button id="scroll-up">▲</button>
+          <button id="scroll-down">▼</button>
+          <button id="random-category"><i class="fa-solid fa-dice"></i></button>
+        </div>
+      </div>
     <div id="age-warning-modal" class="modal hidden">
         <div class="modal-content">
             <span id="close-modal" class="close">&times;</span>
@@ -37,10 +44,10 @@
         </div>
     </div>
 
-    <script src="js/main.js"></script>
-    <script src="js/categories.js"></script>
-    <script src="js/category.js"></script>
-    <script src="js/theme.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/categories.js"></script>
+    <script src="../js/roulette.js"></script>
+    <script src="../js/theme.js"></script>
 
 
 </body>

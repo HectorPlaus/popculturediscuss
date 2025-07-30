@@ -18,6 +18,42 @@ const categories = [
     ]
   },
   {
+    "name": "NBA Teams",
+    "characters": [
+      { "name": "Atlanta Hawks", "img": "https://cdn.ssref.net/req/202502211/tlogo/bbr/ATL.png" },
+      { "name": "Boston Celtics", "img": "https://cdn.ssref.net/req/202502211/tlogo/bbr/BOS-2025.png" },
+      { "name": "Brooklyn Nets", "img": "https://cdn.ssref.net/req/202502211/tlogo/bbr/BRK-2025.png" },
+      { "name": "Charlotte Hornets", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg" },
+      { "name": "Chicago Bulls", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg" },
+      { "name": "Cleveland Cavaliers", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg" },
+      { "name": "Dallas Mavericks", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg" },
+      { "name": "Denver Nuggets", "img": "https://cdn.ssref.net/req/202502211/tlogo/bbr/DEN-2025.png" },
+      { "name": "Detroit Pistons", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg" },
+      { "name": "Golden State Warriors", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg" },
+      { "name": "Houston Rockets", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg" },
+      { "name": "Indiana Pacers", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg"},
+      { "name": "Los Angeles Clippers", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg"},
+      { "name": "Los Angeles Lakers", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg"},
+      { "name": "Memphis Grizzlies", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg"},
+      { "name": "Miami Heat", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg"},
+      { "name": "Milwaukee Bucks", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg"},
+      { "name": "Minnesota Timberwolves", "img": "https://cdn.ssref.net/req/202502211/tlogo/bbr/MIN-2025.png"},
+      { "name": "New Orleans Pelicans", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg"},
+      { "name": "New York Knicks", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg"},
+      { "name": "Oklahoma City Thunder", "img": "https://cdn.ssref.net/req/202502211/tlogo/bbr/OKC-2025.png"},
+      { "name": "Orlando Magic", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg"},
+      { "name": "Philadelphia 76ers", "img": "https://cdn.ssref.net/req/202502211/tlogo/bbr/PHI-2025.png"},
+      { "name": "Phoenix Suns", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg"},
+      { "name": "Portland Trail Blazers", "img": "https://cdn.ssref.net/req/202502211/tlogo/bbr/POR-2025.png"},
+      { "name": "Sacramento Kings", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg"},
+      { "name": "San Antonio Spurs", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg"},
+      { "name": "Toronto Raptors", "img": "https://cdn.ssref.net/req/202502211/tlogo/bbr/TOR-2025.png"},
+      { "name": "Utah Jazz", "img": "https://cdn.ssref.net/req/202502211/tlogo/bbr/UTA-2025.png"},
+      { "name": "Washington Wizards", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg"}
+
+    ]
+    },
+  {
 
     "name": "My Hero Academia - Personajes",
     "characters": [

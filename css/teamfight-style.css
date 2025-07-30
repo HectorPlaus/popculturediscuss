@@ -11,6 +11,7 @@
 #teamfight-teams {
     display: flex; /* Coloca a los jugadores uno al lado del otro */
     flex-direction: row; /* Jugadores alineados horizontalmente */
+    position: relative;
     justify-content:center; /* Espaciado uniforme entre jugadores */
    
    gap: 20px; /* Espaciado entre jugadores */
@@ -122,12 +123,14 @@
 
 .tripulation-container{
     display: flex;
+    position: relative;
     flex-direction: column;
     gap: 10px;
    
 }
 
 #generate-character{
+    position: relative;
     padding: 10px;
     border-radius: 10px;
     cursor: pointer;
