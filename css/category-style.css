@@ -14,13 +14,14 @@
     padding: 20px;
     list-style-type: none;
     width: 100%;
+    
 }
 
 #category-list li {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--categories-bg);
+    background: var(--categories-bg);
     color: var(--categories-text);
     text-shadow: 1px 1px 2px var(--categories-shadow);
     padding: 10px;

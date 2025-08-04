@@ -3,7 +3,7 @@
 const categories = [
   
   {
-    "name": "DragonBall - Arcos",
+    "name": "DragonBall Arcos",
     "characters": [
       { "name": "Arco de Cell", "img": "https://artworks.thetvdb.com/banners/series/81472/posters/62025519.jpg" },
       { "name": "Arco de Freezer", "img": "https://artworks.thetvdb.com/banners/series/81472/posters/62089693.jpg" },
@@ -23,39 +23,39 @@ const categories = [
       { "name": "Atlanta Hawks", "img": "https://cdn.ssref.net/req/202502211/tlogo/bbr/ATL.png" },
       { "name": "Boston Celtics", "img": "https://cdn.ssref.net/req/202502211/tlogo/bbr/BOS-2025.png" },
       { "name": "Brooklyn Nets", "img": "https://cdn.ssref.net/req/202502211/tlogo/bbr/BRK-2025.png" },
-      { "name": "Charlotte Hornets", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg" },
-      { "name": "Chicago Bulls", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg" },
-      { "name": "Cleveland Cavaliers", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg" },
-      { "name": "Dallas Mavericks", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg" },
+      { "name": "Charlotte Hornets", "img": "https://cdn.ssref.net/req/202508011/tlogo/bbr/CHA.png" },
+      { "name": "Chicago Bulls", "img": "https://cdn.ssref.net/req/202508011/tlogo/bbr/CHI.png" },
+      { "name": "Cleveland Cavaliers", "img": "https://cdn.ssref.net/req/202508011/tlogo/bbr/CLE.png" },
+      { "name": "Dallas Mavericks", "img": "https://cdn.ssref.net/req/202508011/tlogo/bbr/DAL.png" },
       { "name": "Denver Nuggets", "img": "https://cdn.ssref.net/req/202502211/tlogo/bbr/DEN-2025.png" },
-      { "name": "Detroit Pistons", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg" },
-      { "name": "Golden State Warriors", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg" },
-      { "name": "Houston Rockets", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg" },
-      { "name": "Indiana Pacers", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg"},
-      { "name": "Los Angeles Clippers", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg"},
-      { "name": "Los Angeles Lakers", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg"},
-      { "name": "Memphis Grizzlies", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg"},
-      { "name": "Miami Heat", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg"},
-      { "name": "Milwaukee Bucks", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg"},
+      { "name": "Detroit Pistons", "img": "https://cdn.ssref.net/req/202508011/tlogo/bbr/DET.png" },
+      { "name": "Golden State Warriors", "img": "https://cdn.ssref.net/req/202508011/tlogo/bbr/GSW.png" },
+      { "name": "Houston Rockets", "img": "https://cdn.ssref.net/req/202508011/tlogo/bbr/HOU.png" },
+      { "name": "Indiana Pacers", "img": "https://cdn.ssref.net/req/202508011/tlogo/bbr/IND.png"},
+      { "name": "Los Angeles Clippers", "img": "https://cdn.ssref.net/req/202508011/tlogo/bbr/LAC.png"},
+      { "name": "Los Angeles Lakers", "img": "https://cdn.ssref.net/req/202508011/tlogo/bbr/LAL.png"},
+      { "name": "Memphis Grizzlies", "img": "https://cdn.ssref.net/req/202508011/tlogo/bbr/MEM.png"},
+      { "name": "Miami Heat", "img": "https://cdn.ssref.net/req/202508011/tlogo/bbr/MIA.png"},
+      { "name": "Milwaukee Bucks", "img": "https://cdn.ssref.net/req/202508011/tlogo/bbr/MIL.png"},
       { "name": "Minnesota Timberwolves", "img": "https://cdn.ssref.net/req/202502211/tlogo/bbr/MIN-2025.png"},
-      { "name": "New Orleans Pelicans", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg"},
-      { "name": "New York Knicks", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg"},
+      { "name": "New Orleans Pelicans", "img": "https://cdn.ssref.net/req/202508011/tlogo/bbr/NOH.png"},
+      { "name": "New York Knicks", "img": "https://cdn.ssref.net/req/202508011/tlogo/bbr/NYK.png"},
       { "name": "Oklahoma City Thunder", "img": "https://cdn.ssref.net/req/202502211/tlogo/bbr/OKC-2025.png"},
-      { "name": "Orlando Magic", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg"},
+      { "name": "Orlando Magic", "img": "https://cdn.ssref.net/req/202508011/tlogo/bbr/ORL.png"},
       { "name": "Philadelphia 76ers", "img": "https://cdn.ssref.net/req/202502211/tlogo/bbr/PHI-2025.png"},
-      { "name": "Phoenix Suns", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg"},
+      { "name": "Phoenix Suns", "img": "https://cdn.ssref.net/req/202508011/tlogo/bbr/PHO.png"},
       { "name": "Portland Trail Blazers", "img": "https://cdn.ssref.net/req/202502211/tlogo/bbr/POR-2025.png"},
-      { "name": "Sacramento Kings", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg"},
-      { "name": "San Antonio Spurs", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg"},
+      { "name": "Sacramento Kings", "img": "https://cdn.ssref.net/req/202508011/tlogo/bbr/SAC.png"},
+      { "name": "San Antonio Spurs", "img": "https://cdn.ssref.net/req/202508011/tlogo/bbr/SAS.png"},
       { "name": "Toronto Raptors", "img": "https://cdn.ssref.net/req/202502211/tlogo/bbr/TOR-2025.png"},
       { "name": "Utah Jazz", "img": "https://cdn.ssref.net/req/202502211/tlogo/bbr/UTA-2025.png"},
-      { "name": "Washington Wizards", "img": "https://artworks.thetvdb.com/banners/series/295068/posters/6074000a00686.jpg"}
+      { "name": "Washington Wizards", "img": "https://cdn.ssref.net/req/202508011/tlogo/bbr/WAS.png"}
 
     ]
     },
   {
 
-    "name": "My Hero Academia - Personajes",
+    "name": "My Hero Academia Personajes",
     "characters": [
       {
         "name": "Izuku Midoriya",
@@ -536,7 +536,7 @@ const categories = [
     ]
   },
   {
-    "name": "One-Punch Man - Personajes",
+    "name": "One-Punch Man Personajes",
     "characters": [
       {
         "name": "Genos",
@@ -641,7 +641,7 @@ const categories = [
     ]
   },
   {
-    "name": "Attack on Titan - Personajes",
+    "name": "Attack on Titan Personajes",
     "characters": [
       {
         "name": "Eren Jaeger",
@@ -914,7 +914,7 @@ const categories = [
     ]
   },
   {
-    "name": "Demon Slayer - Personajes",
+    "name": "Demon Slayer Personajes",
     "characters": [
       {
         "name": "Tanjiro Kamado",
@@ -982,7 +982,7 @@ const categories = [
       }
     ]
   },
-  {"name": "DragonBall Super - Personajes",
+  {"name": "DragonBall Super Personajes",
     "characters": [
       {
         "name": "Goku",
@@ -1243,7 +1243,7 @@ const categories = [
     ]
   },
   {
-    "name": "DragonBall Daima - Personajes",
+    "name": "DragonBall Daima Personajes",
     "characters": [
       {
         "name": "Goku",
@@ -1348,7 +1348,7 @@ const categories = [
     ]
   },
   {
-    "name": "Fairy Tail - Personajes",
+    "name": "Fairy Tail Personajes",
     "characters": [
       {
         "name": "Natsu Dragneel",
@@ -1605,7 +1605,7 @@ const categories = [
     ]
   },
   {
-    "name": "DragonBall - Personajes",
+    "name": "DragonBall Personajes",
     "characters": [
       {
         "name": "Goku",
@@ -1718,7 +1718,7 @@ const categories = [
     ]
   },
   {
-    "name": "Haikyuu!! - Personajes",
+    "name": "Haikyuu!! Personajes",
     "characters": [
       {
         "name": "Shouyou Hinata",
@@ -1990,7 +1990,7 @@ const categories = [
       },
     ]
   },
-  {"name": "DragonBall GT - Personajes",
+  {"name": "DragonBall GT Personajes",
     "characters": [
       {
         "name": "Goku",
@@ -2122,7 +2122,7 @@ const categories = [
       }
     ]},
   {
-    "name": "DragonBall Z - Personajes",
+    "name": "DragonBall Z Personajes",
     "characters": [
       
       {
@@ -2288,7 +2288,7 @@ const categories = [
     ]
   },
   {
-    "name": "Sword Art Online - Personajes",
+    "name": "Sword Art Online Personajes",
     "characters": [
       {
         "name": "Kirigaya Kazuto",
@@ -2349,7 +2349,7 @@ const categories = [
     ]
   },
   {
-    "name": "The Seven Deadly Sins - Personajes",
+    "name": "The Seven Deadly Sins Personajes",
     "characters": [
       {
         "name": "Meliodas",
@@ -2474,7 +2474,7 @@ const categories = [
     ]
   },
   {
-    "name": "Naruto - Personajes",
+    "name": "Naruto Personajes",
     "characters": [
       { "name": "Gaara", "img": "https://artworks.thetvdb.com/banners/person/293455/5eae09f4a1ba2.jpg" },
       { "name": "Hinata Hyuga", "img": "https://artworks.thetvdb.com/banners/person/307440/65415789.jpg" },
@@ -2535,7 +2535,7 @@ const categories = [
     ]
   },
   {
-    "name": "Naruto - Arcos",
+    "name": "Naruto Arcos",
     "characters": [
       { "name": "Misión en el País de las Olas", "img": "https://comicvine.gamespot.com/a/uploads/scale_large/3/32599/1684868-volume04.jpg" },
       { "name": "Exámenes Chunin", "img": "https://comicvine.gamespot.com/a/uploads/scale_large/3/32599/1684907-volume09.jpg" },
@@ -2559,7 +2559,7 @@ const categories = [
     ]
   },
   {
-    "name": "Series de Comedia - Personajes",
+    "name": "Series de Comedia Personajes",
     "characters": [
       { "name": "Al Bundy", "img": "https://artworks.thetvdb.com/banners/actors/339621.jpg" },
       { "name": "Alex P. Keaton", "img": "https://artworks.thetvdb.com/banners/person/254186/5ee12c1cd3dae.jpg" },
@@ -2651,12 +2651,12 @@ const categories = [
       { "name": "Solero", "img": "https://assets.unileversolutions.com/v1/1686287.png" },
       { "name": "Twister", "img": "https://assets.unileversolutions.com/v1/1511319.png" },
       { "name": "Viennetta", "img": "https://sifu.unileversolutions.com/image/pnir/fr-CH/UnileverProducts/mini-viennetta-vanille_39539.png" },
-      { "name": "White Choc. & Cranberries - Nuii", "img": "https://nuiiicecream.com/wp-content/uploads/2023/02/Scandinavian-Cranberry.png" },
+      { "name": "White Choc. & Cranberries Nuii", "img": "https://nuiiicecream.com/wp-content/uploads/2023/02/Scandinavian-Cranberry.png" },
       { "name": "X-pop", "img": "https://assets.unileversolutions.com/v1/1874200.png" }
     ]
   },
   {
-    "name": "One Piece - Arcs",
+    "name": "One Piece Arcs",
     "characters": [
       { "name": "Romance Dawn Arc", "img": "https://comicvine.gamespot.com/a/uploads/scale_large/11136/111369808/6786544-one%20piece%201.jpg" },
       { "name": "Orange Town Arc", "img": "https://comicvine.gamespot.com/a/uploads/scale_small/11136/111369808/6786545-one%20piece%202.jpg" },
@@ -2694,7 +2694,7 @@ const categories = [
     ]
   },
   {
-    "name": "One Piece - Personajes",
+    "name": "One Piece Personajes",
     "characters": [
       { "name": "Portgas D. Ace", "img": "https://artworks.thetvdb.com/banners/person/385208/65b16fcbb5002.jpg" },
       { "name": "Bartholomew Kuma", "img": "https://artworks.thetvdb.com/banners/v4/actor/343718/photo/65c3b84c10d06.jpg" },
@@ -3004,7 +3004,7 @@ const categories = [
     ]
   },
   {
-    "name": "The Simpsons - Personajes",
+    "name": "The Simpsons Personajes",
     "characters": [
       {
         "name": "Homer J. Simpson",
@@ -3200,7 +3200,7 @@ const categories = [
     ]
   },
   {
-    name: 'Marvel Cinematic Universe - Personajes',
+    name: 'Marvel Cinematic Universe Personajes',
     characters: [
       { name: 'Iron Man', img: 'https://www.superherodb.com/pictures2/portraits/10/050/12496.jpg?v=1602028800' },
       { name: 'Capitán América', img: 'https://artworks.thetvdb.com/banners/person/274081/5e8befc7832f5.jpg' },
@@ -3448,7 +3448,7 @@ const categories = [
     ]
   },
   {
-    name: 'TV Time Special - TV Shows',
+    name: 'TV Time Special TV Shows',
     characters: [
       { name: 'Grey\'s Anatomy', img: 'https://artworks.thetvdb.com/banners/posters/73762-27.jpg' },
       { name: 'X-Men 97', img: 'https://image.tmdb.org/t/p/original/ti67uwBX5yeDmZgs534FjkuCC7m.jpg' },
@@ -3502,7 +3502,7 @@ const categories = [
     ]
   },
   {
-    name: 'TV Time Special - Movies',
+    name: 'TV Time Special Movies',
     characters: [
       { name: 'The Mitchells vs. The Machines', img: 'https://artworks.thetvdb.com/banners/v4/movie/133345/posters/60649cae96e93.jpg' },
       { name: 'Puss in Boots: The Last Wish', img: 'https://artworks.thetvdb.com/banners/v4/movie/68362/posters/6230f8cf34e66.jpg' },
@@ -3593,7 +3593,7 @@ const categories = [
     ]
   },
   {
-    name: 'Hunter X Hunter - Personajes',
+    name: 'Hunter X Hunter Personajes',
     characters: [
       {
         "name": "Gon",
@@ -3726,7 +3726,7 @@ const categories = [
     ]
   },
   {
-    name: 'Bleach - Personajes',
+    name: 'Bleach Personajes',
     characters: [
       {
         "name": "Ichigo Kurosaki",
@@ -4688,7 +4688,7 @@ const categories = [
       { name: 'Peter Rabbit', img: 'https://artworks.thetvdb.com/banners/v4/movie/494/posters/6733836133b01.jpg' },
       { name: 'Arthur Christmas', img: 'https://artworks.thetvdb.com/banners/v4/movie/2483/posters/644322c1c9b3c.jpg' },
       { name: 'Surf\'s Up', img: 'https://artworks.thetvdb.com/banners/v4/movie/2644/posters/644310a40548e.jpg' },
-      { name: 'Surf\'s Up 2 - Wave Mania', img: 'https://artworks.thetvdb.com/banners/v4/movie/9174/posters/64413d79a0bd3.jpg' },
+      { name: 'Surf\'s Up 2 Wave Mania', img: 'https://artworks.thetvdb.com/banners/v4/movie/9174/posters/64413d79a0bd3.jpg' },
       { name: 'The Smurfs', img: 'https://artworks.thetvdb.com/banners/movies/1456/posters/1456.jpg' },
       { name: 'The Smurfs 2', img: 'https://artworks.thetvdb.com/banners/v4/movie/2320/posters/623ca8099110b.jpg' },
       { name: 'Smurfs: The Lost Village', img: 'https://artworks.thetvdb.com/banners/v4/movie/805/posters/64189f01ee6c3.jpg' },

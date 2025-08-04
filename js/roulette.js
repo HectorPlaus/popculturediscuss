@@ -7,20 +7,25 @@ document.addEventListener('DOMContentLoaded', () => {
   
     let currentOffset = 0;
     const itemHeight = 100;
-    const maxVisible = 3;
+    const maxVisible = 5;
   
   
   
     // Mostrar todas las categorías
     function displayCategories(categoriesToDisplay) {
       categoryList.innerHTML = '';
-      categoriesToDisplay.forEach(category => {
+    
+      // Crear 3 copias de la lista para simular infinito real
+      const repeated = [...categoriesToDisplay, ...categoriesToDisplay, ...categoriesToDisplay];
+    
+      repeated.forEach(category => {
         const li = document.createElement('li');
         li.textContent = category.name;
         li.addEventListener('click', () => selectCategory(category));
         categoryList.appendChild(li);
       });
-      currentOffset = 0;
+    
+      currentOffset = categoriesToDisplay.length; // empezamos en la copia central
       updateTransform();
     }
   
@@ -28,15 +33,20 @@ document.addEventListener('DOMContentLoaded', () => {
       categoryList.style.transform = `translateY(${-currentOffset * itemHeight}px)`;
     }
   
-    function scrollByStep(direction) {
-      const maxOffset = categories.length - maxVisible;
-      if (direction === 1 && currentOffset < maxOffset) {
-        currentOffset++;
-      } else if (direction === -1 && currentOffset > 0) {
-        currentOffset--;
-      }
-      updateTransform();
-    }
+    
+function scrollByStep(direction) {
+  const totalItems = categories.length;
+  currentOffset += direction;
+
+  // Cuando llegamos al extremo, saltamos a la copia central para que no se note
+  if (currentOffset < totalItems) {
+    currentOffset += totalItems;
+  } else if (currentOffset >= totalItems * 2) {
+    currentOffset -= totalItems;
+  }
+
+  updateTransform();
+}
   
     scrollUpButton.addEventListener('click', () => scrollByStep(-1));
     scrollDownButton.addEventListener('click', () => scrollByStep(1));
@@ -70,39 +80,43 @@ document.addEventListener('DOMContentLoaded', () => {
   
     // Selección aleatoria con animación
     function spinRoulette(categories, callback) {
-      const spinItems = [...Array(60)].flatMap(() => categories.map(c => ({ ...c })));
-      categoryList.innerHTML = '';
-      spinItems.forEach(category => {
-        const li = document.createElement('li');
-        li.textContent = category.name;
-        li.addEventListener('click', () => selectCategory(category));
-        categoryList.appendChild(li);
-      });
-  
-       
-      let position = 0;
-      const speed = 20;
-      const step = 50; 
-      const totalSteps = 100;
+      const totalItems = categories.length;
+      const visibleIndex = Math.floor(Math.random() * totalItems);
+    
+      const extraRounds = 2; // menos vueltas → más rápido
+      const totalSteps = extraRounds * totalItems + visibleIndex;
+    
       let currentStep = 0;
-  
-      const interval = setInterval(() => {
-        position -= step;
-        categoryList.style.transform = `translateY(${position}px)`;
+      let speed = 40; // más rápido
+      const startIndex = currentOffset;
+    
+      function stepRoulette() {
+        scrollByStep(1); // siempre hacia abajo
         currentStep++;
-  
-        if (currentStep > totalSteps) {
-          clearInterval(interval);
-          const visibleIndex = Math.floor(Math.random() * categories.length);
-          const selectedCategory = spinItems[visibleIndex % spinItems.length];
-         
-          setTimeout(() => {
-            displayCategories(categories);
-            callback(selectedCategory);
-          }, 500);
+    
+        // Frenado progresivo en los últimos 8 pasos
+        if (currentStep > totalSteps - 8) {
+          speed += 25;
         }
-      }, speed);
+    
+        if (currentStep < totalSteps) {
+          setTimeout(stepRoulette, speed);
+        } else {
+          // Centramos la categoría final
+          const centerIndex = Math.floor(maxVisible / 2);
+          currentOffset = startIndex + visibleIndex - centerIndex;
+          updateTransform();
+    
+          // Pausa antes de entrar
+          setTimeout(() => {
+            callback(categories[visibleIndex]);
+          }, 1500);
+        }
+      }
+    
+      stepRoulette();
     }
+    
   
     randomCategoryButton.addEventListener('click', () => {
       spinRoulette(categories, selectCategory);

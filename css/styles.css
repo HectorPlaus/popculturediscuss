@@ -17,7 +17,7 @@ body {
     --text-color: #000000;
     --button-bg: #f0f0f0;
     --button-text: #000000;
-    --categories-bg: #f3f3f39a;
+    --categories-bg:radial-gradient(circle, #ffffff,#b4b4b49a);
     --categories-text: #000000;
     --categories-shadow: #5a5858;
     --nav-bg: #f0f0f0;
@@ -35,7 +35,7 @@ body {
     --text-color: #40559b;
     --button-bg:  #1B2626 ;
     --button-text: #6CD591;
-    --categories-bg: #1B2626;
+    --categories-bg: conic-gradient(from 45deg, #1B2626, #1B2626, #1B2626, #2c3f3f,#1B2626);
     --categories-text: #ffffff;
     --categories-shadow: #000000;
     --nav-bg: #1f2f5e;
