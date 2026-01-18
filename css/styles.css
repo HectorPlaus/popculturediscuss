@@ -59,6 +59,9 @@ button {
     cursor: pointer;
     background: var(--button-bg);
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
 }
 
 
@@ -98,6 +101,10 @@ input {
     margin-top: 5px;
     padding: 10px;
     border-radius: 10px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
 }
 
 label {
@@ -174,12 +181,11 @@ p {
     }
     
     .navbar {
-        flex-direction: column;
+        flex-wrap: wrap;
         padding: 10px;
     }
     
     .menu {
-        flex-direction: column;
         gap: 10px;
         margin-bottom: 10px;
     }
