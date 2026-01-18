@@ -24,8 +24,7 @@
 }
 #character-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
-    grid-template-rows: auto;
+    grid-template-columns: repeat(6, 1fr); 
     gap: 20px;
     font-size: 20px;
     overflow-y: auto;
@@ -82,4 +81,59 @@
 .character-item:hover p {
     opacity: 1; /* Hace visible el texto */
 
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    #character-list {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 15px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 992px) {
+    #character-list {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    #character-list {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        font-size: 16px;
+    }
+    
+    .character-item {
+        padding: 3px;
+    }
+    
+    .character-item p {
+        font-size: 14px;
+        padding: 5px;
+    }
+    
+    #rounds-info {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    #character-list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        font-size: 14px;
+    }
+    
+    .character-item p {
+        font-size: 12px;
+        padding: 3px;
+    }
+    
+    #rounds-info {
+        font-size: 14px;
+    }
 }

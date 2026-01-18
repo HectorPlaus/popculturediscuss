@@ -33,7 +33,7 @@ body {
   .dark-theme {
     --bg-color: #1d2a35 !important;
     --text-color: #40559b;
-    --button-bg:  #1B2626 ;
+    --button-bg:  conic-gradient(from 45deg, #1B2626, #1B2626, #1B2626, #2c3f3f,#1B2626); ;
     --button-text: #6CD591;
     --categories-bg: conic-gradient(from 45deg, #1B2626, #1B2626, #1B2626, #2c3f3f,#1B2626);
     --categories-text: #ffffff;
@@ -57,7 +57,7 @@ button {
     border-radius: 10px;
     align-items: center;
     cursor: pointer;
-    background-color: var(--button-bg);
+    background: var(--button-bg);
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
@@ -118,10 +118,10 @@ label {
     list-style: none; /* Sin puntos de lista */
     padding: 0;
     margin: 0;
-    background-color:#1B2626 ;
+    background:linear-gradient(90deg, #1B2626, #2c3f3f);
     padding-right: 5px;
-    border: 1px solid transparent;
-    border-color: #0d1313;
+    border: 3px double #172222;
+    
   }
   
   /* Estilo para el menú de <li> */
@@ -160,10 +160,70 @@ p {
     cursor: pointer;
     transition:  0.3s ease;
     color: #f0f0f0;
-    background-color: #ffffff00;
+    background: #ffffff00;
 }
 
 #toggle-theme :hover{
     color: #000000;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    
+    .navbar {
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    
+    button {
+        font-size: 16px;
+        padding: 8px;
+    }
+    
+    h1, h2 {
+        font-size: 24px;
+    }
+    
+    input {
+        font-size: 16px;
+        width: 90%;
+    }
+    
+    label {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar {
+        padding: 5px;
+    }
+    
+    .menu {
+        gap: 5px;
+    }
+    
+    button {
+        font-size: 14px;
+        padding: 6px;
+    }
+    
+    h1, h2 {
+        font-size: 20px;
+    }
+    
+    input {
+        font-size: 14px;
+        width: 95%;
+    }
 }
 

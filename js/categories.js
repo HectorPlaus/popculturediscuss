@@ -2920,14 +2920,14 @@ const categories = [
     ]
   },
   {
-    "name": "Embutidos y Quesos Icónicos",
+    "name": "Embutidos y Quesos",
     "characters": [
-      { "name": "Jamón Ibérico", "img": "https://alcornoque.mx/cdn/shop/products/jamon-iberico-de-bellota-cortado-a-mano-extrem.jpg?v=1641338128" },
+      { "name": "Jamón Ibérico", "img": "https://www.sierradecodex.com/wp-content/uploads/2018/05/sierra-de-codex-productos-curados-jamon-iberico-bellota.png" },
       { "name": "Salchichón", "img": "https://carniceriafulgencio.com/wp-content/uploads/2015/02/Salchichon-de-chato-murciano.png" },
       { "name": "Chorizo", "img": "https://static.wixstatic.com/media/3a8b46_c2cfb51a10394713ae74dd0aee0c3fe8~mv2.png/v1/fill/w_480,h_480,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3a8b46_c2cfb51a10394713ae74dd0aee0c3fe8~mv2.png" },
       { "name": "Lomo Embuchado", "img": "https://www.dehesalascumbres.com/wp-content/uploads/2020/04/lomo-embuchado-cebo-50-raza-iberica.png" },
       { "name": "Morcilla", "img": "https://png.pngtree.com/png-vector/20240131/ourmid/pngtree-black-pudding-png-with-ai-generated-png-image_11574637.png" },
-      { "name": "Fuet", "img": "https://i0.wp.com/meatlovers.es/wp-content/uploads/fuet_871036.jpg?fit=2000%2C1335&ssl=1" },
+      { "name": "Fuet", "img": "https://embotitsobach.com/wp-content/uploads/2020/10/fuet-picantet-embotits-obach-01.png" },
       { "name": "Salami", "img": "https://static.vecteezy.com/system/resources/thumbnails/047/831/651/small/closeup-of-sliced-salami-on-white-background-free-png.png" },
       { "name": "Pepperoni", "img": "https://static.vecteezy.com/system/resources/thumbnails/046/572/486/small_2x/thin-slices-of-pepperoni-sausage-isolated-on-background-png.png" },
       { "name": "Prosciutto", "img": "https://italianshop.es/wp-content/uploads/2023/11/prosciutto-crudo-2023-11-24-prosciutto-crudo.png" },

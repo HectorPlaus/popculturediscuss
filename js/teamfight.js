@@ -17,6 +17,9 @@ document.addEventListener('DOMContentLoaded', () => {
     } else if (selectedCategory?.name === "One Piece - Personajes") {
         positions = ['Capitán', 'Vice Capitán', 'Cocinero', 'Doctor', 'Navegante', 'Tirador'];
     }
+    else if (selectedCategory?.name === "Animales") {
+        positions = ['IQ', 'Fuerza', 'Velocidad', 'Agilidad', 'Habildad Especial', 'Habildad Especial 2'];
+    }
 
     let characters = selectedCategory?.characters || [];
     let players = [];
@@ -53,10 +56,10 @@ document.addEventListener('DOMContentLoaded', () => {
             player.team.forEach((member, i) => {
                 const positionDiv = document.createElement('div');
                 positionDiv.classList.add('position');
-                positionDiv.innerHTML = `
-                    <span>${positions[i]}:</span>
-                    ${member ? `<img src="${member.img}" alt="${member.name}"><p>${member.name}</p>` : '<p>Vacío</p>'}
-                `;
+                positionDiv.innerHTML = `<span>${positions[i]}:</span>`;
+                if (member) {
+                    positionDiv.innerHTML += `<img src="${member.img}" alt="${member.name}"><p>${member.name}</p>`;
+                }
                 
                 if (!member && currentPlayerIndex === playerIndex) {
                     positionDiv.addEventListener('click', () => assignCharacter(i));

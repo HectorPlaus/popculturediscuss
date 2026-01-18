@@ -117,3 +117,68 @@
     object-fit: contain;
     border-radius: 10px;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .round {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 15px;
+    }
+    
+    .match {
+        flex-direction: column;
+        padding: 8px;
+    }
+    
+    .match span {
+        font-size: 16px;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    
+    .character {
+        max-width: 120px;
+    }
+    
+    .character img {
+        max-width: 100px;
+    }
+    
+    #start-tournament {
+        font-size: 14px;
+        padding: 8px;
+    }
+    
+    #winner-img {
+        width: 80%;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .round {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    
+    .match {
+        padding: 5px;
+    }
+    
+    .match span {
+        font-size: 14px;
+    }
+    
+    .character {
+        max-width: 100px;
+    }
+    
+    .character img {
+        max-width: 80px;
+    }
+    
+    #winner-img {
+        width: 90%;
+        max-width: 250px;
+    }
+}

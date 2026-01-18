@@ -114,3 +114,42 @@
     opacity: 1; /* Hace visible el texto */
 
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #characters-container {
+        gap: 20px;
+    }
+    
+    .character-card {
+        max-width: 300px;
+        padding: 10px;
+        margin: 5px;
+    }
+    
+    .action-buttons {
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .action-button {
+        font-size: 12px;
+        padding: 4px 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    #characters-container {
+        gap: 10px;
+    }
+    
+    .character-card {
+        max-width: 250px;
+        padding: 8px;
+    }
+    
+    .action-button {
+        font-size: 11px;
+        padding: 3px 6px;
+    }
+}

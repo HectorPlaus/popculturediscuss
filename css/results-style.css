@@ -3,24 +3,22 @@
 
 
 .characters-container {
-    display: flex;
-    width: auto;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    /* Ajusta el ancho al viewport */
-
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 4px;
+    justify-items: center;
 }
 .character-item {
-    max-width: 70%;
+    position: relative;
     text-align: center;
     border: 1px solid #ccc;
-    padding: 10px;
+    
     border-radius: 8px;
     background-color: #f9f9f9;
     transition: transform 0.2s;
     cursor: pointer;
-   
+    width: 100%;
+    max-width: 200px;
 }
 
 .character-item img {
@@ -63,24 +61,22 @@
     align-items: center;
     padding: 10px;
     margin: 10px;
-    width: max-content;
+    width: 100%;
     background-color: #fff;
     
 
 }
 #results-container {
-    display: flex;
-    flex-wrap: wrap; /* Permite que los resultados se distribuyan en varias filas si es necesario */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+    gap: 10px;
+    justify-items: center;
+    margin: 10px;
     
-
 }
 
 #results-container div {
-    flex: 1 1 25%; /* Ajusta el ancho de los elementos al viewport */
     background: #ffffff;
-    padding: 10px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);    
 }
@@ -89,4 +85,34 @@
     max-width: 100%;
     height: auto;
     border-radius: 10px;    
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .characters-container {
+        grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+        gap: 4px;
+    }
+    
+    .character-item {
+        max-width: 100px;
+        padding: 6px;
+    }
+    
+    #results-container {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .character-item {
+        max-width: 80px;
+        padding: 4px;
+    }
+    
+    #results-container {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
 }

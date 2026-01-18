@@ -173,3 +173,77 @@
     background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
     z-index: 999;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .tier-container {
+        flex-direction: column;
+        margin: 5px;
+    }
+    
+    .tier-name {
+        min-height: 80px;
+        min-width: 80px;
+        font-size: 40px;
+        padding: 8px;
+    }
+    
+    .tier-dropzone {
+        min-width: 100%;
+        flex: 1;
+        padding: 8px;
+    }
+    
+    .character {
+        width: 60px;
+    }
+    
+    #unassigned-characters {
+        padding: 8px;
+        margin: 5px;
+    }
+    
+    #add-tier {
+        width: 20%;
+        padding: 8px;
+        margin: 5px;
+    }
+    
+    .settings-window {
+        width: 90%;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .tier-name {
+        min-height: 60px;
+        min-width: 60px;
+        font-size: 30px;
+        padding: 5px;
+    }
+    
+    .tier-dropzone {
+        padding: 5px;
+    }
+    
+    .character {
+        width: 50px;
+    }
+    
+    #unassigned-characters {
+        padding: 5px;
+        margin: 3px;
+    }
+    
+    #add-tier {
+        width: 30%;
+        padding: 5px;
+        margin: 3px;
+    }
+    
+    .settings-window {
+        width: 95%;
+        padding: 10px;
+    }
+}

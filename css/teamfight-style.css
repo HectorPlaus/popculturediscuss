@@ -54,6 +54,7 @@
     background-color: var(--bg-gradient);
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
+    position: relative; /* Necesario para que el p absoluto se posicione relativo a este contenedor */
 }
 
 /* Imágenes dentro de las posiciones */
@@ -148,6 +149,7 @@
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     margin-bottom: 10px;
+    position: relative; /* Para consistencia, aunque no se use hover para p */
 }
 
 #generated-character img{
@@ -181,6 +183,70 @@
 }
 #generated-character:hover p {
     opacity: 1; /* Hace visible el texto */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #teamfight-teams {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    #teamfight-teams > div {
+        max-width: 80%;
+        padding: 10px;
+    }
+    
+    #tripulation-container {
+        gap: 8px;
+    }
+    
+    .position {
+        padding: 2px;
+    }
+    
+    #current-turn {
+        margin: 10px;
+        padding: 8px;
+    }
+    
+    #player-count {
+        font-size: 16px;
+        padding: 8px;
+    }
+    
+    #generated-character {
+        max-width: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    #teamfight-teams > div {
+        max-width: 90%;
+        padding: 8px;
+    }
+    
+    #tripulation-container {
+        gap: 5px;
+    }
+    
+    .position {
+        padding: 1px;
+    }
+    
+    #current-turn {
+        margin: 5px;
+        padding: 5px;
+    }
+    
+    #player-count {
+        font-size: 14px;
+        padding: 5px;
+    }
+    
+    #generated-character {
+        max-width: 100px;
+    }
 }
 
 
