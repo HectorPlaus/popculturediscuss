@@ -9,8 +9,32 @@ document.addEventListener('DOMContentLoaded', () => {
     initCategoryLogic();
   }
 
-  // Manejar el botón de atrás del navegador
+  // Manejar el cambio de hash para subcategorías
+  window.addEventListener('hashchange', () => {
+    console.log('Hashchange event, hash:', window.location.hash);
+    let path = JSON.parse(localStorage.getItem('categoryPath') || '[]');
+    if (window.location.hash === '#subcategories') {
+      if (path.length > 0) {
+        const last = path[path.length - 1];
+        displayCategories(last.subcategories, true);
+      }
+    } else {
+      if (path.length > 1) {
+        path.pop();
+        localStorage.setItem('categoryPath', JSON.stringify(path));
+        const last = path[path.length - 1];
+        displayCategories(last.subcategories, true);
+        window.location.hash = 'subcategories'; // stay in subcategories
+      } else {
+        localStorage.removeItem('categoryPath');
+        displayCategories(categories);
+      }
+    }
+  });
+
+  // Manejar el botón de atrás del navegador (para otras páginas)
   window.addEventListener('popstate', (event) => {
+    console.log('Popstate event:', event.state);
     if (event.state && event.state.type === 'subcategories') {
       const group = event.state.group;
       localStorage.setItem('selectedGroup', JSON.stringify(group));
@@ -55,8 +79,10 @@ document.addEventListener('DOMContentLoaded', () => {
   function selectCategory(category) {
     if (category.subcategories) {
       // Es un grupo, mostrar subcategorías
-      localStorage.setItem('selectedGroup', JSON.stringify(category));
-      history.pushState({type: 'subcategories', group: category}, '', '');
+      let path = JSON.parse(localStorage.getItem('categoryPath') || '[]');
+      path.push(category);
+      localStorage.setItem('categoryPath', JSON.stringify(path));
+      window.location.hash = 'subcategories';
       displayCategories(category.subcategories, true);
       return;
     }
@@ -113,35 +139,61 @@ function continueNavigation() {
     }
 
     // Redirigir a la página de modo de juego
+    const currentGroup = localStorage.getItem('selectedGroup');
+    if (currentGroup) {
+      history.pushState({type: 'subcategories', group: JSON.parse(currentGroup)}, '', window.location.href);
+    }
     window.location.href = 'pages/mode.html';
 }
 
 
 
   function initCategoryLogic() {
-    localStorage.removeItem('selectedGroup');
+    console.log('initCategoryLogic called');
     // Ordena las categorías alfabéticamente
     categories.sort((a, b) => a.name.localeCompare(b.name));
 
     displayCategories(categories); // Muestra todas las categorías en la lista
 
-    categorySearch.addEventListener('input', () => {
-      const searchTerm = categorySearch.value.toLowerCase();
-      const currentCategories = localStorage.getItem('selectedGroup') ? JSON.parse(localStorage.getItem('selectedGroup')).subcategories : categories;
-      const filteredCategories = currentCategories.filter(category =>
-        category.name.toLowerCase().includes(searchTerm)
-      );
-      displayCategories(filteredCategories, !!localStorage.getItem('selectedGroup'));
-    });
+    // Si hay hash de subcategorías, mostrarlas
+    if (window.location.hash === '#subcategories') {
+      let path = JSON.parse(localStorage.getItem('categoryPath') || '[]');
+      if (path.length > 0) {
+        const last = path[path.length - 1];
+        displayCategories(last.subcategories, true);
+      }
+    }
 
-    randomCategoryButton.addEventListener('click', () => {
-      const currentCategories = localStorage.getItem('selectedGroup') ? JSON.parse(localStorage.getItem('selectedGroup')).subcategories : categories;
-      const randomCategory = currentCategories[Math.floor(Math.random() * currentCategories.length)];
-      selectCategory(randomCategory);
-    });
-    rouletteModeButton.addEventListener('click', () => {
-      window.location.href = 'pages/roulette.html'; // Redirige a la página de la ruleta
-    });
+    if (categorySearch) {
+      categorySearch.addEventListener('input', () => {
+        const searchTerm = categorySearch.value.toLowerCase();
+        let path = JSON.parse(localStorage.getItem('categoryPath') || '[]');
+        const currentCategories = path.length > 0 ? path[path.length - 1].subcategories : categories;
+        const filteredCategories = currentCategories.filter(category =>
+          category.name.toLowerCase().includes(searchTerm)
+        );
+        displayCategories(filteredCategories, path.length > 0);
+      });
+    }
+
+    if (randomCategoryButton) {
+      randomCategoryButton.addEventListener('click', () => {
+        let path = JSON.parse(localStorage.getItem('categoryPath') || '[]');
+        const currentCategories = path.length > 0 ? path[path.length - 1].subcategories : categories;
+        const randomCategory = currentCategories[Math.floor(Math.random() * currentCategories.length)];
+        selectCategory(randomCategory);
+      });
+    }
+
+    if (rouletteModeButton) {
+      rouletteModeButton.addEventListener('click', () => {
+        const currentGroup = localStorage.getItem('selectedGroup');
+        if (currentGroup) {
+          history.pushState({type: 'subcategories', group: JSON.parse(currentGroup)}, '', window.location.href);
+        }
+        window.location.href = 'pages/roulette.html'; // Redirige a la página de la ruleta
+      });
+    }
     
   }
 });

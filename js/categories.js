@@ -7,6 +7,7 @@ const categories = [
     subcategories: [
       {
         "name": "Anime",
+        img: "https://images.seeklogo.com/logo-png/21/1/anime-logo-png_seeklogo-212481.png",
         "subcategories": [
           {
             name: 'Animes Más Populares', //doraemon, shin chan, arale
@@ -3585,7 +3586,7 @@ const categories = [
       },
       {
         "name": "Series",
-        "img": "",
+        "img": "https://static.vecteezy.com/system/resources/thumbnails/002/267/298/small/tv-show-neon-signs-style-text-free-vector.jpg",
         "subcategories": [
           {
             name: 'Series de Televisión Más Exitosas',
@@ -3965,7 +3966,7 @@ const categories = [
       },
       {
         "name": "Películas",
-        "img": "",
+        "img": "https://images.freeimages.com/vhq/images/istock/previews/1065/106522585-movie-reel-open-clapper-board-popcorn-cinema-icon-set.jpg?h=350",
         "subcategories": [
           {
             name: 'Sagás de Películas Más Exitosas',
@@ -4325,6 +4326,7 @@ const categories = [
       },
       {
         "name": "Marvel",
+        img: "https://static.vecteezy.com/system/resources/thumbnails/019/909/604/small/marvel-transparent-marvel-free-free-png.png",
         "subcategories": [
           {
             "name": "Marvel Cinematic Universe",
@@ -4491,6 +4493,7 @@ const categories = [
       },
       {
         name: 'TV Time Special',
+        img: 'https://thetvdb.com/images/tvtime-small.png',
         subcategories: [
           {
             name: 'TV Shows',
@@ -4611,6 +4614,7 @@ const categories = [
       },
       {
         name: 'Figuras Publicas',
+        img: 'https://img.freepik.com/vector-premium/estatua-vectorial-adhesivo-busto-arte-escultorico-clasico-minimalista-embalaje-decoracion-marca_831490-9874.jpg?semt=ais_hybrid&w=740&q=80',
         subcategories: [
           {
             name: 'Famosos Más Atractivos',
