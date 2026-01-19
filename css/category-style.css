@@ -8,7 +8,7 @@
 
 #category-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
     grid-template-rows: auto;
     gap: 15px;
     padding: 20px;
@@ -36,6 +36,18 @@
 #category-list li:hover {
     transform: scale(1.05);
     /* Añade un pequeño efecto de zoom */
+}
+
+.subcategory-list {
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    flex-direction: column;
+    margin: auto;
+}
+
+.subcategory-list li {
+    font-size: 80%;
+    padding: 5px;
+    margin: 5px;
 }
 
 #category-search {
