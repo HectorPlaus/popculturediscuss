@@ -22,19 +22,23 @@ document.addEventListener('DOMContentLoaded', () => {
   // Manejar el cambio de hash para subcategorías
   window.addEventListener('hashchange', () => {
     console.log('Hashchange event, hash:', window.location.hash);
-    let path = JSON.parse(localStorage.getItem('categoryPath') || '[]');
+    let pathNames = JSON.parse(localStorage.getItem('categoryPath') || '[]');
     if (window.location.hash === '#subcategories') {
-      if (path.length > 0) {
-        const last = path[path.length - 1];
-        displayCategories(last.subcategories, true);
+      if (pathNames.length > 0) {
+        const category = findCategoryByPath(pathNames);
+        if (category) {
+          displayCategories(category.subcategories, true);
+        }
       }
     } else {
-      if (path.length > 1) {
-        path.pop();
-        localStorage.setItem('categoryPath', JSON.stringify(path));
-        const last = path[path.length - 1];
-        displayCategories(last.subcategories, true);
-        window.location.hash = 'subcategories';
+      if (pathNames.length > 1) {
+        pathNames.pop();
+        localStorage.setItem('categoryPath', JSON.stringify(pathNames));
+        const category = findCategoryByPath(pathNames);
+        if (category) {
+          displayCategories(category.subcategories, true);
+          window.location.hash = 'subcategories';
+        }
       } else {
         localStorage.removeItem('categoryPath');
         displayCategories(categories);
@@ -46,9 +50,12 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('popstate', (event) => {
     console.log('Popstate event:', event.state);
     if (event.state && event.state.type === 'subcategories') {
-      const group = event.state.group;
-      localStorage.setItem('selectedGroup', JSON.stringify(group));
-      displayCategories(group.subcategories, true);
+      const groupName = event.state.groupName;
+      localStorage.setItem('selectedGroup', groupName);
+      const category = findCategoryByName(categories, groupName);
+      if (category) {
+        displayCategories(category.subcategories, true);
+      }
     } else {
       localStorage.removeItem('selectedGroup');
       displayCategories(categories);
@@ -93,15 +100,16 @@ document.addEventListener('DOMContentLoaded', () => {
   function selectCategory(category) {
     if (category.subcategories) {
       // Es un grupo, mostrar subcategorías
-      let path = JSON.parse(localStorage.getItem('categoryPath') || '[]');
-      path.push(category);
-      localStorage.setItem('categoryPath', JSON.stringify(path));
+      let pathNames = JSON.parse(localStorage.getItem('categoryPath') || '[]');
+      pathNames.push(category.name);
+      localStorage.setItem('categoryPath', JSON.stringify(pathNames));
       window.location.hash = 'subcategories';
       displayCategories(category.subcategories, true);
       return;
     }
 
-    // Guardar la categoría seleccionada para usarla en el modo de juego y el draft
+    // Guardar solo el nombre de la categoría y reconstruir cuando se necesite
+    localStorage.setItem('selectedCategoryName', category.name);
     localStorage.setItem('selectedCategory', JSON.stringify(category));
 
     // Obtener elementos del modal
@@ -178,19 +186,19 @@ function continueNavigation() {
     if (categorySearch) {
       categorySearch.addEventListener('input', () => {
         const searchTerm = categorySearch.value.toLowerCase();
-        let path = JSON.parse(localStorage.getItem('categoryPath') || '[]');
-        const currentCategories = path.length > 0 ? path[path.length - 1].subcategories : categories;
+        let pathNames = JSON.parse(localStorage.getItem('categoryPath') || '[]');
+        const currentCategories = pathNames.length > 0 ? findCategoryByPath(pathNames).subcategories : categories;
         const filteredCategories = currentCategories.filter(category =>
           category.name.toLowerCase().includes(searchTerm)
         );
-        displayCategories(filteredCategories, path.length > 0);
+        displayCategories(filteredCategories, pathNames.length > 0);
       });
     }
 
     if (randomCategoryButton) {
       randomCategoryButton.addEventListener('click', () => {
-        let path = JSON.parse(localStorage.getItem('categoryPath') || '[]');
-        const currentCategories = path.length > 0 ? path[path.length - 1].subcategories : categories;
+        let pathNames = JSON.parse(localStorage.getItem('categoryPath') || '[]');
+        const currentCategories = pathNames.length > 0 ? findCategoryByPath(pathNames).subcategories : categories;
         const randomCategory = currentCategories[Math.floor(Math.random() * currentCategories.length)];
         selectCategory(randomCategory);
       });
@@ -200,11 +208,37 @@ function continueNavigation() {
       rouletteModeButton.addEventListener('click', () => {
         const currentGroup = localStorage.getItem('selectedGroup');
         if (currentGroup) {
-          history.pushState({type: 'subcategories', group: JSON.parse(currentGroup)}, '', window.location.href);
+          history.pushState({type: 'subcategories', groupName: currentGroup}, '', window.location.href);
         }
         window.location.href = 'pages/roulette.html';
       });
     }
     
+  }
+
+  // Función auxiliar para buscar una categoría por nombre
+  function findCategoryByName(categoriesArray, name) {
+    for (let cat of categoriesArray) {
+      if (cat.name === name) return cat;
+      if (cat.subcategories) {
+        const found = findCategoryByName(cat.subcategories, name);
+        if (found) return found;
+      }
+    }
+    return null;
+  }
+
+  // Función auxiliar para buscar una categoría siguiendo una ruta de nombres
+  function findCategoryByPath(pathNames) {
+    let current = categories;
+    let category = null;
+    
+    for (let name of pathNames) {
+      category = current.find(cat => cat.name === name);
+      if (!category) return null;
+      current = category.subcategories || [];
+    }
+    
+    return category;
   }
 });

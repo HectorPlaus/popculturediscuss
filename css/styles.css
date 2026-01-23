@@ -87,12 +87,13 @@ h2 {
     text-align: center;
 }
 
-img {
+#category-list li img {
     width: 100%;
     height: auto;
     max-width: 100%;
     display: block;
     object-fit: cover;
+    border-radius: 5px;
 }
 
 input {
