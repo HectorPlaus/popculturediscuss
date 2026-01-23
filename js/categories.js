@@ -3834,8 +3834,43 @@ const categories = [
                   { name: "Jeff Barnes", img: "https://artworks.thetvdb.com/banners/person/332285/5e7a49718e61c.jpg" },
                   { name: "Devon Woodcomb", img: "https://artworks.thetvdb.com/banners/person/272038/5e7a47feaae19.jpg" },
                   { name: "Lester Patel", img: "https://artworks.thetvdb.com/banners/actors/80673.jpg" },
+                  { name: "Earl Hickey", img: "https://artworks.thetvdb.com/banners/actors/38763.jpg" },
+                  { name: "Randy Hickey", img: "https://artworks.thetvdb.com/banners/actors/38765.jpg" },
+                  { name: "Joy Turner", img: "https://artworks.thetvdb.com/banners/actors/38766.jpg" },
+                  { name: "Darnell Turner", img: "https://artworks.thetvdb.com/banners/actors/38764.jpg" },
+                  { name: "Catalina", img: "https://artworks.thetvdb.com/banners/actors/38762.jpg" },
+                  { name: "Michael Bluth", img: "https://artworks.thetvdb.com/banners/person/253839/5eaf70c67e591.jpg" },
+                  { name: "Lindsay Fünke", img: "https://artworks.thetvdb.com/banners/person/302571/5eaf70ce98dad.jpg" },
+                  { name: "George Oscar \"G.O.B.\" Bluth", img: "https://artworks.thetvdb.com/banners/person/255118/5eaf70d4b2b05.jpg" },
+                  { name: "George Michael Bluth", img: "https://artworks.thetvdb.com/banners/person/321341/5eaf70ddb794b.jpg" },
+                  { name: "Maeby Fünke", img: "https://artworks.thetvdb.com/banners/person/334028/5eaf70e6a5e10.jpg" },
+                  { name: "Buster Bluth", img: "https://artworks.thetvdb.com/banners/person/303466/5eaf70efa6cfe.jpg" },
+                  { name: "Tobias Fünke", img: "https://artworks.thetvdb.com/banners/person/290452/5eaf70fa9d45b.jpg" },
+                  { name: "George Bluth Sr.|Oscar Bluth", img: "https://artworks.thetvdb.com/banners/person/271667/5eaf7107dde53.jpg" },
+                  { name: "Lucille Bluth", img: "https://artworks.thetvdb.com/banners/person/248141/5eaf7111d8573.jpg" },
 
 
+                ]
+              },
+
+              {
+                name: "Arrested Development Personajes", characters: [
+                  { name: "Michael Bluth", img: "https://artworks.thetvdb.com/banners/person/253839/5eaf70c67e591.jpg" },
+                  { name: "Lindsay Fünke", img: "https://artworks.thetvdb.com/banners/person/302571/5eaf70ce98dad.jpg" },
+                  { name: "George Oscar \"G.O.B.\" Bluth", img: "https://artworks.thetvdb.com/banners/person/255118/5eaf70d4b2b05.jpg" },
+                  { name: "George Michael Bluth", img: "https://artworks.thetvdb.com/banners/person/321341/5eaf70ddb794b.jpg" },
+                  { name: "Maeby Fünke", img: "https://artworks.thetvdb.com/banners/person/334028/5eaf70e6a5e10.jpg" },
+                  { name: "Buster Bluth", img: "https://artworks.thetvdb.com/banners/person/303466/5eaf70efa6cfe.jpg" },
+                  { name: "Tobias Fünke", img: "https://artworks.thetvdb.com/banners/person/290452/5eaf70fa9d45b.jpg" },
+                  { name: "George Bluth Sr.|Oscar Bluth", img: "https://artworks.thetvdb.com/banners/person/271667/5eaf7107dde53.jpg" },
+                  { name: "Lucille Bluth", img: "https://artworks.thetvdb.com/banners/person/248141/5eaf7111d8573.jpg" },
+                  { name: "Narrator | Ron Howard", img: "https://artworks.thetvdb.com/banners/person/261799/5ee7b5a9ea51b.jpg" },
+                  { name: "Barry Zuckerkorn", img: "https://artworks.thetvdb.com/banners/person/254065/5e89ac1db0b5f.jpg" },
+                  { name: "Lucille Austero", img: "https://artworks.thetvdb.com/banners/person/297140/5e89abd4a0418.jpg" },
+                  { name: "Ann Veal", img: "https://artworks.thetvdb.com/banners/person/323956/5e89ace089978.jpg" },
+                  { name: "Kitty Sanchez", img: "https://artworks.thetvdb.com/banners/person/248132/62099900.jpg" },
+                  { name: "Larry", img: "https://artworks.thetvdb.com/banners/person/270766/62099974.jpg" },
+                  { name: "Herbert Love", img: "https://artworks.thetvdb.com/banners/person/294832/5e89ac92c7f47.jpg" },
                 ]
               },
               {
