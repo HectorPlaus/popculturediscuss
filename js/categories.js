@@ -4957,7 +4957,7 @@ const categories = [
     ]
   },
   {
-    name: 'Arte Y Literatura',
+    name: 'Arte y Literatura',
     subcategories: [
       {
         name: 'Libros',

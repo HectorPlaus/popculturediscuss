@@ -45,6 +45,9 @@ body {
     --h-text: #ffffff;
     --p-text: #ffffff;
     --modal-bg: #1B2626;
+
+    
+    
   }
   
 
@@ -85,13 +88,11 @@ h2 {
 }
 
 img {
+    width: 100%;
     height: auto;
-    font-size: 25px;
-    line-height: normal;
-    text-align: center;
-    text-transform: capitalize;
-    text-shadow: 1px 1px 2px rgb(206, 206, 206);
-    text-overflow: ellipsis;
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
 }
 
 input {

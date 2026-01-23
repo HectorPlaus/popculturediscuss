@@ -4,6 +4,16 @@ document.addEventListener('DOMContentLoaded', () => {
   const randomCategoryButton = document.getElementById('random-category'); 
   const rouletteModeButton = document.getElementById('roulette-mode-button');
 
+  // Mapeo de categorías a colores del Trivial Pursuit
+  const trivialColors = {
+    'Geografía': 'trivial-geografia',
+    'Entretenimiento': 'trivial-entretenimiento',
+    'Historia': 'trivial-historia',
+    'Arte y Literatura': 'trivial-arte',
+    'Ciencias y Naturaleza': 'trivial-ciencia',
+    'Deportes y Ocio': 'trivial-deportes',
+  };
+
   // Verifica si estamos en la página correcta antes de ejecutar lógica
   if (categoryList && categorySearch && randomCategoryButton) {
     initCategoryLogic();
@@ -24,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
         localStorage.setItem('categoryPath', JSON.stringify(path));
         const last = path[path.length - 1];
         displayCategories(last.subcategories, true);
-        window.location.hash = 'subcategories'; // stay in subcategories
+        window.location.hash = 'subcategories';
       } else {
         localStorage.removeItem('categoryPath');
         displayCategories(categories);
@@ -55,11 +65,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const totalCategories = categoriesToDisplay.length;
     const columns = Math.ceil(Math.sqrt(totalCategories));
-  
-
 
     categoriesToDisplay.forEach(category => {
       const li = document.createElement('li');
+      
+      // Aplicar color del Trivial Pursuit si corresponde
+      if (trivialColors[category.name]) {
+        li.classList.add(trivialColors[category.name]);
+      }
+      
       if (category.img) {
         const img = document.createElement('img');
         img.src = category.img;
@@ -99,25 +113,22 @@ document.addEventListener('DOMContentLoaded', () => {
         if (modal) {
             modal.style.display = "block";
 
-            // Si el usuario acepta, cerrar el modal y continuar
             confirmButton.onclick = function () {
                 modal.style.display = "none";
                 continueNavigation();
             };
 
-            // Permitir cerrar el modal sin continuar
             closeButton.onclick = function () {
                 modal.style.display = "none";
             };
 
-            // Cerrar el modal si se hace clic fuera de él
             window.onclick = function (event) {
                 if (event.target === modal) {
                     modal.style.display = "none";
                 }
             };
 
-            return; // Evita que se ejecute el resto del código antes de confirmar
+            return;
         }
     }
 
@@ -191,7 +202,7 @@ function continueNavigation() {
         if (currentGroup) {
           history.pushState({type: 'subcategories', group: JSON.parse(currentGroup)}, '', window.location.href);
         }
-        window.location.href = 'pages/roulette.html'; // Redirige a la página de la ruleta
+        window.location.href = 'pages/roulette.html';
       });
     }
     

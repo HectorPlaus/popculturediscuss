@@ -11,7 +11,7 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
     grid-template-rows: auto;
     gap: 15px;
-    padding: 20px;
+    padding: 30px;
     list-style-type: none;
     width: 100%;
     
@@ -36,6 +36,72 @@
 #category-list li:hover {
     transform: scale(1.05);
     /* Añade un pequeño efecto de zoom */
+}
+
+/* Colores Trivial Pursuit para categorías - MODO CLARO */
+#category-list li.trivial-geografia { 
+    background: #0066cc !important; 
+}
+
+#category-list li.trivial-entretenimiento { 
+    background: #ff1493 !important; 
+}
+
+#category-list li.trivial-historia { 
+    background: #ffd700 !important; 
+}
+
+#category-list li.trivial-arte { 
+    background: #8b4513 !important; 
+}
+
+#category-list li.trivial-ciencia { 
+    background: #2e8b57 !important; 
+}
+
+#category-list li.trivial-deportes { 
+    background: #ff8c00 !important; 
+}
+
+/* Colores Trivial Pursuit para categorías - MODO OSCURO */
+body.dark-theme #category-list li.trivial-geografia { 
+    background: #1e88e5 !important; 
+    color: white !important; 
+}
+
+body.dark-theme #category-list li.trivial-entretenimiento { 
+    background: #ec407a !important; 
+    color: white !important; 
+}
+
+body.dark-theme #category-list li.trivial-historia { 
+    background: #ffca28 !important; 
+    color: white !important; 
+}
+
+body.dark-theme #category-list li.trivial-arte { 
+    background: #8b4513 !important; 
+    color: white !important; 
+}
+
+body.dark-theme #category-list li.trivial-ciencia { 
+    background: #66bb6a !important; 
+    color: white !important; 
+}
+
+body.dark-theme #category-list li.trivial-deportes { 
+    background: #ffa726 !important; 
+    color: white !important; 
+}
+
+/* Efecto hover para categorías Trivial */
+#category-list li.trivial-geografia:hover,
+#category-list li.trivial-entretenimiento:hover,
+#category-list li.trivial-historia:hover,
+#category-list li.trivial-arte:hover,
+#category-list li.trivial-ciencia:hover,
+#category-list li.trivial-deportes:hover {
+    opacity: 0.85;
 }
 
 .subcategory-list {
@@ -203,4 +269,3 @@
         font-size: 1rem;
     }
 }
-  
