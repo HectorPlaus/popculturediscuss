@@ -1,0 +1,28 @@
+[
+      {
+        "name": "Top 20 Popular Cities",
+        "characters": [
+          { "name": "Nueva York", "img": "https://viajes.nationalgeographic.com.es/medio/2019/03/20/empire-state-building_ecb995bd_800x800.jpg" },
+          { "name": "Tokio", "img": "https://images.ecestaticos.com/svQkpRHGCpf_arlLfdRSHczlJU0=/0x0:2120x1414/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F09b%2F94b%2F0af%2F09b94b0afe62646e72bd87ae96c0d359.jpg" },
+          { "name": "Londres", "img": "https://www.universal-assistance.com/uablog/wp-content/uploads/2022/12/big-ben.png" },
+          { "name": "París", "img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/15/6d/d6/paris.jpg?w=1400&h=1400&s=1" },
+          { "name": "Los Ángeles", "img": "https://hips.hearstapps.com/hmg-prod/images/elle-los-angeles02-1559906859.jpg" },
+          { "name": "Hong Kong", "img": "https://lp-cms-production.imgix.net/2023-03/shutterstockRF_369907814.jpg" },
+          { "name": "Singapur", "img": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2024/02/09/issingapur.jpeg" },
+          { "name": "Bangkok", "img": "https://viajes.nationalgeographic.com.es/medio/2023/06/28/gran-palacio-real_491caafe_1385269772_230628145613_1280x854.jpg" },
+          { "name": "Dubái", "img": "https://octane.rent/wp-content/uploads/2023/03/The-Dubai-Marina-District.webp" },
+          { "name": "Roma", "img": "https://static.nationalgeographic.es/files/styles/image_3200/public/colosseum-daylight-rome-italy.jpg?w=1600&h=900" },
+          { "name": "Barcelona", "img": "https://media.tacdn.com/media/attractions-content--1x-1/10/7b/e2/3f.jpg" },
+          { "name": "Berlín", "img": "https://i.natgeofe.com/n/b234ec7d-a988-4b75-9e65-749ddcbea7a0/citylife_berlin_2B4H3T1_web_3x2.jpg" },
+          { "name": "Sídney", "img": "https://media.iatiseguros.com/wp-content/uploads/2019/04/04011211/que-hacer-sidney-6.jpg" },
+          { "name": "Estambul", "img": "https://fotografias.lasexta.com/clipping/cmsimages01/2018/10/31/3F4864CD-0601-4931-9DF6-F50916591586/98.jpg?crop=960,540,x0,y41&width=1900&height=1069&optimize=high&format=webply" },
+          { "name": "San Francisco", "img": "https://content.r9cdn.net/rimg/dimg/69/1b/cca1e76b-city-13852-1633ad11236.jpg?width=1366&height=768&xhint=1966&yhint=1018&crop=true" },
+          { "name": "Toronto", "img": "https://a.storyblok.com/f/112937/568x464/92d7178736/10-things-you-should-know-before-moving-to-toronto_568x464.jpg/m/620x0/filters:quality(70)/" },
+          { "name": "Buenos Aires", "img": "https://media.traveler.es/photos/62540d7e027033bdc5da0d1e/4:3/w_2662,h_1997,c_limit/_buenos-aires-gettyimages-743738515.jpg" },
+          { "name": "Moscú", "img": "https://www.civitatis.com/blog/wp-content/uploads/2019/09/invierno-moscu.jpg" },
+          { "name": "Seúl", "img": "https://images.contentstack.io/v3/assets/blt06f605a34f1194ff/blt6a84e83adec6aed5/67ce5a9a32d755088e4a23c0/mathew-schwartz-01hH6y7oZFk-unsplash-Header_Mobile.jpg?fit=crop&disable=upscale&auto=webp&quality=60&crop=smart" },
+          { "name": "Miami", "img": "https://res.cloudinary.com/hello-tickets/image/upload/c_limit,f_auto,q_auto,w_1300/v1658201693/bvifyrrbhdrejqgu7p4b.jpg" },
+          { "name": "Lima", "img": "https://i.natgeofe.com/n/7aed6eb4-0e7f-4ea6-86c3-ac1f3db99005/CityBreakLimaCity_3x2.jpg" }
+        ]
+      }
+    ]

@@ -8,6 +8,23 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentOffset = 0;
     const itemHeight = 100;
     const maxVisible = 5;
+
+    // list of top‑level categories, loaded from JSON
+    let categories = [];
+
+    async function loadCategories() {
+      try {
+        const resp = await fetch('../data/categories.json');
+        categories = await resp.json();
+        categories.sort((a, b) => a.name.localeCompare(b.name));
+        displayCategories(categories);
+      } catch (e) {
+        console.error('Failed to load categories for roulette', e);
+      }
+    }
+
+    // start loading immediately
+    loadCategories();
   
   
   
@@ -35,6 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
     
 function scrollByStep(direction) {
+  if (!categories || categories.length === 0) return;
   const totalItems = categories.length;
   currentOffset += direction;
 

@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Libros",
+        "characters": [
+          { "name": "Cien años de soledad", "img": "https://m.media-amazon.com/images/I/91TvVQS7loL._AC_UF894,1000_QL80_.jpg" },
+          { "name": "Orgullo y prejuicio", "img": "https://m.media-amazon.com/images/I/61wAZk6G8mL._AC_UF894,1000_QL80_.jpg" },
+          { "name": "1984", "img": "https://m.media-amazon.com/images/I/71sOSrd+JxL._AC_UF894,1000_QL80_.jpg" },
+          { "name": "El gran Gatsby", "img": "https://cdn.prod.website-files.com/6034d7d1f3e0f52c50b2adee/625428ec261ac384603ebab3_609ab57f2f76e83b56daaf5c_9788418395185_web.jpeg" },
+          { "name": "Moby Dick", "img": "https://cdn.prod.website-files.com/6034d7d1f3e0f52c50b2adee/625454132a4288889ad4b1d8_6034d7d1f3e0f57d87b2b2a9_Moby-dick-herman-melville-editorial-alma.jpeg" },
+          { "name": "Don Quijote de la Mancha", "img": "https://www.planetadelibros.com/usuaris/libros/fotos/374/original/portada_don-quijote-de-la-mancha-comic_miguel-de-cervantes_202310231106.jpg" },
+          { "name": "El Principito", "img": "https://m.media-amazon.com/images/I/714Hvb52n-L._AC_UF894,1000_QL80_.jpg" },
+          { "name": "Crimen y Castigo", "img": "https://cdn.prod.website-files.com/6034d7d1f3e0f52c50b2adee/6254541d8ae4df16d4e69bc8_6034d7d1f3e0f54529b2b1a1_Crimen-y-castigo-fiodor-dostoyevski-editorial-alma.jpeg" },
+          { "name": "El alquimista", "img": "https://www.planetadelibros.com/usuaris/libros/thumbs/54e8361f-d68d-4462-84c6-d06ef130f5ae/d_295_510/portada_el-alquimista_paulo-coelho_201612191218.webp" },
+          { "name": "Los miserables", "img": "https://m.media-amazon.com/images/I/71eQUDwCBfL._AC_UF1000,1000_QL80_.jpg" },
+          { "name": "Fahrenheit 451", "img": "https://www.planetadelibros.com/usuaris/libros/fotos/299/original/portada_fahrenheit-451_ray-bradbury_201910221243.jpg" },
+          { "name": "En busca del tiempo perdido", "img": "https://m.media-amazon.com/images/I/617s0veLvuL._AC_UF894,1000_QL80_.jpg" },
+          { "name": "El retrato de Dorian Gray", "img": "https://m.media-amazon.com/images/I/91KVu+3L8dL._AC_UF894,1000_QL80_.jpg" },
+          { "name": "Rayuela", "img": "https://m.media-amazon.com/images/I/913qsYmTdmL._AC_UF894,1000_QL80_.jpg" },
+          { "name": "Las aventuras de Tom Sawyer", "img": "https://m.media-amazon.com/images/I/81yl619I+0S._AC_UF894,1000_QL80_.jpg" }
+        ]
+      }
+]

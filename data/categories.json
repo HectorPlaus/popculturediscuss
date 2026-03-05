@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Entretenimiento",
+    "file": "entretenimiento.json"
+  },
+  {
+    "name": "Geografía",
+    "file": "geografia.json"
+  },
+  {
+    "name": "Historia",
+    "file": "historia.json"
+  },
+  {
+    "name": "Arte y Literatura",
+    "file": "arte.json"
+  },
+  {
+    "name": "Ciencias y Naturaleza",
+    "file": "ciencia.json"
+  },
+  {
+    "name": "Deportes y Ocio",
+    "file": "deportes.json"
+  }
+]

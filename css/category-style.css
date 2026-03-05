@@ -8,15 +8,14 @@
 
 #category-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+   
+     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     gap: 15px;
     padding: 30px;
     list-style-type: none;
     width: 100%;
-    
 }
-
 #category-list li {
     display: flex;
     justify-content: center;
@@ -24,7 +23,7 @@
     background: var(--categories-bg);
     color: var(--categories-text);
     text-shadow: 1px 1px 2px var(--categories-shadow);
-    padding: 10px;
+    padding: 30px;
     text-align: center;
     border-radius: 5px;
     cursor: pointer;
@@ -32,6 +31,47 @@
     font-size: 100%;
     font-weight: bolder;
 }
+#category-list li img{
+    width: 100%;
+    height: auto;
+    max-width: 30%;
+    display: block;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* specific column counts for exact layout */
+
+@media (max-width: 1403px) {
+    /* large screens: 3 columns x 2 rows for 6 categories */
+    #category-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    #category-list li img{
+        max-width: 100%;
+    }
+}
+@media (max-width: 802px) {
+    /* large screens: 3 columns x 2 rows for 6 categories */
+    #category-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    #category-list li img{
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    /* small screens: 2 columns x 3 rows */
+    #category-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #category-list li img{
+        max-width: 100%;
+    }
+}
+
+
 
 #category-list li:hover {
     transform: scale(1.05);
@@ -212,7 +252,7 @@ body.dark-theme #category-list li.trivial-deportes {
 /* Responsive Design */
 @media (max-width: 768px) {
     #category-list {
-        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+       
         gap: 10px;
         padding: 10px;
     }
