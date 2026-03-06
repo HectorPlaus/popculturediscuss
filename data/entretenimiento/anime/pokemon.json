@@ -1,0 +1,367 @@
+[
+          {
+            "name": "Pokémon",
+            "characters": [
+              {
+                "name": "Pikachu",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/25.png"
+              },
+              {
+                "name": "Charizard",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/6.png"
+              },
+              {
+                "name": "Bulbasaur",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/1.png"
+              },
+              {
+                "name": "Squirtle",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/7.png"
+              },
+              {
+                "name": "Jigglypuff",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/39.png"
+              },
+              {
+                "name": "Eevee",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/133.png"
+              },
+              {
+                "name": "Mewtwo",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/150.png"
+              },
+              {
+                "name": "Dragonite",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/128/149.png"
+              },
+              {
+                "name": "Snorlax",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/143.png"
+              },
+              {
+                "name": "Gengar",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/94.png"
+              },
+              {
+                "name": "Onix",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/95.png"
+              },
+              {
+                "name": "Geodude",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/74.png"
+              },
+              {
+                "name": "Kabutops",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/141.png"
+              },
+              {
+                "name": "Vulpix",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/37.png"
+              },
+              {
+                "name": "Crobat",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/169.png"
+              },
+              {
+                "name": "Steelix",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/208.png"
+              },
+              {
+                "name": "Ludicolo",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/272.png"
+              },
+              {
+                "name": "Hitmonlee",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/106.png"
+              },
+              {
+                "name": "Hitmonchan",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/107.png"
+              },
+              {
+                "name": "Machamp",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/68.png"
+              },
+              {
+                "name": "Psyduck",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/54.png"
+              },
+              {
+                "name": "Togepi",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/175.png"
+              },
+              {
+                "name": "Starmie",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/121.png"
+              },
+              {
+                "name": "Gyarados",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/130.png"
+              },
+              {
+                "name": "Lapras",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/131.png"
+              },
+              {
+                "name": "Politoed",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/186.png"
+              },
+              {
+                "name": "Tentacruel",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/73.png"
+              },
+              {
+                "name": "Umbreon",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/197.png"
+              },
+              {
+                "name": "Azumarill",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/184.png"
+              },
+              {
+                "name": "Kingdra",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/230.png"
+              },
+              {
+                "name": "Torchic",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/255.png"
+              },
+              {
+                "name": "Mudkip",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/258.png"
+              },
+              {
+                "name": "Treecko",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/252.png"
+              },
+              {
+                "name": "Blaziken",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/257.png"
+              },
+              {
+                "name": "Swampert",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/260.png"
+              },
+              {
+                "name": "Sceptile",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/254.png"
+              },
+              {
+                "name": "Gardevoir",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/282.png"
+              },
+              {
+                "name": "Aggron",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/306.png"
+              },
+              {
+                "name": "Flygon",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/330.png"
+              },
+              {
+                "name": "Metagross",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/376.png"
+              },
+              {
+                "name": "Salamence",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/373.png"
+              },
+              {
+                "name": "Absol",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/359.png"
+              },
+              {
+                "name": "Latios",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/381.png"
+              },
+              {
+                "name": "Latias",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/380.png"
+              },
+              {
+                "name": "Rayquaza",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/384.png"
+              },
+              {
+                "name": "Kyogre",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/382.png"
+              },
+              {
+                "name": "Groudon",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/383.png"
+              },
+              {
+                "name": "Jirachi",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/385.png"
+              },
+              {
+                "name": "Deoxys",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/386.png"
+              },
+              {
+                "name": "Shiftry",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/275.png"
+              },
+              {
+                "name": "Swellow",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/277.png"
+              },
+              {
+                "name": "Corphish",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/341.png"
+              },
+              {
+                "name": "Milotic",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/350.png"
+              },
+              {
+                "name": "Dusclops",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/356.png"
+              },
+              {
+                "name": "Chikorita",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/152.png"
+              },
+              {
+                "name": "Meganium",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/154.png"
+              },
+              {
+                "name": "Cyndaquil",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/155.png"
+              },
+              {
+                "name": "Totodile",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/158.png"
+              },
+              {
+                "name": "Feraligator",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/160.png"
+              },
+              {
+                "name": "Pichu",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/172.png"
+              },
+              {
+                "name": "Ampharos",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/181.png"
+              },
+              {
+                "name": "Espeon",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/196.png"
+              },
+              {
+                "name": "Wobbuffet",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/202.png"
+              },
+              {
+                "name": "Scizor",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/212.png"
+              },
+              {
+                "name": "Heracross",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/214.png"
+              },
+              {
+                "name": "Houndoom",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/229.png"
+              },
+              {
+                "name": "Raikou",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/243.png"
+              },
+              {
+                "name": "Entei",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/244.png"
+              },
+              {
+                "name": "Suicune",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/245.png"
+              },
+              {
+                "name": "Tyranitar",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/248.png"
+              },
+              {
+                "name": "Lugia",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/249.png"
+              },
+              {
+                "name": "Ho-Oh",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/250.png"
+              },
+              {
+                "name": "Celebi",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/251.png"
+              },
+              {
+                "name": "Mew",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/151.png"
+              },
+              {
+                "name": "Moltres",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/146.png"
+              },
+              {
+                "name": "Zapdos",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/145.png"
+              },
+              {
+                "name": "Articuno",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/144.png"
+              },
+              {
+                "name": "Aerodactyl",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/142.png"
+              },
+              {
+                "name": "Flareon",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/136.png"
+              },
+              {
+                "name": "Jolteon",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/135.png"
+              },
+              {
+                "name": "Vaporeon",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/134.png"
+              },
+              {
+                "name": "Ditto",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/132.png"
+              },
+              {
+                "name": "Mr. Mime",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/122.png"
+              },
+              {
+                "name": "Arcanine",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/59.png"
+              },
+              {
+                "name": "Rattata",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/19.png"
+              },
+              {
+                "name": "Pidgeot",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/18.png"
+              },
+              {
+                "name": "Butterfree",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/12.png"
+              },
+              {
+                "name": "Venusaur",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/3.png"
+              },
+              {
+                "name": "Charmander",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/4.png"
+              },
+              {
+                "name": "Blastoise",
+                "img": "https://pokemon-project.com/pokedex/img/sprite/Home/256/9.png"
+              }
+            ]
+          }
+        ]

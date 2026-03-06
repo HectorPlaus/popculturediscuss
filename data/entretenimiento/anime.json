@@ -1,0 +1,197 @@
+[
+      {
+        "name": "Animes Más Populares",
+        "characters": [
+          {
+            "name": "Naruto",
+            "img": "https://cdn.myanimelist.net/images/anime/1141/142503.jpg"
+          },
+          {
+            "name": "Naruto Shippuden",
+            "img": "https://cdn.myanimelist.net/images/anime/1565/111305.jpg"
+          },
+          {
+            "name": "One Piece",
+            "img": "https://cdn.myanimelist.net/images/anime/1244/138851.jpg"
+          },
+          {
+            "name": "DragonBall Z",
+            "img": "https://cdn.myanimelist.net/images/anime/1277/142022.jpg"
+          },
+          {
+            "name": "DragonBall",
+            "img": "https://cdn.myanimelist.net/images/anime/1887/92364.jpg"
+          },
+          {
+            "name": "Attack on Titan",
+            "img": "https://cdn.myanimelist.net/images/anime/10/47347.jpg"
+          },
+          {
+            "name": "My Hero Academia",
+            "img": "https://cdn.myanimelist.net/images/anime/10/78745.jpg"
+          },
+          {
+            "name": "Death Note",
+            "img": "https://cdn.myanimelist.net/images/anime/1079/138100.jpg"
+          },
+          {
+            "name": "Fullmetal Alchemist: Brotherhood",
+            "img": "https://cdn.myanimelist.net/images/anime/1208/94745.jpg"
+          },
+          {
+            "name": "Sword Art Online",
+            "img": "https://cdn.myanimelist.net/images/anime/11/39717.jpg"
+          },
+          {
+            "name": "Tokyo Ghoul",
+            "img": "https://cdn.myanimelist.net/images/anime/1498/134443.jpg"
+          },
+          {
+            "name": "One Punch Man",
+            "img": "https://cdn.myanimelist.net/images/anime/12/76049.jpg"
+          },
+          {
+            "name": "Demon Slayer",
+            "img": "https://cdn.myanimelist.net/images/anime/1286/99889.jpg"
+          },
+          {
+            "name": "Hunter x Hunter",
+            "img": "https://cdn.myanimelist.net/images/anime/1337/99013.jpg"
+          },
+          {
+            "name": "Fairy Tail",
+            "img": "https://cdn.myanimelist.net/images/anime/5/18179.jpg"
+          },
+          {
+            "name": "Bleach",
+            "img": "https://cdn.myanimelist.net/images/anime/3/40451.jpg"
+          },
+          {
+            "name": "Neon Genesis Evangelion",
+            "img": "https://cdn.myanimelist.net/images/anime/1314/108941.jpg"
+          },
+          {
+            "name": "Cowboy Bebop",
+            "img": "https://cdn.myanimelist.net/images/anime/4/19644.jpg"
+          },
+          {
+            "name": "Steins;Gate",
+            "img": "https://cdn.myanimelist.net/images/anime/1935/127974.jpg"
+          },
+          {
+            "name": "JoJo's Bizarre Adventure",
+            "img": "https://cdn.myanimelist.net/images/anime/3/40409.jpg"
+          },
+          {
+            "name": "Code Geass",
+            "img": "https://cdn.myanimelist.net/images/anime/1032/135088.jpg"
+          },
+          {
+            "name": "Re:Zero",
+            "img": "https://cdn.myanimelist.net/images/anime/1522/128039.jpg"
+          },
+          {
+            "name": "Black Clover",
+            "img": "https://cdn.myanimelist.net/images/anime/2/88336.jpg"
+          },
+          {
+            "name": "Dr. Stone",
+            "img": "https://cdn.myanimelist.net/images/anime/1613/102576.jpg"
+          },
+          {
+            "name": "Made in Abyss",
+            "img": "https://cdn.myanimelist.net/images/anime/6/86733.jpg"
+          },
+          {
+            "name": "Mob Psycho 100",
+            "img": "https://cdn.myanimelist.net/images/anime/8/80356.jpg"
+          },
+          {
+            "name": "Gintama",
+            "img": "https://cdn.myanimelist.net/images/anime/3/72078.jpg"
+          },
+          {
+            "name": "JuJutsu Kaisen",
+            "img": "https://cdn.myanimelist.net/images/anime/1171/109222.jpg"
+          },
+          {
+            "name": "Mashle",
+            "img": "https://cdn.myanimelist.net/images/anime/1218/135107.jpg"
+          },
+          {
+            "name": "Kaiju No. 8",
+            "img": "https://cdn.myanimelist.net/images/anime/1370/140362.jpg"
+          }
+        ]
+      },
+      {
+        "name": "DragonBall",
+        "img": "https://logos-world.net/wp-content/uploads/2021/02/Dragon-Ball-Logo-1996-1998.png",
+        "file": "entretenimiento/anime/dragonball.json"
+      },
+      {
+        "name": "Pokémon",
+        "img": "https://images.seeklogo.com/logo-png/55/2/pokemon-logo-png_seeklogo-550337.png",
+        "file": "entretenimiento/anime/pokemon.json"
+      },
+      {
+        "name": "One Piece",
+        "img": "https://logos-world.net/wp-content/uploads/2021/09/One-Piece-Logo.png",
+        "file": "entretenimiento/anime/onepiece.json"
+      },
+      {
+        "name": "Naruto",
+        "img": "https://www.freepnglogos.com/uploads/naruto/naruto-logo-8.png",
+        "file": "entretenimiento/anime/naruto.json"
+      },
+      {
+        "name": "Bleach",
+        "img": "https://www.pngarts.com/files/12/Bleach-PNG-Image-Background.png",
+        "file": "entretenimiento/anime/bleach.json"
+      },
+      {
+        "name": "Fairy Tail",
+        "img": "https://logos-world.net/wp-content/uploads/2020/08/Fairy-Tail-Logo.png",
+        "file": "entretenimiento/anime/fairytail.json"
+      },
+      {
+        "name": "Attack on Titan",
+        "img": "https://logos-world.net/wp-content/uploads/2022/01/Attack-on-Titan-Logo.png",
+        "file": "entretenimiento/anime/attackontitan.json"
+      },
+      {
+        "name": "Kimetsu no Yaiba",
+        "img": "https://logos-world.net/wp-content/uploads/2021/12/Demon-Slayer-Logo.png",
+        "file": "entretenimiento/anime/demonslayer.json"
+      },
+      {
+        "name": "Haikyuu",
+        "img": "https://logos-world.net/wp-content/uploads/2021/08/Haikyuu-Logo.png",
+        "file": "entretenimiento/anime/haikyuu.json"
+      },
+      {
+        "name": "Hunter x Hunter",
+        "img": "https://logos-world.net/wp-content/uploads/2021/08/Hunter-x-Hunter-Logo.png",
+        "file": "entretenimiento/anime/hxh.json"
+      },
+      {
+        "name": "My Hero Academia",
+        "img": "https://logos-world.net/wp-content/uploads/2021/09/My-Hero-Academia-Logo-2014-present.png",
+        "file": "entretenimiento/anime/myhero.json"
+      },
+      {
+        "name": "One-Punch Man",
+        "img": "https://www.pngkey.com/png/full/141-1414073_one-punch-man-logo-jpg.png",
+        "file": "entretenimiento/anime/onepunch.json"
+      },
+      {
+        "name": "Sword Art Online",
+        "img": "https://cdn.freebiesupply.com/logos/thumbs/2x/sword-art-online-2-logo.png",
+        "file": "entretenimiento/anime/sao.json"
+      },
+      {
+        "name": "The Seven Deadly Sins",
+        "img":"https://lh6.googleusercontent.com/proxy/auF4_xnv5w9qwKluXznvJu35Zv0yZLJu8UVVYWU6Uy85QSX4CoS5AaGOtgOIUI32G-jI9EgiDejX8LXCOBekz8UbrfgRfxBNGrl7y2qUNp2VSJcQ7b0wtpYfAxIy7V9clXQvoTKX5Z8YYA",
+        "file": "entretenimiento/anime/sevendeadlysins.json"
+      }
+]

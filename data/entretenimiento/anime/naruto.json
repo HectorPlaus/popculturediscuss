@@ -1,0 +1,308 @@
+[
+          {
+            "name": "Naruto Personajes",
+            "characters": [
+              {
+                "name": "Gaara",
+                "img": "https://artworks.thetvdb.com/banners/person/293455/5eae09f4a1ba2.jpg"
+              },
+              {
+                "name": "Hinata Hyuga",
+                "img": "https://artworks.thetvdb.com/banners/person/307440/65415789.jpg"
+              },
+              {
+                "name": "Itachi Uchiha",
+                "img": "https://artworks.thetvdb.com/banners/person/292491/65415788.jpg"
+              },
+              {
+                "name": "Jiraiya",
+                "img": "https://artworks.thetvdb.com/banners/person/303142/5eadfdf9e341c.jpg"
+              },
+              {
+                "name": "Kakashi Hatake",
+                "img": "https://artworks.thetvdb.com/banners/person/343714/65415787.jpg"
+              },
+              {
+                "name": "Kiba Inuzuka",
+                "img": "https://artworks.thetvdb.com/banners/person/7875254/5eadfe6e8fb04.jpg"
+              },
+              {
+                "name": "Madara Uchiha",
+                "img": "https://artworks.thetvdb.com/banners/person/464294/5eae088bc44b0.jpg"
+              },
+              {
+                "name": "Minato Namikaze",
+                "img": "https://artworks.thetvdb.com/banners/person/280728/tv-79824.jpg"
+              },
+              {
+                "name": "Naruto Uzumaki",
+                "img": "https://artworks.thetvdb.com/banners/person/7903091/62083792.jpg"
+              },
+              {
+                "name": "Neji Hyuga",
+                "img": "https://artworks.thetvdb.com/banners/person/611881/5eadfe3df0f25.jpg"
+              },
+              {
+                "name": "Orochimaru",
+                "img": "https://artworks.thetvdb.com/banners/person/7955688/5eae07b34bf2c.jpg"
+              },
+              {
+                "name": "Pain",
+                "img": "https://artworks.thetvdb.com/banners/person/7882280/5eadff99a75f1.jpg"
+              },
+              {
+                "name": "Rock Lee",
+                "img": "https://artworks.thetvdb.com/banners/person/8045362/5eadfee097583.jpg"
+              },
+              {
+                "name": "Sakura Haruno",
+                "img": "https://artworks.thetvdb.com/banners/person/447190/65415786.jpg"
+              },
+              {
+                "name": "Sasuke Uchiha",
+                "img": "https://artworks.thetvdb.com/banners/person/380646/65415785.jpg"
+              },
+              {
+                "name": "Shikamaru Nara",
+                "img": "https://artworks.thetvdb.com/banners/person/343834/5eadfe0c8c38e.jpg"
+              },
+              {
+                "name": "Tenten",
+                "img": "https://artworks.thetvdb.com/banners/person/303115/5eadfea26cd40.jpg"
+              },
+              {
+                "name": "Tsunade",
+                "img": "https://artworks.thetvdb.com/banners/person/322760/5ea66c27854c7.jpg"
+              },
+              {
+                "name": "Yamato",
+                "img": "https://artworks.thetvdb.com/banners/person/293454/5efd8384b304f.jpg"
+              },
+              {
+                "name": "Kabuto Yakushi",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/293308/photo/613ac9af55fbf.jpg"
+              },
+              {
+                "name": "Kankuro",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/447321/photo/613ac9e067fbb.jpg"
+              },
+              {
+                "name": "Kisame Hoshigaki",
+                "img": "https://artworks.thetvdb.com/banners/person/318388/5eadff878deed.jpg"
+              },
+              {
+                "name": "Konan",
+                "img": "https://artworks.thetvdb.com/banners/person/314895/5eadffb58a78f.jpg"
+              },
+              {
+                "name": "Kurenai Yuhi",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/487846/photo/613ac650d4242.jpg"
+              },
+              {
+                "name": "Sai",
+                "img": "https://artworks.thetvdb.com/banners/person/7865993/5eadfe31af0d2.jpg"
+              },
+              {
+                "name": "Might Guy",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/280719/photo/613ac5d88225e.jpg"
+              },
+              {
+                "name": "Nagato",
+                "img": "https://artworks.thetvdb.com/banners/person/297196/5eae007b8c8a5.jpg"
+              },
+              {
+                "name": "Tobi",
+                "img": "https://artworks.thetvdb.com/banners/person/280739/5efd9c06b0ad6.jpg"
+              },
+              {
+                "name": "Zabuza Momochi",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7878699/photo/62e0b7ad7109b.jpg"
+              },
+              {
+                "name": "Haku",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/351766/photo/62e0b7e1f0e0f.jpg"
+              },
+              {
+                "name": "Killer Bee",
+                "img": "https://artworks.thetvdb.com/banners/person/345283/5eb1251ab0a39.jpg"
+              },
+              {
+                "name": "Kimimaro Kaguya",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/280728/photo/62e0b8e459184.jpg"
+              },
+              {
+                "name": "Jiroubou",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/303226/photo/62e0b9300c1dc.jpg"
+              },
+              {
+                "name": "Kidoumaru",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/343389/photo/62e0b9678d689.jpg"
+              },
+              {
+                "name": "Shisui Uchiha",
+                "img": "https://artworks.thetvdb.com/banners/person/280709/tv-79824.jpg"
+              },
+              {
+                "name": "Yahiko",
+                "img": "https://artworks.thetvdb.com/banners/person/7865642/5eae000ca573c.jpg"
+              },
+              {
+                "name": "Tayuya",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/292473/photo/62e0b9b17fa4d.jpg"
+              },
+              {
+                "name": "Asuma Sarutobi",
+                "img": "https://artworks.thetvdb.com/banners/person/7872243/5eae0036c58cb.jpg"
+              },
+              {
+                "name": "Chouji Akimichi",
+                "img": "https://artworks.thetvdb.com/banners/person/7894675/5eadfeb79434b.jpg"
+              },
+              {
+                "name": "Ino Yamanaka",
+                "img": "https://artworks.thetvdb.com/banners/person/7872387/5eae07169de7e.jpg"
+              },
+              {
+                "name": "Sakon / Ukon",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/293448/photo/62e0ba0b09d2d.jpg"
+              },
+              {
+                "name": "Temari",
+                "img": "https://artworks.thetvdb.com/banners/person/7899825/5eadfe4fd0ba0.jpg"
+              },
+              {
+                "name": "Shizune",
+                "img": "https://artworks.thetvdb.com/banners/person/502694/5eae05c8d1f94.jpg"
+              },
+              {
+                "name": "Iruka Umino",
+                "img": "https://artworks.thetvdb.com/banners/person/282388/5eb157bac4ac4.jpg"
+              },
+              {
+                "name": "Shino Aburame",
+                "img": "https://artworks.thetvdb.com/banners/person/447327/5eadfecdc2023.jpg"
+              },
+              {
+                "name": "Deidara",
+                "img": "https://artworks.thetvdb.com/banners/person/8045354/5eae0135738e3.jpg"
+              },
+              {
+                "name": "Sasori",
+                "img": "https://artworks.thetvdb.com/banners/person/7942242/5eadffa8ecec5.jpg"
+              },
+              {
+                "name": "Hiruko",
+                "img": "https://artworks.thetvdb.com/banners/person/464299/5eb1245ba3b24.jpg"
+              },
+              {
+                "name": "Hidan",
+                "img": "https://artworks.thetvdb.com/banners/person/313382/5eadffc7edc63.jpg"
+              },
+              {
+                "name": "Zetsu",
+                "img": "https://artworks.thetvdb.com/banners/person/277093/5eadffd5a768e.jpg"
+              },
+              {
+                "name": "Kakuzu",
+                "img": "https://artworks.thetvdb.com/banners/person/280731/5eadfff5c93d3.jpg"
+              },
+              {
+                "name": "Konohamaru",
+                "img": "https://artworks.thetvdb.com/banners/person/7930970/5eae0068be241.jpg"
+              },
+              {
+                "name": "A",
+                "img": "https://artworks.thetvdb.com/banners/person/523327/5f155a0f93f16.jpg"
+              },
+              {
+                "name": "Hiruzen-Sarutobi",
+                "img": "https://artworks.thetvdb.com/banners/person/358469/tv-79824.jpg"
+              },
+              {
+                "name": "Hashirama Senju",
+                "img": "https://artworks.thetvdb.com/banners/person/362923/5efd98d79174b.jpg"
+              },
+              {
+                "name": "Danzō Shimura",
+                "img": "https://artworks.thetvdb.com/banners/person/8041643/tv-79824.jpg"
+              }
+            ]
+          },
+          {
+            "name": "Naruto Arcos",
+            "characters": [
+              {
+                "name": "Misión en el País de las Olas",
+                "img": "https://comicvine.gamespot.com/a/uploads/scale_large/3/32599/1684868-volume04.jpg"
+              },
+              {
+                "name": "Exámenes Chunin",
+                "img": "https://comicvine.gamespot.com/a/uploads/scale_large/3/32599/1684907-volume09.jpg"
+              },
+              {
+                "name": "Destrucción de Konoha",
+                "img": "https://comicvine.gamespot.com/a/uploads/scale_large/3/32599/1684930-volume15.jpg"
+              },
+              {
+                "name": "Búsqueda de Tsunade",
+                "img": "https://comicvine.gamespot.com/a/uploads/scale_large/3/32599/1684933-volume18.jpg"
+              },
+              {
+                "name": "Misión de Recuperación de Sasuke",
+                "img": "https://comicvine.gamespot.com/a/uploads/scale_large/3/32599/1684949-volume24.jpg"
+              },
+              {
+                "name": "Misión del Rescate del Kazekage",
+                "img": "https://comicvine.gamespot.com/a/uploads/scale_large/3/32599/1684955-volume29.jpg"
+              },
+              {
+                "name": "Misión Reconocimiento del Puente de Cielo y Tierra",
+                "img": "https://comicvine.gamespot.com/a/uploads/scale_large/3/32599/1684984-volume33coverbig.jpg"
+              },
+              {
+                "name": "Misión Subyugación de Akatsuki",
+                "img": "https://comicvine.gamespot.com/a/uploads/scale_large/3/32599/1684988-volume36coverbig.jpg"
+              },
+              {
+                "name": "Misión Persecución de Itachi",
+                "img": "https://comicvine.gamespot.com/a/uploads/scale_large/3/32599/1684992-volume39coverbig.jpg"
+              },
+              {
+                "name": "Relato de Jiraiya el Galante",
+                "img": "https://comicvine.gamespot.com/a/uploads/scale_large/3/32599/1684995-volume42coverbig.jpg"
+              },
+              {
+                "name": "Batalla Predestinada entre Hermanos",
+                "img": "https://comicvine.gamespot.com/a/uploads/scale_large/3/32599/1684996-volume43coverbig.jpg"
+              },
+              {
+                "name": "Asalto de Pain",
+                "img": "https://comicvine.gamespot.com/a/uploads/scale_large/3/32599/1685440-111409_naruto_v46__2__super.jpg"
+              },
+              {
+                "name": "Reunión de los Cinco Kages",
+                "img": "https://comicvine.gamespot.com/a/uploads/scale_large/3/32599/1685444-177670_77663_naruto_49_122_342lo_super.jpg"
+              },
+              {
+                "name": "Cuarta Guerra Mundial Shinobi: Conteo Regresivo",
+                "img": "https://comicvine.gamespot.com/a/uploads/scale_large/13/136525/5878040-55.jpg"
+              },
+              {
+                "name": "Cuarta Guerra Mundial Shinobi: Confrontación",
+                "img": "https://comicvine.gamespot.com/a/uploads/scale_large/6/67663/2375073-59.jpg"
+              },
+              {
+                "name": "Cuarta Guerra Mundial Shinobi: Clímax",
+                "img": "https://comicvine.gamespot.com/a/uploads/scale_large/6/67663/2878379-63.jpg"
+              },
+              {
+                "name": "Nacimiento del Jinchūriki del Diez Colas",
+                "img": "https://comicvine.gamespot.com/a/uploads/scale_large/13/136525/5909619-67.jpg"
+              },
+              {
+                "name": "Kaguya Ōtsutsuki Ataca",
+                "img": "https://comicvine.gamespot.com/a/uploads/scale_large/11113/111137047/4188811-volume70.jpg"
+              }
+            ]
+          }
+        ]

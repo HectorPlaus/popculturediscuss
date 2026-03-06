@@ -33,7 +33,7 @@
     "subcategories":[
         {
             "name":"Personajes",
-            "file": "drama/juegodetronos.json"
+            "file": "entretenimiento/series/drama/juegodetronos.json"
         }
     ]
     

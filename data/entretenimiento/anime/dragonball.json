@@ -1,0 +1,825 @@
+[
+    
+          {
+            "name": "DragonBall Arcos",
+            "characters": [
+              {
+                "name": "Arco de Cell",
+                "img": "https://artworks.thetvdb.com/banners/series/81472/posters/62025519.jpg"
+              },
+              {
+                "name": "Arco de Freezer",
+                "img": "https://artworks.thetvdb.com/banners/series/81472/posters/62089693.jpg"
+              },
+              {
+                "name": "Arco de Goku Niño",
+                "img": "https://artworks.thetvdb.com/banners/series/76666/posters/62025507.jpg"
+              },
+              {
+                "name": "Arco de Piccolo",
+                "img": "https://artworks.thetvdb.com/banners/series/76666/posters/62089697.jpg"
+              },
+              {
+                "name": "Arco de Red Ribbon",
+                "img": "https://artworks.thetvdb.com/banners/series/76666/posters/62073810.jpg"
+              },
+              {
+                "name": "Arco de Majin Buu",
+                "img": "https://artworks.thetvdb.com/banners/series/81472/posters/62073792.jpg"
+              },
+              {
+                "name": "Arco de los Saiyan",
+                "img": "https://artworks.thetvdb.com/banners/series/81472/posters/62089688.jpg"
+              },
+              {
+                "name": "Arco del Torneo del Poder",
+                "img": "https://artworks.thetvdb.com/banners/v4/series/295068/posters/6074000a00686.jpg"
+              },
+              {
+                "name": "Arco del Universo 6",
+                "img": "https://artworks.thetvdb.com/banners/posters/295068-7.jpg"
+              },
+              {
+                "name": "Arco de Zamas",
+                "img": "https://artworks.thetvdb.com/banners/posters/295068-10.jpg"
+              }
+            ]
+          },
+          {
+            "name": "DragonBall GT Personajes",
+            "characters": [
+              {
+                "name": "Goku",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/386118/photo/61db03ffb79a6.jpg"
+              },
+              {
+                "name": "Trunks",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/293320/photo/61db043c4f94d.jpg"
+              },
+              {
+                "name": "Vegeta",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/523026/photo/61db04c98cd8a.jpg"
+              },
+              {
+                "name": "Pan",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7926932/photo/61db0470e9b1d.jpg"
+              },
+              {
+                "name": "Bulma",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/342712/photo/638c05365e435.jpg"
+              },
+              {
+                "name": "Android 18",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/320299/photo/61db05e111050.jpg"
+              },
+              {
+                "name": "Videl",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/447720/photo/61e44e4a8c39b.jpg"
+              },
+              {
+                "name": "Gohan",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/386118/photo/61db0516da6c1.jpg"
+              },
+              {
+                "name": "Goten",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7926930/photo/61db18ae6ef28.jpg"
+              },
+              {
+                "name": "Master Roshi",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/354825/photo/61db062000145.jpg"
+              },
+              {
+                "name": "Mr. Satan",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7976946/photo/61db1911d4e55.jpg"
+              },
+              {
+                "name": "Majin-Bu",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7926936/photo/638c064a508b3.jpg"
+              },
+              {
+                "name": "Piccolo",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/385208/photo/638c05c5de022.jpg"
+              },
+              {
+                "name": "Krillin",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/412417/photo/61db056a09b36.jpg"
+              },
+              {
+                "name": "Chichi",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/302619/photo/61db19744d65f.jpg"
+              },
+              {
+                "name": "Marron",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/509402/photo/638c04239120d.jpg"
+              },
+              {
+                "name": "Bra",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/342712/photo/61db18342ab5f.jpg"
+              },
+              {
+                "name": "Kibitoshin",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7928567/photo/61db19d17a512.jpg"
+              },
+              {
+                "name": "Old Kaio-Shin",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7976948/photo/638c025f5d76b.jpg"
+              },
+              {
+                "name": "North Kai",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/454135/photo/638c058b56f3f.jpg"
+              },
+              {
+                "name": "Giru",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/585472/photo/638c055e2b88a.jpg"
+              },
+              {
+                "name": "Uub",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7928576/photo/61db17faa7399.jpg"
+              },
+              {
+                "name": "Sugoro",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/412417/photo/638c030758b21.jpg"
+              },
+              {
+                "name": "General Rilldo",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/292469/photo/638c032cde7ff.jpg"
+              },
+              {
+                "name": "Baby",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/8042731/photo/61db05adb9541.jpg"
+              },
+              {
+                "name": "Dr. Myuu",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/319498/photo/638c04d7c0727.jpg"
+              },
+              {
+                "name": "Super 17",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/358467/photo/61db187c4ce78.jpg"
+              },
+              {
+                "name": "Frieza",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7965138/photo/638c049f9113f.jpg"
+              },
+              {
+                "name": "Cell",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/362925/photo/638c03bbe668d.jpg"
+              },
+              {
+                "name": "Suu Shenron",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/383621/photo/638c0611d3c5f.jpg"
+              },
+              {
+                "name": "San Shenron",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/343391/photo/638c02975a28b.jpg"
+              },
+              {
+                "name": "Li Shenron",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/358469/photo/638c035752937.jpg"
+              }
+            ]
+          },
+          {
+            "name": "DragonBall Z Personajes",
+            "characters": [
+              {
+                "name": "Vegeta",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7896829/photo/638cb57ee1aac.jpg"
+              },
+              {
+                "name": "Tenshinhan",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/303114/photo/64e4f099742b1.jpg"
+              },
+              {
+                "name": "Future-Trunks",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/293320/photo/62542a7b28e05.jpg"
+              },
+              {
+                "name": "Muten-Roshi",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7868266/photo/6385dfdf5d863.jpg"
+              },
+              {
+                "name": "Majin-Bu",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7926936/photo/6385e3c979c63.jpg"
+              },
+              {
+                "name": "Krillin",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/412417/photo/6385e31e29c07.jpg"
+              },
+              {
+                "name": "Piccolo",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/385208/photo/62542badcf0f8.jpg"
+              },
+              {
+                "name": "Bulma",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/342712/photo/62542bf2e3011.jpg"
+              },
+              {
+                "name": "Goten",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7926930/photo/6385e2a7c0f28.jpg"
+              },
+              {
+                "name": "Videl",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/447720/photo/6385e458b02b1.jpg"
+              },
+              {
+                "name": "Chi-Chi",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/497150/photo/6385e410e3258.jpg"
+              },
+              {
+                "name": "Mr. Satan",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/318377/photo/6385e49a4f583.jpg"
+              },
+              {
+                "name": "Goku",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/386118/photo/6385df1868147.jpg"
+              },
+              {
+                "name": "Oolong",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/339523/photo/638cb6406cfe9.jpg"
+              },
+              {
+                "name": "Yamcha",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/8137208/photo/638cc05a2c081.jpg"
+              },
+              {
+                "name": "Dende",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/292478/photo/638cc20dc3d54.jpg"
+              },
+              {
+                "name": "Jeece",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/277071/photo/638cc8957e2a3.jpg"
+              },
+              {
+                "name": "Kaio",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/454135/photo/638cc8d44feae.jpg"
+              },
+              {
+                "name": "Ginyu",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/271010/photo/638cc9498676b.jpg"
+              },
+              {
+                "name": "Kami-sama",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/294905/photo/638cc1d91a189.jpg"
+              },
+              {
+                "name": "Nappa",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/313258/photo/638cbfb3a748e.jpg"
+              },
+              {
+                "name": "Mr.Popo",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/319495/photo/638cc2728e548.jpg"
+              },
+              {
+                "name": "Geld",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/361933/photo/638cc708ba0ae.jpg"
+              },
+              {
+                "name": "Freeza",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7965138/photo/638cc777cfe7d.jpg"
+              },
+              {
+                "name": "C19",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/343710/photo/638cc85e8ecc7.jpg"
+              },
+              {
+                "name": "17",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/358467/photo/638cc1ad1349d.jpg"
+              },
+              {
+                "name": "18",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/320299/photo/638cbffb68027.jpg"
+              },
+              {
+                "name": "Cell",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/362925/photo/638cc2db57daa.jpg"
+              },
+              {
+                "name": "Trunks",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/293320/photo/638cc600cfa9d.jpg"
+              },
+              {
+                "name": "Chaozu",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/315531/photo/638cc64e61de8.jpg"
+              },
+              {
+                "name": "Raditz",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/295205/photo/638cbf419996e.jpg"
+              },
+              {
+                "name": "Dodoria",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/301119/photo/638cc3bb96eb7.jpg"
+              },
+              {
+                "name": "Zarbon",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/349939/photo/638cc441c4eb1.jpg"
+              },
+              {
+                "name": "Gohan",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/386118/photo/638cc4be1f39f.jpg"
+              },
+              {
+                "name": "Yajirobé",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7926927/photo/638cc40266d05.jpg"
+              },
+              {
+                "name": "Nail",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/303233/photo/638cc0f8a18b8.jpg"
+              },
+              {
+                "name": "Kaio Shin",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7872426/photo/638cbf0962901.jpg"
+              },
+              {
+                "name": "Kibito",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/294904/photo/638cbd4b1a248.jpg"
+              },
+              {
+                "name": "Majin-Bu",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7926936/photo/638cbdca330ec.jpg"
+              },
+              {
+                "name": "Old Kaio-Shin",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/322742/photo/638cb6e41f82b.jpg"
+              }
+            ]
+          },
+          {
+            "name": "DragonBall Personajes",
+            "characters": [
+              {
+                "name": "Goku",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/386118/photo/6357c68b3dd1c.jpg"
+              },
+              {
+                "name": "Bulma",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/342712/photo/6357da2c553a1.jpg"
+              },
+              {
+                "name": "Crilin",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/412417/photo/6357db0540af7.jpg"
+              },
+              {
+                "name": "Yamcha",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/8137208/photo/6359292b5b693.jpg"
+              },
+              {
+                "name": "Muten-Roshi",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/607937/photo/6357dbc3dec6b.jpg"
+              },
+              {
+                "name": "Piccolo",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/385208/photo/638bff166118f.jpg"
+              },
+              {
+                "name": "Puar",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/302619/photo/6359289b21a65.jpg"
+              },
+              {
+                "name": "Tenshinhan",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/8144132/photo/638bff7b4ca45.jpg"
+              },
+              {
+                "name": "Oolong",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/339523/photo/6715b0380bf41.jpg"
+              },
+              {
+                "name": "Chi-Chi",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/497150/photo/6359279c2f90e.jpg"
+              },
+              {
+                "name": "King-Piccolo",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/294905/photo/638bffb0119e6.jpg"
+              },
+              {
+                "name": "Pilaf",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/295205/photo/6357fea63ec42.jpg"
+              },
+              {
+                "name": "Chiaotzu",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/315531/photo/6357fefb01839.jpg"
+              },
+              {
+                "name": "Lunch",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/343715/photo/6357dca1382ce.jpg"
+              },
+              {
+                "name": "Android-8",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7895688/photo/63592d29780a6.jpg"
+              },
+              {
+                "name": "Tao-Pai-Pai",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/277072/photo/638bffdb5b048.jpg"
+              },
+              {
+                "name": "Grandpa-Gohan",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/353915/photo/638c000909db0.jpg"
+              },
+              {
+                "name": "Sgt.Metallic",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/294904/photo/6364dcb5c99e2.jpg"
+              },
+              {
+                "name": "Ninja-Murasaki",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/294905/photo/6364dc8c82ce7.jpg"
+              },
+              {
+                "name": "Kami",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/294905/photo/638c0046f0a44.jpg"
+              },
+              {
+                "name": "General-Blue",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/385208/photo/638c00835ab76.jpg"
+              },
+              {
+                "name": "Shuu",
+                "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUCY1aburBqz-z-dCsh9vhNx1cioLyn5qnefq0em3PXoZhOUJ5gpA7v3jGMwNHF86_vLgNdF7VxbgdTeMpkXgjGTxhWf4o3milBgDsGSJ4qFdNN5d98Awm6w76w1nnzV77eAj79eZRyjs/s1600/dragon-ball-shu.jpg"
+              },
+              {
+                "name": "General-White",
+                "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcyBKLFlLUa6WzFnap7oH0oRsUuULh-cr1OQ&s"
+              },
+              {
+                "name": "Bora",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/8043327/photo/63592bda4f55c.jpg"
+              },
+              {
+                "name": "Giran",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/322763/photo/638c00b4583df.jpg"
+              },
+              {
+                "name": "Colonel-Silver",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/322763/photo/6364dd486bd2a.jpg"
+              },
+              {
+                "name": "Mai",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/302223/photo/63592a064cff8.jpg"
+              }
+            ]
+          },
+          {
+            "name": "DragonBall Super Personajes",
+            "characters": [
+              {
+                "name": "Goku",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/386118/photo/64d03c1f3bc58.jpg"
+              },
+              {
+                "name": "Vegeta",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/523026/photo/638cc9c369541.jpg"
+              },
+              {
+                "name": "Piccolo",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/385208/photo/638cc9f7057a7.jpg"
+              },
+              {
+                "name": "Mr.Satan (S1-5)",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7878699/photo/638ccac43c3fb.jpg"
+              },
+              {
+                "name": "Bulma (S1-5)",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/342712/photo/638cca6129aa1.jpg"
+              },
+              {
+                "name": "Crilin",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/412417/photo/638ccaaa2dee2.jpg"
+              },
+              {
+                "name": "Chi-Chi",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/302619/photo/638d0ae6f1e2b.jpg"
+              },
+              {
+                "name": "Gohan",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/386118/photo/638d1018734be.jpg"
+              },
+              {
+                "name": "Future Trunks",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/293320/photo/64ce9d2ec7c25.jpg"
+              },
+              {
+                "name": "Videl",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7926932/photo/638d1a7c822cd.jpg"
+              },
+              {
+                "name": "Majin Bu",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7926936/photo/64cf72de1158c.jpg"
+              },
+              {
+                "name": "Goten",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7926930/photo/638d0b2a2b743.jpg"
+              },
+              {
+                "name": "Whis",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/349940/photo/638d0ac05148a.jpg"
+              },
+              {
+                "name": "Beerus",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7916957/photo/638d106bef20a.jpg"
+              },
+              {
+                "name": "Muten Roshi",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7868266/photo/638d19be24606.jpg"
+              },
+              {
+                "name": "N.18",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/320299/photo/638d0b635b016.jpg"
+              },
+              {
+                "name": "Jaco",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/271014/photo/638d0a92006d3.jpg"
+              },
+              {
+                "name": "Freeza",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7965138/photo/64ceb73ec7c48.jpg"
+              },
+              {
+                "name": "Tagoma",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/280725/photo/638d191393a34.jpg"
+              },
+              {
+                "name": "Sorbet",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7914787/photo/638d193ced1ab.jpg"
+              },
+              {
+                "name": "Champa",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/342713/photo/638d1980ac285.jpg"
+              },
+              {
+                "name": "Vados",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/349302/photo/638d0b9ebe498.jpg"
+              },
+              {
+                "name": "Tenshinhan",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/303114/photo/638d0a7050c30.jpg"
+              },
+              {
+                "name": "Monaka",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7872394/photo/638d10d83d54e.jpg"
+              },
+              {
+                "name": "Botamo",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/361933/photo/64ceb79a84ade.jpg"
+              },
+              {
+                "name": "Cabba",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/277071/photo/638d188fe76e8.jpg"
+              },
+              {
+                "name": "Shisami",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/313258/photo/638d0bc4d0c49.jpg"
+              },
+              {
+                "name": "Frost",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7965138/photo/638d0a40c875e.jpg"
+              },
+              {
+                "name": "Hit",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/307082/photo/638d17d31fc94.jpg"
+              },
+              {
+                "name": "Magetta",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/339523/photo/638d17f555cdc.jpg"
+              },
+              {
+                "name": "Zeno",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7873912/photo/638d18320a657.jpg"
+              },
+              {
+                "name": "Kid Trunks",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/293320/photo/638d0c0549e15.jpg"
+              },
+              {
+                "name": "Mai",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/302223/photo/638d0a05e7bce.jpg"
+              },
+              {
+                "name": "Black",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7866702/photo/64cebdf5a9b1d.jpg"
+              },
+              {
+                "name": "Zamasu",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7874486/photo/64cebe7cdbb90.jpg"
+              },
+              {
+                "name": "Gowasu",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/447193/photo/638d1771168ef.jpg"
+              },
+              {
+                "name": "Grand Priest",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/313308/photo/638d17b87962d.jpg"
+              },
+              {
+                "name": "Lо̄",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/472483/photo/638d0d3f5e9af.jpg"
+              },
+              {
+                "name": "Sidra",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7868463/photo/638d09aa059a1.jpg"
+              },
+              {
+                "name": "Kai",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/289875/photo/638d11ca9bbe9.jpg"
+              },
+              {
+                "name": "Basil",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/464791/photo/638d16aa6fa34.jpg"
+              },
+              {
+                "name": "Bergamo",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/399066/photo/638d16f73cc0a.jpg"
+              },
+              {
+                "name": "Lavenda",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/8038298/photo/638d172ad04b5.jpg"
+              },
+              {
+                "name": "Toppo",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7891597/photo/638d0dd5d4b01.jpg"
+              },
+              {
+                "name": "Heles",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/349308/photo/638d0985191aa.jpg"
+              },
+              {
+                "name": "Anat",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7872354/photo/638d11f1e9cfd.jpg"
+              },
+              {
+                "name": "Air",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/8036586/photo/638d14b7d455a.jpg"
+              },
+              {
+                "name": "Cle",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/280735/photo/638d16493078c.jpg"
+              },
+              {
+                "name": "Ogma",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7928576/photo/638d15818735b.jpg"
+              },
+              {
+                "name": "Ill",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/349940/photo/638d0e8c1f514.jpg"
+              },
+              {
+                "name": "Ugg",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/361933/photo/638d09458a699.jpg"
+              },
+              {
+                "name": "Belmod",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7872394/photo/638d123806f86.jpg"
+              },
+              {
+                "name": "Marcarita",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/8038303/photo/638d12905409d.jpg"
+              },
+              {
+                "name": "Dyspo",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/299647/photo/638d133b72c17.jpg"
+              },
+              {
+                "name": "Kahseral",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/8038304/photo/638d137e23eba.jpg"
+              },
+              {
+                "name": "Agu",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/361933/photo/638d0fc2e2a55.jpg"
+              },
+              {
+                "name": "Iru",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/349940/photo/638d073a468c7.jpg"
+              },
+              {
+                "name": "Kuru",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/280735/photo/638d0776eb1fe.jpg"
+              },
+              {
+                "name": "Caulifla",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/349325/photo/638d086b31857.jpg"
+              },
+              {
+                "name": "Brianne de Chateau",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/540791/photo/638d08b163dd9.jpg"
+              },
+              {
+                "name": "Kale",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/328498/photo/638d090f55d85.jpg"
+              },
+              {
+                "name": "Jiren",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/491377/photo/638ccaff28437.jpg"
+              },
+              {
+                "name": "Pirina",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/345283/photo/638ccb2c9762d.jpg"
+              },
+              {
+                "name": "Saonel",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/293308/photo/638ccb5eaefe7.jpg"
+              }
+            ]
+          },
+          {
+            "name": "DragonBall Daima Personajes",
+            "characters": [
+              {
+                "name": "Goku",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/386118/photo/66deae89cf164.jpg"
+              },
+              {
+                "name": "Supreme Kai (Mini)",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/297200/photo/6713893d58654.jpg"
+              },
+              {
+                "name": "Glorio",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7884585/photo/671389603f0af.jpg"
+              },
+              {
+                "name": "Panzy",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/8028272/photo/671389ae4b5fe.jpg"
+              },
+              {
+                "name": "Gomah",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/343834/photo/6713899cdc397.jpg"
+              },
+              {
+                "name": "Degesu",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7866750/photo/67138975c149a.jpg"
+              },
+              {
+                "name": "Dr. Arinsu",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/294194/photo/67138987b5229.jpg"
+              },
+              {
+                "name": "Neva",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/343731/photo/67336d115d352.jpg"
+              },
+              {
+                "name": "Hybis",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/9122964/photo/67336deed5faa.jpg"
+              },
+              {
+                "name": "Vegeta",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/9125203/photo/67138bdcb4fed.jpg"
+              },
+              {
+                "name": "Bulma",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/352973/photo/67138c0db4e40.jpg"
+              },
+              {
+                "name": "Piccolo",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7888298/photo/67138c3cc8faf.jpg"
+              },
+              {
+                "name": "Krillin",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/505379/photo/67138c79a3021.jpg"
+              },
+              {
+                "name": "Muten Roshi",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7893277/photo/67138dc01fd85.jpg"
+              },
+              {
+                "name": "Chi-Chi",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/460210/photo/67138d2295bca.jpg"
+              },
+              {
+                "name": "Son Goten",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/386118/photo/67138e1c3009b.jpg"
+              },
+              {
+                "name": "Trunks",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/302327/photo/67138e4a1c25b.jpg"
+              },
+              {
+                "name": "Dende",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/509402/photo/67138ea38f9dd.jpg"
+              },
+              {
+                "name": "Mr. Popo",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/292494/photo/67138ede73e77.jpg"
+              },
+              {
+                "name": "Kibito",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/9104947/photo/67138f1e5ad69.jpg"
+              },
+              {
+                "name": "Mr. Satan",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/460866/photo/67138f51ab9c5.jpg"
+              },
+              {
+                "name": "Majin Buu",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/523027/photo/67138f9f34a9e.jpg"
+              },
+              {
+                "name": "Majin Kuu",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/271007/photo/675336bb43cb0.jpg"
+              },
+              {
+                "name": "Majin Duu",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/486793/photo/676f4a900ad24.jpg"
+              },
+              {
+                "name": "Great Witch Marba",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7992838/photo/676f4ae23ab47.jpg"
+              }
+            ]
+          }
+]

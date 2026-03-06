@@ -1,0 +1,259 @@
+[
+          {
+            "name": "Fairy Tail Personajes",
+            "characters": [
+              {
+                "name": "Natsu Dragneel",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/292924/photo/66805665ba5d9.jpg"
+              },
+              {
+                "name": "Lucy Heartfilia",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/292478/photo/6680567ea7a63.jpg"
+              },
+              {
+                "name": "Gray Fullbuster",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7864375/photo/66805924604b5.jpg"
+              },
+              {
+                "name": "Erza Scarlet",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7874988/photo/66805a0687306.jpg"
+              },
+              {
+                "name": "Wendy Marvell",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/303236/photo/66805ac765e31.jpg"
+              },
+              {
+                "name": "Happy",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/322759/photo/6680589e049e0.jpg"
+              },
+              {
+                "name": "Charles",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7865982/photo/66805baa7a5db.jpg"
+              },
+              {
+                "name": "Juvia",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/352973/photo/674cd79db0cbe.jpg"
+              },
+              {
+                "name": "Gajeel",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7865642/photo/674ce5ecbc277.jpg"
+              },
+              {
+                "name": "Levy",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/447326/photo/674ce794e0282.jpg"
+              },
+              {
+                "name": "Pantherlily",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/463716/photo/674ce90856762.jpg"
+              },
+              {
+                "name": "Kana",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/301121/photo/674cf061e81ea.jpg"
+              },
+              {
+                "name": "Jellal",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/292928/photo/674ce89220621.jpg"
+              },
+              {
+                "name": "Mirajane",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/465948/photo/674ce558ae8c4.jpg"
+              },
+              {
+                "name": "Elfman",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/301118/photo/674cea0365f28.jpg"
+              },
+              {
+                "name": "Lisanna",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/450857/photo/674cf1d81b5fa.jpg"
+              },
+              {
+                "name": "Laxus",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/271010/photo/674cea35f1a3e.jpg"
+              },
+              {
+                "name": "Evergreen",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/448670/photo/674cf33e3e87a.jpg"
+              },
+              {
+                "name": "Fried",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/309354/photo/6750979aa364c.jpg"
+              },
+              {
+                "name": "Bickslow",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/479678/photo/674cf7d9c1634.jpg"
+              },
+              {
+                "name": "Makarov",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7887984/photo/674cf29c45502.jpg"
+              },
+              {
+                "name": "Gildarts",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/343714/photo/63bf25b7dbb0b.jpg"
+              },
+              {
+                "name": "Irene",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/380647/photo/674d0be02f26b.jpg"
+              },
+              {
+                "name": "Brandish",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/303235/photo/674d02e40f52e.jpg"
+              },
+              {
+                "name": "Aquarius",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/301121/photo/674cdd753ed5c.jpg"
+              },
+              {
+                "name": "Áries",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7872357/photo/674ce0395cab3.jpg"
+              },
+              {
+                "name": "Câncer",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7888004/photo/674cde1acd35b.jpg"
+              },
+              {
+                "name": "Caprico",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/401136/photo/674cdee9bda08.jpg"
+              },
+              {
+                "name": "Gemini",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/484931/photo/674ce132e7849.jpg"
+              },
+              {
+                "name": "Virgo",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/292117/photo/674cda7d8489f.jpg"
+              },
+              {
+                "name": "Taurus",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/481235/photo/674cd96b3acee.jpg"
+              },
+              {
+                "name": "Leo",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/277071/photo/674cdf93688ba.jpg"
+              },
+              {
+                "name": "Sagittarius",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/481234/photo/674cd9f535caf.jpg"
+              },
+              {
+                "name": "Scorpio",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/277071/photo/674ce32e8d5a7.jpg"
+              },
+              {
+                "name": "Macao",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/481234/photo/674d009d5b16a.jpg"
+              },
+              {
+                "name": "Wakaba",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/481235/photo/674cf44494cc8.jpg"
+              },
+              {
+                "name": "Romeo",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/447326/photo/674ce813e758b.jpg"
+              },
+              {
+                "name": "Mest",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/460882/photo/674d0b88775a7.jpg"
+              },
+              {
+                "name": "Max",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7875624/photo/674cff302e3a7.jpg"
+              },
+              {
+                "name": "Warren",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7888006/photo/674cf8423e6f3.jpg"
+              },
+              {
+                "name": "Nab",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7888162/photo/674d06dc822a8.jpg"
+              },
+              {
+                "name": "Laki",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/470645/photo/674d01010fc8e.jpg"
+              },
+              {
+                "name": "Kinana",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7888025/photo/674d075872615.jpg"
+              },
+              {
+                "name": "Reedus",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/481235/photo/674cf6f2dad02.jpg"
+              },
+              {
+                "name": "Vijeeter Ecor",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/481235/photo/6750f5b2101e9.jpg"
+              },
+              {
+                "name": "Droy",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/481235/photo/674d01904d689.jpg"
+              },
+              {
+                "name": "Jet",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/481234/photo/674cf9ac9b9b1.jpg"
+              },
+              {
+                "name": "Plue",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/9035115/photo/674d0b0d74798.jpg"
+              },
+              {
+                "name": "Alzack",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7888004/photo/674d0596dc8a7.jpg"
+              },
+              {
+                "name": "Bisca",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/301628/photo/674d0cfbdc7f2.jpg"
+              },
+              {
+                "name": "Ultear",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/292117/photo/674d01dcdfebc.jpg"
+              },
+              {
+                "name": "Mavis",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/293451/photo/6750975ed7f7f.jpg"
+              },
+              {
+                "name": "Zeref",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/293455/photo/674d0649b61ed.jpg"
+              },
+              {
+                "name": "Igneel",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/358469/photo/674d1028bb378.jpg"
+              },
+              {
+                "name": "Sting",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/277100/photo/674d07c143c2b.jpg"
+              },
+              {
+                "name": "Rogue",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/277079/photo/674d09e5a9f50.jpg"
+              },
+              {
+                "name": "Frosch",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7873912/photo/674d03e097ddd.jpg"
+              },
+              {
+                "name": "Lector",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7942242/photo/674d08a53e494.jpg"
+              },
+              {
+                "name": "Sorano",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7874987/photo/674d046db2b9e.jpg"
+              },
+              {
+                "name": "Yukino",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7874987/photo/6750dd59b35d1.jpg"
+              },
+              {
+                "name": "Minerva",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/300732/photo/674d0d9b3054c.jpg"
+              },
+              {
+                "name": "Kagura",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7868605/photo/674d0e5f4dc81.jpg"
+              },
+              {
+                "name": "Ichiya",
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/7910290/photo/674d0dcdc5303.jpg"
+              }
+            ]
+          }
+        ]
