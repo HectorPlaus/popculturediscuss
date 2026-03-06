@@ -1,0 +1,41 @@
+[
+{
+  "name": "Personajes de Series de Drama",
+  "characters": [
+    { "name": "Walter White", "img": "https://upload.wikimedia.org/wikipedia/en/0/03/Walter_White_S5B.png" },
+    { "name": "Tony Soprano", "img": "https://upload.wikimedia.org/wikipedia/en/2/2a/Tony_Soprano.jpg" },
+    { "name": "Don Draper", "img": "https://upload.wikimedia.org/wikipedia/en/5/5b/Don_Draper_Mad_Men.jpg" },
+    { "name": "Omar Little", "img": "https://upload.wikimedia.org/wikipedia/en/5/5b/Omar_Little_The_Wire.jpg" },
+    { "name": "Dexter Morgan", "img": "https://upload.wikimedia.org/wikipedia/en/1/16/Dexter_Morgan.jpg" },
+    { "name": "Frank Underwood", "img": "https://upload.wikimedia.org/wikipedia/en/7/7b/Frank_Underwood_House_of_Cards.jpg" },
+    { "name": "Saul Goodman", "img": "https://upload.wikimedia.org/wikipedia/en/3/34/Saul_Goodman.jpg" },
+    { "name": "Eleven", "img": "https://upload.wikimedia.org/wikipedia/en/4/4f/Eleven_Stranger_Things.jpg" },
+    { "name": "Jon Snow", "img": "https://upload.wikimedia.org/wikipedia/en/3/30/Jon_Snow_Season_8.png" },
+    { "name": "Daenerys Targaryen", "img": "https://upload.wikimedia.org/wikipedia/en/2/20/Daenerys_Targaryen_Mother_of_Dragons.jpg" },
+    { "name": "Rick Grimes", "img": "https://upload.wikimedia.org/wikipedia/en/7/7b/Rick_Grimes_The_Walking_Dead.jpg" },
+    { "name": "Carrie Mathison", "img": "https://upload.wikimedia.org/wikipedia/en/4/4e/Carrie_Mathison_Homeland.jpg" },
+    { "name": "Thomas Shelby", "img": "https://upload.wikimedia.org/wikipedia/en/8/8e/Thomas_Shelby_Peaky_Blinders.jpg" },
+    { "name": "Gregory House", "img": "https://upload.wikimedia.org/wikipedia/en/8/8c/Gregory_House_MD.jpg" },
+    { "name": "Jimmy McGill", "img": "https://upload.wikimedia.org/wikipedia/en/5/52/Jimmy_McGill_Better_Call_Saul.jpg" }
+  ]
+},
+
+{
+    "name": "Series de Drama",
+    "characters": [
+        { "name": "Breaking Bad", "img": "https://upload.wikimedia.org/wikipedia/en/6/61/Breaking_Bad_title_card.png" },
+        { "name": "The Sopranos", "img": "https://upload.wikimedia.org/wikipedia/en/2/2a/Tony_Soprano.jpg" }
+    ]
+},
+
+{
+    "name": "Juego de Tronos",
+    "subcategories":[
+        {
+            "name":"Personajes",
+            "file": "drama/juegodetronos.json"
+        }
+    ]
+    
+}
+]

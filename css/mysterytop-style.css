@@ -110,7 +110,7 @@
 
 @media (max-width: 480px) {
     #current-character {
-        max-width: 80%;
+        max-width: 90%;
     }
     
     #character-image {
@@ -125,14 +125,19 @@
         flex-direction: column;
         gap: 10px;
     }
+
     
     .player-top {
-        max-width: 100%;
+        max-width: 90%;
     }
     
     .player-top li {
         font-size: 12px;
         gap: 5px;
+    }
+
+    .top-position img {
+        max-width: 50%;
     }
     
 }
