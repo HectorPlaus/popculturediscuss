@@ -24,5 +24,45 @@
           { "name": "Miami", "img": "https://res.cloudinary.com/hello-tickets/image/upload/c_limit,f_auto,q_auto,w_1300/v1658201693/bvifyrrbhdrejqgu7p4b.jpg" },
           { "name": "Lima", "img": "https://i.natgeofe.com/n/7aed6eb4-0e7f-4ea6-86c3-ac1f3db99005/CityBreakLimaCity_3x2.jpg" }
         ]
-      }
+      },
+      {
+  "name": "Países del Mundo",
+  "characters": [
+    { "name": "Estados Unidos", "img": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg" },
+    { "name": "España", "img": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Spain.svg" },
+    { "name": "Japón", "img": "https://upload.wikimedia.org/wikipedia/en/9/9e/Flag_of_Japan.svg" },
+    { "name": "Brasil", "img": "https://upload.wikimedia.org/wikipedia/en/0/05/Flag_of_Brazil.svg" },
+    { "name": "Francia", "img": "https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg" },
+    { "name": "Italia", "img": "https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg" },
+    { "name": "México", "img": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg" },
+    { "name": "Reino Unido", "img": "https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg" },
+    { "name": "Canadá", "img": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg" },
+    { "name": "Alemania", "img": "https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg" },
+    { "name": "China", "img": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg" },
+    { "name": "Australia", "img": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Australia.svg" },
+    { "name": "India", "img": "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg" },
+    { "name": "Sudáfrica", "img": "https://upload.wikimedia.org/wikipedia/commons/a/af/Flag_of_South_Africa.svg" },
+    { "name": "Argentina", "img": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg" }
+  ]
+},
+{
+  "name": "Monumentos",
+  "characters": [
+    { "name": "Torre Eiffel", "img": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg" },
+    { "name": "Estatua de la Libertad", "img": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Statue_of_Liberty_7.jpg" },
+    { "name": "Gran Muralla China", "img": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Great_Wall_of_China_July_2006.JPG" },
+    { "name": "Coliseo de Roma", "img": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg" },
+    { "name": "Taj Mahal", "img": "https://upload.wikimedia.org/wikipedia/commons/d/da/Taj-Mahal.jpg" },
+    { "name": "Stonehenge", "img": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Stonehenge2007_07_30.jpg" },
+    { "name": "Cristo Redentor", "img": "https://upload.wikimedia.org/wikipedia/commons/9/92/Cristo_Redentor_-_Rio_de_Janeiro%2C_Brazil.jpg" },
+    { "name": "Pirámides de Giza", "img": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Great_Pyramid_of_Giza_-_Giza_Necropolis.jpg" },
+    { "name": "Sagrada Familia", "img": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Sagrada_Familia_2010.JPG" },
+    { "name": "Angkor Wat", "img": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Angkor_Wat_temple.jpg" },
+    { "name": "Machu Picchu", "img": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Machu_Picchu%2C_Peru.jpg" },
+    { "name": "Puerta de Brandeburgo", "img": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Brandenburger_Tor_abends.jpg" },
+    { "name": "Monte Rushmore", "img": "https://upload.wikimedia.org/wikipedia/commons/1/16/Mount_Rushmore2.jpg" },
+    { "name": "Alhambra", "img": "https://upload.wikimedia.org/wikipedia/commons/9/97/Alhambra_Generalife.jpg" },
+    { "name": "Ópera de Sídney", "img": "https://upload.wikimedia.org/wikipedia/commons/4/40/Sydney_Opera_House_-_Dec_2008.jpg" }
+  ]
+}
     ]

@@ -188,7 +188,6 @@
 /* Responsive Design */
 @media (max-width: 768px) {
     #teamfight-teams {
-        flex-direction: column;
         gap: 15px;
     }
     
@@ -232,6 +231,11 @@
     
     .position {
         padding: 1px;
+        font-size: large;
+    }
+    span{
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
     
     #current-turn {

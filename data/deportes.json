@@ -69,6 +69,26 @@
             ]
           },
           {
+  "name": "Quintetos Históricos de la NBA",
+  "characters": [
+    { "name": "Chicago Bulls 1995-96", "img": "https://upload.wikimedia.org/wikipedia/commons/6/66/1995-96_Chicago_Bulls_team.jpg" },
+    { "name": "Los Angeles Lakers 1986-87", "img": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Lakers_1986-87_team_photo.jpg" },
+    { "name": "Boston Celtics 1985-86", "img": "https://upload.wikimedia.org/wikipedia/commons/7/70/Boston_Celtics_1985-86_team.jpg" },
+    { "name": "Golden State Warriors 2016-17", "img": "https://upload.wikimedia.org/wikipedia/commons/8/81/Golden_State_Warriors_2016-17_team.jpg" },
+    { "name": "San Antonio Spurs 2013-14", "img": "https://upload.wikimedia.org/wikipedia/commons/1/19/2013-14_San_Antonio_Spurs_team.jpg" },
+    { "name": "Miami Heat 2012-13", "img": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Miami_Heat_2012-13_team.jpg" },
+    { "name": "Detroit Pistons 1988-89", "img": "https://upload.wikimedia.org/wikipedia/commons/3/36/1988-89_Detroit_Pistons_team.jpg" },
+    { "name": "Los Angeles Lakers 1971-72", "img": "https://upload.wikimedia.org/wikipedia/commons/5/55/Lakers_1971-72_team.jpg" },
+    { "name": "Boston Celtics 1964-65", "img": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Boston_Celtics_1964-65_team.jpg" },
+    { "name": "Philadelphia 76ers 1982-83", "img": "https://upload.wikimedia.org/wikipedia/commons/0/03/Philadelphia_76ers_1982-83_team.jpg" },
+    { "name": "Chicago Bulls 1990-91", "img": "https://upload.wikimedia.org/wikipedia/commons/1/12/Chicago_Bulls_1990-91_team.jpg" },
+    { "name": "Houston Rockets 1993-94", "img": "https://upload.wikimedia.org/wikipedia/commons/9/97/Houston_Rockets_1993-94_team.jpg" },
+    { "name": "Toronto Raptors 2018-19", "img": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Toronto_Raptors_2018-19_team.jpg" },
+    { "name": "Cleveland Cavaliers 2015-16", "img": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Cleveland_Cavaliers_2015-16_team.jpg" },
+    { "name": "Milwaukee Bucks 2020-21", "img": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Milwaukee_Bucks_2020-21_team.jpg" }
+  ]
+},
+          {
             "name": "NBA Players",
             "characters": [
               { "name": "Michael Jordan", "img": "https://www.basketball-reference.com/req/202106291/images/headshots/jordami01.jpg" },

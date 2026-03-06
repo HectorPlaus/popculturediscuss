@@ -1,1 +1,82 @@
-[]
+[
+    {
+  "name": "Personajes Históricos",
+  "characters": [
+    { "name": "Albert Einstein", "img": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Albert_Einstein_Head.jpg" },
+    { "name": "Leonardo da Vinci", "img": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg" },
+    { "name": "Cleopatra", "img": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Cleopatra-VII-Roman-Museum.jpg" },
+    { "name": "Napoleón Bonaparte", "img": "https://upload.wikimedia.org/wikipedia/commons/5/50/Jacques-Louis_David_-_Napoleon_Bonaparte_-_Google_Art_Project.jpg" },
+    { "name": "George Washington", "img": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg" },
+    { "name": "Mahatma Gandhi", "img": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Mahatma-Gandhi%2C_studio%2C_1931.jpg" },
+    { "name": "Juana de Arco", "img": "https://upload.wikimedia.org/wikipedia/commons/a/af/Joan_of_arc_miniature_graded.jpg" },
+    { "name": "Martin Luther King Jr.", "img": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Martin_Luther_King_Jr_NYWTS.jpg" },
+    { "name": "Winston Churchill", "img": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Churchill_portrait_NYWTS.jpg" },
+    { "name": "Marie Curie", "img": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Marie_Curie_c1920.jpg" },
+    { "name": "Abraham Lincoln", "img": "https://upload.wikimedia.org/wikipedia/commons/a/af/Abraham_Lincoln_O-77_matte_collodion_print.jpg" },
+    { "name": "Napoleón Bonaparte", "img": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Napoleon_Bonaparte_by_David.jpg" },
+    { "name": "Simón Bolívar", "img": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Simon_Bolivar_by_José_Grandi.jpg" },
+    { "name": "Isaac Newton", "img": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Sir_Isaac_Newton_%281642-1727%29.jpg" },
+    { "name": "Juana Inés de la Cruz", "img": "https://upload.wikimedia.org/wikipedia/commons/4/49/Juana_In%C3%A9s_de_la_Cruz.jpg" }
+  ]
+},
+{
+  "name": "Batallas Históricas",
+  "characters": [
+    { "name": "Batalla de Waterloo", "img": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Battle_of_Waterloo_1815.PNG" },
+    { "name": "Batalla de Stalingrado", "img": "https://upload.wikimedia.org/wikipedia/commons/9/99/Stalingrad_Battle.jpg" },
+    { "name": "Batalla de Gettysburg", "img": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Gettysburg_Battle_map.png" },
+    { "name": "Batalla de Normandía", "img": "https://upload.wikimedia.org/wikipedia/commons/3/3c/D-Day_map.png" },
+    { "name": "Batalla de Hastings", "img": "https://upload.wikimedia.org/wikipedia/commons/8/81/Bayeux_Tapestry_scene57_Hastings.jpg" },
+    { "name": "Batalla de Trafalgar", "img": "https://upload.wikimedia.org/wikipedia/commons/1/16/Battle_of_Trafalgar_by_Joseph_Mallord_William_Turner.jpg" },
+    { "name": "Batalla de las Termópilas", "img": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Battle_of_Thermopylae.png" },
+    { "name": "Batalla de Agincourt", "img": "https://upload.wikimedia.org/wikipedia/commons/2/28/Battle_of_Agincourt.jpg" },
+    { "name": "Batalla de Midway", "img": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Midway_map.png" },
+    { "name": "Batalla de Kursk", "img": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Battle_of_Kursk_map.jpg" },
+    { "name": "Batalla de Yorktown", "img": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Yorktown_siege_map.jpg" },
+    { "name": "Batalla de Lepanto", "img": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Battle_of_Lepanto.jpg" },
+    { "name": "Batalla de Austerlitz", "img": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Battle_of_Austerlitz_by_Franz_Adrian_Mihaely.jpg" },
+    { "name": "Batalla de Somme", "img": "https://upload.wikimedia.org/wikipedia/commons/2/21/Battle_of_the_Somme_1916.jpg" },
+    { "name": "Batalla de Bunker Hill", "img": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Bunker_Hill_by_Peale.jpg" }
+  ]
+},
+{
+  "name": "Civilizaciones Antiguas",
+  "characters": [
+    { "name": "Egipto Antiguo", "img": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Great_Pyramid_of_Giza_-_Giza_Necropolis.jpg" },
+    { "name": "Mesopotamia", "img": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Uruk_Ziggurat.jpg" },
+    { "name": "Imperio Romano", "img": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg" },
+    { "name": "Civilización Griega", "img": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Parthenon_from_west.jpg" },
+    { "name": "Imperio Persa", "img": "https://upload.wikimedia.org/wikipedia/commons/9/90/PersepolisRuins.jpg" },
+    { "name": "Civilización Maya", "img": "https://upload.wikimedia.org/wikipedia/commons/1/12/Chichen_Itza_3.jpg" },
+    { "name": "Imperio Inca", "img": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Machu_Picchu%2C_Peru.jpg" },
+    { "name": "Civilización Azteca", "img": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Templo_Mayor_2.jpg" },
+    { "name": "Civilización Fenicia", "img": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Ba%C3%BAl_ph%C3%B6nizisch.jpg" },
+    { "name": "Imperio Bizantino", "img": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Hagia_Sophia_Mars_2013.jpg" },
+    { "name": "Imperio Chino Antiguo", "img": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Great_Wall_of_China_July_2006.JPG" },
+    { "name": "Civilización Harappa", "img": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Mohenjo-daro_aerial_view.jpg" },
+    { "name": "Imperio Otomano Temprano", "img": "https://upload.wikimedia.org/wikipedia/commons/8/88/Topkapi_Palace.jpg" },
+    { "name": "Civilización Cartaginesa", "img": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Tophet_Carthage.jpg" },
+    { "name": "Imperio Hittita", "img": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Hattusa_Bogazkoy.jpg" }
+  ]
+},
+{
+  "name": "Momentos Catastróficos",
+  "characters": [
+    { "name": "Erupción del Vesubio", "img": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Vesuvius_eruption_1906.jpg" },
+    { "name": "Terremoto de Lisboa 1755", "img": "https://upload.wikimedia.org/wikipedia/commons/6/64/Lisbon_earthquake_1755.jpg" },
+    { "name": "Tsunami del Océano Índico 2004", "img": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Tsunami_2004_-_Thailand.jpg" },
+    { "name": "Explosión de Chernóbil", "img": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Chernobyl_reactor_no._4.jpg" },
+    { "name": "Huracán Katrina", "img": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Katrina_satellite_image.jpg" },
+    { "name": "Terremoto de San Francisco 1906", "img": "https://upload.wikimedia.org/wikipedia/commons/8/81/San_Francisco_earthquake_1906.jpg" },
+    { "name": "Incendios de Australia 2019-2020", "img": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Australian_bushfire_2019.jpg" },
+    { "name": "Inundaciones del río Yangtsé 1931", "img": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Yangtze_Floods_1931.jpg" },
+    { "name": "Terremoto de Haití 2010", "img": "https://upload.wikimedia.org/wikipedia/commons/5/50/Haiti_earthquake_2010.jpg" },
+    { "name": "Maremoto de Lisboa 1755", "img": "https://upload.wikimedia.org/wikipedia/commons/4/44/Lisbon_tsunami_illustration.jpg" },
+    { "name": "Explosión de Beirut 2020", "img": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Beirut_explosion_2020.jpg" },
+    { "name": "Huracán Mitch", "img": "https://upload.wikimedia.org/wikipedia/commons/8/83/Hurricane_Mitch_1998.jpg" },
+    { "name": "Erupción del Krakatoa", "img": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Krakatoa_1883_eruption.jpg" },
+    { "name": "Tornado de Oklahoma 1999", "img": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Oklahoma_tornado_1999.jpg" },
+    { "name": "Terremoto y tsunami de Japón 2011", "img": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tsunami_Japan_2011_-_Sendai.jpg" }
+  ]
+}
+]

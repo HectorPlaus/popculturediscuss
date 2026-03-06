@@ -18,5 +18,45 @@
           { "name": "Rayuela", "img": "https://m.media-amazon.com/images/I/913qsYmTdmL._AC_UF894,1000_QL80_.jpg" },
           { "name": "Las aventuras de Tom Sawyer", "img": "https://m.media-amazon.com/images/I/81yl619I+0S._AC_UF894,1000_QL80_.jpg" }
         ]
-      }
+      },
+      {
+  "name": "Personajes Literarios",
+  "characters": [
+    { "name": "Don Quijote", "img": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Don_Quijote_and_Sancho_Panza.jpg" },
+    { "name": "Sherlock Holmes", "img": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Sherlock_Holmes_Portrait_Paget.jpg" },
+    { "name": "Elizabeth Bennet", "img": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Elizabeth_Bennet_Hugh_Thomson.jpg" },
+    { "name": "Jay Gatsby", "img": "https://upload.wikimedia.org/wikipedia/commons/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg" },
+    { "name": "Atticus Finch", "img": "https://upload.wikimedia.org/wikipedia/en/7/79/To_Kill_a_Mockingbird.JPG" },
+    { "name": "Holden Caulfield", "img": "https://upload.wikimedia.org/wikipedia/en/3/32/Rye_catcher.jpg" },
+    { "name": "Anna Karenina", "img": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Anna_Karenina_1878.jpg" },
+    { "name": "Drácula", "img": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Dracula_1st_ed_cover_reproduction.jpg" },
+    { "name": "Frankenstein", "img": "https://upload.wikimedia.org/wikipedia/commons/2/25/Frankenstein_1818_edition_title_page.jpg" },
+    { "name": "Huckleberry Finn", "img": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Huckleberry_Finn_book.JPG" },
+    { "name": "Jean Valjean", "img": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Jean_Valjean_-_Gustave_Brion.jpg" },
+    { "name": "Captain Ahab", "img": "https://upload.wikimedia.org/wikipedia/commons/5/55/Moby-Dick_FE_title_page.jpg" },
+    { "name": "Winston Smith", "img": "https://upload.wikimedia.org/wikipedia/en/c/c3/1984first.jpg" },
+    { "name": "Bilbo Bolsón", "img": "https://upload.wikimedia.org/wikipedia/en/4/4a/TheHobbit_FirstEdition.jpg" },
+    { "name": "Harry Potter", "img": "https://upload.wikimedia.org/wikipedia/en/a/a9/Harry_Potter_and_the_Philosopher%27s_Stone_Book_Cover.jpg" }
+  ]
+},
+{
+  "name": "Pinturas Famosas",
+  "characters": [
+    { "name": "La Gioconda", "img": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Mona_Lisa.jpg" },
+    { "name": "La noche estrellada", "img": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" },
+    { "name": "El grito", "img": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Edvard_Munch_-_The_Scream_-_Google_Art_Project.jpg" },
+    { "name": "Las meninas", "img": "https://upload.wikimedia.org/wikipedia/commons/4/46/Las_Meninas_01.jpg" },
+    { "name": "El jardín de las delicias", "img": "https://upload.wikimedia.org/wikipedia/commons/3/3d/El_jard%C3%ADn_de_las_delicias%2C_Hieronymus_Bosch.jpg" },
+    { "name": "La persistencia de la memoria", "img": "https://upload.wikimedia.org/wikipedia/en/d/dd/The_Persistence_of_Memory.jpg" },
+    { "name": "Guernica", "img": "https://upload.wikimedia.org/wikipedia/en/7/74/PicassoGuernica.jpg" },
+    { "name": "El nacimiento de Venus", "img": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg" },
+    { "name": "La escuela de Atenas", "img": "https://upload.wikimedia.org/wikipedia/commons/9/94/School_of_Athens.jpg" },
+    { "name": "Las señoritas de Avignon", "img": "https://upload.wikimedia.org/wikipedia/en/d/dd/Les_Demoiselles_d%27Avignon.jpg" },
+    { "name": "El beso", "img": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Gustav_Klimt_016.jpg" },
+    { "name": "La libertad guiando al pueblo", "img": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Eug%C3%A8ne_Delacroix_-_La_libert%C3%A9_guidant_le_peuple.jpg" },
+    { "name": "El viejo guitarrista", "img": "https://upload.wikimedia.org/wikipedia/en/5/5c/Old_guitarist_chicago.jpg" },
+    { "name": "Impresión, sol naciente", "img": "https://upload.wikimedia.org/wikipedia/commons/4/47/Monet_-_Impression,_soleil_levant.jpg" },
+    { "name": "La rendición de Breda", "img": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Diego_Vel%C3%A1zquez_-_La_rendici%C3%B3n_de_Breda.jpg" }
+  ]
+}
 ]
