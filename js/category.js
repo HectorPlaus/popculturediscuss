@@ -131,7 +131,12 @@ async function selectCategory(category) {
   if (category.file && !category.subcategories) {
     try {
       const resp = await fetch('data/' + category.file);
-      category.subcategories = await resp.json();
+      const data = await resp.json();
+      if (Array.isArray(data)) {
+        category.subcategories = data;
+      } else {
+        Object.assign(category, data);
+      }
     } catch (err) {
       console.error('Unable to load', category.file, err);
     }

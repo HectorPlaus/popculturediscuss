@@ -1,0 +1,215 @@
+{
+        "name": "TV Shows",
+        "characters": [
+          {
+            "name": "Grey\"s Anatomy",
+            "img": "https://artworks.thetvdb.com/banners/posters/73762-27.jpg"
+          },
+          {
+            "name": "X-Men 97",
+            "img": "https://image.tmdb.org/t/p/original/ti67uwBX5yeDmZgs534FjkuCC7m.jpg"
+          },
+          {
+            "name": "The Big Bang Theory",
+            "img": "https://artworks.thetvdb.com/banners/posters/80379-18.jpg"
+          },
+          {
+            "name": "The Avengers: Earth\"s Mightiest Heroes",
+            "img": "https://artworks.thetvdb.com/banners/posters/192171-5.jpg"
+          },
+          {
+            "name": "Haikyu!!",
+            "img": "https://artworks.thetvdb.com/banners/posters/278157-1.jpg"
+          },
+          {
+            "name": "The Spectacular Spider-Man",
+            "img": "https://artworks.thetvdb.com/banners/posters/81494-5.jpg"
+          },
+          {
+            "name": "How I Met Your Mother",
+            "img": "https://artworks.thetvdb.com/banners/posters/75760-34.jpg"
+          },
+          {
+            "name": "Avatar: The Last Airbender",
+            "img": "https://artworks.thetvdb.com/banners/posters/74852-2.jpg"
+          },
+          {
+            "name": "Teen Wolf",
+            "img": "https://artworks.thetvdb.com/banners/posters/175001-20.jpg"
+          },
+          {
+            "name": "Arcane",
+            "img": "https://artworks.thetvdb.com/banners/v4/series/371028/posters/617f6a8c59e8f.jpg"
+          },
+          {
+            "name": "The 100",
+            "img": "https://artworks.thetvdb.com/banners/posters/268592-2.jpg"
+          },
+          {
+            "name": "The Bear",
+            "img": "https://artworks.thetvdb.com/banners/v4/series/403294/posters/62cb2fad70271.jpg"
+          },
+          {
+            "name": "Card Captor Sakura",
+            "img": "https://artworks.thetvdb.com/banners/posters/70668-10.jpg"
+          },
+          {
+            "name": "Attack On Titan",
+            "img": "https://artworks.thetvdb.com/banners/posters/267440-16.jpg"
+          },
+          {
+            "name": "American Dragon: Jake Long",
+            "img": "https://artworks.thetvdb.com/banners/posters/74344-2.jpg"
+          },
+          {
+            "name": "Marvel\"s Daredevil",
+            "img": "https://artworks.thetvdb.com/banners/posters/281662-1.jpg"
+          },
+          {
+            "name": "Heroes",
+            "img": "https://artworks.thetvdb.com/banners/posters/79501-2.jpg"
+          },
+          {
+            "name": "Chuck",
+            "img": "https://artworks.thetvdb.com/banners/posters/80348-1.jpg"
+          },
+          {
+            "name": "DragonBall",
+            "img": "https://artworks.thetvdb.com/banners/series/76666/posters/62061588.jpg"
+          },
+          {
+            "name": "DragonBall Z",
+            "img": "https://artworks.thetvdb.com/banners/posters/81472-7.jpg"
+          },
+          {
+            "name": "One Piece",
+            "img": "https://artworks.thetvdb.com/banners/v4/series/81797/posters/649d5ef942605.jpg"
+          },
+          {
+            "name": "Brooklyn Nine-Nine",
+            "img": "https://artworks.thetvdb.com/banners/posters/269586-11.jpg"
+          },
+          {
+            "name": "Misfits",
+            "img": "https://artworks.thetvdb.com/banners/posters/124051-4.jpg"
+          },
+          {
+            "name": "DragonBall GT",
+            "img": "https://artworks.thetvdb.com/banners/v4/series/79275/posters/607404343f360.jpg"
+          },
+          {
+            "name": "Futurama",
+            "img": "https://artworks.thetvdb.com/banners/posters/73871-2.jpg"
+          },
+          {
+            "name": "My Name Is Earl",
+            "img": "https://artworks.thetvdb.com/banners/posters/75397-4.jpg"
+          },
+          {
+            "name": "Suits",
+            "img": "https://artworks.thetvdb.com/banners/posters/247808-6.jpg"
+          },
+          {
+            "name": "The Walking Dead",
+            "img": "https://artworks.thetvdb.com/banners/v4/series/153021/posters/60fd8577d1a96.jpg"
+          },
+          {
+            "name": "Band of Brothers",
+            "img": "https://artworks.thetvdb.com/banners/posters/74205-12.jpg"
+          },
+          {
+            "name": "MotoGP",
+            "img": "https://artworks.thetvdb.com/banners/series/81083/posters/5f1ef930c0a07.jpg"
+          },
+          {
+            "name": "Jujutsu Kaisen",
+            "img": "https://artworks.thetvdb.com/banners/series/377543/posters/5ecb7bcccc897.jpg"
+          },
+          {
+            "name": "Kimetsu no Yaiba",
+            "img": "https://artworks.thetvdb.com/banners/v4/series/348545/posters/60908d475f49a.jpg"
+          },
+          {
+            "name": "Stranger Things",
+            "img": "https://artworks.thetvdb.com/banners/posters/5d1df8d5be8c8.jpg"
+          },
+          {
+            "name": "The Office (US)",
+            "img": "https://artworks.thetvdb.com/banners/posters/73244-1.jpg"
+          },
+          {
+            "name": "Gravity Falls",
+            "img": "https://artworks.thetvdb.com/banners/posters/259972-1.jpg"
+          },
+          {
+            "name": "Digimon",
+            "img": "https://artworks.thetvdb.com/banners/posters/72241-10.jpg"
+          },
+          {
+            "name": "Black Clover",
+            "img": "https://artworks.thetvdb.com/banners/v4/series/331753/posters/60f9d48b5d08c.jpg"
+          },
+          {
+            "name": "Zatch Bell!",
+            "img": "https://artworks.thetvdb.com/banners/posters/83421-10.jpg"
+          },
+          {
+            "name": "Digimon Frontier",
+            "img": "https://artworks.thetvdb.com/banners/series/380653/posters/5e9d981cc3694.jpg"
+          },
+          {
+            "name": "Fairy Tail",
+            "img": "https://artworks.thetvdb.com/banners/v4/series/114801/posters/6464b3f864687.jpg"
+          },
+          {
+            "name": "Arrow",
+            "img": "https://artworks.thetvdb.com/banners/posters/257655-19.jpg"
+          },
+          {
+            "name": "DragonBall Super",
+            "img": "https://artworks.thetvdb.com/banners/posters/295068-9.jpg"
+          },
+          {
+            "name": "Merlí",
+            "img": "https://artworks.thetvdb.com/banners/v4/series/300428/posters/64d9289603d50.jpg"
+          },
+          {
+            "name": "Breaking Bad",
+            "img": "https://artworks.thetvdb.com/banners/posters/81189-10.jpg"
+          },
+          {
+            "name": "Game of Thrones",
+            "img": "https://artworks.thetvdb.com/banners/posters/121361-4.jpg"
+          },
+          {
+            "name": "Friends",
+            "img": "https://artworks.thetvdb.com/banners/posters/79168-27.jpg"
+          },
+          {
+            "name": "Pokémon",
+            "img": "https://artworks.thetvdb.com/banners/posters/76703-9.jpg"
+          },
+          {
+            "name": "The Boys",
+            "img": "https://artworks.thetvdb.com/banners/posters/5c5c402b075cc.jpg"
+          },
+          {
+            "name": "How to Sell Drugs Online (Fast)",
+            "img": "https://artworks.thetvdb.com/banners/v4/series/361034/posters/60e42a0c05cdb.jpg"
+          },
+          {
+            "name": "Vikings",
+            "img": "https://artworks.thetvdb.com/banners/posters/260449-3.jpg"
+          },
+          {
+            "name": "Black Mirror",
+            "img": "https://artworks.thetvdb.com/banners/posters/253463-4.jpg"
+          },
+          {
+            "name": "La Casa De Papel",
+            "img": "https://artworks.thetvdb.com/banners/series/327417/posters/5f179de3d7428.jpg"
+          }
+
+        ]
+            }
+

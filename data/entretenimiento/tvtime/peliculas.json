@@ -1,0 +1,358 @@
+{
+    "name": "Movies",
+    "characters": [
+        {
+            "name": "The Mitchells vs. The Machines",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/133345/posters/60649cae96e93.jpg"
+        },
+        {
+            "name": "Puss in Boots: The Last Wish",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/68362/posters/6230f8cf34e66.jpg"
+        },
+        {
+            "name": "Ratatouille",
+            "img": "https://artworks.thetvdb.com/banners/movies/534/posters/2195292.jpg"
+        },
+        {
+            "name": "X-Men: Days of Future Past",
+            "img": "https://artworks.thetvdb.com/banners/movies/79/posters/79.jpg"
+        },
+        {
+            "name": "X-Men: First Class",
+            "img": "https://artworks.thetvdb.com/banners/movies/69081/posters/25869768.jpg"
+        },
+        {
+            "name": "The Dark Knight",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/116/posters/60d4cbc556e3c.jpg"
+        },
+        {
+            "name": "Hercules",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/935/posters/622513e175490.jpg"
+        },
+        {
+            "name": "Shrek 2",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/402/posters/6418d9f0608ce.jpg"
+        },
+        {
+            "name": "Shrek",
+            "img": "https://artworks.thetvdb.com/banners/movies/325/posters/325.jpg"
+        },
+        {
+            "name": "Monsters, Inc.",
+            "img": "https://artworks.thetvdb.com/banners/movies/331/posters/331.jpg"
+        },
+        {
+            "name": "Captain America: The Winter Soldier",
+            "img": "https://artworks.thetvdb.com/banners/movies/965/posters/965.jpg"
+        },
+        {
+            "name": "The Avengers",
+            "img": "https://artworks.thetvdb.com/banners/movies/31/posters/31.jpg"
+        },
+        {
+            "name": "Captain America: The First Avenger",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/180/posters/61b6137f53372.jpg"
+        },
+        {
+            "name": "Captain America: Civil War",
+            "img": "https://artworks.thetvdb.com/banners/movies/118/posters/5f19ac64da74f.jpg"
+        },
+        {
+            "name": "Avengers: Endgame",
+            "img": "https://artworks.thetvdb.com/banners/movies/148/posters/5f21e4031fea4.jpg"
+        },
+        {
+            "name": "Avengers: Infinity War",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/8/posters/60bc273188ee0.jpg"
+        },
+        {
+            "name": "Project X",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/1491/posters/649347e3683c4.jpg"
+        },
+        {
+            "name": "The Matrix",
+            "img": "https://artworks.thetvdb.com/banners/movies/169/posters/5f274c00c85c1.jpg"
+        },
+        {
+            "name": "Jaws",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/829/posters/66479e331a88e.jpg"
+        },
+        {
+            "name": "Oppenheimer",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/287533/posters/64552f43bff1e.jpg"
+        },
+        {
+            "name": "Cars",
+            "img": "https://artworks.thetvdb.com/banners/movies/562/posters/2195288.jpg"
+        },
+        {
+            "name": "Pirates of the Caribbean: At World\"s End",
+            "img": "https://artworks.thetvdb.com/banners/movies/196/posters/196.jpg"
+        },
+        {
+            "name": "I Am Legend",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/587/posters/6238a163b6a31.jpg"
+        },
+        {
+            "name": "Inglourious Basterds",
+            "img": "https://artworks.thetvdb.com/banners/movies/397/posters/397.jpg"
+        },
+        {
+            "name": "Interstellar",
+            "img": "https://artworks.thetvdb.com/banners/movies/131079/posters/1846628.jpg"
+        },
+        {
+            "name": "Harry Potter and the Prisoner of Azkaban",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/154/posters/60b8ed0117995.jpg"
+        },
+        {
+            "name": "Harry Potter and the Half-Blood Prince",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/181/posters/60b8eed5afae2.jpg"
+        },
+        {
+            "name": "Saving Private Ryan",
+            "img": "https://artworks.thetvdb.com/banners/movies/569/posters/2123847.jpg"
+        },
+        {
+            "name": "Coach Carter",
+            "img": "https://artworks.thetvdb.com/banners/movies/1113/posters/1113.jpg"
+        },
+        {
+            "name": "Forrest Gump",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/294/posters/607b6a79b56bb.jpg"
+        },
+        {
+            "name": "Kung Fu Panda",
+            "img": "https://artworks.thetvdb.com/banners/movies/362/posters/362.jpg"
+        },
+        {
+            "name": "MoneyBall",
+            "img": "https://artworks.thetvdb.com/banners/movies/3053/posters/3053.jpg"
+        },
+        {
+            "name": "The Wild Robot",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/353646/posters/66de5aaf54e88.jpg"
+        },
+        {
+            "name": "Deadpool & Wolverine",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/49196/posters/6626684077855.jpg"
+        },
+        {
+            "name": "Ready Player One",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/73/posters/643be094ee5f3.jpg"
+        },
+        {
+            "name": "Pitch Perfect",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/745/posters/642c2520d9305.jpg"
+        },
+        {
+            "name": "White Chicks",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/2246/posters/6651ed5590f5c.jpg"
+        },
+        {
+            "name": "American Sniper",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/792/posters/6446b5208a487.jpg"
+        },
+        {
+            "name": "Enemy at The Gates",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/2020/posters/65c42fa83f52a.jpg"
+        },
+        {
+            "name": "Aladdin",
+            "img": "https://artworks.thetvdb.com/banners/movies/6792/posters/25869223.jpg"
+        },
+        {
+            "name": "Cruella",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/70925/posters/60bb4d79ecd6e.jpg"
+        },
+        {
+            "name": "Digimon Adventure: Last Evolution Kizuna",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/132681/posters/6078c86a581e0.jpg"
+        },
+        {
+            "name": "Elemental",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/337156/posters/64935e81c606a.jpg"
+        },
+        {
+            "name": "Hancock",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/1168/posters/6428c5cbce6e8.jpg"
+        },
+        {
+            "name": "Harry Potter and the Goblet of Fire",
+            "img": "https://artworks.thetvdb.com/banners/movies/153/posters/153.jpg"
+        },
+        {
+            "name": "Jumper",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/1663/posters/65513cce4878e.jpg"
+        },
+        {
+            "name": "Maleficent",
+            "img": "https://artworks.thetvdb.com/banners/movies/253/posters/25871863.jpg"
+        },
+        {
+            "name": "One Piece: Stampede",
+            "img": "https://artworks.thetvdb.com/banners/movies/131535/posters/62075708.jpg"
+        },
+        {
+            "name": "Percy Jackson & the Olympians: The Lightning Thief",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/401/posters/642629eb46fe1.jpg"
+        },
+        {
+            "name": "Pokémon: Lucario and the Mystery of Mew",
+            "img": "https://artworks.thetvdb.com/banners/movies/7189/posters/7189.jpg"
+        },
+        {
+            "name": "Spider-Man",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/301/posters/6424cea3ed0c3.jpg"
+        },
+        {
+            "name": "Teen Wolf: The Movie",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/286800/posters/638900634d608.jpg"
+        },
+        {
+            "name": "The Guardian",
+            "img": "https://artworks.thetvdb.com/banners/movies/4041/posters/4041.jpg"
+        },
+        {
+            "name": "The Super Mario Bros. Movie",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/136578/posters/643a92581d85f.jpg"
+        },
+        {
+            "name": "Transformers",
+            "img": "https://artworks.thetvdb.com/banners/movies/14648/posters/14648.jpg"
+        },
+        {
+            "name": "Young Woman and the Sea",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/355663/posters/66a1574458351.jpg"
+        },
+        {
+            "name": "Gladiator",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/419/posters/60cf56c5585ae.jpg"
+        },
+        {
+            "name": "Good Will Hunting",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/949/posters/64f046192c826.jpg"
+        },
+        {
+            "name": "Hook",
+            "img": "https://artworks.thetvdb.com/banners/movies/1682/posters/1682.jpg"
+        },
+        {
+            "name": "Jumanji",
+            "img": "https://artworks.thetvdb.com/banners/movies/13121/posters/13121.jpg"
+        },
+        {
+            "name": "The Lord of the Rings: The Fellowship of the Ring",
+            "img": "https://artworks.thetvdb.com/banners/movies/107/posters/107.jpg"
+        },
+        {
+            "name": "The Lord of the Rings: The Two Towers",
+            "img": "https://artworks.thetvdb.com/banners/movies/157/posters/157.jpg"
+        },
+        {
+            "name": "The Lord of the Rings: The Return of the King",
+            "img": "https://artworks.thetvdb.com/banners/movies/74/posters/74.jpg"
+        },
+        {
+            "name": "A Beautiful Mind",
+            "img": "https://artworks.thetvdb.com/banners/movies/1472/posters/5f6fc3a64282e.jpg"
+        },
+        {
+            "name": "Life Is Beautiful",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/604/posters/60b09cc3b754d.jpg"
+        },
+        {
+            "name": "Dune: Part Two",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/290272/posters/64513de24dac0.jpg"
+        },
+        {
+            "name": "Eternal Sunshine of the Spotless Mind",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/751/posters/6534ff6cddfe8.jpg"
+        },
+        {
+            "name": "Memento",
+            "img": "https://artworks.thetvdb.com/banners/movies/434/posters/601490437055a.jpg"
+        },
+        {
+            "name": "Shutter Island",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/558/posters/648cf9879cb38.jpg"
+        },
+        {
+            "name": "The Departed",
+            "img": "https://artworks.thetvdb.com/banners/movies/590/posters/2122523.jpg"
+        },
+
+        {
+            "name": "Whiplash",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/129/posters/613a05ea4c93f.jpg"
+        },
+        {
+            "name": "Catch Me If You Can",
+            "img": "https://artworks.thetvdb.com/banners/movies/312/posters/2030207.jpg"
+        },
+        {
+            "name": "Guardians Of The Galaxy Vol.3",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/11716/posters/63ea0979b13fb.jpg"
+        },
+        {
+            "name": "Inside Out",
+            "img": "https://artworks.thetvdb.com/banners/movies/159/posters/159.jpg"
+        },
+        {
+            "name": "John Wick",
+            "img": "https://artworks.thetvdb.com/banners/movies/155/posters/155.jpg"
+        },
+        {
+            "name": "La La Land",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/139/posters/60a2f0efaa1b3.jpg"
+        },
+        {
+            "name": "Spider-Man: No Way Home",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/132448/posters/619fafaad49c2.jpg"
+        },
+        {
+            "name": "Fight Club",
+            "img": "https://artworks.thetvdb.com/banners/movies/247/posters/5f610c83ddd29.jpg"
+        },
+        {
+            "name": "Spider-Man 2",
+            "img": "https://artworks.thetvdb.com/banners/movies/6389/posters/6389.jpg"
+        },
+        {
+            "name": "The Truman Show",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/1240/posters/61f00ae657f44.jpg"
+        },
+        {
+            "name": "Guardians Of The Galaxy",
+            "img": "https://artworks.thetvdb.com/banners/movies/26/posters/26.jpg"
+        },
+         {
+            "name": "Wall-E",
+            "img": "https://artworks.thetvdb.com/banners/movies/516/posters/5f0220805facc.jpg"
+        },
+         {
+            "name": "The Mummy",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/451/posters/64aac90fbe218.jpg"
+        },
+         {
+            "name": "Cast Away",
+            "img": "https://artworks.thetvdb.com/banners/movies/838/posters/838.jpg"
+        },
+         {
+            "name": "Bicentennial Man",
+            "img": "https://artworks.thetvdb.com/banners/movies/2354/posters/2354.jpg"
+        },
+        {
+            "name": "The Green Mile",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/308/posters/607cc5bca5bcf.jpg"
+        },
+        {
+            "name": "Up",
+            "img": "https://artworks.thetvdb.com/banners/movies/315/posters/315.jpg"
+        },
+        {
+            "name": "The Prestige",
+            "img": "https://artworks.thetvdb.com/banners/movies/302/posters/302.jpg"
+        }
+    ]
+}

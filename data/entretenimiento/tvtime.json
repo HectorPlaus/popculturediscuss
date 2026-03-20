@@ -1,0 +1,9 @@
+[
+      {
+        "name": "TV Shows",
+        "file": "entretenimiento/tvtime/series.json"      },
+      {
+        "name": "Movies",
+        "file": "entretenimiento/tvtime/peliculas.json"
+      }
+    ]
