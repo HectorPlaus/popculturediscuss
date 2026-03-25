@@ -52,6 +52,13 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }
 
+    const randomBattleButton = document.getElementById('randombattle-mode');
+    if(randomBattleButton){
+      randomBattleButton.addEventListener('click', () => {
+        window.location.href = 'randombattle.html';
+      });
+    }
+
   
     // Evento para el botón de "Otro modo"
     const otherModeButton = document.getElementById('other-mode');

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Battle</title>
+    <link rel="stylesheet" href="../css/randombattle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <header id="logoheader"></header>
+    <ul class="navbar">
+        <div class="menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="mode.html">Mode</a></li>
+            <li><a href="randombattle.html" class="active">Random Battle</a></li>
+        </div>
+        <button id="toggle-theme" aria-label="Toggle dark mode"><i class="fa-solid fa-moon"></i></button>
+    </ul>
+
+    <section id="randombattle-app" class="container">
+       
+
+        <div class="actions">
+            <button id="start-battle-btn">Iniciar Batalla</button>
+            <button id="reset-btn" class="hidden">Reiniciar</button>
+        </div>
+
+        <div id="turn-info" class="status">Presiona Iniciar Batalla para comenzar.</div>
+
+        <div id="secret-card" class="card hidden">
+            <div class="card-title">Personaje Secreto</div>
+            <button id="confirm-view-btn" class="confirm-view-btn">Confirmar: solo yo veo</button>
+            <img id="character-img" class="character-img hidden" alt="Imagen del personaje">
+            <div id="character-name" class="character-name hidden"></div>
+            <div id="character-desc" class="character-desc hidden"></div>
+            <p id="prediction-text" class="hidden"></p>
+            <div class="prediction-buttons hidden" id="prediction-buttons">
+                <button id="predict-win" class="win">Gana</button>
+                <button id="predict-lose" class="lose">Pierde</button>
+            </div>
+        </div>
+
+        <div id="winner-selection" class="winner-selection hidden">
+            <h3>Elige quién gana la batalla</h3>
+            <div id="winner-characters" class="winner-characters"></div>
+        </div>
+
+        <div id="result-summary" class="summary hidden"></div>
+    </section>
+
+    <script src="../js/randombattle.js"></script>
+    <script src="../js/theme.js"></script>
+</body>
+
+</html>

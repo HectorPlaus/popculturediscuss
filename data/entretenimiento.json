@@ -2181,6 +2181,11 @@
     ]
   },
   {
+    "name":"Disney",
+    "img": "",
+    "file": "entretenimiento/disney/disney.json" 
+  },
+  {
     "name": "TV Time Special",
     "img": "https://thetvdb.com/images/tvtime-small.png",
     "file": "entretenimiento/tvtime.json"
