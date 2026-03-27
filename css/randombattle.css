@@ -89,17 +89,15 @@ button:hover {
     margin-bottom: 12px;
 }
 
-.prediction-buttons {
-    display: flex;
-    gap: 12px;
-}
+    .character-img {
+        width: 100%;
+        max-width: 520px;
+        height: auto;
+        object-fit: contain;
+        margin-top: 16px;
+        border-radius: 10px;
+    }
 
-.win {
-    background: #16a34a;
-}
-
-.lose {
-    background: #ef4444;
 }
 
 .result-item {

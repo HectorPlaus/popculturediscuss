@@ -52,16 +52,21 @@
 .action-buttons {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 10px;
     margin-top: 10px;
+    width: 100%;
 }
 
 .action-button {
-    padding: 5px 10px;
-    font-size: 40px;
+    flex: 1 1 100px;
+    min-width: 90px;
+    padding: 10px 12px;
+    font-size: 22px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    white-space: nowrap;
 }
 
 .action-button[data-action="fuck"],.action-button[data-action="starter"] {
@@ -171,8 +176,8 @@
     }
 
     .action-button {
-        font-size: 44px;
-        padding: 8px 14px;
+        font-size: 28px;
+        padding: 12px 16px;
     }
 
     #fuckmarrykill-game {
