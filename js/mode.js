@@ -59,11 +59,11 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }
 
-  
-    // Evento para el botón de "Otro modo"
-    const otherModeButton = document.getElementById('other-mode');
-    otherModeButton.addEventListener('click', () => {
-      alert('Proximamente...');
-    });
-  });
+    const selectionDuelButton = document.getElementById('selection-duel-mode');
+    if (selectionDuelButton) {
+      selectionDuelButton.addEventListener('click', () => {
+        window.location.href = 'selection.html';
+      });
+    }
+});
   

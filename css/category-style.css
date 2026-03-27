@@ -8,14 +8,14 @@
 
 #category-list {
     display: grid;
-   
-     grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     gap: 15px;
     padding: 30px;
     list-style-type: none;
     width: 100%;
 }
+
 #category-list li {
     display: flex;
     justify-content: center;
@@ -31,7 +31,8 @@
     font-size: 100%;
     font-weight: bolder;
 }
-#category-list li img{
+
+#category-list li img {
     width: 100%;
     height: auto;
     max-width: 30%;
@@ -43,30 +44,37 @@
 /* specific column counts for exact layout */
 
 @media (max-width: 1403px) {
+
     /* large screens: 3 columns x 2 rows for 6 categories */
     #category-list {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
-    #category-list li img{
+
+    #category-list li img {
         max-width: 100%;
     }
 }
+
 @media (max-width: 802px) {
+
     /* large screens: 3 columns x 2 rows for 6 categories */
     #category-list {
         grid-template-columns: repeat(3, 1fr);
     }
-    #category-list li img{
+
+    #category-list li img {
         max-width: 100%;
     }
 }
 
 @media (max-width: 767px) {
+
     /* small screens: 2 columns x 3 rows */
     #category-list {
         grid-template-columns: repeat(2, 1fr);
     }
-    #category-list li img{
+
+    #category-list li img {
         max-width: 100%;
     }
 }
@@ -79,59 +87,59 @@
 }
 
 /* Colores Trivial Pursuit para categorías - MODO CLARO */
-#category-list li.trivial-geografia { 
-    background: #0066cc !important; 
+#category-list li.trivial-geografia {
+    background: #0066cc !important;
 }
 
-#category-list li.trivial-entretenimiento { 
-    background: #ff1493 !important; 
+#category-list li.trivial-entretenimiento {
+    background: #ff1493 !important;
 }
 
-#category-list li.trivial-historia { 
-    background: #ffd700 !important; 
+#category-list li.trivial-historia {
+    background: #ffd700 !important;
 }
 
-#category-list li.trivial-arte { 
-    background: #8b4513 !important; 
+#category-list li.trivial-arte {
+    background: #8b4513 !important;
 }
 
-#category-list li.trivial-ciencia { 
-    background: #2e8b57 !important; 
+#category-list li.trivial-ciencia {
+    background: #2e8b57 !important;
 }
 
-#category-list li.trivial-deportes { 
-    background: #ff8c00 !important; 
+#category-list li.trivial-deportes {
+    background: #ff8c00 !important;
 }
 
 /* Colores Trivial Pursuit para categorías - MODO OSCURO */
-body.dark-theme #category-list li.trivial-geografia { 
-    background: #1e88e5 !important; 
-    color: white !important; 
+body.dark-theme #category-list li.trivial-geografia {
+    background: #1e88e5 !important;
+    color: white !important;
 }
 
-body.dark-theme #category-list li.trivial-entretenimiento { 
-    background: #ec407a !important; 
-    color: white !important; 
+body.dark-theme #category-list li.trivial-entretenimiento {
+    background: #ec407a !important;
+    color: white !important;
 }
 
-body.dark-theme #category-list li.trivial-historia { 
-    background: #ffca28 !important; 
-    color: white !important; 
+body.dark-theme #category-list li.trivial-historia {
+    background: #ffca28 !important;
+    color: white !important;
 }
 
-body.dark-theme #category-list li.trivial-arte { 
-    background: #8b4513 !important; 
-    color: white !important; 
+body.dark-theme #category-list li.trivial-arte {
+    background: #8b4513 !important;
+    color: white !important;
 }
 
-body.dark-theme #category-list li.trivial-ciencia { 
-    background: #66bb6a !important; 
-    color: white !important; 
+body.dark-theme #category-list li.trivial-ciencia {
+    background: #66bb6a !important;
+    color: white !important;
 }
 
-body.dark-theme #category-list li.trivial-deportes { 
-    background: #ffa726 !important; 
-    color: white !important; 
+body.dark-theme #category-list li.trivial-deportes {
+    background: #ffa726 !important;
+    color: white !important;
 }
 
 /* Efecto hover para categorías Trivial */
@@ -202,9 +210,9 @@ body.dark-theme #category-list li.trivial-deportes {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-  }
-  
-  .roulette {
+}
+
+.roulette {
     position: relative;
     height: 500px;
     width: 400px;
@@ -212,8 +220,9 @@ body.dark-theme #category-list li.trivial-deportes {
     border: 4px solid #333;
     border-radius: 8px;
     background: #f5f5f5;
-  }
-  .indicator {
+}
+
+.indicator {
     position: absolute;
     top: 42%;
     left: 0;
@@ -224,15 +233,16 @@ body.dark-theme #category-list li.trivial-deportes {
     transform: translateY(-50%);
     z-index: 10;
     pointer-events: none;
-  }
-  #roulette-list {
+}
+
+#roulette-list {
     list-style: none;
     margin: 0;
     padding: 0;
     transition: transform 0.1s;
-  }
-  
-  #roulette-list li {
+}
+
+#roulette-list li {
     height: 100px;
     display: flex;
     align-items: center;
@@ -241,42 +251,42 @@ body.dark-theme #category-list li.trivial-deportes {
     cursor: pointer;
     border-bottom: 1px solid #ccc;
     background: white;
-  }
-  
-  .roulette-controls button {
+}
+
+.roulette-controls button {
     font-size: 1.2rem;
     padding: 8px 12px;
     cursor: pointer;
-  }
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
     #category-list {
-       
+
         gap: 10px;
         padding: 10px;
     }
-    
+
     #category-list li {
         font-size: 14px;
         padding: 8px;
     }
-    
+
     #category-search {
         width: 90%;
         font-size: 16px;
     }
-    
+
     .modal-content {
         width: 90%;
         padding: 15px;
     }
-    
+
     .roulette {
         height: 400px;
         width: 300px;
     }
-    
+
     #roulette-list li {
         height: 80px;
         font-size: 1.2rem;
@@ -288,22 +298,22 @@ body.dark-theme #category-list li.trivial-deportes {
         grid-template-columns: repeat(2, 1fr);
         gap: 8px;
     }
-    
+
     #category-list li {
         font-size: 12px;
         padding: 6px;
     }
-    
+
     #category-search {
         width: 95%;
         font-size: 14px;
     }
-    
+
     .roulette {
         height: 300px;
         width: 250px;
     }
-    
+
     #roulette-list li {
         height: 60px;
         font-size: 1rem;

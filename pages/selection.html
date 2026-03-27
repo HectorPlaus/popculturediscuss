@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duelo de Selección</title>
+    <link rel="stylesheet" href="../css/selection-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+</head>
+<body>
+    <header id="logoheader"></header>
+    <ul class="navbar">
+        <div class="menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="mode.html">Mode</a></li>
+            <li><a href="selection.html" class="active">Duelo Selección</a></li>
+        </div>
+        <button id="toggle-theme" aria-label="Toggle dark mode"><i class="fa-solid fa-moon"></i></button>
+    </ul>
+    <div id="game">
+        
+        <div id="info">
+            <div id="selected-category"></div>
+            <div id="rounds-info"></div>
+        </div>
+        <div id="pair-container" style="display: none;">
+            <div class="character-card" id="card-a" title="Haz clic en la tarjeta para seleccionar">
+                <img id="img-a" src="" alt="Personaje A">
+                <h3 id="name-a"></h3>
+            </div>
+            <div class="character-card" id="card-b" title="Haz clic en la tarjeta para seleccionar">
+                <img id="img-b" src="" alt="Personaje B">
+                <h3 id="name-b"></h3>
+            </div>
+        </div>
+        <div id="end-game">
+            <h2>Juego Finalizado</h2>
+            <div id="champion-display">
+                <img id="champion-img" src="" alt="Campeón">
+                <h3 id="champion-name"></h3>
+            </div>
+            <button id="restart">Reiniciar</button>
+        </div>
+    </div>
+
+    <script src="../js/selection.js"></script>
+    <script src="../js/theme.js"></script>
+</body>
+</html>
