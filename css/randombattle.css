@@ -153,3 +153,27 @@ button:hover {
 .hidden {
     display: none;
 }
+
+@media (min-width: 1400px) {
+    #randombattle-app {
+        max-width: 1200px;
+        padding: 28px;
+    }
+
+    .info, .status {
+        font-size: 1.35rem;
+    }
+
+    .card, .summary, .winner-character-card {
+        padding: 20px;
+    }
+
+    .winner-character-card {
+        width: 245px;
+    }
+
+    .actions button {
+        padding: 12px 20px;
+        font-size: 1.1rem;
+    }
+}

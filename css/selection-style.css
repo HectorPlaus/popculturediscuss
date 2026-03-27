@@ -151,3 +151,30 @@ body {
 #restart:hover {
     background: #0056b3;
 }
+
+@media (min-width: 1400px) {
+    #pair-container {
+        height: calc(100vh - 180px);
+        column-gap: 2rem;
+        padding: 0 6rem;
+    }
+
+    .character-card h3 {
+        font-size: 2.2rem;
+    }
+
+    #champion-name {
+        font-size: 3rem;
+    }
+
+    #champion-img {
+        max-width: 600px;
+        max-height: 600px;
+    }
+
+    #info {
+        top: 140px;
+        right: 3rem;
+        font-size: 1rem;
+    }
+}

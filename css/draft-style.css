@@ -137,3 +137,26 @@
         font-size: 14px;
     }
 }
+
+@media (min-width: 1400px) {
+    #character-list {
+        grid-template-columns: repeat(8, 1fr);
+        gap: 20px;
+        font-size: 22px;
+        max-width: 95%;
+        margin: 0 auto;
+    }
+
+    .character-item {
+        padding: 8px;
+    }
+
+    .character-item p {
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    #rounds-info {
+        font-size: 22px;
+    }
+}

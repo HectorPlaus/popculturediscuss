@@ -253,4 +253,29 @@
     }
 }
 
+@media (min-width: 1400px) {
+    #teamfight-teams {
+        gap: 30px;
+        justify-content: space-evenly;
+    }
+
+    #teamfight-teams > div {
+        max-width: 280px;
+        padding: 18px;
+    }
+
+    #player-count {
+        font-size: 24px;
+        padding: 14px;
+    }
+
+    .position img {
+        max-width: 220px;
+    }
+
+    #generated-character {
+        max-width: 220px;
+    }
+}
+
 

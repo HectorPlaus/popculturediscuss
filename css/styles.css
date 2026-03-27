@@ -235,3 +235,43 @@ p {
     }
 }
 
+/* Ajustes para pantallas grandes (TV/4K) */
+@media (min-width: 1400px) {
+    body {
+        font-size: 18px;
+    }
+
+    .navbar {
+        padding: 16px 24px;
+    }
+
+    .menu {
+        gap: 28px;
+        font-size: 22px;
+    }
+
+    button {
+        font-size: 22px;
+        padding: 14px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.6rem;
+    }
+
+    input, label {
+        font-size: 20px;
+    }
+
+    #category-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 24px;
+    }
+}
+
+

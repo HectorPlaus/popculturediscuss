@@ -11,9 +11,11 @@
 #characters-container {
     display: flex;
     justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap; 
+    gap: 2.5%;
+    flex-wrap: wrap;
     margin-top: 20px;
+    width: 100%;
+    max-width: 98%;
 }
 
 /* Tarjeta de personaje */
@@ -28,7 +30,9 @@
     border-radius: 10px;
     padding: 15px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
+    width: clamp(260px, 28vw, 420px);
+    max-width: 33%;
+    min-width: 240px;
     margin: 10px;
     transition: transform 0.2s;
     cursor: pointer;
@@ -149,5 +153,30 @@
     
     .action-button {
         padding: 3px 6px;
+    }
+}
+
+@media (min-width: 1400px) {
+    #characters-container {
+        gap: 2.2%;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+    }
+
+    .character-card {
+        width: 30%;
+        min-width: 320px;
+        max-width: 420px;
+        padding: 18px;
+    }
+
+    .action-button {
+        font-size: 44px;
+        padding: 8px 14px;
+    }
+
+    #fuckmarrykill-game {
+        margin-top: 30px;
+        padding: 0 30px;
     }
 }

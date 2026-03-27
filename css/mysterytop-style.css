@@ -147,3 +147,30 @@
     }
     
 }
+
+@media (min-width: 1400px) {
+    #current-character {
+        max-width: 30%;
+    }
+
+    #character-image {
+        max-width: 45%;
+    }
+
+    #character-name {
+        font-size: 28px;
+    }
+
+    #players-tops {
+        gap: 24px;
+    }
+
+    .player-top li {
+        font-size: 18px;
+        gap: 18px;
+    }
+
+    .player-top li img {
+        max-width: 180px;
+    }
+}
