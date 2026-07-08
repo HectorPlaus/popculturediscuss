@@ -126,7 +126,7 @@ body {
 #champion-name {
     font-size: 2rem;
     margin: 0;
-    color: #333;
+    color: var(--h-text);
 }
 
 #result {

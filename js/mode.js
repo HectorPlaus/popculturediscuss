@@ -8,9 +8,11 @@ document.addEventListener('DOMContentLoaded', () => {
   
     // Evento para el botón de "Draft"
     const draftButton = document.getElementById('draft-mode');
-    draftButton.addEventListener('click', () => {
-        window.location.href = 'draft.html'; 
-    });
+    if (draftButton) {
+      draftButton.addEventListener('click', () => {
+          window.location.href = 'draft.html'; 
+      });
+    }
   
     // Evento para el botón de "Team Fight"
     const teamFightButton = document.getElementById('teamfight-mode');

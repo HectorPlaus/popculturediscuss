@@ -1441,5 +1441,142 @@
         "img": "https://cf.geekdo-images.com/uyE342LSf5ztt9gxPY1nVQ__small/img/1ZzpmrGtp1aGiMq2IqFe22TPPYs=/fit-in/200x150/filters:strip_icc()/pic7241989.jpg"
       }
     ]
+  },
+  {
+    "name": "World Collectible Figures",
+    "characters": [
+      {
+        "name": "Bartholomew Kuma",
+        "img": "https://static.myfigurecollection.net/upload/items/2/432924-6002d.jpg"
+      },
+      {
+        "img": "https://static.myfigurecollection.net/upload/items/2/315117-b73bf.jpg",
+        "name": "Bartolomeo"
+      },
+      {
+        "img": "https://static.myfigurecollection.net/upload/items/2/432922-191b0.jpg",
+        "name": "Donquixote Doflamingo"
+      },
+      {
+        "img": "https://static.myfigurecollection.net/upload/items/2/1980249-920c4.jpg",
+        "name": "Douke no Buggy"
+      },
+      {
+        "img": "https://static.myfigurecollection.net/upload/items/2/432926-79f5d.jpg",
+        "name": "Dracule Mihawk"
+      },
+      {
+        "img": "https://static.myfigurecollection.net/upload/items/2/1980251-b206a.jpg",
+        "name": "Dracule Mihawk"
+      },
+      {
+        "img": "https://static.myfigurecollection.net/upload/items/2/157712-3211d.jpg",
+        "name": "Edward Newgate"
+      },
+      {
+        "img": "https://static.myfigurecollection.net/upload/items/2/1385458-95e13.jpg",
+        "name": "Eneru"
+      },
+      {
+        "img": "https://static.myfigurecollection.net/upload/items/2/440847-e1eb5.jpg",
+        "name": "Frieza - Final Form"
+      },
+      {
+        "img": "https://static.myfigurecollection.net/upload/items/2/432925-25270.jpg",
+        "name": "Gecko Moria"
+      },
+      {
+        "img": "https://static.myfigurecollection.net/upload/items/2/1385460-8e089.jpg",
+        "name": "Gecko Moria"
+      },
+      {
+        "img": "https://static.myfigurecollection.net/upload/items/2/672905-67d56.jpg",
+        "name": "Goku Black"
+      },
+      {
+        "img": "https://static.myfigurecollection.net/upload/items/2/1450928-57d2f.jpg",
+        "name": "Jewelry Bonney"
+      },
+      {
+        "img": "https://static.myfigurecollection.net/upload/items/2/1686462-bf112.jpg",
+        "name": "Jinbei"
+      },
+      {
+        "name": "Kaido",
+        "img": "https://static.myfigurecollection.net/upload/items/2/1058067-b2ad6.jpg"
+      },
+      {
+        "img": "https://static.myfigurecollection.net/upload/items/2/1495503-7757a.jpg",
+        "name": "Kozuki Oden"
+      },
+      {
+        "img": "https://static.myfigurecollection.net/upload/items/2/432921-823fd.jpg",
+        "name": "Marshall D. Teach"
+      },
+      {
+        "img": "https://static.myfigurecollection.net/upload/items/1/312499-d6832.jpg",
+        "name": "Monkey D. Luffy"
+      },
+      {
+        "img": "https://static.myfigurecollection.net/upload/items/2/1823506-1d202.jpg",
+        "name": "Monkey D. Luffy & Roronoa Zoro"
+      },
+      {
+        "img": "https://static.myfigurecollection.net/upload/items/2/1324094-f4dd3.jpg",
+        "name": "Mr.2 Bon Kure"
+      },
+      {
+        "img": "https://static.myfigurecollection.net/upload/items/2/1030444-8040d.jpg",
+        "name": "Nami"
+      },
+      {
+        "img": "https://static.myfigurecollection.net/upload/items/2/145288-bacee.jpg",
+        "name": "Portgas D. Ace"
+      },
+      {
+        "img": "https://static.myfigurecollection.net/upload/items/2/1385459-36e80.jpg",
+        "name": "Rob Lucci"
+      },
+      {
+        "img": "https://static.myfigurecollection.net/upload/items/2/312496-dd747.jpg",
+        "name": "Roronoa Zoro"
+      },
+      {
+        "img": "https://static.myfigurecollection.net/upload/items/2/1980246-03c99.jpg",
+        "name": "Shinobu"
+      },
+      {
+        "img": "https://static.myfigurecollection.net/upload/items/2/1385456-b4c99.jpg",
+        "name": "Sir Crocodile"
+      },
+      {
+        "img": "https://static.myfigurecollection.net/upload/items/2/1980250-3d569.jpg",
+        "name": "Sir Crocodile"
+      },
+      {
+        "img": "https://static.myfigurecollection.net/upload/items/2/440857-bfc0e.jpg",
+        "name": "Son Goku SSJ3"
+      },
+      {
+        "img": "https://static.myfigurecollection.net/upload/items/2/1980248-f3e5e.jpg",
+        "name": "Tama"
+      },
+      {
+        "img": "https://static.myfigurecollection.net/upload/items/2/312482-9960f.jpg",
+        "name": "Trafalgar Law"
+      },
+      {
+        "img": "https://static.myfigurecollection.net/upload/items/2/432923-5090c.jpg",
+        "name": "Tsuru"
+      },
+      {
+        "img": "https://static.myfigurecollection.net/upload/items/2/1309124-1eddc.jpg",
+        "name": "Usopp"
+      },
+      {
+        "img": "https://static.myfigurecollection.net/upload/items/2/1067405-42eb4.jpg",
+        "name": "X. Drake"
+      }
+    ]
   }
 ]

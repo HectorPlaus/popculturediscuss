@@ -23,26 +23,38 @@
     </ul>
     </nav>
     <h2 id="selected-category"></h2>
+    
+    
     <div id="tierlist-div">
         <div id="tierlist-container"></div>
         <div id="unassigned-characters"></div>
         <div id="settings-overlay" class="settings-overlay"></div>
-        <div id="settings-window" class="settings-window">
+        <div id="settings-window" class="settings-window" role="dialog" aria-modal="true" aria-labelledby="settings-title">
             <div class="settings-content">
-                <span id="close-settings" class="close-btn">&times;</span>
-                <h2>Configuración</h2>
-                <div class="change-row-background">
+                <button id="close-settings" class="close-btn" aria-label="Cerrar ajustes">&times;</button>
+                <h2 id="settings-title">Ajustes de fila</h2>
+                <p class="settings-description">Personaliza la fila actual para que se adapte mejor a tu tierlist.</p>
+
+                <div class="settings-section">
+                    <label for="row-title">Nombre del apartado</label>
+                    <input type="text" id="row-title" name="row-title" maxlength="20" placeholder="Ej. S, A, Especial...">
+                </div>
+
+                <div class="settings-section">
                     <label for="background-color">Color de fondo</label>
                     <input type="color" id="background-color" name="background-color">
                 </div>
-                <div class="add-row-above">
-                    <button id="add-row-above">Añadir fila arriba</button>
+
+                <div class="settings-section">
+                    <span class="settings-section-title">Orden de filas</span>
+                    <div class="settings-actions">
+                        <button id="add-row-above" type="button">Añadir arriba</button>
+                        <button id="add-row-below" type="button">Añadir abajo</button>
+                    </div>
                 </div>
-                <div class="add-row-below">
-                    <button id="add-row-below">Añadir fila abajo</button>
-                </div>
-                <div class="delete-row">
-                    <button id="delete-row">Eliminar fila</button>
+
+                <div class="settings-section danger-section">
+                    <button id="delete-row" type="button" class="danger-btn">Eliminar fila</button>
                 </div>
             </div>
         </div>

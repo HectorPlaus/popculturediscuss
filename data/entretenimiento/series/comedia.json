@@ -19,10 +19,6 @@
                 "img": "https://artworks.thetvdb.com/banners/person/253795/5f84c3d7506d2.jpg"
               },
               {
-                "name": "Barney Stinson",
-                "img": "https://artworks.thetvdb.com/banners/actors/41069.jpg"
-              },
-              {
                 "name": "Sophia Petrillo",
                 "img": "https://artworks.thetvdb.com/banners/person/287076/5fc3d2aec52a8.jpg"
               },
@@ -33,6 +29,10 @@
               {
                 "name": "Blanche Devereaux",
                 "img": "https://artworks.thetvdb.com/banners/person/253859/5fc3d2690c137.jpg"
+              },
+              {
+                "name": "Dorothy Zbornak",
+                "img": "https://artworks.thetvdb.com/banners/person/7984899/5fc3d2878cae7.jpg"
               },
               {
                 "name": "Bobby Brady",
@@ -79,10 +79,6 @@
                 "img": "https://artworks.thetvdb.com/banners/actors/349239.jpg"
               },
               {
-                "name": "Dorothy Zbornak",
-                "img": "https://artworks.thetvdb.com/banners/person/7984899/5fc3d2878cae7.jpg"
-              },
-              {
                 "name": "Monica Geller",
                 "img": "https://artworks.thetvdb.com/banners/actors/494236.jpg"
               },
@@ -117,6 +113,10 @@
               {
                 "name": "Ted Mosby",
                 "img": "https://artworks.thetvdb.com/banners/actors/41068.jpg"
+              },
+              {
+                "name": "Barney Stinson",
+                "img": "https://artworks.thetvdb.com/banners/actors/41069.jpg"
               },
               {
                 "name": "Lily Aldrin",
@@ -520,27 +520,27 @@
               },
               {
                 "name": "Sophie Tompkins",
-                "img": "https://artworks.thetvdb.com/banners/v4/actor/285554/photo/61fa2dca20961.jpg"
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/285554/photo/6a18a841c0ea4.jpg"
               },
               {
                 "name": "Jesse Walker",
-                "img": "https://artworks.thetvdb.com/banners/v4/actor/360143/photo/61fa2cec3c21b.jpg"
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/360143/photo/6a18a74a709da.jpg"
               },
               {
                 "name": "Valentina",
-                "img": "https://artworks.thetvdb.com/banners/v4/actor/346843/photo/61fa2d16806de.jpg"
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/346843/photo/6a18a77f1f1d3.jpg"
               },
               {
                 "name": "Sid",
-                "img": "https://artworks.thetvdb.com/banners/v4/actor/327368/photo/61fa2d3e48c53.jpg"
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/327368/photo/6a18a8f418fc1.jpg"
               },
               {
                 "name": "Charlie",
-                "img": "https://artworks.thetvdb.com/banners/v4/actor/575536/photo/61fa2d63f3ee2.jpg"
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/575536/photo/6a18a7e2cd45e.jpg"
               },
               {
                 "name": "Ellen",
-                "img": "https://artworks.thetvdb.com/banners/v4/actor/8244571/photo/61fa2d8deda5b.jpg"
+                "img": "https://artworks.thetvdb.com/banners/v4/actor/8244571/photo/6a18a80e22ceb.jpg"
               },
               {
                 "name": "Drew",

@@ -233,8 +233,9 @@ function continueNavigation() {
       categorySearch.addEventListener('input', () => {
         const searchTerm = categorySearch.value.toLowerCase();
         let pathNames = JSON.parse(localStorage.getItem('categoryPath') || '[]');
-        const currentCategories = pathNames.length > 0 ? findCategoryByPath(pathNames).subcategories : categories;
-        const filteredCategories = currentCategories.filter(category =>
+        const currentCategories = pathNames.length > 0 ? findCategoryByPath(pathNames)?.subcategories : categories;
+        const availableCategories = currentCategories || [];
+        const filteredCategories = availableCategories.filter(category =>
           category.name.toLowerCase().includes(searchTerm)
         );
         displayCategories(filteredCategories, pathNames.length > 0);
@@ -244,8 +245,11 @@ function continueNavigation() {
     if (randomCategoryButton) {
       randomCategoryButton.addEventListener('click', () => {
         let pathNames = JSON.parse(localStorage.getItem('categoryPath') || '[]');
-        const currentCategories = pathNames.length > 0 ? findCategoryByPath(pathNames).subcategories : categories;
-        const randomCategory = currentCategories[Math.floor(Math.random() * currentCategories.length)];
+        const currentCategories = pathNames.length > 0 ? findCategoryByPath(pathNames)?.subcategories : categories;
+        const availableCategories = currentCategories || [];
+        if (availableCategories.length === 0) return;
+
+        const randomCategory = availableCategories[Math.floor(Math.random() * availableCategories.length)];
         selectCategory(randomCategory);
       });
     }
