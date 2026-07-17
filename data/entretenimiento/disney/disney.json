@@ -555,5 +555,9 @@
     "img": "https://comicvine.gamespot.com/a/uploads/scale_small/1/15776/9522542-rex.jpg"
   }
         ]
-    }
+    },
+    {
+        "name": "Películas de Disney",
+        "file": "entretenimiento/disney/disneymovie.json"
+      }
 ]

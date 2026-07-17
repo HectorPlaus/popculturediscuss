@@ -22,8 +22,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const auctionNote = document.getElementById('auction-note');
     const playersPanel = document.getElementById('players-panel');
     const bidHistoryList = document.getElementById('bid-history');
-    const remainingItemsContainer = document.getElementById('remaining-items');
-    const manualSelectionSection = document.getElementById('manual-selection');
 
     let items = [];
     let players = [];
@@ -115,16 +113,26 @@ document.addEventListener('DOMContentLoaded', () => {
             const actions = document.createElement('div');
             actions.className = 'player-actions';
 
+            const minOffer = currentBid + parseInt(minIncrementInput.value, 10);
+            const bidInput = document.createElement('input');
+            bidInput.type = 'number';
+            bidInput.className = 'bid-input';
+            bidInput.min = minOffer;
+            bidInput.value = Math.min(minOffer, player.budget);
+            bidInput.placeholder = `Mín ${minOffer}`;
+            bidInput.disabled = !player.active || player.budget < minOffer;
+
             const bidButton = document.createElement('button');
             bidButton.textContent = 'Pujar';
-            bidButton.disabled = !player.active || player.budget <= (currentBid + parseInt(minIncrementInput.value, 10));
-            bidButton.addEventListener('click', () => handleBid(index));
+            bidButton.disabled = !player.active || player.budget < minOffer;
+            bidButton.addEventListener('click', () => handleBid(index, parseInt(bidInput.value, 10)));
 
             const passButton = document.createElement('button');
             passButton.textContent = 'Pasar';
             passButton.disabled = passed[index] || !player.active;
             passButton.addEventListener('click', () => handlePass(index));
 
+            actions.appendChild(bidInput);
             actions.appendChild(bidButton);
             actions.appendChild(passButton);
 
@@ -165,6 +173,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function renderHistory() {
+        if (!bidHistoryList) return;
         bidHistoryList.innerHTML = '';
         bidHistory.slice(0, 30).forEach(entry => {
             const li = document.createElement('li');
@@ -173,32 +182,31 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    function handleBid(playerIndex) {
+    function handleBid(playerIndex, bidValue) {
         const minOffer = currentBid + parseInt(minIncrementInput.value, 10);
         const player = players[playerIndex];
 
         if (player.budget < minOffer) {
-            alert('No tiene presupuesto suficiente para pujar más alto.');
+            showWarning('No tiene presupuesto suficiente para pujar más alto.');
             return;
         }
 
-        const suggested = Math.min(player.budget, minOffer);
-        const bidValue = parseInt(prompt(`Cantidad mínima ${minOffer}. Ingresa tu puja:`, suggested), 10);
-
         if (Number.isNaN(bidValue)) {
+            showWarning('Ingrese un valor válido para la puja.');
             return;
         }
 
         if (bidValue < minOffer) {
-            alert(`La puja debe ser al menos ${minOffer} monedas.`);
+            showWarning(`La puja debe ser al menos ${minOffer} monedas.`);
             return;
         }
 
         if (bidValue > player.budget) {
-            alert('No puedes pujar más de tu presupuesto.');
+            showWarning('No puedes pujar más de tu presupuesto.');
             return;
         }
 
+        hideWarning();
         recordBid(playerIndex, bidValue);
     }
 
@@ -268,8 +276,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const remaining = items.filter((_, index) => index > currentItemIndex);
         if (remaining.length === 0 || auctionTypeSelect.value === 'limited' && players.every(player => player.acquired.length >= itemsPerTeam)) {
             endAuction();
-        } else if (orderModeSelect.value === 'manual') {
-            showManualSelection();
         } else {
             openNextItem();
         }
@@ -287,34 +293,7 @@ document.addEventListener('DOMContentLoaded', () => {
         passed = players.map(() => false);
         buildPlayersPanel();
         renderHistory();
-        hideManualSelection();
         updateAuctionDisplay();
-    }
-
-    function showManualSelection() {
-        manualSelectionSection.classList.remove('hidden');
-        remainingItemsContainer.innerHTML = '';
-        for (let i = currentItemIndex + 1; i < items.length; i += 1) {
-            const remainingItem = document.createElement('div');
-            remainingItem.className = 'remaining-item';
-            remainingItem.textContent = items[i].name;
-            remainingItem.addEventListener('click', () => selectManualItem(i));
-            remainingItemsContainer.appendChild(remainingItem);
-        }
-    }
-
-    function hideManualSelection() {
-        manualSelectionSection.classList.add('hidden');
-        remainingItemsContainer.innerHTML = '';
-    }
-
-    function selectManualItem(index) {
-        if (index <= currentItemIndex) {
-            return;
-        }
-        [items[currentItemIndex + 1], items[index]] = [items[index], items[currentItemIndex + 1]];
-        hideManualSelection();
-        openNextItem();
     }
 
     function endAuction() {
@@ -380,7 +359,6 @@ document.addEventListener('DOMContentLoaded', () => {
         auctionSetup.classList.remove('hidden');
         auctionBoard.classList.add('hidden');
         resetAuctionState();
-        hideManualSelection();
         auctionNote.textContent = '';
     });
 });
