@@ -61,6 +61,13 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     }
 
+    const auctionButton = document.getElementById('auction-mode');
+    if (auctionButton) {
+      auctionButton.addEventListener('click', () => {
+        window.location.href = 'auction.html';
+      });
+    }
+
     const selectionDuelButton = document.getElementById('selection-duel-mode');
     if (selectionDuelButton) {
       selectionDuelButton.addEventListener('click', () => {

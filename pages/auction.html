@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subasta</title>
+    <link rel="stylesheet" href="../css/auction-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <header id="logoheader"></header>
+    <ul class="navbar">
+        <div class="menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="mode.html">Mode</a></li>
+            <li><a href="auction.html" class="active">Subasta</a></li>
+        </div>
+        <button id="toggle-theme" aria-label="Toggle dark mode"><i class="fa-solid fa-moon"></i></button>
+    </ul>
+
+    <main>
+        <section id="auction-setup" class="panel">
+            <h1>Subasta</h1>
+            <div class="config-grid">
+                <div>
+                    <label for="players-count">Jugadores</label>
+                    <input type="number" id="players-count" min="2" max="12" value="4">
+                </div>
+                <div>
+                    <label for="initial-budget">Presupuesto inicial</label>
+                    <input type="number" id="initial-budget" min="10" max="1000" value="100">
+                </div>
+                <div>
+                    <label for="order-mode">Orden de elementos</label>
+                    <select id="order-mode">
+                        <option value="random">Aleatorio</option>
+                        <option value="manual">Manual</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="auction-type">Modo de subasta</label>
+                    <select id="auction-type">
+                        <option value="all">Todos los personajes</option>
+                        <option value="limited">Equipos completos</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="items-per-team">Personajes por equipo</label>
+                    <input type="number" id="items-per-team" min="1" max="10" value="3">
+                </div>
+                <div>
+                    <label for="min-increment">Incremento mínimo</label>
+                    <input type="number" id="min-increment" min="1" max="50" value="5">
+                </div>
+                <div>
+                    <label for="show-rivals">Mostrar dinero rivales</label>
+                    <select id="show-rivals">
+                        <option value="true">Sí</option>
+                        <option value="false">No</option>
+                    </select>
+                </div>
+            </div>
+            <div class="setup-actions">
+                <button id="start-auction">Iniciar subasta</button>
+                <button id="reset-auction" class="secondary">Reiniciar</button>
+            </div>
+            <p id="setup-warning" class="warning hidden"></p>
+        </section>
+
+        <section id="auction-board" class="panel hidden">
+            <div class="auction-main">
+                <div class="current-item-card">
+                    <h2>Elemento actual</h2>
+                    <div class="item-preview">
+                        <img id="item-image" src="" alt="Elemento">
+                        <div class="item-info">
+                            <p id="item-name"></p>
+                            <p id="item-position"></p>
+                        </div>
+                    </div>
+                    <div class="auction-status">
+                        <p>Puja más alta: <strong id="highest-bid">0</strong> monedas</p>
+                        <p>Lidera: <strong id="highest-player">Nadie</strong></p>
+                        <p id="auction-note">Listo para pujar.</p>
+                    </div>
+                </div>
+
+                <div class="bid-controls">
+                    <h2>Jugadores</h2>
+                    <div id="players-panel"></div>
+                </div>
+            </div>
+
+            <div class="auction-extra">
+                <div class="history-panel">
+                    <h2>Historial de pujas</h2>
+                    <ul id="bid-history"></ul>
+                </div>
+                <div id="manual-selection" class="manual-selection hidden">
+                    <h2>Elegir siguiente elemento</h2>
+                    <div id="remaining-items"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="../js/auction.js"></script>
+    <script src="../js/theme.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Marvel Cinematic Universe",
+        "img": "",
+        "file": "entretenimiento/marvel/mcumovies.json"
+      },
+    {
+        "name": "Personajes Marvel Cinematic Universe",
+        "img": "",
+        "file": "entretenimiento/marvel/mcucharacters.json"
+      },
+
+    {
+        "name": "Peliculas Mutantes",
+        "img": "",
+        "file": "entretenimiento/marvel/mutantmovies.json"
+      }
+    
+]

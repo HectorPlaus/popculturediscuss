@@ -1,0 +1,62 @@
+{
+    "name": "Peliculas Mutantes",
+    "characters": [
+        {
+            "name": "X-Men",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/60871/posters/61ca175d12ea7.jpg"
+        },
+        {
+            "name": "X-Men 2",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/72106/posters/61f594df4586c.jpg"
+        },
+        {
+            "name": "X-Men 3: La Decisión Final",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/75608/posters/61f5952d39807.jpg"
+        },
+        {
+            "name": "X-Men Orígenes: Lobezno",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/42403/posters/64120bd17d3dc.jpg"
+        },
+        {
+            "name": "X-Men: First Class",
+            "img": "https://artworks.thetvdb.com/banners/movies/69081/posters/25869768.jpg"
+        },
+        {
+            "name": "Lobezno Inmortal",
+            "img": "https://artworks.thetvdb.com/banners/movies/20145/posters/20145.jpg"
+        },
+        {
+            "name": "X-Men: Days of Future Past",
+            "img": "https://artworks.thetvdb.com/banners/movies/79/posters/79.jpg"
+        },
+        {
+            "name": "Deadpool",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/115/posters/633e92ab1e8c9.jpg"
+        },
+        {
+            "name": "X-Men: Apocalypse",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/112/posters/63c4e0518e847.jpg"
+        },
+        {
+            "name": "Logan",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/143/posters/60ed468198f2d.jpg"
+        },
+        {
+            "name": "Deadpool 2",
+            "img": "https://artworks.thetvdb.com/banners/movies/91/posters/22394915.jpg"
+        },
+        {
+            "name": "X-Men: Dark Phoenix",
+            "img": "https://artworks.thetvdb.com/banners/movies/185/posters/1846647.jpg"
+        },
+        {
+            "name": "The New Mutants",
+            "img": "https://artworks.thetvdb.com/banners/movies/2599/posters/5ed8f960ad9fa.jpg"
+        },
+        {
+            "name": "Deadpool y Lobezno",
+            "img": "https://artworks.thetvdb.com/banners/v4/movie/49196/posters/6626684077855.jpg"
+        }
+        
+    ]
+}

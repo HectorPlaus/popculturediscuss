@@ -1,0 +1,213 @@
+{
+        "name": "Marvel Cinematic Universe",
+        "characters": [
+            {
+                "name": "Iron Man",
+                "img": "https://artworks.thetvdb.com/banners/movies/108/posters/108.jpg"
+            },
+            {
+                "name": "The Incredible Hulk",
+                "img": "https://artworks.thetvdb.com/banners/movies/584/posters/5f4524192b028.jpg"
+            },
+            {
+                "name": "Iron Man 2",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/187/posters/60bc249e50b7c.jpg"
+            },
+            {
+                "name": "Thor",
+                "img": "https://artworks.thetvdb.com/banners/movies/123/posters/25871890.jpg"
+            },
+            {
+                "name": "Captain America: The First Avenger",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/180/posters/61b6137f53372.jpg"
+            },
+            {
+                "name": "The Avengers",
+                "img": "https://artworks.thetvdb.com/banners/movies/31/posters/31.jpg"
+            },
+            {
+                "name": "Iron Man 3",
+                "img": "https://artworks.thetvdb.com/banners/movies/188/posters/5f22e10faba24.jpg"
+            },
+            {
+                "name": "Thor: The Dark World",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/178/posters/60bc253ec2fc2.jpg"
+            },
+            {
+                "name": "Captain America: The Winter Soldier",
+                "img": "https://artworks.thetvdb.com/banners/movies/965/posters/965.jpg"
+            },
+            {
+                "name": "Guardians of the Galaxy",
+                "img": "https://artworks.thetvdb.com/banners/movies/26/posters/26.jpg"
+            },
+            {
+                "name": "Avengers: Age of Ultron",
+                "img": "https://artworks.thetvdb.com/banners/movies/59/posters/25871882.jpg"
+            },
+            {
+                "name": "Marvel's Agent Carter",
+                "img": "https://artworks.thetvdb.com/banners/posters/281485-5.jpg"
+            },
+            {
+                "name": "Marvel's Daredevil",
+                "img": "https://artworks.thetvdb.com/banners/posters/281662-1.jpg"
+            },
+            {
+                "name": "Ant-Man",
+                "img": "https://artworks.thetvdb.com/banners/movies/163/posters/163.jpg"
+            },
+            {
+                "name": "Captain America: Civil War",
+                "img": "https://artworks.thetvdb.com/banners/movies/118/posters/5f19ac64da74f.jpg"
+            },
+            {
+                "name": "Doctor Strange",
+                "img": "https://artworks.thetvdb.com/banners/movies/145/posters/5f61e83356f9a.jpg"
+            },
+            {
+                "name": "Guardians of the Galaxy Vol. 2",
+                "img": "https://artworks.thetvdb.com/banners/movies/67/posters/5f22df4163bba.jpg"
+            },
+            {
+                "name": "Spider-Man: Homecoming",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/68/posters/6428d95983b6f.jpg"
+            },
+            {
+                "name": "Thor: Ragnarok",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/62/posters/61b784bdb29de.jpg"
+            },
+            {
+                "name": "Marvel's The Punisher",
+                "img": "https://artworks.thetvdb.com/banners/posters/331980-3.jpg"
+            },
+            {
+                "name": "Black Panther",
+                "img": "https://artworks.thetvdb.com/banners/movies/48/posters/2195366.jpg"
+            },
+            {
+                "name": "Avengers: Infinity War",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/8/posters/60bc273188ee0.jpg"
+            },
+            {
+                "name": "Ant-Man and the Wasp",
+                "img": "https://artworks.thetvdb.com/banners/movies/28/posters/25871856.jpg"
+            },
+            {
+                "name": "Captain Marvel",
+                "img": "https://artworks.thetvdb.com/banners/movies/10/posters/5f0b792fb2a15.jpg"
+            },
+            {
+                "name": "Avengers: Endgame",
+                "img": "https://artworks.thetvdb.com/banners/movies/148/posters/5f21e4031fea4.jpg"
+            },
+            {
+                "name": "Spider-Man: Far From Home",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/4137/posters/60bc26ecef923.jpg"
+            },
+            {
+                "name": "WandaVision",
+                "img": "https://artworks.thetvdb.com/banners/series/362392/posters/5f6a1111c2752.jpg"
+            },
+            {
+                "name": "Loki",
+                "img": "https://artworks.thetvdb.com/banners/v4/series/362472/posters/60c0fd48eba70.jpg"
+            },
+            {
+                "name": "Doctor Strange in the Multiverse of Madness",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/32426/posters/624dd7c78224b.jpg"
+            },
+            {
+                "name": "Black Widow",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/27759/posters/60e0d3f98fa90.jpg"
+            },
+            {
+                "name": "Shang-Chi and the Legend of the Ten Rings",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/131146/posters/61bf20f37797a.jpg"
+            },
+            {
+                "name": "The Falcon and the Winter Soldier",
+                "img": "https://artworks.thetvdb.com/banners/series/362496/posters/60271980c8a0a.jpg"
+            },
+            {
+                "name": "Eternals",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/131147/posters/611ebed48f226.jpg"
+            },
+            {
+                "name": "What If…?",
+                "img": "https://artworks.thetvdb.com/banners/v4/series/367147/posters/611436c5764d9.jpg"
+            },
+            {
+                "name": "Hawkeye",
+                "img": "https://artworks.thetvdb.com/banners/v4/series/367146/posters/6140c0de6a2d2.jpg"
+            },
+            {
+                "name": "Spider-Man: No Way Home",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/132448/posters/619fafaad49c2.jpg"
+            },
+            {
+                "name": "Moon Knight",
+                "img": "https://artworks.thetvdb.com/banners/v4/series/368611/posters/61e6312067bc9.jpg"
+            },
+            {
+                "name": "Ms. Marvel",
+                "img": "https://artworks.thetvdb.com/banners/v4/series/368612/posters/6300e82d77f79.jpg"
+            },
+            {
+                "name": "Thor: Love and Thunder",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/131141/posters/628f2de530878.jpg"
+            },
+            {
+                "name": "I Am Groot",
+                "img": "https://artworks.thetvdb.com/banners/v4/series/393201/posters/629ced1043180.jpg"
+            },
+            {
+                "name": "She-Hulk: Attorney at Law",
+                "img": "https://artworks.thetvdb.com/banners/v4/series/368613/posters/62868fa5c45a9.jpg"
+            },
+            {
+                "name": "Werewolf by Night",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/339967/posters/633f57bfc1f45.jpg"
+            },
+            {
+                "name": "Black Panther: Wakanda Forever",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/31110/posters/633f56794b20d.jpg"
+            },
+            {
+                "name": "The Guardians of the Galaxy Holiday Special",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/144720/posters/6380f81a51bf1.jpg"
+            },
+            {
+                "name": "Ant-Man and the Wasp: Quantumania",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/132202/posters/63bc4fcfeb377.jpg"
+            },
+            {
+                "name": "Guardians of the Galaxy Vol. 3",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/11716/posters/638932cd404e9.jpg"
+            },
+            {
+                "name": "Secret Invasion",
+                "img": "https://artworks.thetvdb.com/banners/v4/series/393203/posters/6480c6e95966d.jpg"
+            },
+            {
+                "name": "The Marvels",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/134366/posters/64ba0e277ee6a.jpg"
+            },
+            {
+                "name": "Echo",
+                "img": "https://artworks.thetvdb.com/banners/v4/series/412431/posters/654522e39369d.jpg"
+            },
+            {
+                "name": "Deadpool & Wolverine",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/49196/posters/6626684077855.jpg"
+            },
+            {
+                "name": "X-Men'97",
+                "img": "https://artworks.thetvdb.com/banners/v4/series/412432/posters/66252b6a2681f.jpg"
+            },
+            {
+                "name": "Agatha All Along",
+                "img": "https://artworks.thetvdb.com/banners/v4/series/412429/posters/66dd63275dc04.jpg"
+            }
+        ]
+    }
