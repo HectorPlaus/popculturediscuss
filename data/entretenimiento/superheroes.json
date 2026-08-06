@@ -1,0 +1,1218 @@
+[
+    {
+        "name": "Películas y Series de SuperHeroes",
+        "characters": [
+            {
+                "name": "Iron Man",
+                "img": "https://artworks.thetvdb.com/banners/movies/108/posters/108.jpg",
+                "extra": "2008"
+
+            },
+            {
+                "name": "The Incredible Hulk",
+                "img": "https://artworks.thetvdb.com/banners/movies/584/posters/5f4524192b028.jpg",
+                "extra": "2008"
+            },
+            {
+                "name": "Iron Man 2",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/187/posters/60bc249e50b7c.jpg",
+                "extra": "2010"
+            },
+            {
+                "name": "Thor",
+                "img": "https://artworks.thetvdb.com/banners/movies/123/posters/25871890.jpg",
+                "extra": "2011"
+            },
+            {
+                "name": "Captain America: The First Avenger",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/180/posters/61b6137f53372.jpg",
+                "extra": "2011"
+            },
+            {
+                "name": "The Avengers",
+                "img": "https://artworks.thetvdb.com/banners/movies/31/posters/31.jpg",
+                "extra": "2012"
+            },
+            {
+                "name": "Iron Man 3",
+                "img": "https://artworks.thetvdb.com/banners/movies/188/posters/5f22e10faba24.jpg",
+                "extra": "2013"
+            },
+            {
+                "name": "Agents of S.H.I.E.L.D.",
+                "img": "https://artworks.thetvdb.com/banners/series/263365/posters/5f03f1ff801ec.jpg",
+                "extra": "2013"
+            },
+            {
+                "name": "Thor: The Dark World",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/178/posters/60bc253ec2fc2.jpg",
+                "extra": "2013"
+            },
+            {
+                "name": "Captain America: The Winter Soldier",
+                "img": "https://artworks.thetvdb.com/banners/movies/965/posters/965.jpg",
+                "extra": "2014"
+            },
+            {
+                "name": "Guardians of the Galaxy",
+                "img": "https://artworks.thetvdb.com/banners/movies/26/posters/26.jpg",
+                "extra": "2014"
+            },
+            {
+                "name": "Avengers: Age of Ultron",
+                "img": "https://artworks.thetvdb.com/banners/movies/59/posters/25871882.jpg",
+                "extra": "2015"
+            },
+            {
+                "name": "Marvel's Agent Carter",
+                "img": "https://artworks.thetvdb.com/banners/posters/281485-5.jpg",
+                "extra": "2015"
+            },
+            {
+                "name": "Marvel's Daredevil",
+                "img": "https://artworks.thetvdb.com/banners/posters/281662-1.jpg",
+                "extra": "2015"
+            },
+            {
+                "name": "Ant-Man",
+                "img": "https://artworks.thetvdb.com/banners/movies/163/posters/163.jpg",
+                "extra": "2015"
+            },
+            {
+                "name": "Marvel's Jessica Jones",
+                "img": "https://artworks.thetvdb.com/banners/posters/284190-4.jpg",
+                "extra": "2015"
+            },
+            {
+                "name": "Captain America: Civil War",
+                "img": "https://artworks.thetvdb.com/banners/movies/118/posters/5f19ac64da74f.jpg",
+                "extra": "2016"
+            },
+            {
+                "name": "Marvel's Luke Cage",
+                "img": "https://artworks.thetvdb.com/banners/posters/304219-2.jpg",
+                "extra": "2016"
+            },
+            {
+                "name": "Doctor Strange",
+                "img": "https://artworks.thetvdb.com/banners/movies/145/posters/5f61e83356f9a.jpg",
+                "extra": "2016"
+            },
+            {
+                "name": "Marvel's Iron Fist",
+                "img": "https://artworks.thetvdb.com/banners/posters/5b882bc839d5c.jpg",
+                "extra": "2017"
+            },
+            {
+                "name": "Guardians of the Galaxy Vol. 2",
+                "img": "https://artworks.thetvdb.com/banners/movies/67/posters/5f22df4163bba.jpg",
+                "extra": "2017"
+            },
+            {
+                "name": "Spider-Man: Homecoming",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/68/posters/6428d95983b6f.jpg",
+                "extra": "2017"
+            },
+            {
+                "name": "Marvel's The Defenders",
+                "img": "https://artworks.thetvdb.com/banners/posters/326490-5.jpg",
+                "extra": "2017"
+            },
+            {
+                "name": "Marvel's Inhumans",
+                "img": "https://artworks.thetvdb.com/banners/posters/320558-5.jpg",
+                "extra": "2017"
+            },
+            {
+                "name": "Thor: Ragnarok",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/62/posters/61b784bdb29de.jpg",
+                "extra": "2017"
+            },
+            {
+                "name": "Marvel's The Punisher",
+                "img": "https://artworks.thetvdb.com/banners/posters/331980-3.jpg",
+                "extra": "2017"
+            },
+            {
+                "name": "Marvel's Runaways",
+                "img": "https://artworks.thetvdb.com/banners/posters/332027-10.jpg",
+                "extra": "2017"
+            },
+            {
+                "name": "Black Panther",
+                "img": "https://artworks.thetvdb.com/banners/movies/48/posters/2195366.jpg",
+                "extra": "2018"
+            },
+            {
+                "name": "Avengers: Infinity War",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/8/posters/60bc273188ee0.jpg",
+                "extra": "2018"
+            },
+            {
+                "name": "Marvel's Cloak & Dagger",
+                "img": "https://artworks.thetvdb.com/banners/v4/series/341455/posters/61bf602033faf.jpg",
+                "extra": "2018"
+            },
+            {
+                "name": "Ant-Man and the Wasp",
+                "img": "https://artworks.thetvdb.com/banners/movies/28/posters/25871856.jpg",
+                "extra": "2018"
+            },
+            {
+                "name": "Captain Marvel",
+                "img": "https://artworks.thetvdb.com/banners/movies/10/posters/5f0b792fb2a15.jpg",
+                "extra": "2019"
+            },
+            {
+                "name": "Avengers: Endgame",
+                "img": "https://artworks.thetvdb.com/banners/movies/148/posters/5f21e4031fea4.jpg",
+                "extra": "2019"
+            },
+            {
+                "name": "Spider-Man: Far From Home",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/4137/posters/60bc26ecef923.jpg",
+                "extra": "2019"
+            },
+            {
+                "name": "WandaVision",
+                "img": "https://artworks.thetvdb.com/banners/series/362392/posters/5f6a1111c2752.jpg",
+                "extra": "2021"
+            },
+            {
+                "name": "The Falcon and The Winter Soldier",
+                "img": "https://artworks.thetvdb.com/banners/series/362496/posters/60271980c8a0a.jpg",
+                "extra": "2021"
+            },
+            {
+                "name": "Loki",
+                "img": "https://artworks.thetvdb.com/banners/v4/series/362472/posters/60c0fd48eba70.jpg",
+                "extra": "2021"
+            },
+            {
+                "name": "Black Widow",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/27759/posters/60e0d3f98fa90.jpg",
+                "extra": "2021"
+            },
+            {
+                "name": "Shang-Chi and the Legend of the Ten Rings",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/131146/posters/61bf20f37797a.jpg",
+                "extra": "2021"
+            },
+            {
+                "name": "Eternals",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/131147/posters/611ebed48f226.jpg",
+                "extra": "2020" 
+            },
+            {
+                "name": "What If…?",
+                "img": "https://artworks.thetvdb.com/banners/v4/series/367147/posters/611436c5764d9.jpg",
+                "extra": "2021"
+            },
+            {
+                "name": "Hawkeye",
+                "img": "https://artworks.thetvdb.com/banners/v4/series/367146/posters/6140c0de6a2d2.jpg",
+                "extra": "2021"
+            },
+            {
+                "name": "Spider-Man: No Way Home",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/132448/posters/619fafaad49c2.jpg",
+                "extra": "2021"
+            },
+            {
+                "name": "Moon Knight",
+                "img": "https://artworks.thetvdb.com/banners/v4/series/368611/posters/61e6312067bc9.jpg",
+                "extra": "2022"
+            },
+            {
+                "name": "Doctor Strange in the Multiverse of Madness",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/32426/posters/624dd7c78224b.jpg",
+                "extra": "2022"
+            },
+            {
+                "name": "Ms. Marvel",
+                "img": "https://artworks.thetvdb.com/banners/v4/series/368612/posters/6300e82d77f79.jpg",
+                "extra": "2022"
+            },
+            {
+                "name": "Thor: Love and Thunder",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/131141/posters/628f2de530878.jpg",
+                "extra": "2022"
+            },
+            {
+                "name": "I Am Groot",
+                "img": "https://artworks.thetvdb.com/banners/v4/series/393201/posters/629ced1043180.jpg",
+                "extra": "2022"
+            },
+            {
+                "name": "She-Hulk: Attorney at Law",
+                "img": "https://artworks.thetvdb.com/banners/v4/series/368613/posters/62868fa5c45a9.jpg",
+                "extra": "2022" 
+            },
+            {
+                "name": "Werewolf by Night",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/339967/posters/633f57bfc1f45.jpg",
+                "extra": "2022"
+            },
+            {
+                "name": "Black Panther: Wakanda Forever",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/31110/posters/633f56794b20d.jpg",
+                "extra": "2022"
+            },
+            {
+                "name": "The Guardians of the Galaxy Holiday Special",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/144720/posters/6380f81a51bf1.jpg",
+                "extra": "2022"
+            },
+            {
+                "name": "Ant-Man and the Wasp: Quantumania",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/132202/posters/63bc4fcfeb377.jpg",
+                "extra": "2023"
+            },
+            {
+                "name": "Guardians of the Galaxy Vol. 3",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/11716/posters/638932cd404e9.jpg",
+                "extra": "2023"
+            },
+            {
+                "name": "Secret Invasion",
+                "img": "https://artworks.thetvdb.com/banners/v4/series/393203/posters/6480c6e95966d.jpg",
+                "extra": "2023"
+            },
+            {
+                "name": "The Marvels",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/134366/posters/64ba0e277ee6a.jpg",
+                "extra": "2023"
+            },
+            {
+                "name": "Echo",
+                "img": "https://artworks.thetvdb.com/banners/v4/series/412431/posters/654522e39369d.jpg",
+                "extra": "2024"
+            },
+            {
+                "name": "Deadpool & Wolverine",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/49196/posters/6626684077855.jpg",
+                "extra": "2024"
+            },
+            {
+                "name": "X-Men'97",
+                "img": "https://artworks.thetvdb.com/banners/v4/series/412432/posters/66252b6a2681f.jpg",
+                "extra": "2024"
+            },
+            {
+                "name": "Agatha All Along",
+                "img": "https://artworks.thetvdb.com/banners/v4/series/412429/posters/66dd63275dc04.jpg",
+                "extra": "2024"
+            },
+            {
+                "name":"Your Friendly Neighborhood Spider-Man",
+                "img":"https://artworks.thetvdb.com/banners/v4/series/412427/posters/6771f29c0e314.jpg",
+                "extra":"2025"
+            },
+            {
+                "name":"Captain America: Brave New World",
+                "img":"https://artworks.thetvdb.com/banners/v4/movie/160768/posters/672fe9b2e6ac2.jpg",
+                "extra":"2025"
+            },
+            {
+                "name":"Daredevil: Born Again",
+                "img":"https://artworks.thetvdb.com/banners/v4/series/422712/posters/6978fefe94ea5.jpg",
+                "extra":"2025"
+            },
+            {
+                "name":"Thunderbolts*",
+                "img":"https://artworks.thetvdb.com/banners/v4/movie/337758/posters/66f174e39d08c.jpg",
+                "extra":"2025"
+            },
+            {
+                "name":"Ironheart",
+                "img":"https://artworks.thetvdb.com/banners/v4/series/393204/posters/686653e2cb54e.jpg",
+                "extra":"2025"
+            },
+            {
+                "name":"The Fantastic Four: First Steps",
+                "img":"https://artworks.thetvdb.com/banners/v4/movie/131702/posters/6805d8f2ab30c.jpg",
+                "extra":"2025"
+            },
+            {
+                "name":"Eyes of Wakanda",
+                "img":"https://artworks.thetvdb.com/banners/v4/series/443358/posters/68e9483c98b38.jpg",
+                "extra":"2025"
+            },
+            {
+                "name":"Marvel Zombies",
+                "img":"https://artworks.thetvdb.com/banners/v4/series/412428/posters/68cd9e6f1070a.jpg",
+                "extra":"2025"
+            },
+            {
+                "name":"Wonder Man",
+                "img":"https://artworks.thetvdb.com/banners/v4/series/428629/posters/6956afa85b5ad.jpg",
+                "extra":"2026"
+            },
+            {
+                "name":"The Punisher: One Last Kill",
+                "img":"https://artworks.thetvdb.com/banners/v4/movie/371477/posters/6a03ff8998371.jpg",
+                "extra":"2026"
+            },
+            {
+                "name":"Spider-Man: Brand New Day",
+                "img":"https://artworks.thetvdb.com/banners/v4/movie/135896/posters/69de6dc411555.jpg",
+                "extra":"2026"
+            },
+            {
+                "name":"VisionQuest",
+                "img":"https://artworks.thetvdb.com/banners/v4/series/426606/posters/68eaa69a07baa.jpg",
+                "extra":"2026"
+            },
+            {
+                "name":"Avengers: Doomsday",
+                "img":"https://artworks.thetvdb.com/banners/v4/movie/338552/posters/66a5aa13e28ce.jpg",
+                "extra":"2026"
+            },
+            {
+                "name":"Avengers: Secret Wars",
+                "img":"https://artworks.thetvdb.com/banners/v4/movie/338553/posters/66a5dee1136fd.jpg",
+                "extra":"2027"
+            },
+            {
+                "name":"Black Panther 3",
+                "img":"https://artworks.thetvdb.com/banners/v4/movie/376386/posters/6a65680079420.jpg",
+                "extra":"2028"
+            },
+            {
+                "name":"Ghost Rider",
+                "img":"https://artworks.thetvdb.com/banners/v4/movie/376387/posters/6a656972dee47.jpg",
+                "extra":"2028"
+            },
+            {
+                "name":"X-Men",
+                "img":"https://artworks.thetvdb.com/banners/series/236061/posters/5ff01213cb270.jpg",
+                "extra":"2011"
+            },
+            {
+                "name":"X-Men: Evolution",
+                "img":"https://artworks.thetvdb.com/banners/v4/series/71168/posters/6303c5144a189.jpg",
+                "extra":"2000"
+            },
+            {
+                "name":"X-Men: The Animated Series",
+                "img":"https://artworks.thetvdb.com/banners/posters/76115-5.jpg",
+                "extra":"1992"
+            },
+            {
+                "name":"Wolverine and the X-Men",
+                "img":"https://artworks.thetvdb.com/banners/posters/82870-1.jpg",
+                "extra":"2009"
+            },
+            {
+                "name":"Marvel's Avengers Assemble",
+                "img":"https://artworks.thetvdb.com/banners/posters/264030-3.jpg",
+                "extra":"2013"
+            },{
+                "name":"Ultimate Avengers",
+                "img":"https://artworks.thetvdb.com/banners/movies/4398/posters/4398.jpg",
+                "extra":"2006"
+            },
+            {
+                "name":"Ultimate Avengers 2",
+                "img":"https://artworks.thetvdb.com/banners/movies/3964/posters/3964.jpg",
+                "extra":"2006"
+            },
+            {
+                "name":"The Avengers: Earth's Mightiest Heroes",
+                "img":"https://artworks.thetvdb.com/banners/posters/192171-5.jpg",
+                "extra":"2010"
+            },    
+            {
+                "name": "X-Men",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/60871/posters/61ca175d12ea7.jpg",
+                "extra": "2000"
+            },
+            {
+                "name": "X-Men 2",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/72106/posters/61f594df4586c.jpg",
+                "extra": "2003"
+            },
+            {
+                "name": "X-Men 3: La Decisión Final",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/75608/posters/61f5952d39807.jpg",
+                "extra": "2006"
+            },
+            {
+                "name": "X-Men Orígenes: Lobezno",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/42403/posters/64120bd17d3dc.jpg",
+                "extra": "2009"
+            },
+            {
+                "name": "X-Men: First Class",
+                "img": "https://artworks.thetvdb.com/banners/movies/69081/posters/25869768.jpg",
+                "extra": "2011"
+            },
+            {
+                "name": "Lobezno Inmortal",
+                "img": "https://artworks.thetvdb.com/banners/movies/20145/posters/20145.jpg",
+                "extra": "2013"
+            },
+            {
+                "name": "X-Men: Days of Future Past",
+                "img": "https://artworks.thetvdb.com/banners/movies/79/posters/79.jpg",
+                "extra": "2014"
+            },
+            {
+                "name": "Deadpool",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/115/posters/633e92ab1e8c9.jpg",
+                "extra": "2016"
+            },
+            {
+                "name": "X-Men: Apocalypse",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/112/posters/63c4e0518e847.jpg",
+                "extra":"2016"
+            },
+            {
+                "name": "Logan",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/143/posters/60ed468198f2d.jpg",
+                "extra": "2017"
+            },
+            {
+                "name": "Deadpool 2",
+                "img": "https://artworks.thetvdb.com/banners/movies/91/posters/22394915.jpg",
+                "extra": "2018"
+            },
+            {
+                "name": "X-Men: Dark Phoenix",
+                "img": "https://artworks.thetvdb.com/banners/movies/185/posters/1846647.jpg",
+                "extra": "2019"
+            },
+            {
+                "name": "The New Mutants",
+                "img": "https://artworks.thetvdb.com/banners/movies/2599/posters/5ed8f960ad9fa.jpg",
+                "extra": "2020"
+            },
+            {
+                "name": "Suicide Squad",
+                "img": "https://artworks.thetvdb.com/banners/movies/746/posters/746.jpg",
+                "extra": "2016"
+            },
+            {
+                "name": "Aquaman",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/39/posters/60d4c2fcf14bd.jpg",
+                "extra": "2018"
+            },
+            {
+                "name": "Wonder Woman",
+                "img": "https://artworks.thetvdb.com/banners/movies/109/posters/25871879.jpg",
+                "extra": "2017"
+            },
+            {
+                "name": "Spider-Man",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/301/posters/6424cea3ed0c3.jpg",
+                "extra": "2002"
+            },
+            {
+                "name": "Spider-Man 2",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/6389/posters/6418a688a1990.jpg",
+                "extra": "2004"
+            },
+            {
+                "name": "Spider-Man 3",
+                "img": "https://artworks.thetvdb.com/banners/movies/586/posters/5f0b800b5be8a.jpg",
+                "extra": "2007"
+            },
+            {
+                "name": "The Amazing Spider-Man",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/473/posters/61b651580d2ec.jpg",
+                "extra": "2012"
+            },
+            {
+                "name": "The Amazing Spider-Man 2",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/552/posters/61b7a38d1e051.jpg",
+                "extra": "2014"
+            },            
+            {
+                "name": "Spider-Man: Into the Spider-Verse",
+                "img": "https://artworks.thetvdb.com/banners/movies/33/posters/5f0b80406d35e.jpg",
+                "extra": "2019"
+            },
+            {
+                "name": "Spider-Man: Across the Spider-Verse",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/132814/posters/63a235f64fd1c.jpg",
+                "extra": "2023"
+            },
+            {
+                "name": "Spider-Man: Beyond the Spider-Verse",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/331983/posters/6872c715594e7.jpg",
+                "extra": "2027"
+            },
+            {
+                "name":"Spider-Man",
+                "img":"https://artworks.thetvdb.com/banners/series/77686/posters/5ffd2a4aafdc6.jpg",
+                "extra":"1981"
+            },
+            {
+                "name":"Spider-Man and His Amazing Friends",
+                "img":"https://artworks.thetvdb.com/banners/posters/71880-2.jpg",
+                "extra":"1981"
+            },
+            {
+                "name":"Spider-Man: The Animated Series",
+                "img":"https://artworks.thetvdb.com/banners/v4/series/73750/posters/64b9ae47002a5.jpg",
+                "extra":"1994"
+            },
+            {
+                "name":"Spider-Man Unlimited",
+                "img":"https://artworks.thetvdb.com/banners/series/73560/posters/62000114.jpg",
+                "extra":"1999"
+            },
+            {
+                "name":"Spider-Man: The New Animated Series",
+                "img":"https://artworks.thetvdb.com/banners/posters/78416-5.jpg",
+                "extra":"2003"
+            },
+            {
+                "name":"The Spectacular Spider-Man",
+                "img":"https://artworks.thetvdb.com/banners/posters/81494-5.jpg",
+                "extra":"2008"
+            },
+            {
+                "name":"Marvel's Ultimate Spider-Man",
+                "img":"https://artworks.thetvdb.com/banners/posters/257645-5.jpg",
+                "extra":"2012"
+            },
+            {
+                "name":"Marvel's Spider-Man",
+                "img":"https://artworks.thetvdb.com/banners/posters/329456-2.jpg",
+                "extra":"2017"
+            },
+            {
+                "name": "The Incredibles",
+                "img": "https://artworks.thetvdb.com/banners/movies/263/posters/263.jpg",
+                "extra": "2004"
+            },
+            {
+                "name": "Justice League",
+                "img": "https://artworks.thetvdb.com/banners/movies/114/posters/25869763.jpg",
+                "extra": "2017"
+            },
+            {
+                "name": "Man of Steel",
+                "img": "https://artworks.thetvdb.com/banners/movies/652/posters/5f3081997c081.jpg",
+                "extra": "2013"
+            },
+            {
+                "name": "Shazam!",
+                "img": "https://artworks.thetvdb.com/banners/movies/2487/posters/25870166.jpg",
+                "extra": "2019"
+            },
+            
+            
+            {
+                "name": "Incredibles 2",
+                "img": "https://artworks.thetvdb.com/banners/movies/49/posters/49.jpg",
+                "extra": "2018"
+            },
+            {
+                "name": "Wonder Woman 1984",
+                "img": "https://artworks.thetvdb.com/banners/movies/18763/posters/5fdf7142de333.jpg",
+                "extra": "2020"
+            },
+            {
+                "name": "The Suicide Squad",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/13333/posters/605ec7641343a.jpg",
+                "extra": "2021"
+            },
+            {
+                "name": "Fantastic Four",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/900/posters/63cb701589050.jpg",
+                "extra": "2005"
+            },
+            {
+                "name": "Fantastic Four",
+                "img": "https://artworks.thetvdb.com/banners/posters/76299-2.jpg",
+                "extra": "1994"
+            },
+            {
+                "name": "The Fantastic Four",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/11706/posters/61e9c75b1d6d5.jpg",
+                "extra": "1994"
+            },
+            {
+                "name": "Fantastic Four",
+                "img": "https://artworks.thetvdb.com/banners/movies/1295/posters/1855063.jpg",
+                "extra": "2015"
+            },
+            {
+                "name": "Fantastic Four: World's Greatest Heroes",
+                "img": "https://artworks.thetvdb.com/banners/posters/79498-1.jpg",
+                "extra": "2006"
+            },            
+            {
+                "name": "Zack Snyder's Justice League",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/157282/posters/604dc8c7a8c48.jpg",
+                "extra": "2021"
+            },
+            {
+                "name": "Black Adam",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/33190/posters/63548d528df12.jpg",
+                "extra": "2022"
+            },
+            {
+                "name": "Fantastic Four: Rise of the Silver Surfer",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/811/posters/63cb71f13300a.jpg",
+                "extra": "2007"
+            },
+            {
+                "name": "Green Lantern",
+                "img": "https://artworks.thetvdb.com/banners/movies/854/posters/5f0c9f45eb5e4.jpg",
+                "extra": "2011"
+            },
+            {
+                "name": "Morbius",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/34898/posters/61ad1ba5559a8.jpg",
+                "extra": "2022"
+            },
+            {
+                "name": "The Flash",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/15763/posters/644759c0e0ae2.jpg",
+                "extra": "2023"
+            },
+            {
+                "name": "Shazam! Fury of the Gods",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/134845/posters/63d163c26f8ff.jpg",
+                "extra": "2023"
+            },
+            {
+                "name": "Blue Beetle",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/156176/posters/6488ee33affcd.jpg",
+                "extra": "2023"
+            },
+            {
+                "name": "Aquaman and The Lost Kingdom",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/28716/posters/65527d92b2590.jpg",
+                "extra": "2023"
+            },
+            {
+                "name": "Kick-Ass",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/1338/posters/61eacdf736cab.jpg",
+                "extra": "2010"
+            },
+            {
+                "name": "Madame Web",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/131701/posters/6578880593419.jpg",
+                "extra": "2024"
+            },
+            
+            {
+                "name": "Venom: The Last Dance",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/346677/posters/665e8c22acb28.jpg",
+                "extra": "2023"
+            },
+            {
+                "name": "Watchmen",
+                "img": "https://artworks.thetvdb.com/banners/movies/1731/posters/5eefff8a4054a.jpg",
+                "extra": "2009"
+            },
+            {
+                "name": "Kick-Ass 2",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/3886/posters/61eace9b06164.jpg",
+                "extra": "2013"
+            },
+            {
+                "name": "Daredevil",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/1669/posters/61e6feaf2109d.jpg",
+                "extra": "2003"
+            },
+            {
+                "name": "僕のヒーローアカデミア THE MOVIE ワールドヒーローズミッション",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/157348/posters/60c8ac8c653c2.jpg",
+                "extra": "2018"
+            },
+            {
+                "name": "僕のヒーローアカデミア THE MOVIE ～2人の英雄～",
+                "img": "https://artworks.thetvdb.com/banners/movies/848/posters/848.jpg",
+                "extra": "2018"
+            },
+            {
+                "name": "僕のヒーローアカデミア THE MOVIE ヒーローズ:ライジング",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/131342/posters/6809fa9d2ea98.jpg",
+                "extra": "2018"
+            },
+            {
+                "name": "Bloodshot",
+                "img": "https://artworks.thetvdb.com/banners/movies/54113/posters/62075602.jpg",
+                "extra": "2020"
+            },
+            {
+                "name": "Miraculous - Le Film",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/332835/posters/64c6d1e42663f.jpg",
+                "extra": "2018"
+            },
+            {
+                "name": "The Crow",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/344236/posters/66ad2da7ae3ad.jpg",
+                "extra": "2024"
+            },
+            {
+                "name": "Kraven the Hunter",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/167725/posters/6490ab9ded239.jpg",
+                "extra": "2022"
+            },
+            {
+                "name": "Sky High",
+                "img": "https://artworks.thetvdb.com/banners/movies/3269/posters/3269.jpg",
+                "extra": "2005"
+            },
+            {
+                "name": "Miraculous New York : les héros unis",
+                "img": "https://artworks.thetvdb.com/banners/movies/141013/posters/5f92caf92be2c.jpg",
+                "extra": "2018"
+            },
+            {
+                "name": "Elektra",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/1726/posters/61e6ffb9cbf87.jpg",
+                "extra": "2003"
+            },
+            {
+                "name": "Dragon Ball Super: Super Hero",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/199171/posters/61bb48f1d05d7.jpg",
+                "extra": "2022"
+            },
+            {
+                "name": "Justice League: The Flashpoint Paradox",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/3789/posters/621e1a9ee14b9.jpg",
+                "extra": "2013"
+            },
+            {
+                "name": "Miraculous World : Shanghai, la légende de Ladydragon",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/158308/posters/62da08ee7a3bb.jpg",
+                "extra": "2018"
+            },
+            {
+                "name": "Injustice",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/267649/posters/620070a0af694.jpg",
+                "extra": "2017"
+            },
+            {
+                "name": "Chronicle",
+                "img": "https://artworks.thetvdb.com/banners/movies/2473/posters/2473.jpg",
+                "extra": "2012"
+            },
+            {
+                "name": "Big Hero 6",
+                "img": "https://artworks.thetvdb.com/banners/movies/151/posters/151.jpg",
+                "extra": "2014"
+            },
+            {
+                "name": "Big Hero 6: The Series",
+                "img": "https://artworks.thetvdb.com/banners/posters/322241-4.jpg",
+                "extra": "2014"
+            },
+            {
+                "name": "The Boys",
+                "img": "https://artworks.thetvdb.com/banners/posters/5c5c402b075cc.jpg",
+                "extra": "2019"
+            },
+            {
+                "name": "The Boys Presents: Diabolical",
+                "img": "https://artworks.thetvdb.com/banners/v4/series/413188/posters/620d2a6f5fd58.jpg",
+                "extra": "2022"
+            },
+            {
+                "name": "Peacemaker",
+                "img": "https://artworks.thetvdb.com/banners/v4/series/391153/posters/6883da0cd5deb.jpg",
+                "extra": "2022"
+            },
+            {
+                "name": "Gen V",
+                "img": "https://artworks.thetvdb.com/banners/v4/series/417909/posters/687fcb3525d62.jpg",
+                "extra": "2023"
+            },
+            {
+                "name": "Batman: The Movie",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/6831/posters/695b11efa7e31.jpg",
+                "extra": "1966"
+            },
+            {
+                "name": "Batman",
+                "img": "https://artworks.thetvdb.com/banners/posters/77871-7.jpg",
+                "extra": "1966"
+            },
+            {
+                "name":"Batman",
+                "img":"https://artworks.thetvdb.com/banners/v4/movie/1204/posters/621e1de137962.jpg",
+                "extra":"1989"
+            },
+            {
+                "name":"Batman Returns",
+                "img":"https://artworks.thetvdb.com/banners/v4/movie/865/posters/621e1e906cf52.jpg",
+                "extra":"1992"
+            },
+            {
+                "name":"Batman Forever",
+                "img":"https://artworks.thetvdb.com/banners/v4/movie/1180/posters/621e1ed514a93.jpg",
+                "extra":"1995"
+            },
+            {
+                "name":"Batman Beyond",
+                "img":"https://artworks.thetvdb.com/banners/posters/75417-1.jpg",
+                "extra":"1999"
+            },
+            {
+                "name":"The Batman",
+                "img":"https://artworks.thetvdb.com/banners/posters/73180-5.jpg",
+                "extra":"2004"
+            },
+            {
+                "name":"Batman: Hush",
+                "img":"https://artworks.thetvdb.com/banners/v4/movie/18090/posters/690c9c7ce4c6a.jpg",
+                "extra":"2019"
+            },
+            {
+                "name":"Batman Ninja",
+                "img":"https://artworks.thetvdb.com/banners/v4/movie/2013/posters/681139730c9c5.jpg",
+                "extra":"2018"
+            },
+            {
+                "name":"Batman Unlimited",
+                "img":"https://artworks.thetvdb.com/banners/v4/series/301558/posters/690bbf6d413e8.jpg",
+                "extra":"2015"
+            },
+            {
+                "name":"Batman: Caped Crusader",
+                "img":"https://artworks.thetvdb.com/banners/v4/series/403170/posters/66ab8abfd57ce.jpg",
+                "extra":"2024"
+            },
+            {
+                "name":"Son of Batman",
+                "img":"https://artworks.thetvdb.com/banners/v4/movie/5355/posters/690bbf3719821.jpg",
+                "extra":"2014"
+            },
+            {
+                "name":"Batman vs. Robin",
+                "img":"https://artworks.thetvdb.com/banners/movies/6949/posters/6949.jpg",
+                "extra":"2015"
+            },{
+                "name":"Batman: Bad Blood",
+                "img":"https://artworks.thetvdb.com/banners/v4/movie/7246/posters/690bc225f0cfd.jpg",
+                "extra":"2016"
+            },
+            {
+                "name":"Batman: The Animated Series",
+                "img":"https://artworks.thetvdb.com/banners/posters/76168-7.jpg",
+                "extra":"1992"
+            },{
+                "name":"Superman/Batman: Apocalypse",
+                "img":"https://artworks.thetvdb.com/banners/v4/movie/4195/posters/690bbc3146890.jpg",
+                "extra":"2010"
+            },
+            {
+                "name":"Beware the Batman",
+                "img":"https://artworks.thetvdb.com/banners/posters/258331-7.jpg",
+                "extra":"2013"
+            },{
+                "name":"The Lego Batman Movie",
+                "img":"https://artworks.thetvdb.com/banners/v4/movie/1017/posters/690bc2937cf8b.jpg",
+                "extra":"2017"
+            },
+            {
+                "name":"The New Batman Adventures",
+                "img":"https://artworks.thetvdb.com/banners/posters/77084-4.jpg",
+                "extra":"1997"
+            },{
+                "name":"Batman: The Killing Joke",
+                "img":"https://artworks.thetvdb.com/banners/v4/movie/10600/posters/690bc1d8ec6b1.jpg",
+                "extra":"2016"
+            },
+            {
+                "name":"Batman: The Brave and the Bold",
+                "img":"https://artworks.thetvdb.com/banners/posters/82824-6.jpg",
+                "extra":"2008"
+            },
+            {
+                "name": "Batman: Mask of the Phantasm",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/6057/posters/6381a1306e81e.jpg",
+                "extra": "1993"
+            },
+            {
+                "name": "Batman & Robin",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/1704/posters/621e1f1b8ecc4.jpg",
+                "extra": "1997"
+            },
+            {
+                "name": "Batman: Gotham Knight",
+                "img": "https://artworks.thetvdb.com/banners/movies/4605/posters/4605.jpg",
+                "extra": "2008"
+            },
+            {
+                "name": "Batman: Under the Red Hood",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/2506/posters/690bbc590b237.jpg",
+                "extra": "2010"
+            },
+            {
+                "name": "Batman: Year One",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/5742/posters/690bbcf92457f.jpg",
+                "extra": "2011"
+            },  
+            {
+                "name": "The Dark Knight Rises",
+                "img": "https://artworks.thetvdb.com/banners/movies/222/posters/5ef3539e47d11.jpg",
+                "extra": "2012"
+            },
+            {
+                "name": "The Dark Knight",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/116/posters/60d4cbc556e3c.jpg",
+                "extra": "2008"
+            },
+            {
+                "name": "Batman v Superman: Dawn of Justice",
+                "img": "https://artworks.thetvdb.com/banners/movies/158/posters/158.jpg",
+                "extra": "2016"
+            },
+            {
+                "name": "The Batman",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/15778/posters/6214e960f1997.jpg",
+                "extra": "2022"
+            },
+            {
+                "name": "Batman Begins",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/293/posters/60d4c7014e5e2.jpg",
+                "extra": "2005"
+            },
+            
+            {
+                "name": "Superman",
+                "img": "https://artworks.thetvdb.com/banners/movies/883/posters/883.jpg",
+                "extra": "1978"
+            },
+            {
+                "name": "Superman Returns",
+                "img": "https://artworks.thetvdb.com/banners/movies/1280/posters/1280.jpg",
+                "extra": "2006"
+            },
+            {
+                "name": "Superman II",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/2103/posters/64aace14b1c86.jpg",
+                "extra": "1987"
+            },
+            {
+                "name": "Superman III",
+                "img": "https://artworks.thetvdb.com/banners/movies/1755/posters/1755.jpg",
+                "extra": "1983"
+            },
+            {
+                "name": "Superman IV: The Quest for Peace",
+                "img": "https://artworks.thetvdb.com/banners/v4/movie/1749/posters/64aace3eeaec9.jpg",
+                "extra": "1987"
+            },
+            {
+                "name":"Superman",
+                "img":"https://artworks.thetvdb.com/banners/v4/series/71161/posters/6a34def65eeb1.jpg",
+                "extra":"1988"
+            },
+            {
+                "name":"Superman: The Animated Series",
+                "img":"https://artworks.thetvdb.com/banners/series/71788/posters/5e901cacbf1ef.jpg",
+                "extra":"1996"
+            },
+            {
+                "name":"Lois & Clark: The New Adventures of Superman",
+                "img":"https://artworks.thetvdb.com/banners/posters/72468-2.jpg",
+                "extra":"1993"
+            },
+            {
+                "name":"Smallville",
+                "img":"https://artworks.thetvdb.com/banners/posters/5d2202c56c275.jpg",
+                "extra":"2001"
+            },
+            {
+                "name":"Superman & Lois",
+                "img":"https://artworks.thetvdb.com/banners/series/375655/posters/60129216a3b3e.jpg",
+                "extra":"2021"
+            },
+            {
+                "name":"My Adventures with Superman",
+                "img":"https://artworks.thetvdb.com/banners/v4/series/403172/posters/6480a1086374a.jpg",
+                "extra":"2023"
+            },
+            {
+                "name":"Superman: Red Son",
+                "img":"https://artworks.thetvdb.com/banners/v4/movie/132018/posters/690c9ce814ad3.jpg",
+                "extra":"2020"
+            },
+            {
+                "name":"Superman: Unbound",
+                "img":"https://artworks.thetvdb.com/banners/v4/movie/6093/posters/690bbe196e660.jpg",
+                "extra":"2013"
+            },{
+                "name":"Superman: Doomsday",
+                "img":"https://artworks.thetvdb.com/banners/v4/movie/4080/posters/690ba465f423e.jpg",
+                "extra":"2007"
+            },
+            {
+                "name":"All Star Superman",
+                "img":"https://artworks.thetvdb.com/banners/v4/movie/6568/posters/696adbcee4d12.jpg",
+                "extra":"2011"
+            },
+            {
+                "name":"Superman",
+                "img":"https://artworks.thetvdb.com/banners/v4/movie/343855/posters/68afa2e1b3791.jpg",
+                "extra":"2025"
+            },
+            {
+                "name":"Supergirl",
+                "img":"https://artworks.thetvdb.com/banners/v4/movie/343856/posters/69cc22dec4270.jpg",
+                "extra":"2026"
+            },
+            {
+                "name":"Creature Commandos",
+                "img":"https://artworks.thetvdb.com/banners/v4/series/430518/posters/6744588311ed8.jpg",
+                "extra":"2024"
+            },
+            {
+                "name":"Lanterns",
+                "img":"https://artworks.thetvdb.com/banners/v4/series/376098/posters/6a260a39d7133.jpg",
+                "extra":"2026"
+            },
+            {
+                "name":"Harley Quinn",
+                "img":"https://artworks.thetvdb.com/banners/series/365677/posters/62005101.jpg",
+                "extra":"2019"
+            },
+            {
+                "name":"Kite Man: Hell Yeah!",
+                "img":"https://artworks.thetvdb.com/banners/v4/series/419498/posters/6697abe03e4c3.jpg",
+                "extra":"2024"
+            },
+            {
+                "name":"Birds of Prey (and the Fantabulous Emancipation of One Harley Quinn)",
+                "img":"https://artworks.thetvdb.com/banners/movies/43390/posters/62075591.jpg",
+                "extra":"2020"
+            },
+            {
+                "name":"Arrow",
+                "img":"https://artworks.thetvdb.com/banners/posters/257655-19.jpg",
+                "extra":"2012"
+            },
+            {
+                "name":"The Flash",
+                "img":"https://artworks.thetvdb.com/banners/posters/279121-5.jpg",
+                "extra":"2014"
+            },
+            {
+                "name":"Constantine",
+                "img":"https://artworks.thetvdb.com/banners/series/273690/posters/5fedd7187a605.jpg",
+                "extra":"2014"
+            },
+            {
+                "name":"Vixen",
+                "img":"https://artworks.thetvdb.com/banners/posters/298305-4.jpg",
+                "extra":"2015"
+            },
+            {
+                "name":"Supergirl",
+                "img":"https://artworks.thetvdb.com/banners/posters/295759-7.jpg",
+                "extra":"2015"
+            },
+            {
+                "name":"Legends of Tomorrow",
+                "img":"https://artworks.thetvdb.com/banners/posters/295760-4.jpg",
+                "extra":"2016"
+            },
+            {
+                "name":"Black Lightning",
+                "img":"https://artworks.thetvdb.com/banners/series/332525/posters/60148635c9919.jpg",
+                "extra":"2018"
+            },
+            {
+                "name":"Batwoman",
+                "img":"https://artworks.thetvdb.com/banners/v4/series/361315/posters/6144973b6a9db.jpg",
+                "extra":"2019"
+            },
+            {
+                "name":"Stargirl",
+                "img":"https://artworks.thetvdb.com/banners/series/361868/posters/62eace5c66f0f.jpg",
+                "extra":"2020"
+            },
+            {
+                "name":"Doom Patrol",
+                "img":"https://artworks.thetvdb.com/banners/posters/5c9fc27b69301.jpg",
+                "extra":"2019"
+            },
+            {
+                "name":"BAT-FAM",
+                "img":"https://artworks.thetvdb.com/banners/v4/series/440811/posters/68ea96589f64a.jpg",
+                "extra":"2025"
+            },
+            {
+                "name":"Titans",
+                "img":"https://artworks.thetvdb.com/banners/posters/5d8040089117b.jpg",
+                "extra":"2018"
+            },
+            {
+                "name":"Teen Titans",
+                "img":"https://artworks.thetvdb.com/banners/posters/71503-1.jpg",
+                "extra":"2003"
+            },
+            {
+                "name":"Teen Titans Go!",
+                "img":"https://artworks.thetvdb.com/banners/v4/series/266775/posters/63381edf7f412.jpg",
+                "extra":"2013"
+            },
+            {
+                "name":"Young Justice",
+                "img":"https://artworks.thetvdb.com/banners/posters/192061-1.jpg",
+                "extra":"2010"
+            },
+            {
+                "name":"Justice League",
+                "img":"https://artworks.thetvdb.com/banners/posters/76320-3.jpg",
+                "extra":"2001"
+            },
+            {
+                "name":"Justice League Action",
+                "img":"https://artworks.thetvdb.com/banners/posters/312818-2.jpg",
+                "extra":"2016"
+            },
+             {
+                "name":"",
+                "img":"",
+                "extra":""
+            },
+             {
+                "name":"",
+                "img":"",
+                "extra":""
+            },
+             {
+                "name":"",
+                "img":"",
+                "extra":""
+            },
+             {
+                "name":"",
+                "img":"",
+                "extra":""
+            },
+             {
+                "name":"",
+                "img":"",
+                "extra":""
+            },
+             {
+                "name":"",
+                "img":"",
+                "extra":""
+            },
+             {
+                "name":"",
+                "img":"",
+                "extra":""
+            },
+             {
+                "name":"",
+                "img":"",
+                "extra":""
+            }
+        ]
+    }
+]
+
+

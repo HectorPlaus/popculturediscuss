@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const selectedCategory = JSON.parse(localStorage.getItem('selectedCategory'));
     const tierListContainer = document.getElementById('tierlist-container');
+    const sortOrderSelect = document.getElementById('sort-order');
     const unassignedCharactersContainer = document.getElementById('unassigned-characters');
     const resetButton = document.getElementById('reset-tierlist');
     const addTierRowButton = document.getElementById('add-tier-row');
@@ -22,6 +23,43 @@ document.addEventListener('DOMContentLoaded', () => {
     let unassignedCharacters = [...baseCharacters];
     let draggedCharacter = null;
     let selectedCharacters = [];
+    let currentSortMode = 'name';
+
+    const parseExtraValue = (extra) => {
+        if (extra === undefined || extra === null) return null;
+        if (typeof extra === 'number') return extra;
+        const extraString = String(extra).trim();
+        if (!extraString) return null;
+        const numberMatch = extraString.match(/-?\d+(?:\.\d+)?/);
+        if (numberMatch) return Number(numberMatch[0]);
+        return extraString.toLowerCase();
+    };
+
+    const sortCharacters = (characters) => {
+        const sorted = [...characters];
+        if (currentSortMode === 'extra') {
+            return sorted.sort((a, b) => {
+                const valueA = parseExtraValue(a.extra);
+                const valueB = parseExtraValue(b.extra);
+
+                if (valueA === null && valueB === null) {
+                    return a.name.localeCompare(b.name);
+                }
+                if (valueA === null) return 1;
+                if (valueB === null) return -1;
+
+                if (typeof valueA === 'number' && typeof valueB === 'number') {
+                    return valueA - valueB || a.name.localeCompare(b.name);
+                }
+                if (typeof valueA === 'number') return -1;
+                if (typeof valueB === 'number') return 1;
+
+                return String(valueA).localeCompare(String(valueB)) || a.name.localeCompare(b.name);
+            });
+        }
+
+        return sorted.sort((a, b) => a.name.localeCompare(b.name));
+    };
 
     const getCharacterId = (character) => `${character.name}-${character.img || ''}`;
 
@@ -294,14 +332,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             });
 
+            // Mantener el orden manual dentro de cada fila (no aplicar sort aquí)
             if (tier.characters.length === 0) {
-                const emptyMessage = document.createElement('div');
-                emptyMessage.className = 'empty-dropzone';
-                emptyMessage.textContent = '';
-                tierDropzone.appendChild(emptyMessage);
-            } else {
-                tier.characters.forEach(character => tierDropzone.appendChild(createCharacterCard(character, 'tier', index)));
-            }
+                    const emptyMessage = document.createElement('div');
+                    emptyMessage.className = 'empty-dropzone';
+                    emptyMessage.textContent = '';
+                    tierDropzone.appendChild(emptyMessage);
+                } else {
+                    tier.characters.forEach(character => tierDropzone.appendChild(createCharacterCard(character, 'tier', index)));
+                }
 
             const moveRowDiv = document.createElement('div');
             moveRowDiv.classList.add('move-row');
@@ -341,13 +380,14 @@ document.addEventListener('DOMContentLoaded', () => {
             tierListContainer.appendChild(tierContainer);
         });
 
-        if (unassignedCharacters.length === 0) {
+        const sortedUnassignedCharacters = sortCharacters(unassignedCharacters);
+        if (sortedUnassignedCharacters.length === 0) {
             const emptyState = document.createElement('div');
             emptyState.className = 'empty-dropzone';
             emptyState.textContent = 'Ya no quedan personajes por asignar.';
             unassignedCharactersContainer.appendChild(emptyState);
         } else {
-            unassignedCharacters.forEach(character => {
+            sortedUnassignedCharacters.forEach(character => {
                 const charDiv = createCharacterCard(character, 'unassigned');
                 unassignedCharactersContainer.appendChild(charDiv);
             });
@@ -417,6 +457,11 @@ document.addEventListener('DOMContentLoaded', () => {
             settingsOverlay.style.display = 'none';
         };
     };
+
+    sortOrderSelect?.addEventListener('change', (event) => {
+        currentSortMode = event.target.value;
+        renderTierList();
+    });
 
     resetButton?.addEventListener('click', () => {
         tiers = defaultTiers.map(name => ({ name, characters: [], color: '#ffffff' }));

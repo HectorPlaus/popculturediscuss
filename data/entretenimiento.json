@@ -1340,6 +1340,16 @@
     ]
   },
   {
+    "name": "SuperHeroes",
+    "img": "https://www.pngarts.com/files/3/Superhero-PNG-Download-Image.png",
+    "file": "entretenimiento/superheroes.json"
+  },
+  {
+    "name": "DC Comics",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/1/1c/DC_Comics_logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "file": "entretenimiento/dc.json"
+  },
+  {
     "name": "Marvel",
     "img": "https://logos-world.net/wp-content/uploads/2020/12/Marvel-Entertainment-Logo.png",
     "file": "entretenimiento/marvel.json"

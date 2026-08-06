@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const selectedCategory = JSON.parse(localStorage.getItem('selectedCategory'));
     const selectedCategoryText = document.getElementById('selected-category');
     const characterListContainer = document.getElementById('character-list');
+    const sortOrderSelect = document.getElementById('sort-order');
     const startDraftBtn = document.getElementById('start-draft');
     const maxRoundsBtn = document.getElementById('max-rounds-btn');
     const roundsInput = document.getElementById('rounds');
@@ -20,6 +21,43 @@ document.addEventListener('DOMContentLoaded', () => {
     let draftInProgress = false;
     let participantsSelections = [];
     let availableCharacters = [];
+    let currentSortMode = 'name';
+
+    const parseExtraValue = (extra) => {
+        if (extra === undefined || extra === null) return null;
+        if (typeof extra === 'number') return extra;
+        const extraString = String(extra).trim();
+        if (!extraString) return null;
+        const numberMatch = extraString.match(/-?\d+(?:\.\d+)?/);
+        if (numberMatch) return Number(numberMatch[0]);
+        return extraString.toLowerCase();
+    };
+
+    const sortCharacters = (characters) => {
+        const sorted = [...characters];
+        if (currentSortMode === 'extra') {
+            return sorted.sort((a, b) => {
+                const valueA = parseExtraValue(a.extra);
+                const valueB = parseExtraValue(b.extra);
+
+                if (valueA === null && valueB === null) {
+                    return a.name.localeCompare(b.name);
+                }
+                if (valueA === null) return 1;
+                if (valueB === null) return -1;
+
+                if (typeof valueA === 'number' && typeof valueB === 'number') {
+                    return valueA - valueB || a.name.localeCompare(b.name);
+                }
+                if (typeof valueA === 'number') return -1;
+                if (typeof valueB === 'number') return 1;
+
+                return String(valueA).localeCompare(String(valueB)) || a.name.localeCompare(b.name);
+            });
+        }
+
+        return sorted.sort((a, b) => a.name.localeCompare(b.name));
+    };
 
     if (selectedCategory) {
         selectedCategoryText.textContent = `${selectedCategory.name}`;
@@ -32,9 +70,9 @@ document.addEventListener('DOMContentLoaded', () => {
     function displayCharacters(characters) {
         characterListContainer.innerHTML = '';
 
-        characters.sort((a, b) => a.name.localeCompare(b.name));
+        const sortedCharacters = sortCharacters(characters);
 
-        characters.forEach(character => {
+        sortedCharacters.forEach(character => {
             const characterItem = document.createElement('div');
             characterItem.classList.add('character-item');
 
@@ -112,6 +150,11 @@ document.addEventListener('DOMContentLoaded', () => {
         localStorage.setItem('draftResults', JSON.stringify(participantsSelections));
         window.location.href = 'results.html'; // Redirigir a la página de resultados
     }
+
+    sortOrderSelect?.addEventListener('change', (event) => {
+        currentSortMode = event.target.value;
+        displayCharacters(availableCharacters);
+    });
 
     maxRoundsBtn.addEventListener('click', calculateMaxRounds);
     startDraftBtn.addEventListener('click', startDraft);
