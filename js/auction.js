@@ -11,6 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const itemsPerTeamInput = document.getElementById('items-per-team');
     const minIncrementInput = document.getElementById('min-increment');
     const showRivalsSelect = document.getElementById('show-rivals');
+    const teamLimitModeSelect = document.getElementById('team-limit-mode');
+    const turnModeSelect = document.getElementById('turn-mode');
     const startButton = document.getElementById('start-auction');
     const resetButton = document.getElementById('reset-auction');
 
@@ -22,6 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const auctionNote = document.getElementById('auction-note');
     const playersPanel = document.getElementById('players-panel');
     const bidHistoryList = document.getElementById('bid-history');
+    const auctionSummary = document.getElementById('auction-summary');
 
     let items = [];
     let players = [];
@@ -35,6 +38,11 @@ document.addEventListener('DOMContentLoaded', () => {
     let highestBidValue = 0;
     let lowestPurchase = null;
     let itemsPerTeam = 1;
+    let turnIndex = 0;
+    let turnOrderStart = null;
+    let openingPlayerIndex = null;
+    let teamLimitMode = 'stop';
+    let turnMode = 'free';
 
     if (!selectedCategory || !selectedCategory.characters || !selectedCategory.characters.length) {
         alert('Seleccione una categoría con elementos antes de iniciar la subasta.');
@@ -67,6 +75,9 @@ document.addEventListener('DOMContentLoaded', () => {
         totalBids = 0;
         highestBidValue = 0;
         lowestPurchase = null;
+        turnIndex = 0;
+        turnOrderStart = null;
+        openingPlayerIndex = null;
     }
 
     function createPlayers(count, budget) {
@@ -77,6 +88,51 @@ document.addEventListener('DOMContentLoaded', () => {
             spent: 0,
             active: true
         }));
+    }
+
+    function playerCanBid(playerIndex) {
+        const player = players[playerIndex];
+        const minOffer = currentBid + parseInt(minIncrementInput.value, 10);
+        return player && player.active && player.budget >= minOffer
+            && (teamLimitMode === 'continue' || player.acquired.length < itemsPerTeam)
+            && currentLeader !== playerIndex;
+    }
+
+    function setNextTurn() {
+        if (turnMode !== 'turns') return;
+        for (let offset = 1; offset <= players.length; offset += 1) {
+            const nextIndex = (turnIndex + offset) % players.length;
+            if (!passed[nextIndex] && playerCanBid(nextIndex)) {
+                turnIndex = nextIndex;
+                return;
+            }
+        }
+    }
+
+    function hasEligibleBidder(excludedIndex = null) {
+        return players.some((_, index) => index !== excludedIndex
+            && !passed[index]
+            && playerCanBid(index));
+    }
+
+    function setNextOpeningPlayer() {
+        if (turnMode !== 'turns') return true;
+        if (turnOrderStart === null) {
+            turnIndex = 0;
+            openingPlayerIndex = null;
+            return hasEligibleBidder();
+        }
+
+        const previousOpening = openingPlayerIndex === null ? turnOrderStart : openingPlayerIndex;
+        for (let offset = 1; offset <= players.length; offset += 1) {
+            const nextIndex = (previousOpening + offset) % players.length;
+            if (playerCanBid(nextIndex)) {
+                turnIndex = nextIndex;
+                openingPlayerIndex = nextIndex;
+                return true;
+            }
+        }
+        return false;
     }
 
     function buildPlayersPanel() {
@@ -100,12 +156,19 @@ document.addEventListener('DOMContentLoaded', () => {
             spentText.textContent = `Gastado: ${player.spent} monedas`;
             const teamText = document.createElement('p');
             teamText.textContent = `Equipo: ${player.acquired.length}/${itemsPerTeam}`;
-            const acquiredList = document.createElement('ul');
+            const acquiredList = document.createElement('div');
             acquiredList.className = 'acquired-list';
             player.acquired.forEach(item => {
-                const li = document.createElement('li');
-                li.textContent = item.name;
-                acquiredList.appendChild(li);
+                const acquiredItem = document.createElement('div');
+                acquiredItem.className = 'acquired-item';
+                const image = document.createElement('img');
+                image.src = item.img || '';
+                image.alt = item.name || 'Elemento';
+                const name = document.createElement('span');
+                name.textContent = `${item.name} (${item.price})`;
+                acquiredItem.appendChild(image);
+                acquiredItem.appendChild(name);
+                acquiredList.appendChild(acquiredItem);
             });
             const statusText = document.createElement('p');
             statusText.textContent = passed[index] ? 'Ha pasado' : 'En subasta';
@@ -120,16 +183,26 @@ document.addEventListener('DOMContentLoaded', () => {
             bidInput.min = minOffer;
             bidInput.value = Math.min(minOffer, player.budget);
             bidInput.placeholder = `Mín ${minOffer}`;
-            bidInput.disabled = !player.active || player.budget < minOffer;
+            const openingTurnIsFree = turnMode === 'turns'
+                && currentBid === 0
+                && currentLeader === null
+                && turnOrderStart === null;
+            const isTurn = turnMode !== 'turns' || openingTurnIsFree || turnIndex === index;
+            bidInput.disabled = !isTurn || !playerCanBid(index);
 
             const bidButton = document.createElement('button');
             bidButton.textContent = 'Pujar';
-            bidButton.disabled = !player.active || player.budget < minOffer;
+            bidButton.disabled = !isTurn || !playerCanBid(index);
             bidButton.addEventListener('click', () => handleBid(index, parseInt(bidInput.value, 10)));
 
             const passButton = document.createElement('button');
             passButton.textContent = 'Pasar';
-            passButton.disabled = passed[index] || !player.active;
+            const mustOpen = turnMode === 'turns'
+                && currentBid === 0
+                && currentLeader === null
+                && turnOrderStart !== null
+                && turnIndex === index;
+            passButton.disabled = passed[index] || !player.active || !isTurn || mustOpen;
             passButton.addEventListener('click', () => handlePass(index));
 
             actions.appendChild(bidInput);
@@ -156,11 +229,21 @@ document.addEventListener('DOMContentLoaded', () => {
         itemPosition.textContent = `${currentItemIndex + 1} de ${items.length}`;
         highestBidText.textContent = currentBid;
         highestPlayerText.textContent = currentLeader !== null ? players[currentLeader].name : 'Nadie';
-        auctionNote.textContent = 'Subasta abierta. Elige pujar o pasar.';
+        auctionNote.textContent = turnMode === 'turns'
+            ? turnOrderStart === null
+                ? 'Primera puja libre: quien puje primero establece el orden de turnos.'
+                : `Turno de ${players[turnIndex].name}. Debe iniciar con una puja.`
+            : 'Subasta abierta. Elige pujar o pasar.';
         buildPlayersPanel();
     }
 
     function recordBid(playerIndex, amount) {
+        const isFirstBid = turnMode === 'turns' && turnOrderStart === null;
+        if (isFirstBid) {
+            turnOrderStart = playerIndex;
+            turnIndex = playerIndex;
+            openingPlayerIndex = playerIndex;
+        }
         currentBid = amount;
         currentLeader = playerIndex;
         passed = passed.map((value, index) => index === playerIndex ? false : value);
@@ -168,8 +251,10 @@ document.addEventListener('DOMContentLoaded', () => {
         bidHistory.unshift(message);
         totalBids += 1;
         highestBidValue = Math.max(highestBidValue, amount);
+        setNextTurn();
         renderHistory();
         updateAuctionDisplay();
+        checkAuctionEnd();
     }
 
     function renderHistory() {
@@ -185,6 +270,15 @@ document.addEventListener('DOMContentLoaded', () => {
     function handleBid(playerIndex, bidValue) {
         const minOffer = currentBid + parseInt(minIncrementInput.value, 10);
         const player = players[playerIndex];
+        const openingTurnIsFree = turnMode === 'turns'
+            && currentBid === 0
+            && currentLeader === null
+            && turnOrderStart === null;
+
+        if (!playerCanBid(playerIndex) || (turnMode === 'turns' && !openingTurnIsFree && turnIndex !== playerIndex)) {
+            showWarning(turnMode === 'turns' ? `Es el turno de ${players[turnIndex].name}.` : 'Este jugador no puede sobrepujarse a sí mismo o ya completó su equipo.');
+            return;
+        }
 
         if (player.budget < minOffer) {
             showWarning('No tiene presupuesto suficiente para pujar más alto.');
@@ -211,10 +305,20 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function handlePass(playerIndex) {
+        const openingTurnIsFree = turnMode === 'turns'
+            && currentBid === 0
+            && currentLeader === null
+            && turnOrderStart === null;
+        if (turnMode === 'turns' && !openingTurnIsFree && turnIndex !== playerIndex) return;
+        if (turnMode === 'turns' && turnOrderStart !== null && currentBid === 0 && currentLeader === null) {
+            showWarning('El jugador que inicia debe hacer una puja.');
+            return;
+        }
         passed[playerIndex] = true;
         bidHistory.unshift(`${players[playerIndex].name} ha pasado.`);
         renderHistory();
         buildPlayersPanel();
+        setNextTurn();
         checkAuctionEnd();
     }
 
@@ -232,12 +336,21 @@ document.addEventListener('DOMContentLoaded', () => {
                     currentBid = 0;
                     currentLeader = null;
                     passed = players.map(() => false);
+                    if (!setNextOpeningPlayer()) {
+                        finalizeAuction();
+                        return;
+                    }
                     buildPlayersPanel();
                     updateAuctionDisplay();
                 }
             } else if (currentLeader === null && auctionTypeSelect.value === 'limited') {
+                if (!hasEligibleBidder()) {
+                    endAuction();
+                    return;
+                }
                 bidHistory.unshift('Todos han pasado; vuelve a intentarlo con el mismo personaje.');
                 passed = players.map(() => false);
+                turnIndex = openingPlayerIndex === null ? 0 : openingPlayerIndex;
                 renderHistory();
                 buildPlayersPanel();
                 updateAuctionDisplay();
@@ -247,11 +360,8 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        if (currentLeader !== null) {
-            const otherActive = players.some((_, index) => index !== currentLeader && !passed[index]);
-            if (!otherActive) {
-                finalizeAuction();
-            }
+        if (currentLeader !== null && !hasEligibleBidder(currentLeader)) {
+            finalizeAuction();
         }
     }
 
@@ -291,6 +401,10 @@ document.addEventListener('DOMContentLoaded', () => {
         currentBid = 0;
         currentLeader = null;
         passed = players.map(() => false);
+        if (!setNextOpeningPlayer()) {
+            finalizeAuction();
+            return;
+        }
         buildPlayersPanel();
         renderHistory();
         updateAuctionDisplay();
@@ -298,8 +412,36 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function endAuction() {
         auctionNote.textContent = 'Subasta finalizada.';
-        buildPlayersPanel();
-        document.querySelectorAll('.player-actions button').forEach(button => button.disabled = true);
+        buildFinalSummary();
+        auctionBoard.querySelector('.auction-main').classList.add('hidden');
+        auctionSummary.classList.remove('hidden');
+    }
+
+    function buildFinalSummary() {
+        auctionSummary.innerHTML = '<h2>Resumen final de equipos</h2>';
+        const summaryGrid = document.createElement('div');
+        summaryGrid.className = 'summary-grid';
+        players.forEach(player => {
+            const card = document.createElement('article');
+            card.className = 'player-summary';
+            card.innerHTML = `<h3>${player.name}</h3><p>Gastado: ${player.spent} monedas</p><p>Saldo: ${player.budget} monedas</p>`;
+            const team = document.createElement('div');
+            team.className = 'summary-team';
+            player.acquired.forEach(item => {
+                const figure = document.createElement('figure');
+                const image = document.createElement('img');
+                image.src = item.img || '';
+                image.alt = item.name || 'Elemento';
+                const caption = document.createElement('figcaption');
+                caption.textContent = `${item.name} · ${item.price}`;
+                figure.appendChild(image);
+                figure.appendChild(caption);
+                team.appendChild(figure);
+            });
+            card.appendChild(team);
+            summaryGrid.appendChild(card);
+        });
+        auctionSummary.appendChild(summaryGrid);
     }
 
     function startAuction() {
@@ -309,6 +451,8 @@ document.addEventListener('DOMContentLoaded', () => {
         itemsPerTeam = parseInt(itemsPerTeamInput.value, 10);
         const minIncrement = parseInt(minIncrementInput.value, 10);
         const auctionType = auctionTypeSelect.value;
+        teamLimitMode = teamLimitModeSelect.value;
+        turnMode = turnModeSelect.value;
 
         if (!playersCount || playersCount < 2) {
             showWarning('Ingrese al menos 2 jugadores.');
@@ -348,6 +492,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         auctionSetup.classList.add('hidden');
         auctionBoard.classList.remove('hidden');
+        auctionBoard.querySelector('.auction-main').classList.remove('hidden');
+        auctionSummary.classList.add('hidden');
         buildPlayersPanel();
         bidHistory = [];
         renderHistory();

@@ -25,11 +25,11 @@
             <div class="config-grid">
                 <div>
                     <label for="players-count">Jugadores</label>
-                    <input type="number" id="players-count" min="2" max="12" value="4">
+                    <input type="number" id="players-count" min="2" max="12" value="2">
                 </div>
                 <div>
                     <label for="initial-budget">Presupuesto inicial</label>
-                    <input type="number" id="initial-budget" min="10" max="1000" value="100">
+                    <input type="number" id="initial-budget" min="10" max="1000" value="10">
                 </div>
                 <div>
                     <label for="order-mode">Orden de elementos</label>
@@ -47,17 +47,31 @@
                 </div>
                 <div>
                     <label for="items-per-team">Personajes por equipo</label>
-                    <input type="number" id="items-per-team" min="1" max="10" value="3">
+                    <input type="number" id="items-per-team" min="1" max="10" value="5">
                 </div>
                 <div>
                     <label for="min-increment">Incremento mínimo</label>
-                    <input type="number" id="min-increment" min="1" max="50" value="5">
+                    <input type="number" id="min-increment" min="1" max="50" value="1">
                 </div>
                 <div>
                     <label for="show-rivals">Mostrar dinero rivales</label>
                     <select id="show-rivals">
                         <option value="true">Sí</option>
                         <option value="false">No</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="team-limit-mode">Al completar equipo</label>
+                    <select id="team-limit-mode">
+                        <option value="stop">No puede pujar más</option>
+                        <option value="continue">Puede seguir pujando</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="turn-mode">Orden de pujas</label>
+                    <select id="turn-mode">
+                        <option value="free">Puja libre</option>
+                        <option value="turns">Por turnos</option>
                     </select>
                 </div>
             </div>
@@ -91,6 +105,7 @@
                     <div id="players-panel"></div>
                 </div>
             </div>
+            <div id="auction-summary" class="auction-summary hidden"></div>
 
         </section>
     </main>

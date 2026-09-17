@@ -30,6 +30,7 @@ body.dark-theme {
 
 main {
     width: min(1200px, calc(100% - 32px));
+    min-width: 0;
     margin: 20px auto 40px;
 }
 
@@ -41,6 +42,7 @@ main {
     box-shadow: var(--shadow);
     margin-bottom: 24px;
     backdrop-filter: blur(10px);
+    min-width: 0;
 }
 
 h1,
@@ -60,7 +62,7 @@ h2 {
 
 .config-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(220px, 1fr));
+    grid-template-columns: repeat(3, minmax(180px, 1fr));
     gap: 18px;
     margin-bottom: 20px;
 }
@@ -136,7 +138,7 @@ button.secondary {
 
 .auction-main {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: minmax(0, 1.35fr) minmax(280px, 1fr);
     gap: 24px;
 }
 
@@ -148,11 +150,12 @@ button.secondary {
     border-radius: 24px;
     background: var(--panel-strong);
     border: 1px solid var(--border);
+    min-width: 0;
 }
 
 .item-preview {
     display: grid;
-    grid-template-columns: minmax(160px, 240px) 1fr;
+    grid-template-columns: minmax(140px, 240px) minmax(0, 1fr);
     gap: 18px;
     align-items: center;
     margin-bottom: 16px;
@@ -160,6 +163,7 @@ button.secondary {
 
 .item-preview img {
     width: 100%;
+    height: clamp(180px, 24vw, 280px);
     border-radius: 20px;
     object-fit: cover;
     min-height: 180px;
@@ -208,6 +212,7 @@ button.secondary {
     background: var(--bg-alt);
     border: 1px solid var(--border);
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.15);
+    min-width: 0;
 }
 
 body.dark-theme .player-card {
@@ -251,16 +256,32 @@ body.dark-theme .player-card {
 }
 
 .acquired-list {
-    list-style: disc;
-    padding-left: 20px;
+    display: grid;
+    gap: 8px;
     margin: 12px 0 0;
     max-height: 140px;
     overflow: auto;
 }
 
-.acquired-list li {
-    margin-bottom: 6px;
+.acquired-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 0;
     color: var(--text);
+    font-size: 0.9rem;
+}
+
+.acquired-item span {
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+.acquired-item img {
+    width: 38px;
+    height: 48px;
+    border-radius: 6px;
+    object-fit: cover;
 }
 
 #auction-note {
@@ -321,6 +342,7 @@ body.dark-theme .player-card {
     border-radius: 20px;
     background: var(--bg-alt);
     border: 1px solid var(--border);
+    min-width: 0;
 }
 
 .player-summary h3 {
@@ -336,6 +358,43 @@ body.dark-theme .player-card {
     padding: 16px;
     border-radius: 16px;
     background: var(--accent-soft);
+}
+
+.auction-summary h2 {
+    margin-top: 0;
+}
+
+.summary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr));
+    gap: 18px;
+}
+
+.summary-team {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+    gap: 12px;
+}
+
+.summary-team figure {
+    min-width: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.summary-team img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.summary-team figcaption {
+    margin-top: 5px;
+    overflow-wrap: anywhere;
+    font-size: 0.8rem;
+    color: var(--muted);
 }
 
 .navbar {
@@ -399,15 +458,42 @@ body.dark-theme .navbar li a {
     .auction-main {
         grid-template-columns: 1fr;
     }
+    .item-preview img {
+        height: clamp(180px, 32vw, 280px);
+    }
 }
 
 @media (max-width: 760px) {
+    main {
+        width: min(100% - 20px, 600px);
+    }
+
+    .panel {
+        padding: 20px 16px;
+        border-radius: 20px;
+    }
+
     .config-grid {
         grid-template-columns: 1fr;
     }
 
+    .item-preview {
+        grid-template-columns: minmax(110px, 34%) minmax(0, 1fr);
+        gap: 14px;
+    }
+
     .player-card button {
         width: 100%;
+    }
+
+    .player-actions {
+        align-items: stretch;
+    }
+
+    .player-actions .bid-input,
+    .player-actions button {
+        flex: 1 1 100%;
+        min-width: 0;
     }
 }
 
@@ -423,5 +509,31 @@ body.dark-theme .navbar li a {
 
     .navbar {
         padding: 16px 10px;
+    }
+
+    .panel {
+        padding: 18px 12px;
+    }
+
+    .item-preview {
+        grid-template-columns: 1fr;
+    }
+
+    .item-preview img {
+        height: min(68vw, 300px);
+        max-height: 300px;
+    }
+
+    .auction-status p {
+        text-align: left;
+        overflow-wrap: anywhere;
+    }
+
+    .summary-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .summary-team {
+        grid-template-columns: repeat(auto-fill, minmax(76px, 1fr));
     }
 }
