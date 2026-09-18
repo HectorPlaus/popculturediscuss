@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajas Misteriosas</title>
+    <link rel="stylesheet" href="../css/mysterybox-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header id="logoheader"></header>
+    <ul class="navbar">
+        <div class="menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="mode.html">Mode</a></li>
+            <li><a href="mysterybox.html" class="active">Cajas Misteriosas</a></li>
+        </div>
+        <button id="toggle-theme" aria-label="Cambiar tema"><i class="fa-solid fa-moon"></i></button>
+    </ul>
+
+    <main>
+        <section id="mysterybox-setup" class="panel">
+            <h1>Cajas Misteriosas</h1>
+            <p id="selected-category"></p>
+            <div class="config-grid">
+                <div>
+                    <label for="players-count">Jugadores</label>
+                    <input type="number" id="players-count" min="1" max="10" value="2">
+                </div>
+                <div>
+                    <label for="team-spaces">Espacios del equipo</label>
+                    <input type="number" id="team-spaces" min="1" max="10" value="5">
+                </div>
+                <div>
+                    <label for="boxes-count">Cajas por ronda</label>
+                    <input type="number" id="boxes-count" min="2" max="20" value="4">
+                </div>
+            </div>
+            <button id="start-mysterybox">Comenzar</button>
+            <p id="setup-warning" class="warning hidden"></p>
+        </section>
+
+        <section id="mysterybox-game" class="panel hidden">
+            <div class="game-heading">
+                <div>
+                    <p id="round-info"></p>
+                    <h1>Cajas Misteriosas</h1>
+                </div>
+                <p id="phase-info"></p>
+            </div>
+            <p id="game-message" class="game-message"></p>
+            <div id="players-board" class="players-board"></div>
+            <div id="boxes-board" class="boxes-board"></div>
+            <div id="decision-area" class="decision-area hidden"></div>
+            <div id="final-summary" class="final-summary hidden"></div>
+        </section>
+    </main>
+
+    <script src="../js/mysterybox.js"></script>
+    <script src="../js/theme.js"></script>
+</body>
+</html>

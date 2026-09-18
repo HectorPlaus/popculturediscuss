@@ -74,5 +74,12 @@ document.addEventListener('DOMContentLoaded', () => {
         window.location.href = 'selection.html';
       });
     }
+
+    const mysteryBoxButton = document.getElementById('mysterybox-mode');
+    if (mysteryBoxButton) {
+      mysteryBoxButton.addEventListener('click', () => {
+        window.location.href = 'mysterybox.html';
+      });
+    }
 });
   
