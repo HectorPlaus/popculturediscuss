@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const showRivalsSelect = document.getElementById('show-rivals');
     const teamLimitModeSelect = document.getElementById('team-limit-mode');
     const turnModeSelect = document.getElementById('turn-mode');
+    const freeCompletionModeSelect = document.getElementById('free-completion-mode');
     const startButton = document.getElementById('start-auction');
     const resetButton = document.getElementById('reset-auction');
 
@@ -43,6 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let openingPlayerIndex = null;
     let teamLimitMode = 'stop';
     let turnMode = 'free';
+    let freeCompletionMode = 'off';
 
     if (!selectedCategory || !selectedCategory.characters || !selectedCategory.characters.length) {
         alert('Seleccione una categoría con elementos antes de iniciar la subasta.');
@@ -113,6 +115,27 @@ document.addEventListener('DOMContentLoaded', () => {
         return players.some((_, index) => index !== excludedIndex
             && !passed[index]
             && playerCanBid(index));
+    }
+
+    function canAssignFreeCompletion() {
+        if (freeCompletionMode !== 'on' || !currentItem || currentLeader !== null) return false;
+        const minOffer = parseInt(minIncrementInput.value, 10);
+        const recipientExists = players.some(player => player.acquired.length < itemsPerTeam
+            && player.budget < minOffer);
+        const completedPlayerHasMoney = players.some(player => player.acquired.length >= itemsPerTeam
+            && player.budget > 0);
+        return recipientExists && completedPlayerHasMoney;
+    }
+
+    function assignFreeCompletion() {
+        const minOffer = parseInt(minIncrementInput.value, 10);
+        const recipient = players.find(player => player.acquired.length < itemsPerTeam
+            && player.budget < minOffer);
+        if (!recipient) return false;
+
+        recipient.acquired.push({ ...currentItem, price: 0, freeCompletion: true });
+        bidHistory.unshift(`${recipient.name} recibe ${currentItem.name} gratis para completar su equipo.`);
+        return true;
     }
 
     function setNextOpeningPlayer() {
@@ -326,6 +349,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const activePlayers = players.filter((_, index) => !passed[index]);
         if (activePlayers.length === 0) {
             if (currentLeader === null && auctionTypeSelect.value === 'all') {
+                if (canAssignFreeCompletion()) {
+                    finalizeAuction();
+                    return;
+                }
                 bidHistory.unshift('Todos han pasado; se pasa al siguiente personaje.');
                 renderHistory();
                 currentItemIndex += 1;
@@ -344,6 +371,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     updateAuctionDisplay();
                 }
             } else if (currentLeader === null && auctionTypeSelect.value === 'limited') {
+                if (canAssignFreeCompletion()) {
+                    finalizeAuction();
+                    return;
+                }
                 if (!hasEligibleBidder()) {
                     endAuction();
                     return;
@@ -373,6 +404,8 @@ document.addEventListener('DOMContentLoaded', () => {
             winner.acquired.push({ ...currentItem, price: currentBid });
             bidHistory.unshift(`${winner.name} gana ${currentItem.name} por ${currentBid} monedas.`);
             lowestPurchase = lowestPurchase === null ? currentBid : Math.min(lowestPurchase, currentBid);
+        } else if (canAssignFreeCompletion()) {
+            assignFreeCompletion();
         } else {
             bidHistory.unshift(`Nadie gana ${currentItem.name}.`);
         }
@@ -453,6 +486,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const auctionType = auctionTypeSelect.value;
         teamLimitMode = teamLimitModeSelect.value;
         turnMode = turnModeSelect.value;
+        freeCompletionMode = freeCompletionModeSelect.value;
 
         if (!playersCount || playersCount < 2) {
             showWarning('Ingrese al menos 2 jugadores.');

@@ -134,12 +134,12 @@
           {
             "name": "Cocinas del Mundo",
             "characters": [
-              { "name": "Cocina Italiana", "img": "https://maudestudio.com/wp-content/uploads/2022/01/HOTR081PO-CocinaItaliana.jpg" },
+              { "name": "Cocina Italiana", "img": "https://blog.italotreno.com/wp-content/uploads/2025/02/italian-food.jpg" },
               { "name": "Cocina Mexicana", "img": "https://www.recetasnestle.com.co/sites/default/files/2023-08/platos-ingredientes-comida-mexicana.jpg" },
               { "name": "Cocina China", "img": "https://restaurantechinacity.com/wp-content/uploads/2020/05/IMG_20200524_172020-scaled.jpg" },
               { "name": "Cocina Japonesa", "img": "https://i.blogs.es/f3109b/cocina_japonesa/1366_2000.jpg" },
               { "name": "Cocina India", "img": "https://granadacooking.com/wp-content/uploads/2023/06/Comida-tipica-de-India-_-10-Platos-Imprescindibles-1024x612.jpg" },
-              { "name": "Cocina Francesa", "img": "https://www.interhome.es/upload/travelguide/6665/conversions/francia-cocina-francesa-hero-teaser-responsive.jpg" },
+              { "name": "Cocina Francesa", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_IXdeZsnd9F_jGUzH_deImrNSW370WVo9wuh33Ua2gW_WsbGjZd2fGKc&s=10" },
               { "name": "Cocina Española", "img": "https://www.tapasmagazine.es/wp-content/uploads/2023/03/gastronomia-espanola-tercera-mejor-del-mundo.jpg" },
               { "name": "Cocina Tailandesa", "img": "https://kampatour.com/pic/blog/a67f9ea2-9054-4114-9a30-48ea6cc9bec5.jpg" },
               { "name": "Cocina Inglesa", "img": "https://cms-b-assets.familysearch.org/dims4/default/cc96530/2147483647/strip/true/crop/800x500+0+0/resize/800x500!/format/jpg/quality/90/?url=https%3A%2F%2Ffamilysearch-brightspot.s3.amazonaws.com%2F2d%2F7a%2Ff452bba9d5c8581030392bd4e252%2Fenglish-breakfast.jpg" },
@@ -147,9 +147,9 @@
               { "name": "Cocina Vietnamita", "img": "https://www.celebritycruises.com/blog/content/uploads/2022/04/best-food-in-vietnam-hero.jpg" },
               { "name": "Cocina Coreana", "img": "https://d3h1lg3ksw6i6b.cloudfront.net/media/image/2023/01/19/07a36c7d131545a3918e2255506c3080_Hero_Umma_credit-Chris_Oh.jpg" },
               { "name": "Cocina Griega", "img": "https://www.foodandwine.com/thmb/0bCYav2kNaD0IcTMIVDD1ROxEqY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Essential-Greek-Foods-You-Need-to-Try-FT-BLOG1122-f989671d8c924ea29aeab3acaa500197.jpg" },
-              { "name": "Cocina Brasileña", "img": "https://gatewaytobrazil.com/wp-content/uploads/2021/03/Brazilian-food-1-scaled-e1615435790537.jpeg" },
+              { "name": "Cocina Brasileña", "img": "https://www.bekiacocina.com/images/articulos/portada/79000/79490.jpg" },
               { "name": "Cocina Argentina", "img": "https://www.themanual.com/wp-content/uploads/sites/9/2022/08/Balvanera-Argentine-Feast-2.jpg?p=1" },
-              { "name": "Cocina Caribeña", "img": "https://previews.123rf.com/images/fanfo/fanfo1911/fanfo191100723/134591398-cocina-caribe%C3%B1a-platos-tradicionales-variados-vista-superior.jpg" }
+              { "name": "Cocina Caribeña", "img": "https://media-cdn2.greatbritishchefs.com/media/ujrn3ras/img85922.whqc_1426x713q80.jpg" }
             ]
           },
           {
@@ -165,8 +165,8 @@
               { "name": "Pollo Frito", "img": "https://images.rappi.com.mx/products/cbf9ddaa-246c-4e91-9da2-978a4dbcba45.png" },
               { "name": "Pasta", "img": "https://www.casalongini.com/wp-content/uploads/pasta-mixta-500g-pasta-de-gragnano-igp-2.jpg" },
               { "name": "Burrito", "img": "https://png.pngtree.com/png-clipart/20211010/original/pngtree-taco-food-healthy-baked-vegetables-png-image_6850778.png" },
-              { "name": "Wrap", "img": "https://cache-backend-mcd.mcdonaldscupones.com/media/image/product$ktXPpvLy/200/200/original?country=pr" },
-              { "name": "Kebab", "img": "https://www.superkebab.ro/wp-content/uploads/2023/06/Doner-Kebab-Pui-SuperKebab.webp" },
+              { "name": "Wrap", "img": "https://www.pngmart.com/files/11/Wrap-PNG-File.png" },
+              { "name": "Kebab", "img": "https://png.pngtree.com/png-vector/20240129/ourmid/pngtree-traditional-turkish-kebab-shawarma-bread-filled-with-savory-meat-and-fresh-png-image_11559993.png" },
               { "name": "Nachos", "img": "https://www.santitas.com/sites/santitas.com/files/2022-10/nachos-santitas_0.png" },
               { "name": "Quesadilla", "img": "https://www.pngall.com/wp-content/uploads/8/Quesadilla-Dish-PNG-Image-HD.png" },
               { "name": "Bocadillo", "img": "https://hotelfuentelaspiedras.com/wp-content/uploads/2023/12/Captura-de-pantalla-2024-03-13-195635-300x202.png" },
@@ -213,9 +213,17 @@
               { "name": "Ramen", "img": "https://static.vecteezy.com/system/resources/previews/022/972/615/non_2x/japanese-noodle-ramen-bowl-png.png" },
               { "name": "Dim Sum", "img": "https://png.pngtree.com/png-vector/20231015/ourmid/pngtree-3d-illustration-dimsum-png-image_10163757.png" },
               { "name": "Pancakes", "img": "https://static.vecteezy.com/system/resources/previews/025/222/176/original/pancakes-isolated-on-transparent-background-png.png" },
-              { "name": "Falafel", "img": "https://static.vecteezy.com/system/resources/previews/025/268/605/non_2x/falafel-with-ai-generated-free-png.png" },
+              { "name": "Falafel", "img": "https://png.pngtree.com/png-vector/20250303/ourmid/pngtree-delicious-falafel-sandwich-with-lettuce-and-pita-bread-png-image_15691571.png" },
               { "name": "Escudella", "img": "https://content-cocina.lecturas.com/medio/2023/01/13/escudella-catalana-tradicional_00000000_231221121716_1200x1200.jpg" },
-              { "name": "Macarons", "img": "https://static.vecteezy.com/system/resources/previews/026/757/722/original/macaron-with-ai-generated-free-png.png" }
+              { "name": "Macarons", "img": "https://static.vecteezy.com/system/resources/previews/026/757/722/original/macaron-with-ai-generated-free-png.png" },
+              { "name": "Tortilla de Patata", "img": "https://png.pngtree.com/png-vector/20250910/ourmid/pngtree-spanish-juicy-tortilla-de-patata-on-a-plate-in-dinner-setting-png-image_17402021.webp" },
+              { "name": "Gazpacho", "img": "https://static.vecteezy.com/system/resources/previews/047/490/742/non_2x/gazpacho-with-diced-vegetables-on-transparent-background-free-png.png" },
+              { "name": "Paella Valenciana", "img": "https://pasamar.es/wp-content/uploads/2021/08/Receta-paella-Valenciana.png" },
+              { "name": "Cocido de Lentejas", "img": "https://png.pngtree.com/png-vector/20260630/ourmid/pngtree-hearty-lentil-vegetable-stew-png-image_19666452.webp" },
+              { "name": "Ensalada de Lentejas", "img": "https://static.vecteezy.com/system/resources/previews/066/165/954/non_2x/lentil-salad-in-a-blue-bowl-png.png" },
+              { "name": "Kimchi", "img": "https://png.pngtree.com/png-clipart/20241129/original/pngtree-spicy-fermented-delight-traditional-korean-kimchi-png-image_17406623.png" },
+              { "name": "Sashimi", "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSesAhcIBXf9fPxuVY3h7U-J0MBtO6nWdaNAnDF0TmJww&s=10" },
+              { "name": "Costillas", "img": "https://png.pngtree.com/png-vector/20240914/ourmid/pngtree-rack-of-ribs-ribs-png-image_12918742.png" }
             ]
           },
           {
